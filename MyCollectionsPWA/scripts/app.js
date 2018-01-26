@@ -36,11 +36,10 @@ app.getGames = function () {
 
                     items.push(
                         "<div class='card cardTemplate' id='" + game.gameID + "'><p>" + game.name + "</p>" +
+                        "<img class='cover' src='" + game.cover + "' alt='logo' /img>" +
                         "</div > "
                     );
                 }
-
-                debugger;
 
                 var wrapper = document.createElement('div');
                 wrapper.innerHTML = items.join("");
