@@ -75,9 +75,13 @@ namespace MyCollections.Controllers
                     game.Name = item.name;
                     game.SteamApID = item.appid;
                     game.PlayedTime = item.playtime_forever;
-                    if (item.img_logo_url != null)
+                    if (item.img_logo_url != "")
                     {
                         game.Logo = "http://media.steampowered.com/steamcommunity/public/images/apps/" + item.appid + "/" + item.img_logo_url + ".jpg";
+                    }
+                    if (item.img_icon_url != "")
+                    {
+                        game.Cover = "http://media.steampowered.com/steamcommunity/public/images/apps/" + item.appid + "/" + item.img_icon_url + ".jpg";
                     }
                     game.StoreID = _context.Store.FirstOrDefault(s => s.Name == "Steam").StoreID;
                     game.SystemID = _context.System.FirstOrDefault(s => s.Name == "PC").SystemID;
