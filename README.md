@@ -11,6 +11,7 @@ A solução consiste em uma API em .Net Core 2.0, com suporte a base de dados, a
 O principal intuito da solução é prover a consolidação da coleção proveniente de diversas lojas. Infelizmente apenas o Steam oferece uma API atualmente, para recuperar sua biblioteca de jogos. Para que a integração com o Steam funcione, é necessário possuir uma 'key' e um 'steamid', que você pode preencer no banco através dos scripts abaixo:
 
 <code>update [dbo].[Param] set [value] = SUACHAVEAQUI where [key] = 'steam-key'</code>
+
 <code>update [dbo].[Param] set [value] = SUACHAVEAQUI where [key] = 'steam-steamid'</code>
 
 ### PWA - Aplicativo móvel

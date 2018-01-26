@@ -1,75 +1,93 @@
-// Copyright 2016 Google Inc.
-// 
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-// 
-//      http://www.apache.org/licenses/LICENSE-2.0
-// 
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
+console.log("arquivo carregado");
 
+document.getElementById('butRefresh').addEventListener('click', function () {
+    console.log("botão clicado");
+    app.getGames();
+});
 
-(function() {
-  'use strict';
+//(function () {
+//'use strict';
 
-  var app = {
+var app = {
     isLoading: true,
     visibleCards: {},
     selectedGames: [],
     spinner: document.querySelector('.loader'),
     cardTemplate: document.querySelector('.cardTemplate'),
     container: document.querySelector('.main')
-  };
+};
 
+document.addEventListener("DOMContentLoaded", function () {
 
-  document.getElementById('butRefresh').addEventListener('click', function() {
-      app.getGames();
-  });
+});
 
-  app.getGames = function() {
-    var url = 'http://localhost:8091/Api/Games';
-    var request = new XMLHttpRequest();
+app.getGames = function () {
+    var game;
     var items = [];
-    request.onreadystatechange = function() {
-      if (request.readyState === XMLHttpRequest.DONE) {
-        if (request.status === 200) {
+    var url = 'http://mycollectionsapi.paulorobertoelias.com.br/api/Games';
+    var request = new XMLHttpRequest();
+    request.onreadystatechange = function () {
+        if (request.readyState === XMLHttpRequest.DONE) {
+            if (request.status === 200) {
 
-          for(var game in request.response){
-              console.log(game);
-              items.push(
-                "<li " +  game.name + "/li></div>"
-              );
-          }
+                var response = JSON.parse(request.response);
+                for (var index in response) {
+                    var game = response[index];
 
-          $("<ul/>", {
-            "class": "list-group",
-            html: items.join("")
-          }).appendTo("#div_game");
+                    items.push(
+                        "<div class='card cardTemplate' id='" + game.gameID + "'><p>" + game.name + "</p>" +
+                        "</div > "
+                    );
+                }
 
-        $("#div_game").wrap("<div class='card cardTemplate' id='res_wrap'></div>");
+                debugger;
 
-        }
+                var wrapper = document.createElement('div');
+                wrapper.innerHTML = items.join("");
+
+                var main = document.getElementById("main_div");
+                main.appendChild(wrapper);
+                
+                app.spinner.setAttribute('hidden', true);
+            }
+        };
     };
     request.open('GET', url);
     request.send();
-  };
 
-  // TODO add saveSelectedGames function here
-  // Save list of cities to localStorage.
-  app.saveSelectedGames = function() {
-    var selectedGames = JSON.stringify(app.selectedGames);
-    localStorage.selectedGames = selectedGames;
+    // TODO add saveSelectedGames function here
+    // Save list of cities to localStorage.
+    app.saveSelectedGames = function () {
+        var selectedGames = JSON.stringify(app.selectedGames);
+        localStorage.selectedGames = selectedGames;
     };
-  };
+};
 
-  // TODO add service worker code here
-  if ('serviceWorker' in navigator) {
+
+
+app.selectedGames = localStorage.selectedGames;
+if (app.selectedGames) {
+    app.selectedGames = JSON.parse(app.selectedGames);
+    app.selectedGames.forEach(function (city) {
+        //app.getGames();
+    });
+} else {
+    /* The user is using the app for the first time, or the user has not
+     * saved any cities, so show the user some fake data. A real app in this
+     * scenario could guess the user's location via IP lookup and then inject
+     * that data into the page.
+     */
+    //app.updateForecastCard(initialWeatherForecast);
+    //app.selectedCities = [
+    //    { key: initialWeatherForecast.key, label: initialWeatherForecast.label }
+    //];
+    //app.saveSelectedCities();
+}
+
+// TODO add service worker code here
+if ('serviceWorker' in navigator) {
     navigator.serviceWorker
-             .register('./service-worker.js')
-             .then(function() { console.log('Service Worker Registered'); });
-  }
-});
+        .register('./service-worker.js')
+        .then(function () { console.log('Service Worker Registered'); });
+}
+//});
