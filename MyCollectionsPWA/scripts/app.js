@@ -52,8 +52,9 @@ app.renderizeGames = function () {
         var game = games[index];
 
         items.push(
-            "<div class='card cardTemplate' id='" + game.gameID + "'><p>" + game.name + "</p>" +
-            "<img class='cover' src='" + game.cover + "' alt='logo' /img>" +
+            "<div class='row' id='" + game.gameID + "'>" +
+            //"<p>" + game.name + "</p > " +
+            "<img class='col cover' src='" + game.cover + "' alt='logo' /img>" +
             "</div > "
         );
     }
@@ -67,8 +68,8 @@ app.renderizeGames = function () {
 
 app.getGames();
 
-if ('serviceWorker' in navigator) {
-    navigator.serviceWorker
-        .register('./service-worker.js')
-        .then(function () { console.log('Service Worker Registered'); });
-}
+//if ('serviceWorker' in navigator) {
+//    navigator.serviceWorker
+//        .register('./service-worker.js')
+//        .then(function () { console.log('Service Worker Registered'); });
+//}
