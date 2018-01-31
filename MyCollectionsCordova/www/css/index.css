@@ -401,3 +401,15 @@ h1 {
 .cover {
     margin: 15px;
 }
+
+.sidemenu {
+    position: fixed;
+    display: inline-block;
+    top: 0px;
+    height: 100%;
+    width: 200px;
+    left: -200px;
+    background-color: #3F51B5;
+    transition: all 0.5s ease-in-out;
+    z-index: 9999;
+}
