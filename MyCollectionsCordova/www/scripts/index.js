@@ -18,13 +18,13 @@
         //var receivedElement = parentElement.querySelector('.received');
         //listeningElement.setAttribute('style', 'display:none;');
         //receivedElement.setAttribute('style', 'display:block;');
-    };
+    }
 
     function onPause() {
         // TODO: este aplicativo foi suspenso. Salve o estado do aplicativo aqui.
-    };
+    }
 
     function onResume() {
         // TODO: este aplicativo foi reativado. Restaure o estado do aplicativo aqui.
-    };
+    }
 } )();
