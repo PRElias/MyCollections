@@ -27,13 +27,20 @@
     </div>-->
 
 
-    <header class="header">
-        <h1 class="header__title">My Collections</h1>
+    <header class="navbar header">
+        <!--<p class="navbar-text">My Collections</p>-->
         <!--<button id="butRefresh" class="headerButton" aria-label="Refresh"></button>-->
-        <img class="toggle" src="images/ic_refresh_white_24px.svg" onclick="toggle_sidebar()" style="position: fixed; right: 10px; top: 10px" />
+        <img class="navbar-toggler-icon" src="images/ic_refresh_white_24px.svg" onclick="toggle_sidebar()" style="position: fixed; right: 10px; top: 10px" />
     </header>
     
-    <div id="sidebar" class="sidemenu"></div>
+    <div id="sidebar" class="sidemenu" style="left: -200px;">
+        <img src="../res/icons/favicon.ico" alt="Alternate Text" />
+        <span>My Collections</span>
+        <ul>
+            <li class="">Item 1</li>
+            <li class="">Item 2</li>
+        </ul>
+    </div>
 
     <main class="container-fluid" style="background: url(images/wood-background-2935.jpeg)">
         <!-- <div class="card cardTemplate" hidden> -->
