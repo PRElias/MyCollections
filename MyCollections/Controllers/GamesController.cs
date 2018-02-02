@@ -23,8 +23,24 @@ namespace MyCollections.Controllers
         [HttpGet]
         public IEnumerable<Game> GetGames()
         {
-            return _context.Game.Include("Store").Include("System");
+            return _context.Game.Include("Store").Include("System").Where(a => a.Active == true).OrderBy(n => n.Name);
         }
+
+        // GET: api/GetDistinctGames
+        [HttpGet("GetDistinctGames")]
+        public IEnumerable<dynamic> GetDistinctGames()
+        {
+            var gameDistinct = from recordset in _context.Game
+                               where recordset.Active == true
+                               orderby recordset.Name
+                               select new
+                               {
+                                   recordset.Name,
+                                   recordset.Cover
+                               };
+            return gameDistinct;
+        }
+
 
         // GET: api/Games/5
         [HttpGet("{name}")]
@@ -45,7 +61,7 @@ namespace MyCollections.Controllers
             return Ok(game);
         }
 
-        [HttpPut]
+        [HttpGet("GetFromSteam")]
         public async Task<dynamic> GetFromSteam()
         {
             string key = _context.Param.FirstOrDefault(p => p.key == "steam-key").value;

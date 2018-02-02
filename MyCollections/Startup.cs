@@ -27,7 +27,7 @@ namespace MyCollections
             // Register the Swagger generator, defining one or more Swagger documents
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info { Title = "MyCollections API", Version = "v2" });
+                c.SwaggerDoc("v1", new Info { Title = "MyCollections API", Version = "v1" });
             });
 
         }
@@ -56,7 +56,7 @@ namespace MyCollections
 
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "MyCollections API V2");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "MyCollections API");
             });
 
             app.UseSwagger();
