@@ -4,17 +4,20 @@
 
 //localStorage.clear();
 
-function toggle_sidebar() {
-    var sidebar = document.getElementById("sidebar");
+//function toggle_sidebar() {
+//    var sidebar = document.getElementById("sidebar");
     
-    if (sidebar.style.left == "-200px") {
-        sidebar.style.left = "0px";
-    }
-    else {
-        sidebar.style.left = "-200px";
-    }
-}
+//    if (sidebar.style.left == "-200px") {
+//        sidebar.style.left = "0px";
+//    }
+//    else {
+//        sidebar.style.left = "-200px";
+//    }
+//}
 
+$("#butMenu").click(function () {
+    $("#sidebar").toggleClass("slidein");
+});
 
 var app = {
     isLoading: true,
