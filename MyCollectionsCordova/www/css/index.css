@@ -422,6 +422,7 @@ h1 {
     height: 100%;
     width: 200px;
     background-color: darkslategrey;
+    color: white;
     z-index: 9999;
     transition: -webkit-transform .5s ease;
     -webkit-transform: translate3d(-200px, 0, 0);
@@ -431,6 +432,7 @@ h1 {
         font-family: Calibri;
         font-style: italic;
         font-weight: bolder;
+        color: white;
     }
 
     .sidemenu ul {
@@ -447,18 +449,23 @@ h1 {
         list-style: none;
     }
 
-    .sidemenu li a{
-        text-decoration: none;
-    }
+        .sidemenu li a {
+            text-decoration: none;
+        }
 
-    .sidemenu li a:visited{
-        text-decoration: none;
-    }
+            .sidemenu li a:visited {
+                text-decoration: none;
+            }
 
 .slidein {
     -webkit-transform: translate3d(0, 0, 0);
 }
 
-.mymodal{
-    margin-top: 120px!important;
+.mymodal {
+    margin-top: 120px !important;
+}
+
+.mymodal-content {
+    background-color: darkslategrey !important;
+    color: white;
 }

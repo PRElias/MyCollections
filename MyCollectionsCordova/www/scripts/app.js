@@ -60,11 +60,11 @@ app.renderizeGames = function () {
             "<img class='col cover' src='" + game.cover + "' alt='logo' data-toggle='modal' data-target='#myModal" + game.gameID + "' /img>" +
             "</div><div id='myModal" + game.gameID + "' class='modal fade' role='dialog'>" +
             "<div class='modal-dialog mymodal'>" +
-            "<div class='modal-content'>" + 
+            "<div class='modal-content mymodal-content'>" + 
             "<div class='modal-header'>" +
-            "<h4 class='modal-title'>" + game.name +"</h4>" +
+            "<h6 class='modal-title'>" + game.name +"</h6>" +
             "</div><div class='modal-body'>" +
-            "<p>Informações sobre o jogo</p></div><div class='modal-footer'>" +
+            "<p><small>Informações sobre o jogo</small></p>" +
             //"<button type='button' class='close' data-dismiss='modal'>Fechar</button>" +
             "</div></div></div></div>"
         );
