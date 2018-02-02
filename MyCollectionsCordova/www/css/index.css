@@ -459,10 +459,6 @@ h1 {
     -webkit-transform: translate3d(0, 0, 0);
 }
 
-/*.header {
-    background-color: #3F51B5;
-    height: 40px;
-    overflow: hidden;
-    position: sticky;
-    top: 0;
-}*/
+.mymodal{
+    margin-top: 120px!important;
+}
