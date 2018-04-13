@@ -22,11 +22,11 @@ var app = {
 //});
 
 
-app.getGames = function () {
+app.getGames = function (force) {
     //debugger;
     app.spinner.setAttribute('hidden', false);
     app.games = localStorage.getItem("games");
-    if (app.games === undefined || app.games === null) {
+    if (app.games === undefined || app.games === null || force == true) {
 
         var url = 'http://mycollectionsapi.paulorobertoelias.com.br/api/Games';
         var request = new XMLHttpRequest();
@@ -77,7 +77,7 @@ app.renderizeGames = function () {
     main.appendChild(wrapper);
 };
 
-app.getGames();
+app.getGames(false);
 
 //if ('serviceWorker' in navigator) {
 //    navigator.serviceWorker

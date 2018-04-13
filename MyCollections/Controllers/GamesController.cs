@@ -91,11 +91,11 @@ namespace MyCollections.Controllers
                     game.Name = item.name;
                     game.SteamApID = item.appid;
                     game.PlayedTime = item.playtime_forever;
-                    if (item.img_logo_url != "")
+                    if (item.img_logo_url != "" && item.img_logo_url != null)
                     {
                         game.Logo = "http://media.steampowered.com/steamcommunity/public/images/apps/" + item.appid + "/" + item.img_logo_url + ".jpg";
                     }
-                    if (item.img_icon_url != "")
+                    if (item.img_icon_url != "" && item.img_icon_url != null)
                     {
                         game.Cover = "http://media.steampowered.com/steamcommunity/public/images/apps/" + item.appid + "/" + item.img_icon_url + ".jpg";
                     }

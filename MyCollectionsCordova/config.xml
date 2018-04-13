@@ -89,10 +89,10 @@
     </platform>
     <preference name="Fullscreen" value="True" />
     <preference name="SplashScreenDelay" value="10000" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.2.2" />
+    <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
     <engine name="ios" spec="4.2.0" />
     <engine name="windows" spec="4.4.2" />
     <engine name="browser" spec="^5.0.3" />
     <engine name="android" spec="^6.3.0" />
-    <plugin name="cordova-plugin-whitelist" spec="^1.2.2" />
-    <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
 </widget>
