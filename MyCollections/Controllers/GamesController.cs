@@ -66,6 +66,8 @@ namespace MyCollections.Controllers
         {
             string key = _context.Param.FirstOrDefault(p => p.key == "steam-key").value;
             string steamid = _context.Param.FirstOrDefault(p => p.key == "steam-steamid").value;
+            int gameNewCount = 0;
+            int gameUpdateCount = 0;
 
             if (key == string.Empty || steamid == string.Empty)
             {
@@ -81,6 +83,7 @@ namespace MyCollections.Controllers
                     if (_context.Game.Any(g => g.SteamApID == item.appid))
                     {
                         var existingGame = _context.Game.FirstOrDefault(i => i.SteamApID == item.appid);
+                        gameUpdateCount++;
                         existingGame.PlayedTime = item.playtime_forever;
                         _context.Game.Update(existingGame);
                         _context.SaveChanges();
@@ -88,6 +91,7 @@ namespace MyCollections.Controllers
                     }
 
                     Game game = new Game();
+                    gameNewCount++;
                     game.Name = item.name;
                     game.SteamApID = item.appid;
                     game.PlayedTime = item.playtime_forever;
@@ -107,7 +111,7 @@ namespace MyCollections.Controllers
                 }
             }
 
-            return Ok("Importado com sucesso");
+            return Ok("Importado com sucesso. Jogos novos: " + gameNewCount.ToString() + ", jogos atualizados: " + gameUpdateCount.ToString());
         }
     }
 }
