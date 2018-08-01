@@ -11,9 +11,10 @@ using System;
 namespace MyCollections.Migrations
 {
     [DbContext(typeof(MyCollectionsContext))]
-    partial class MyCollectionsContextModelSnapshot : ModelSnapshot
+    [Migration("20180801120536_gameFix01")]
+    partial class gameFix01
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -50,7 +51,7 @@ namespace MyCollections.Migrations
 
                     b.Property<bool>("Active");
 
-                    b.Property<DateTime>("BuyDate");
+                    b.Property<DateTime?>("BuyDate");
 
                     b.Property<string>("Cover");
 
@@ -59,15 +60,15 @@ namespace MyCollections.Migrations
                     b.Property<string>("Name")
                         .IsRequired();
 
-                    b.Property<int>("PlayedTime");
+                    b.Property<int?>("PlayedTime");
 
-                    b.Property<float>("Price");
+                    b.Property<float?>("Price");
 
                     b.Property<bool>("Purchased");
 
-                    b.Property<int>("SteamApID");
+                    b.Property<int?>("SteamApID");
 
-                    b.Property<int>("StoreID");
+                    b.Property<int?>("StoreID");
 
                     b.Property<int>("SystemID");
 
@@ -122,8 +123,7 @@ namespace MyCollections.Migrations
                 {
                     b.HasOne("MyCollections.Models.Store", "Store")
                         .WithMany()
-                        .HasForeignKey("StoreID")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .HasForeignKey("StoreID");
 
                     b.HasOne("MyCollections.Models.System", "System")
                         .WithMany()
