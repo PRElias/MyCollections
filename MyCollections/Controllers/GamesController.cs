@@ -44,21 +44,21 @@ namespace MyCollections.Controllers
 
         // GET: api/Games/5
         [HttpGet("{name}")]
-        public async Task<IActionResult> GetGame([FromRoute] string name)
+        public IEnumerable<dynamic> GetGame([FromRoute] string name)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            var game = await _context.Game.SingleOrDefaultAsync(m => m.Name == name);
-
-            if (game == null)
-            {
-                return NotFound();
-            }
-
-            return Ok(game);
+            var game = from g in _context.Game
+                       join s in _context.System on g.SystemID equals s.SystemID
+                       let systemName = s.Name
+                       where g.Name == name
+                       where g.Active == true
+                       orderby g.Name
+                       select new
+                       {
+                           g.Name,
+                           g.Cover,
+                           systemName
+                       };
+            return game;
         }
 
         [HttpGet("GetFromSteam")]
