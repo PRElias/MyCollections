@@ -21,25 +21,26 @@ namespace MyCollections.Controllers
 
         // GET: api/Games
         [HttpGet]
-        public IEnumerable<Game> GetGames()
+        public IEnumerable<GamesDistinctView> GetGames()
         {
-            return _context.Game.Include("Store").Include("System").Where(a => a.Active == true).OrderBy(n => n.Name);
+            //return _context.Game.Include("Store").Include("System").Where(a => a.Active == true).OrderBy(n => n.Name);
+            return _context.GamesDistinctView.ToList();
         }
 
         // GET: api/GetDistinctGames
-        [HttpGet("GetDistinctGames")]
-        public IEnumerable<dynamic> GetDistinctGames()
-        {
-            var gameDistinct = from recordset in _context.Game
-                               where recordset.Active == true
-                               orderby recordset.Name
-                               select new
-                               {
-                                   recordset.Name,
-                                   recordset.Cover
-                               };
-            return gameDistinct;
-        }
+        //[HttpGet("GetDistinctGames")]
+        //public IEnumerable<dynamic> GetDistinctGames()
+        //{
+        //    var gameDistinct = from recordset in _context.Game
+        //                       where recordset.Active == true
+        //                       orderby recordset.Name
+        //                       select new
+        //                       {
+        //                           recordset.Name,
+        //                           recordset.Cover
+        //                       };
+        //    return gameDistinct;
+        //}
 
 
         // GET: api/Games/5

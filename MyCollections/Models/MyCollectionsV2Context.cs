@@ -12,11 +12,18 @@ namespace MyCollections.Models
 
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder
+                .Query<GamesDistinctView>().ToView("GamesDistinct");
+        }
+
         public DbSet<System> System { get; set; }
         public DbSet<Store> Store { get; set; }
         public DbSet<Game> Game { get; set; }
         public DbSet<Book> Book { get; set; }
         public DbSet<Param> Param { get; set; }
+        public DbQuery<GamesDistinctView> GamesDistinctView { get; set; }
     }
 
 }
