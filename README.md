@@ -30,6 +30,10 @@ Gerar publicação
 
 Ainda em fase inicial, esse Website, por seguir muitos dos padrões propostos no PWA (Progressive Web Apps) pode ser "instalado" em dispositivos mobile e se conecta a API para expor os resultados
 
+### Heroku buildpack
+https://github.com/PRElias/dotnet-buildpack.git
+
+
 # Autor
 
 [Site pessoal](http://paulorobertoelias.com.br)
