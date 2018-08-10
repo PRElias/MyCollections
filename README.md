@@ -22,6 +22,10 @@ Para atualizar o banco de dados após alguma alteração
 
 <code>dotnet ef database update</code>
 
+Gerar publicação
+
+<code>dotnet publish --configuration Release</code>
+
 ### PWA - Aplicativo móvel
 
 Ainda em fase inicial, esse Website, por seguir muitos dos padrões propostos no PWA (Progressive Web Apps) pode ser "instalado" em dispositivos mobile e se conecta a API para expor os resultados
