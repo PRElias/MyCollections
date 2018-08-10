@@ -47,7 +47,7 @@ namespace MyCollections
             }
 
             // Shows UseCors with CorsPolicyBuilder.
-            app.UseCors(builder => builder.WithOrigins("http://paulorobertoelias.com"));
+            app.UseCors(builder => builder.WithOrigins("http://paulorobertoelias.com.br", "http://paulorobertoelias.com"));
 
             app.UseStaticFiles();
 
