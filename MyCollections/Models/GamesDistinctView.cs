@@ -9,5 +9,6 @@ namespace MyCollections.Models
     {
         public string Name { get; set; }
         public string Cover { get; set; }
+        public int Quantity { get; set; }
     }
 }
