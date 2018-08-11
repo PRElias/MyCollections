@@ -16,6 +16,9 @@ namespace MyCollections.Models
         {
             modelBuilder
                 .Query<GamesDistinctView>().ToView("GamesDistinct");
+
+            modelBuilder
+                .Query<GamesDetailsView>().ToView("GamesDetails");
         }
 
         public DbSet<System> System { get; set; }
@@ -24,6 +27,7 @@ namespace MyCollections.Models
         public DbSet<Book> Book { get; set; }
         public DbSet<Param> Param { get; set; }
         public DbQuery<GamesDistinctView> GamesDistinctView { get; set; }
+        public DbQuery<GamesDetailsView> GamesDetailsView { get; set; }
     }
 
 }

@@ -12,5 +12,6 @@ namespace MyCollections.Models
         public int StoreID { get; set; }
         [Required]
         public string Name { get; set; }
+        public string Logo { get; set; }
     }
 }

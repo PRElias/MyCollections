@@ -47,19 +47,20 @@ namespace MyCollections.Controllers
         [HttpGet("{name}")]
         public IEnumerable<dynamic> GetGame([FromRoute] string name)
         {
-            var game = from g in _context.Game
-                       join s in _context.System on g.SystemID equals s.SystemID
-                       let systemName = s.Name
-                       where g.Name == name
-                       where g.Active == true
-                       orderby g.Name
-                       select new
-                       {
-                           g.Name,
-                           g.Cover,
-                           systemName
-                       };
-            return game;
+            // var game = from g in _context.Game
+            //            join s in _context.System on g.SystemID equals s.SystemID
+            //            let systemName = s.Name
+            //            where g.Name == name
+            //            where g.Active == true
+            //            orderby g.Name
+            //            select new
+            //            {
+            //                g.Name,
+            //                g.Cover,
+            //                systemName
+            //            };
+            // return game;
+            return _context.GamesDetailsView.Where(n => n.Game == name).ToList();
         }
 
         [HttpGet("GetFromSteam")]
