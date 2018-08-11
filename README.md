@@ -26,6 +26,10 @@ Gerar publicação
 
 <code>dotnet publish --configuration Release</code>
 
+Parar a aplicação no servidor para poder subir versão.
+
+Faça upload do arquivo app_offline.htm para a raíz do servidor
+
 ### PWA - Aplicativo móvel
 
 Ainda em fase inicial, esse Website, por seguir muitos dos padrões propostos no PWA (Progressive Web Apps) pode ser "instalado" em dispositivos mobile e se conecta a API para expor os resultados
