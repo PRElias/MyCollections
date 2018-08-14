@@ -1,6 +1,6 @@
 ﻿@model IEnumerable<MyCollections.Models.Game>
 
-<p>
+<p class="margin_top">
     <a asp-action="Create">Novo jogo</a>
 </p>
 <table class="table" id="tabela">
@@ -9,9 +9,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Name)
             </th>
-            <th>
+            @*<th>
                 @Html.DisplayNameFor(model => model.FriendlyName)
-            </th>
+            </th>*@
             <th>
                 @Html.DisplayNameFor(model => model.Cover)
             </th>
@@ -24,18 +24,18 @@
             <th>
                 @Html.DisplayNameFor(model => model.Store)
             </th>
-            <th>
+            @*<th>
                 @Html.DisplayNameFor(model => model.BuyDate)
-            </th>
+            </th>*@
             @*<th>
                 @Html.DisplayNameFor(model => model.Price)
             </th>*@
-            <th>
+            @*<th>
                 @Html.DisplayNameFor(model => model.PlayedTime)
-            </th>
-            <th>
+            </th>*@
+            @*<th>
                 @Html.DisplayNameFor(model => model.Purchased)
-            </th>
+            </th>*@
             @*<th>
                 @Html.DisplayNameFor(model => model.SteamApID)
             </th>*@
@@ -51,9 +51,9 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
-            <td>
+            @*<td>
                 @Html.DisplayFor(modelItem => item.FriendlyName)
-            </td>
+            </td>*@
             <td>
                 <image src="@Html.DisplayFor(modelItem => item.Cover)" style="width: 90px; height: 45px"></image>
             </td>
@@ -66,18 +66,18 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Store.Name)
             </td>
-            <td>
+            @*<td>
                 @Html.DisplayFor(modelItem => item.BuyDate)
-            </td>
+            </td>*@
             @*<td>
                 @Html.DisplayFor(modelItem => item.Price)
             </td>*@
-            <td>
+            @*<td>
                 @Html.DisplayFor(modelItem => item.PlayedTime)
-            </td>
-            <td>
+            </td>*@
+            @*<td>
                 @Html.DisplayFor(modelItem => item.Purchased)
-            </td>
+            </td>*@
             @*<td>
                 @Html.DisplayFor(modelItem => item.SteamApID)
             </td>*@
