@@ -1,14 +1,6 @@
 ﻿@model MyCollections.Models.Game
 
-@{
-    ViewData["Title"] = "Details";
-}
-
-<h2>Details</h2>
-
 <div>
-    <h4>Game</h4>
-    <hr />
     <dl class="dl-horizontal">
         <dt>
             @Html.DisplayNameFor(model => model.Name)
@@ -26,13 +18,13 @@
             @Html.DisplayNameFor(model => model.Cover)
         </dt>
         <dd>
-            @Html.DisplayFor(model => model.Cover)
+            <image src="@Html.DisplayFor(model => model.Cover)" style="width: 90px; height: 45px"></image>
         </dd>
         <dt>
             @Html.DisplayNameFor(model => model.Logo)
         </dt>
         <dd>
-            @Html.DisplayFor(model => model.Logo)
+            <image src="@Html.DisplayFor(model => model.Logo)" style="width: 90px; height: 45px"></image>
         </dd>
         <dt>
             @Html.DisplayNameFor(model => model.System)
