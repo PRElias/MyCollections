@@ -1,0 +1,90 @@
+﻿@model MyCollections.Models.Game
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Game</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FriendlyName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FriendlyName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Cover)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Cover)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Logo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Logo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.System)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.System.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Store)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Store.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BuyDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BuyDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PlayedTime)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PlayedTime)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Purchased)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Purchased)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SteamApID)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SteamApID)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Active)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Active)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.GameID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
