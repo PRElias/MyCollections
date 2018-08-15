@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
-using MyCollections.Models;
 
 namespace MyCollections.Services
 {
@@ -27,7 +26,7 @@ namespace MyCollections.Services
             if (response.IsSuccessStatusCode)
             {
                 var teste2 = response.Content.ReadAsStringAsync().Result;
-                return Igdb.FromJson(teste2);
+                return MyCollections.IgdbGame.Igdb.FromJson(teste2);
             }
             else
             {
@@ -51,7 +50,7 @@ namespace MyCollections.Services
             if (response.IsSuccessStatusCode)
             {
                 var teste2 = response.Content.ReadAsStringAsync().Result;
-                return IgdbIds.FromJson(teste2);
+                return MyCollections.IgdbIds.IgdbIds.FromJson(teste2);
             }
             else
             {

@@ -1,11 +1,10 @@
 using System;
 using System.Collections.Generic;
-
 using System.Globalization;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace MyCollections
+namespace MyCollections.IgdbIds
 {
     public partial class IgdbIds
     {
@@ -15,12 +14,12 @@ namespace MyCollections
 
     public partial class IgdbIds
     {
-        public static IgdbIds[] FromJson(string json) => JsonConvert.DeserializeObject<IgdbIds[]>(json, MyCollections.Converter.Settings);
+        public static IgdbIds[] FromJson(string json) => JsonConvert.DeserializeObject<IgdbIds[]>(json, MyCollections.IgdbIds.Converter.Settings);
     }
 
     public static class Serialize
     {
-        public static string ToJson(this IgdbIds[] self) => JsonConvert.SerializeObject(self, MyCollections.Converter.Settings);
+        public static string ToJson(this IgdbIds[] self) => JsonConvert.SerializeObject(self, MyCollections.IgdbIds.Converter.Settings);
     }
 
     internal static class Converter

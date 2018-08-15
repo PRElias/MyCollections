@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -90,10 +91,21 @@ namespace MyCollections.Controllers
         public async Task<dynamic> GetFromIGDB([FromRoute] string game)
         {
             string key = _context.Param.FirstOrDefault(p => p.key == "igdb-key").value;
-            var existingGame = _context.Game.FirstOrDefault(i => i.Name == game);
-            var gameIGDBId = await IGDB.SearchIGDBByNameAndSteamId(key, game, existingGame.SteamApID.ToString());
-            var gameDetails = await IGDB.GetFromIGDBByCode(key, gameIGDBId[0].Id.ToString());
-            return Ok(gameDetails);
+            var existingGame = _context.Game.FirstOrDefault(i => i.Name == game && i.IGDBId == null);
+            if (existingGame != null)
+            {
+                var gameIGDBId = await IGDB.SearchIGDBByNameAndSteamId(key, game, existingGame.SteamApID.ToString());
+                var gameDetails = await IGDB.GetFromIGDBByCode(key, gameIGDBId[0].Id.ToString());
+                existingGame.GameDetails = Newtonsoft.Json.JsonConvert.SerializeObject(gameDetails);
+                existingGame.IGDBId = Convert.ToInt32(gameIGDBId[0].Id);
+                _context.Game.Update(existingGame);
+                _context.SaveChanges();
+                return Ok(gameDetails);
+            }
+            else
+            {
+                return NotFound("Não encontrado ou já atualizado");
+            }
         }
     }
 }

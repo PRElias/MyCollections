@@ -4,7 +4,7 @@ using System.Globalization;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace MyCollections.Models
+namespace MyCollections.IgdbGame
 {
     //https://app.quicktype.io/
     public partial class Igdb
