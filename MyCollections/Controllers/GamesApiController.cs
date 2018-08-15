@@ -23,43 +23,13 @@ namespace MyCollections.Controllers
         [HttpGet]
         public IEnumerable<GamesDistinctView> GetGames()
         {
-            //return _context.Game.Include("Store").Include("System").Where(a => a.Active == true).OrderBy(n => n.Name);
             return _context.GamesDistinctView.ToList();
         }
-
-        // GET: api/GetDistinctGames
-        //[HttpGet("GetDistinctGames")]
-        //public IEnumerable<dynamic> GetDistinctGames()
-        //{
-        //    var gameDistinct = from recordset in _context.Game
-        //                       where recordset.Active == true
-        //                       orderby recordset.Name
-        //                       select new
-        //                       {
-        //                           recordset.Name,
-        //                           recordset.Cover
-        //                       };
-        //    return gameDistinct;
-        //}
-
 
         // GET: api/Games/5
         [HttpGet("{name}")]
         public IEnumerable<dynamic> GetGame([FromRoute] string name)
         {
-            // var game = from g in _context.Game
-            //            join s in _context.System on g.SystemID equals s.SystemID
-            //            let systemName = s.Name
-            //            where g.Name == name
-            //            where g.Active == true
-            //            orderby g.Name
-            //            select new
-            //            {
-            //                g.Name,
-            //                g.Cover,
-            //                systemName
-            //            };
-            // return game;
             return _context.GamesDetailsView.Where(n => n.Game == name).ToList();
         }
 
@@ -120,8 +90,10 @@ namespace MyCollections.Controllers
         public async Task<dynamic> GetFromIGDB([FromRoute] string game)
         {
             string key = _context.Param.FirstOrDefault(p => p.key == "igdb-key").value;
-            var games = await IGDB.GetFromIGDB(key, game);
-            return games[0].Summary;
+            var existingGame = _context.Game.FirstOrDefault(i => i.Name == game);
+            var gameIGDBId = await IGDB.SearchIGDBByNameAndSteamId(key, game, existingGame.SteamApID.ToString());
+            var gameDetails = await IGDB.GetFromIGDBByCode(key, gameIGDBId[0].Id.ToString());
+            return Ok(gameDetails);
         }
     }
 }

@@ -12,11 +12,10 @@ namespace MyCollections.Services
     {
         static HttpClient client = new HttpClient();
 
-        public static async Task<dynamic> GetFromIGDB(string key, string game)
+        public static async Task<dynamic> GetFromIGDBByCode(string key, string game)
         {
             var request = new HttpRequestMessage()
             {
-                // RequestUri = new Uri("https://api-endpoint.igdb.com/?search=" + game),
                 RequestUri = new Uri("https://api-endpoint.igdb.com/games/" + game),
                 Method = HttpMethod.Get,
             };
@@ -35,5 +34,42 @@ namespace MyCollections.Services
                 return null;
             }
         }
+
+        public static async Task<dynamic> SearchIGDBByNameAndSteamId(string key, string game, string steamId)
+        {
+            var request = new HttpRequestMessage()
+            {
+                RequestUri = new Uri("https://api-endpoint.igdb.com/games/?search=" + game + "&filter[external.steam][eq]=" + steamId),
+                Method = HttpMethod.Get,
+            };
+            request.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            request.Headers.Add("user-key", key);
+
+            HttpResponseMessage response = await client.SendAsync(request);
+            var retorno = new RootObject();
+
+            if (response.IsSuccessStatusCode)
+            {
+                var teste2 = response.Content.ReadAsStringAsync().Result;
+                return IgdbIds.FromJson(teste2);
+            }
+            else
+            {
+                return null;
+            }
+
+        }
+
     }
+
+}
+
+public class RootObject
+{
+    public Response response { get; set; }
+}
+
+public class Response
+{
+    public int id { get; set; }
 }
