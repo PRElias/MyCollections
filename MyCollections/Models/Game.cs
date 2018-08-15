@@ -25,5 +25,6 @@ namespace MyCollections.Models
         public bool Purchased { get; set; }
         public int? SteamApID { get; set; }
         public bool Active { get; set; }
+        public int? IGDBId {get; set;}
     }
 }

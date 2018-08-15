@@ -69,7 +69,8 @@ namespace MyCollections.Models
             var Param = new Param[]
             {
                 new Param { key = "steam-key", value = ""},
-                new Param { key = "steam-steamid", value = ""}
+                new Param { key = "steam-steamid", value = ""},
+                new Param { key = "igdb-key", value = ""}
             };
 
             foreach (Param p in Param)

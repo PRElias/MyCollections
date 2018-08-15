@@ -115,5 +115,13 @@ namespace MyCollections.Controllers
 
             return Ok("Importado com sucesso. Jogos novos: " + gameNewCount.ToString() + ", jogos atualizados: " + gameUpdateCount.ToString());
         }
+        
+        [HttpGet("GetFromIGDB/{game}")]
+        public async Task<dynamic> GetFromIGDB([FromRoute] string game)
+        {
+            string key = _context.Param.FirstOrDefault(p => p.key == "igdb-key").value;
+            var games = await IGDB.GetFromIGDB(key, game);
+            return games[0].Summary;
+        }
     }
 }
