@@ -1,6 +1,6 @@
 ﻿CREATE VIEW GamesDetails AS
 select 
-G.FriendlyName AS Game,
+COALESCE(G.FriendlyName, G.Name) AS Game,
 G.StoreID,
 S.Name AS Store,
 S.Logo AS StoreLogo,

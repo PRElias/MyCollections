@@ -14,5 +14,8 @@ namespace MyCollections.Models
         public int SystemId { get; set; }
         public string System { get; set; }
         public string SystemLogo { get; set; }
+        public string Summary {get; set;}
+        public string Rating {get; set;}
+        public string ReleaseDate {get; set;}
     }
 }
