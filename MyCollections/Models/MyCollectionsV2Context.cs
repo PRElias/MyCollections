@@ -1,11 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace MyCollections.Models
 {
-    public class MyCollectionsContext : DbContext
+    public class MyCollectionsContext : IdentityDbContext<User>
     {
         public MyCollectionsContext(DbContextOptions<MyCollectionsContext> options) : base(options)
         {
@@ -14,6 +15,8 @@ namespace MyCollections.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
             modelBuilder
                 .Query<GamesDistinctView>().ToView("GamesDistinct");
 
@@ -28,6 +31,8 @@ namespace MyCollections.Models
         public DbSet<Param> Param { get; set; }
         public DbQuery<GamesDistinctView> GamesDistinctView { get; set; }
         public DbQuery<GamesDetailsView> GamesDetailsView { get; set; }
+
+        public new DbSet<User> Users { get; set; }
     }
 
 }

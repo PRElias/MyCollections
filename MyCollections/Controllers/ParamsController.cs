@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MyCollections.Models;
+using System.Threading.Tasks;
 
 namespace MyCollections.Controllers
 {
+    [Authorize]
     public class ParamsController : Controller
     {
         private readonly MyCollectionsContext _context;
