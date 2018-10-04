@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MyCollections.Models;
 using Swashbuckle.AspNetCore.Swagger;
+using System;
 
 namespace MyCollections
 {
@@ -49,9 +50,9 @@ namespace MyCollections
             services.AddSession(options =>
             {
                 // Set a short timeout for easy testing.
-                //options.IdleTimeout = TimeSpan.FromSeconds(10);
+                options.IdleTimeout = TimeSpan.FromSeconds(10);
                 options.Cookie.HttpOnly = true;
-                options.Cookie.IsEssential = true;
+                
             });
 
         }

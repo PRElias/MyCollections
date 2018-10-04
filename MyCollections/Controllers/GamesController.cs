@@ -25,6 +25,7 @@ namespace MyCollections.Controllers
         public async Task<IActionResult> Index()
         {
             var userId = HttpContext.Session.GetString("loggedUserId");
+            ViewBag.userId = userId;
             var myCollectionsContext = _context.Game.Include(g => g.Store).Include(g => g.System).Where(u => u.User.Id == userId);
             return View(await myCollectionsContext.ToListAsync());
         }
@@ -170,12 +171,14 @@ namespace MyCollections.Controllers
             return _context.Game.Any(e => e.GameID == id && e.User.Id == userId);
         }
 
-        public async Task<dynamic> GetFromSteam()
+        [Route("GetFromSteam/{userId}")]
+        public async Task<dynamic> GetFromSteam(string userId)
         {
             string steamkey = _context.Param.FirstOrDefault(p => p.key == "steam-key").value;
-            string steamid = _context.Param.FirstOrDefault(p => p.key == "steam-steamid").value;
+            //string steamid = _context.Param.FirstOrDefault(p => p.key == "steam-steamid").value;
             string igdbkey = _context.Param.FirstOrDefault(p => p.key == "igdb-key").value;
-            var userId = HttpContext.Session.GetString("loggedUserId");
+            var user = _context.Users.Find(userId);
+            string steamid = user.steamUser;
 
             int gameNewCount = 0;
             int gameUpdateCount = 0;
@@ -233,7 +236,6 @@ namespace MyCollections.Controllers
                     game.StoreID = _context.Store.FirstOrDefault(s => s.Name == "Steam").StoreID;
                     game.SystemID = _context.System.FirstOrDefault(s => s.Name == "PC").SystemID;
                     game.Active = true;
-                    var user = _context.Users.Find(userId);
                     game.User = user;
                     _context.Game.Add(game);
                     _context.SaveChanges();

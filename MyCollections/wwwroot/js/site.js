@@ -3,10 +3,13 @@
 });
 
 $('#btn_GetFromSteam').click(function () {
+    $(this).attr("disabled", true);
+    var userId = $("#hiddenUserId").data("value");
     $.ajax({
         method: "GET",
-        url: "Games/GetFromSteam",
-        complete: function (results) {
+        url: "GetFromSteam/" + userId,
+        success: function (results) {
+            $(this).attr("disabled", false);
             alert(results);
         }
     });
