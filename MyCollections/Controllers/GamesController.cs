@@ -1,9 +1,14 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MyCollections.Models;
+using MyCollections.Services;
+using System;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace MyCollections.Controllers
@@ -21,7 +26,8 @@ namespace MyCollections.Controllers
         // GET: Games
         public async Task<IActionResult> Index()
         {
-            var myCollectionsContext = _context.Game.Include(g => g.Store).Include(g => g.System);
+            var userId = HttpContext.Session.GetString("loggedUserId");
+            var myCollectionsContext = _context.Game.Include(g => g.Store).Include(g => g.System).Where(u => u.User.Id == userId);
             return View(await myCollectionsContext.ToListAsync());
         }
 
@@ -62,6 +68,7 @@ namespace MyCollections.Controllers
         {
             if (ModelState.IsValid)
             {
+                //game.User.Id = user;
                 _context.Add(game);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -160,6 +167,76 @@ namespace MyCollections.Controllers
         private bool GameExists(int id)
         {
             return _context.Game.Any(e => e.GameID == id);
+        }
+
+        public async Task<dynamic> GetFromSteam()
+        {
+            string steamkey = _context.Param.FirstOrDefault(p => p.key == "steam-key").value;
+            string steamid = _context.Param.FirstOrDefault(p => p.key == "steam-steamid").value;
+            string igdbkey = _context.Param.FirstOrDefault(p => p.key == "igdb-key").value;
+
+            int gameNewCount = 0;
+            int gameUpdateCount = 0;
+
+            if (steamkey == string.Empty || steamid == string.Empty || igdbkey == string.Empty)
+            {
+                return StatusCode(204, "Chaves das API não informadas");
+            }
+
+            var games = await Steam.GetFromSteam(steamkey, steamid);
+
+            if (games != null)
+            {
+                foreach (var item in games.response.games)
+                {
+                    //Verifica se o jogo tem IGDB pelo Nome e SteamID
+                    var existingIgdbGame = _context.Game.FirstOrDefault(i => i.Name == item.name && i.IGDBId == null);
+
+                    if (existingIgdbGame != null)
+                    {
+                        var gameIGDBId = await IGDB.SearchIGDBByNameAndSteamId(igdbkey, item.name, existingIgdbGame.SteamApID.ToString());
+                        if (gameIGDBId.Length > 0)
+                        {
+                            var gameDetails = await IGDB.GetFromIGDBByCode(igdbkey, gameIGDBId[0].Id.ToString());
+                            existingIgdbGame.GameDetails = Newtonsoft.Json.JsonConvert.SerializeObject(gameDetails);
+                            existingIgdbGame.IGDBId = Convert.ToInt32(gameIGDBId[0].Id);
+                            _context.Game.Update(existingIgdbGame);
+                            _context.SaveChanges();
+                        }
+                    }
+
+                    if (_context.Game.Any(g => g.SteamApID == item.appid))
+                    {
+                        var existingGame = _context.Game.FirstOrDefault(i => i.SteamApID == item.appid);
+                        gameUpdateCount++;
+                        existingGame.PlayedTime = item.playtime_forever;
+                        _context.Game.Update(existingGame);
+                        _context.SaveChanges();
+                        continue;
+                    }
+
+                    Game game = new Game();
+                    gameNewCount++;
+                    game.Name = item.name;
+                    game.SteamApID = item.appid;
+                    game.PlayedTime = item.playtime_forever;
+                    if (item.img_logo_url != "" && item.img_logo_url != null)
+                    {
+                        game.Logo = "http://media.steampowered.com/steamcommunity/public/images/apps/" + item.appid + "/" + item.img_logo_url + ".jpg";
+                    }
+                    if (item.img_icon_url != "" && item.img_icon_url != null)
+                    {
+                        game.Cover = "http://media.steampowered.com/steamcommunity/public/images/apps/" + item.appid + "/" + item.img_icon_url + ".jpg";
+                    }
+                    game.StoreID = _context.Store.FirstOrDefault(s => s.Name == "Steam").StoreID;
+                    game.SystemID = _context.System.FirstOrDefault(s => s.Name == "PC").SystemID;
+                    game.Active = true;
+                    _context.Game.Add(game);
+                    _context.SaveChanges();
+                }
+            }
+
+            return Ok("Importado com sucesso. Jogos novos: " + gameNewCount.ToString() + ", jogos atualizados: " + gameUpdateCount.ToString());
         }
     }
 }

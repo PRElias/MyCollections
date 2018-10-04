@@ -27,5 +27,6 @@ namespace MyCollections.Models
         public bool Active { get; set; }
         public int? IGDBId {get; set;}
         public string GameDetails {get; set;}
+        public User User { get; set; }
     }
 }
