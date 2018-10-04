@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -8,7 +7,6 @@ using MyCollections.Models;
 using MyCollections.Services;
 using System;
 using System.Linq;
-using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace MyCollections.Controllers
@@ -64,11 +62,13 @@ namespace MyCollections.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("GameID,Name,FriendlyName,Cover,Logo,SystemID,StoreID,BuyDate,Price,PlayedTime,Purchased,SteamApID,Active")] Game game)
+        public async Task<IActionResult> Create(Game game)
         {
             if (ModelState.IsValid)
             {
-                //game.User.Id = user;
+                var userId = HttpContext.Session.GetString("loggedUserId");
+                var user = _context.Users.Find(userId);
+                game.User = user;
                 _context.Add(game);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -166,7 +166,8 @@ namespace MyCollections.Controllers
 
         private bool GameExists(int id)
         {
-            return _context.Game.Any(e => e.GameID == id);
+            var userId = HttpContext.Session.GetString("loggedUserId");
+            return _context.Game.Any(e => e.GameID == id && e.User.Id == userId);
         }
 
         public async Task<dynamic> GetFromSteam()
@@ -174,6 +175,7 @@ namespace MyCollections.Controllers
             string steamkey = _context.Param.FirstOrDefault(p => p.key == "steam-key").value;
             string steamid = _context.Param.FirstOrDefault(p => p.key == "steam-steamid").value;
             string igdbkey = _context.Param.FirstOrDefault(p => p.key == "igdb-key").value;
+            var userId = HttpContext.Session.GetString("loggedUserId");
 
             int gameNewCount = 0;
             int gameUpdateCount = 0;
@@ -190,7 +192,7 @@ namespace MyCollections.Controllers
                 foreach (var item in games.response.games)
                 {
                     //Verifica se o jogo tem IGDB pelo Nome e SteamID
-                    var existingIgdbGame = _context.Game.FirstOrDefault(i => i.Name == item.name && i.IGDBId == null);
+                    var existingIgdbGame = _context.Game.FirstOrDefault(i => i.Name == item.name && i.IGDBId == null && i.User.Id == userId);
 
                     if (existingIgdbGame != null)
                     {
@@ -207,7 +209,7 @@ namespace MyCollections.Controllers
 
                     if (_context.Game.Any(g => g.SteamApID == item.appid))
                     {
-                        var existingGame = _context.Game.FirstOrDefault(i => i.SteamApID == item.appid);
+                        var existingGame = _context.Game.FirstOrDefault(i => i.SteamApID == item.appid && i.User.Id == userId);
                         gameUpdateCount++;
                         existingGame.PlayedTime = item.playtime_forever;
                         _context.Game.Update(existingGame);
@@ -231,6 +233,8 @@ namespace MyCollections.Controllers
                     game.StoreID = _context.Store.FirstOrDefault(s => s.Name == "Steam").StoreID;
                     game.SystemID = _context.System.FirstOrDefault(s => s.Name == "PC").SystemID;
                     game.Active = true;
+                    var user = _context.Users.Find(userId);
+                    game.User = user;
                     _context.Game.Add(game);
                     _context.SaveChanges();
                 }

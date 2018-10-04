@@ -51,6 +51,7 @@ namespace MyCollections
                 // Set a short timeout for easy testing.
                 //options.IdleTimeout = TimeSpan.FromSeconds(10);
                 options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
             });
 
         }
