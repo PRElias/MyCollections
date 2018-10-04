@@ -25,6 +25,10 @@ namespace MyCollections.Controllers
         public async Task<IActionResult> Index()
         {
             var userId = HttpContext.Session.GetString("loggedUserId");
+            //if (userId == null)
+            //{
+            //    return RedirectToAction("Login", "Account");
+            //}
             ViewBag.userId = userId;
             var myCollectionsContext = _context.Game.Include(g => g.Store).Include(g => g.System).Where(u => u.User.Id == userId);
             return View(await myCollectionsContext.ToListAsync());
@@ -183,66 +187,72 @@ namespace MyCollections.Controllers
             int gameNewCount = 0;
             int gameUpdateCount = 0;
 
-            if (steamkey == string.Empty || steamid == string.Empty || igdbkey == string.Empty)
+            if (steamkey == string.Empty || steamid == string.Empty || steamid == null || igdbkey == string.Empty)
             {
                 return StatusCode(204, "Chaves das API não informadas");
             }
-
-            var games = await Steam.GetFromSteam(steamkey, steamid);
-
-            if (games != null)
+            else
             {
-                foreach (var item in games.response.games)
+                var games = await Steam.GetFromSteam(steamkey, steamid);
+
+                if (games != null)
                 {
-                    //Verifica se o jogo tem IGDB pelo Nome e SteamID
-                    var existingIgdbGame = _context.Game.FirstOrDefault(i => i.Name == item.name && i.IGDBId == null && i.User.Id == userId);
-
-                    if (existingIgdbGame != null)
+                    foreach (var item in games.response.games)
                     {
-                        var gameIGDBId = await IGDB.SearchIGDBByNameAndSteamId(igdbkey, item.name, existingIgdbGame.SteamApID.ToString());
-                        if (gameIGDBId.Length > 0)
+                        //Verifica se o jogo tem IGDB pelo Nome e SteamID
+                        var existingIgdbGame = _context.Game.FirstOrDefault(i => i.Name == item.name && i.IGDBId == null && i.User.Id == userId);
+
+                        if (existingIgdbGame != null)
                         {
-                            var gameDetails = await IGDB.GetFromIGDBByCode(igdbkey, gameIGDBId[0].Id.ToString());
-                            existingIgdbGame.GameDetails = Newtonsoft.Json.JsonConvert.SerializeObject(gameDetails);
-                            existingIgdbGame.IGDBId = Convert.ToInt32(gameIGDBId[0].Id);
-                            _context.Game.Update(existingIgdbGame);
-                            _context.SaveChanges();
+                            var gameIGDBId = await IGDB.SearchIGDBByNameAndSteamId(igdbkey, item.name, existingIgdbGame.SteamApID.ToString());
+                            if (gameIGDBId.Length > 0)
+                            {
+                                var gameDetails = await IGDB.GetFromIGDBByCode(igdbkey, gameIGDBId[0].Id.ToString());
+                                existingIgdbGame.GameDetails = Newtonsoft.Json.JsonConvert.SerializeObject(gameDetails);
+                                existingIgdbGame.IGDBId = Convert.ToInt32(gameIGDBId[0].Id);
+                                _context.Game.Update(existingIgdbGame);
+                                _context.SaveChanges();
+                            }
                         }
-                    }
 
-                    if (_context.Game.Any(g => g.SteamApID == item.appid))
-                    {
-                        var existingGame = _context.Game.FirstOrDefault(i => i.SteamApID == item.appid && i.User.Id == userId);
-                        gameUpdateCount++;
-                        existingGame.PlayedTime = item.playtime_forever;
-                        _context.Game.Update(existingGame);
+                        if (_context.Game.Any(g => g.SteamApID == item.appid))
+                        {
+                            var existingGame = _context.Game.FirstOrDefault(i => i.SteamApID == item.appid && i.User.Id == userId);
+                            gameUpdateCount++;
+                            existingGame.PlayedTime = item.playtime_forever;
+                            _context.Game.Update(existingGame);
+                            _context.SaveChanges();
+                            continue;
+                        }
+
+                        Game game = new Game();
+                        gameNewCount++;
+                        game.Name = item.name;
+                        game.SteamApID = item.appid;
+                        game.PlayedTime = item.playtime_forever;
+                        if (item.img_logo_url != "" && item.img_logo_url != null)
+                        {
+                            game.Logo = "http://media.steampowered.com/steamcommunity/public/images/apps/" + item.appid + "/" + item.img_logo_url + ".jpg";
+                        }
+                        if (item.img_icon_url != "" && item.img_icon_url != null)
+                        {
+                            game.Cover = "http://media.steampowered.com/steamcommunity/public/images/apps/" + item.appid + "/" + item.img_icon_url + ".jpg";
+                        }
+                        game.StoreID = _context.Store.FirstOrDefault(s => s.Name == "Steam").StoreID;
+                        game.SystemID = _context.System.FirstOrDefault(s => s.Name == "PC").SystemID;
+                        game.Active = true;
+                        game.User = user;
+                        _context.Game.Add(game);
                         _context.SaveChanges();
-                        continue;
                     }
 
-                    Game game = new Game();
-                    gameNewCount++;
-                    game.Name = item.name;
-                    game.SteamApID = item.appid;
-                    game.PlayedTime = item.playtime_forever;
-                    if (item.img_logo_url != "" && item.img_logo_url != null)
-                    {
-                        game.Logo = "http://media.steampowered.com/steamcommunity/public/images/apps/" + item.appid + "/" + item.img_logo_url + ".jpg";
-                    }
-                    if (item.img_icon_url != "" && item.img_icon_url != null)
-                    {
-                        game.Cover = "http://media.steampowered.com/steamcommunity/public/images/apps/" + item.appid + "/" + item.img_icon_url + ".jpg";
-                    }
-                    game.StoreID = _context.Store.FirstOrDefault(s => s.Name == "Steam").StoreID;
-                    game.SystemID = _context.System.FirstOrDefault(s => s.Name == "PC").SystemID;
-                    game.Active = true;
-                    game.User = user;
-                    _context.Game.Add(game);
-                    _context.SaveChanges();
+                    return Ok("Importado com sucesso. Jogos novos: " + gameNewCount.ToString() + ", jogos atualizados: " + gameUpdateCount.ToString());
+                }
+                else
+                {
+                    return StatusCode(204, "Erro ao conectar no Steam");
                 }
             }
-
-            return Ok("Importado com sucesso. Jogos novos: " + gameNewCount.ToString() + ", jogos atualizados: " + gameUpdateCount.ToString());
         }
     }
 }

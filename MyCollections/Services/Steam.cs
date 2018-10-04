@@ -13,7 +13,10 @@ namespace MyCollections.Services
         public static async Task<RootObject> GetFromSteam(string key, string steamid)
         {
             string path = "IPlayerService/GetOwnedGames/v0001/?key=" + key + "&steamid=" + steamid + "&include_appinfo=1&format=json";
-            client.BaseAddress = new Uri("http://api.steampowered.com/");
+            if (client.BaseAddress == null)
+            {
+                client.BaseAddress = new Uri("http://api.steampowered.com/");
+            }
 
             HttpResponseMessage response = await client.GetAsync(path);
             var retorno = new RootObject();
