@@ -11,6 +11,7 @@ $('#btn_GetFromSteam').click(function () {
         success: function (results) {
             $('#btn_GetFromSteam').text("Atualizar informações do Steam").removeClass("blink_me").css("pointer-events", "none");
             alert(results);
+            location.reload();
         },
         error: function (jqXHR, error, errorThrown) {
             $('#btn_GetFromSteam').text("Atualizar informações do Steam").removeClass("blink_me").css("pointer-events", "none");

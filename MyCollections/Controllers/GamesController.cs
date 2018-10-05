@@ -171,6 +171,8 @@ namespace MyCollections.Controllers
             return _context.Game.Any(e => e.GameID == id && e.User.Id == userId);
         }
 
+        // GET: GetFromSteam/5
+        [HttpGet]
         [Route("GetFromSteam/{userId}")]
         public async Task<dynamic> GetFromSteam(string userId)
         {
@@ -211,7 +213,7 @@ namespace MyCollections.Controllers
                             }
                         }
 
-                        if (_context.Game.Any(g => g.SteamApID == item.appid))
+                        if (_context.Game.Any(g => g.SteamApID == item.appid && g.User.Id == userId))
                         {
                             var existingGame = _context.Game.FirstOrDefault(i => i.SteamApID == item.appid && i.User.Id == userId);
                             gameUpdateCount++;

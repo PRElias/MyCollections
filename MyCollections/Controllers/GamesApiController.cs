@@ -21,17 +21,11 @@ namespace MyCollections.Controllers
         }
 
         // GET: api/Games
-        [HttpGet]
-        public IEnumerable<GamesDistinctView> GetGames()
+        [HttpGet("{email}")]
+        public IEnumerable<Game> GetGames([FromRoute] string email)
         {
-            return _context.GamesDistinctView.ToList();
-        }
-
-        // GET: api/Games/5
-        [HttpGet("{name}")]
-        public IEnumerable<dynamic> GetGame([FromRoute] string name)
-        {
-            return _context.GamesDetailsView.Where(n => n.Game == name).ToList();
+            //return _context.GamesDistinctView.ToList();
+            return _context.Game.Where(u => u.User.Email == email && u.Active == true).ToList();
         }
     }
 }

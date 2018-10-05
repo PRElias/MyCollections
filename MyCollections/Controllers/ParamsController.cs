@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyCollections.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Admin")]
     public class ParamsController : Controller
     {
         private readonly MyCollectionsContext _context;
