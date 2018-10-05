@@ -25,10 +25,6 @@ namespace MyCollections.Controllers
         public async Task<IActionResult> Index()
         {
             var userId = HttpContext.Session.GetString("loggedUserId");
-            //if (userId == null)
-            //{
-            //    return RedirectToAction("Login", "Account");
-            //}
             ViewBag.userId = userId;
             var myCollectionsContext = _context.Game.Include(g => g.Store).Include(g => g.System).Where(u => u.User.Id == userId);
             return View(await myCollectionsContext.ToListAsync());

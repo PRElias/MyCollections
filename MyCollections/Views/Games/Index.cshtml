@@ -1,10 +1,10 @@
 ﻿@model IEnumerable<MyCollections.Models.Game>
 
-<p class="margin_top">
-    <a asp-action="Create">Novo jogo</a>
-</p>
+<div id="mButtons" class="margins">
+    <button class="btn-primary" asp-action="Create">Novo Jogo</button>
+    <button class="btn-primary" id="btn_GetFromSteam">Atualizar informações do Steam</button>
+</div>
 
-<button class="btn-default" id="btn_GetFromSteam">Atualizar informações do Steam</button>
 <input type="hidden" id="hiddenUserId" data-value="@ViewBag.userId" />
 
 
