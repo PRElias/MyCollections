@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace MyCollections.Controllers
 {
-    [Authorize]
+    
     public class GamesController : Controller
     {
         private readonly MyCollectionsContext _context;
@@ -21,15 +21,23 @@ namespace MyCollections.Controllers
             _context = context;
         }
 
+        [Authorize]
         // GET: Games
         public async Task<IActionResult> Index()
         {
             var userId = HttpContext.Session.GetString("loggedUserId");
-            ViewBag.userId = userId;
+            if (userId != null)
+            {
+                var user = _context.Users.Find(userId);
+                            ViewBag.userId = userId;
+            ViewBag.userEmail = user.Email;
+
+            }
             var myCollectionsContext = _context.Game.Include(g => g.Store).Include(g => g.System).Where(u => u.User.Id == userId);
             return View(await myCollectionsContext.ToListAsync());
         }
 
+        [Authorize]
         // GET: Games/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -50,6 +58,7 @@ namespace MyCollections.Controllers
             return View(game);
         }
 
+        [Authorize]
         // GET: Games/Create
         public IActionResult Create()
         {
@@ -58,6 +67,7 @@ namespace MyCollections.Controllers
             return View();
         }
 
+        [Authorize]
         // POST: Games/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
@@ -79,6 +89,7 @@ namespace MyCollections.Controllers
             return View(game);
         }
 
+        [Authorize]
         // GET: Games/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -97,6 +108,7 @@ namespace MyCollections.Controllers
             return View(game);
         }
 
+        [Authorize]
         // POST: Games/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
@@ -134,6 +146,7 @@ namespace MyCollections.Controllers
             return View(game);
         }
 
+        [Authorize]
         // GET: Games/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
@@ -154,6 +167,7 @@ namespace MyCollections.Controllers
             return View(game);
         }
 
+        [Authorize]
         // POST: Games/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
@@ -282,6 +296,13 @@ namespace MyCollections.Controllers
                 }
             }
             return igdbId;
+        }
+
+        // GET: Games
+        public async Task<IActionResult> ViewGames(string email)
+        {
+            var myCollectionsContext = _context.Game.Include(g => g.Store).Include(g => g.System).Where(u => u.User.Email == email);
+            return View(await myCollectionsContext.ToListAsync());
         }
     }
 }

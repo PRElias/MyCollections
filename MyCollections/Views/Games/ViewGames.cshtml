@@ -1,0 +1,25 @@
+﻿@model IEnumerable<MyCollections.Models.Game>
+
+
+<div id="main_div" class="main_div">
+    @foreach (var item in Model)
+    {
+        <span id='@item.GameID' class='game'>
+        <img class='cover' src='@item.Cover' alt='logo' data-game='@item.Name' data-toggle='modal' data-target='#myModal'>
+        </span>
+    }
+
+
+</div>
+@*<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog mymodal">
+        <div class="modal-content mymodal-content">
+            <div class="modal-header">
+                <h6 class="modal-title"></h6>
+            </div>
+            <div id="myModalBody" class="modal-body"></div>
+        </div>
+    </div>
+</div>
+
+<script src="js/GameView.js"></script>*@
