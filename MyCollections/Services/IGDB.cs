@@ -34,11 +34,11 @@ namespace MyCollections.Services
             }
         }
 
-        public static async Task<dynamic> SearchIGDBByNameAndSteamId(string key, string game, string steamId)
+        public static async Task<dynamic> SearchIGDBByNameAndSteamId(string key, string game, int steamId)
         {
             var request = new HttpRequestMessage()
             {
-                RequestUri = new Uri("https://api-endpoint.igdb.com/games/?search=" + game + "&filter[external.steam][eq]=" + steamId),
+                RequestUri = new Uri("https://api-endpoint.igdb.com/games/?search=" + game + "&filter[external.steam][eq]=" + steamId.ToString()),
                 Method = HttpMethod.Get,
             };
             request.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));

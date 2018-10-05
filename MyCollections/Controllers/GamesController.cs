@@ -177,47 +177,41 @@ namespace MyCollections.Controllers
         public async Task<dynamic> GetFromSteam(string userId)
         {
             string steamkey = _context.Param.FirstOrDefault(p => p.key == "steam-key").value;
-            //string steamid = _context.Param.FirstOrDefault(p => p.key == "steam-steamid").value;
             string igdbkey = _context.Param.FirstOrDefault(p => p.key == "igdb-key").value;
             var user = _context.Users.Find(userId);
             string steamid = user.steamUser;
 
+            //Variáveis para exibir resumo pro cliente
             int gameNewCount = 0;
             int gameUpdateCount = 0;
 
-            if (steamkey == string.Empty || steamid == string.Empty || steamid == null || igdbkey == string.Empty)
+            if (steamkey == string.Empty || steamid == string.Empty || steamid == null)
             {
                 return StatusCode(204, "Chaves das API não informadas");
             }
             else
             {
+                //Recupera todos os jogos do Steam do Usuário
                 var games = await Steam.GetFromSteam(steamkey, steamid);
 
                 if (games != null)
                 {
                     foreach (var item in games.response.games)
                     {
-                        //Verifica se o jogo tem IGDB pelo Nome e SteamID
-                        var existingIgdbGame = _context.Game.FirstOrDefault(i => i.Name == item.name && i.IGDBId == null && i.User.Id == userId);
+                        int igdbId = 0;
 
-                        if (existingIgdbGame != null)
+                        if (igdbkey != null)
                         {
-                            var gameIGDBId = await IGDB.SearchIGDBByNameAndSteamId(igdbkey, item.name, existingIgdbGame.SteamApID.ToString());
-                            if (gameIGDBId.Length > 0)
-                            {
-                                var gameDetails = await IGDB.GetFromIGDBByCode(igdbkey, gameIGDBId[0].Id.ToString());
-                                existingIgdbGame.GameDetails = Newtonsoft.Json.JsonConvert.SerializeObject(gameDetails);
-                                existingIgdbGame.IGDBId = Convert.ToInt32(gameIGDBId[0].Id);
-                                _context.Game.Update(existingIgdbGame);
-                                _context.SaveChanges();
-                            }
+                            igdbId = await UpdateGameDetails(igdbkey, item.name, item.appid);
                         }
 
+                        //Atualiza tempos de jogo se ele já existir
                         if (_context.Game.Any(g => g.SteamApID == item.appid && g.User.Id == userId))
                         {
                             var existingGame = _context.Game.FirstOrDefault(i => i.SteamApID == item.appid && i.User.Id == userId);
                             gameUpdateCount++;
                             existingGame.PlayedTime = item.playtime_forever;
+                            existingGame.IGDBId = igdbId;
                             _context.Game.Update(existingGame);
                             _context.SaveChanges();
                             continue;
@@ -240,6 +234,7 @@ namespace MyCollections.Controllers
                         game.SystemID = _context.System.FirstOrDefault(s => s.Name == "PC").SystemID;
                         game.Active = true;
                         game.User = user;
+                        game.IGDBId = igdbId;
                         _context.Game.Add(game);
                         _context.SaveChanges();
                     }
@@ -251,6 +246,38 @@ namespace MyCollections.Controllers
                     return StatusCode(204, "Erro ao conectar no Steam");
                 }
             }
+        }
+
+        private async Task<int> UpdateGameDetails(string igdbKey, string Name, int SteamApId)
+        {
+            var existingGameDetail = _context.GameDetails.FirstOrDefault(i => i.SteamApID == SteamApId && i.Name == Name);
+
+            int igdbId = 0;
+
+            if (existingGameDetail != null)
+            {
+                igdbId = (int)existingGameDetail.IGDBId;
+            }
+            else
+            {
+                var gameIGDBId = await IGDB.SearchIGDBByNameAndSteamId(igdbKey, Name, SteamApId);
+
+                if (gameIGDBId.Length > 0)
+                {
+                    var gameDetails = await IGDB.GetFromIGDBByCode(igdbKey, gameIGDBId[0].Id.ToString());
+                    GameDetails gd = new GameDetails();
+                    gd.IDDBData = Newtonsoft.Json.JsonConvert.SerializeObject(gameDetails);
+                    gd.IGDBId = Convert.ToInt32(gameIGDBId[0].Id);
+                    gd.SteamApID = SteamApId;
+                    gd.Name = Name;
+                    gd.DateUpdated = DateTime.Now;
+                    _context.GameDetails.Add(gd);
+                    _context.SaveChanges();
+
+                    igdbId = Convert.ToInt32(gameIGDBId[0].Id);
+                }
+            }
+            return igdbId;
         }
     }
 }
