@@ -2,11 +2,12 @@
     $('#tabela').DataTable();
 });
 
-var userId = $("#hiddenUserId").data("value");
+//var userId = $("#hiddenUserId").data("value");
+//console.log(userId);
 
-if (userId === null) {
-    $('#btn_GetFromSteam').css("pointer-events", "none");
-}
+//if (userId === null) {
+//    $('#btn_GetFromSteam').css("pointer-events", "none");
+//}
 
 
 $('#btn_GetFromSteam').click(function () {

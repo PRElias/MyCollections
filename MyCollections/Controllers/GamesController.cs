@@ -206,17 +206,21 @@ namespace MyCollections.Controllers
                         }
 
                         //Atualiza tempos de jogo se ele já existir
-                        if (_context.Game.Any(g => g.SteamApID == item.appid && g.User.Id == userId))
+                        var existingGame = _context.Game.FirstOrDefault(i => i.SteamApID == item.appid && i.User.Id == userId);
+                        if (existingGame != null)
                         {
-                            var existingGame = _context.Game.FirstOrDefault(i => i.SteamApID == item.appid && i.User.Id == userId);
-                            gameUpdateCount++;
-                            existingGame.PlayedTime = item.playtime_forever;
-                            existingGame.IGDBId = igdbId;
-                            _context.Game.Update(existingGame);
-                            _context.SaveChanges();
-                            continue;
+                            if (existingGame.Active == true)
+                            {
+                                gameUpdateCount++;
+                                existingGame.PlayedTime = item.playtime_forever;
+                                existingGame.IGDBId = igdbId;
+                                _context.Game.Update(existingGame);
+                                _context.SaveChanges();
+                                continue;
+                            }
+                            
                         }
-
+                        
                         Game game = new Game();
                         gameNewCount++;
                         game.Name = item.name;
