@@ -1,25 +1,41 @@
-﻿@model IEnumerable<MyCollections.Models.Game>
+﻿@model IEnumerable<MyCollections.Models.GameApiDTO>
+
+@{
+    Layout = null;
+}
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCollections</title>
+
+
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/site.css">
+
+
+</head>
 
 
 <div id="main_div" class="main_div">
     @foreach (var item in Model)
     {
-        <span id='@item.GameID' class='game'>
-        <img class='cover' src='@item.Cover' alt='logo' data-game='@item.Name' data-toggle='modal' data-target='#myModal'>
+        <span id='@item.Name' class='game'>
+            <img class='cover' src='@item.Cover' alt='logo' data-game='@item.Name' data-toggle='modal' data-target='#myModal'>
         </span>
     }
 
 
 </div>
 @*<div id="myModal" class="modal fade" role="dialog">
-    <div class="modal-dialog mymodal">
-        <div class="modal-content mymodal-content">
-            <div class="modal-header">
-                <h6 class="modal-title"></h6>
+        <div class="modal-dialog mymodal">
+            <div class="modal-content mymodal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title"></h6>
+                </div>
+                <div id="myModalBody" class="modal-body"></div>
             </div>
-            <div id="myModalBody" class="modal-body"></div>
         </div>
     </div>
-</div>
 
-<script src="js/GameView.js"></script>*@
+    <script src="js/GameView.js"></script>*@

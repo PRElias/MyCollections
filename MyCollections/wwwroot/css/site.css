@@ -48,3 +48,49 @@
         opacity: 0;
     }
 }
+
+.mymodal {
+    margin-top: 120px !important;
+}
+
+.main_div {
+    /*background-image: url('../../img/wooden.png');*/
+}
+
+.storeLogo {
+    height: 20px;
+    width: 20px;
+}
+
+// .mymodal-content {
+   background-color: darkslategrey !important;
+   color: white;
+}
+
+.game {
+    padding: 25px 10px 0px 10px;
+    display: inline-block;
+    width: 220px;
+    height: 110px;
+    background-image: url('../images/wooden.png');
+    margin-left: -10px;
+}
+
+.cover {
+    height: 70px;
+    width: 185px;
+    box-shadow: 3px 3px 1px rgb(51, 49, 49);
+    -moz-box-shadow: 3px 3px 1px rgb(51, 49, 49);
+    -webkit-box-shadow: 3px 3px 1px rgb(51, 49, 49);
+    -khtml-box-shadow: 3px 3px 1px rgb(51, 49, 49);
+}
+
+.container-fluid {
+    padding-left: 0px !important;
+    width: 100%;
+    text-align: center;
+}
+
+body {
+   padding-top: unset;
+}

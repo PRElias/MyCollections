@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -6,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using MyCollections.Models;
 using MyCollections.Services;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -15,10 +17,12 @@ namespace MyCollections.Controllers
     public class GamesController : Controller
     {
         private readonly MyCollectionsContext _context;
+        private readonly IMapper _mapper;
 
-        public GamesController(MyCollectionsContext context)
+        public GamesController(MyCollectionsContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
         [Authorize]
@@ -302,8 +306,8 @@ namespace MyCollections.Controllers
         [Route("Games/ViewGames/{*id}")]
         public async Task<IActionResult> ViewGames(string id)
         {
-            var myCollectionsContext = _context.Game.Include(g => g.Store).Include(g => g.System).Where(u => u.User.Email == id);
-            return View(await myCollectionsContext.ToListAsync());
+            var games = _context.Game.Where(u => u.User.Email == id && u.Active == true).ToList().Distinct().OrderBy(g => g.FriendlyName);
+            return View(_mapper.Map<IEnumerable<GameApiDTO>>(games));
         }
     }
 }
