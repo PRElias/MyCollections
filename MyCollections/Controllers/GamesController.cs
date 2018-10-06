@@ -216,7 +216,7 @@ namespace MyCollections.Controllers
 
                         if (igdbkey != null)
                         {
-                            igdbId = await UpdateGameDetails(igdbkey, item.name, item.appid);
+                            //igdbId = await UpdateGameDetails(igdbkey, item.name, item.appid);
                         }
 
                         //Atualiza tempos de jogo se ele já existir
@@ -299,9 +299,10 @@ namespace MyCollections.Controllers
         }
 
         // GET: Games
-        public async Task<IActionResult> ViewGames(string email)
+        [Route("Games/ViewGames/{*id}")]
+        public async Task<IActionResult> ViewGames(string id)
         {
-            var myCollectionsContext = _context.Game.Include(g => g.Store).Include(g => g.System).Where(u => u.User.Email == email);
+            var myCollectionsContext = _context.Game.Include(g => g.Store).Include(g => g.System).Where(u => u.User.Email == id);
             return View(await myCollectionsContext.ToListAsync());
         }
     }

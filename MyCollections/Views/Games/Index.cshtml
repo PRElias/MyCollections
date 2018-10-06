@@ -3,7 +3,7 @@
 <div id="mButtons" class="margins">
     <a asp-action="Create" class="btn btn-primary">Novo Jogo</a>
     <button class="btn btn-primary" id="btn_GetFromSteam" style="width: 250px">Atualizar informações do Steam</button>
-    <a asp-action="ViewGames/?email='@ViewBag.userEmail'" class="btn btn-primary">Estante Virtual</a>
+    <a asp-action="ViewGames" asp-route-id="@ViewBag.userEmail" class="btn btn-primary">Estante Virtual</a>
 </div>
 
 <input type="hidden" id="hiddenUserId" data-value="@ViewBag.userId" />
