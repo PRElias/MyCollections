@@ -3,19 +3,21 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyCollections.Models;
 
 namespace MyCollections.Migrations
 {
     [DbContext(typeof(MyCollectionsContext))]
-    partial class MyCollectionsContextModelSnapshot : ModelSnapshot
+    [Migration("20181003170709_multiple_users")]
+    partial class multiple_users
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.1.4-rtm-31024")
+                .HasAnnotation("ProductVersion", "2.1.1-rtm-30846")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -171,6 +173,8 @@ namespace MyCollections.Migrations
 
                     b.Property<string>("FriendlyName");
 
+                    b.Property<string>("GameDetails");
+
                     b.Property<int?>("IGDBId");
 
                     b.Property<string>("Logo");
@@ -201,27 +205,6 @@ namespace MyCollections.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Game");
-                });
-
-            modelBuilder.Entity("MyCollections.Models.GameDetails", b =>
-                {
-                    b.Property<int>("GameDetailsID")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<DateTime>("DateUpdated");
-
-                    b.Property<string>("IDDBData");
-
-                    b.Property<int?>("IGDBId");
-
-                    b.Property<string>("Name");
-
-                    b.Property<int?>("SteamApID");
-
-                    b.HasKey("GameDetailsID");
-
-                    b.ToTable("GameDetails");
                 });
 
             modelBuilder.Entity("MyCollections.Models.Param", b =>
@@ -305,8 +288,6 @@ namespace MyCollections.Migrations
 
                     b.Property<string>("UserName")
                         .HasMaxLength(256);
-
-                    b.Property<string>("steamUser");
 
                     b.HasKey("Id");
 

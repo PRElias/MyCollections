@@ -1,0 +1,72 @@
+﻿/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+.margins {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.mymodal {
+    margin-top: 120px !important;
+}
+
+.main_div {
+    /*background-image: url('../../img/wooden.png');*/
+}
+
+.storeLogo {
+    height: 20px;
+    width: 20px;
+}
+
+.mymodal-content {
+   background-color: darkslategrey !important;
+   color: white;
+}
+
+.game {
+    padding: 25px 10px 0px 10px;
+    display: inline-block;
+    width: 220px;
+    height: 110px;
+    background-image: url('../images/wooden.png');
+    margin-left: -10px;
+}
+
+.cover {
+    height: 70px;
+    width: 185px;
+    box-shadow: 3px 3px 1px rgb(51, 49, 49);
+    -moz-box-shadow: 3px 3px 1px rgb(51, 49, 49);
+    -webkit-box-shadow: 3px 3px 1px rgb(51, 49, 49);
+    -khtml-box-shadow: 3px 3px 1px rgb(51, 49, 49);
+}
+
+.container-fluid {
+    padding-left: 0px !important;
+    width: 100%;
+    text-align: center;
+}

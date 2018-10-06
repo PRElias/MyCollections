@@ -5,28 +5,6 @@ VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCollections", "MyCollections\MyCollections.csproj", "{9B68D0F2-1B9E-4786-B1CC-22F35B8AF659}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MyCollectionsPWA", "MyCollectionsPWA\", "{3A942422-6C7D-49D4-8FF7-11E13D0A714E}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_65304"
-		Debug.AspNetCompiler.PhysicalPath = "MyCollectionsPWA\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_65304\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_65304"
-		Release.AspNetCompiler.PhysicalPath = "MyCollectionsPWA\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_65304\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "65304"
-		SlnRelativePath = "MyCollectionsPWA\"
-		DefaultWebSiteLanguage = "Visual C#"
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Android = Debug|Android
@@ -67,30 +45,6 @@ Global
 		{9B68D0F2-1B9E-4786-B1CC-22F35B8AF659}.Release|Windows-x64.Build.0 = Release|Any CPU
 		{9B68D0F2-1B9E-4786-B1CC-22F35B8AF659}.Release|Windows-x86.ActiveCfg = Release|Any CPU
 		{9B68D0F2-1B9E-4786-B1CC-22F35B8AF659}.Release|Windows-x86.Build.0 = Release|Any CPU
-		{3A942422-6C7D-49D4-8FF7-11E13D0A714E}.Debug|Android.ActiveCfg = Debug|Any CPU
-		{3A942422-6C7D-49D4-8FF7-11E13D0A714E}.Debug|Android.Build.0 = Debug|Any CPU
-		{3A942422-6C7D-49D4-8FF7-11E13D0A714E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3A942422-6C7D-49D4-8FF7-11E13D0A714E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3A942422-6C7D-49D4-8FF7-11E13D0A714E}.Debug|iOS.ActiveCfg = Debug|Any CPU
-		{3A942422-6C7D-49D4-8FF7-11E13D0A714E}.Debug|iOS.Build.0 = Debug|Any CPU
-		{3A942422-6C7D-49D4-8FF7-11E13D0A714E}.Debug|Windows-ARM.ActiveCfg = Debug|Any CPU
-		{3A942422-6C7D-49D4-8FF7-11E13D0A714E}.Debug|Windows-ARM.Build.0 = Debug|Any CPU
-		{3A942422-6C7D-49D4-8FF7-11E13D0A714E}.Debug|Windows-x64.ActiveCfg = Debug|Any CPU
-		{3A942422-6C7D-49D4-8FF7-11E13D0A714E}.Debug|Windows-x64.Build.0 = Debug|Any CPU
-		{3A942422-6C7D-49D4-8FF7-11E13D0A714E}.Debug|Windows-x86.ActiveCfg = Debug|Any CPU
-		{3A942422-6C7D-49D4-8FF7-11E13D0A714E}.Debug|Windows-x86.Build.0 = Debug|Any CPU
-		{3A942422-6C7D-49D4-8FF7-11E13D0A714E}.Release|Android.ActiveCfg = Debug|Any CPU
-		{3A942422-6C7D-49D4-8FF7-11E13D0A714E}.Release|Android.Build.0 = Debug|Any CPU
-		{3A942422-6C7D-49D4-8FF7-11E13D0A714E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{3A942422-6C7D-49D4-8FF7-11E13D0A714E}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{3A942422-6C7D-49D4-8FF7-11E13D0A714E}.Release|iOS.ActiveCfg = Debug|Any CPU
-		{3A942422-6C7D-49D4-8FF7-11E13D0A714E}.Release|iOS.Build.0 = Debug|Any CPU
-		{3A942422-6C7D-49D4-8FF7-11E13D0A714E}.Release|Windows-ARM.ActiveCfg = Debug|Any CPU
-		{3A942422-6C7D-49D4-8FF7-11E13D0A714E}.Release|Windows-ARM.Build.0 = Debug|Any CPU
-		{3A942422-6C7D-49D4-8FF7-11E13D0A714E}.Release|Windows-x64.ActiveCfg = Debug|Any CPU
-		{3A942422-6C7D-49D4-8FF7-11E13D0A714E}.Release|Windows-x64.Build.0 = Debug|Any CPU
-		{3A942422-6C7D-49D4-8FF7-11E13D0A714E}.Release|Windows-x86.ActiveCfg = Debug|Any CPU
-		{3A942422-6C7D-49D4-8FF7-11E13D0A714E}.Release|Windows-x86.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

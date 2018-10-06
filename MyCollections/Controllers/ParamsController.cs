@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyCollections.Controllers
 {
+    //[Authorize(Roles = "Admin")]
     [Authorize]
     public class ParamsController : Controller
     {
