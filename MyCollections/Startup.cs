@@ -51,13 +51,13 @@ namespace MyCollections
 
             services.AddSession(options =>
             {
-                options.IdleTimeout = TimeSpan.FromSeconds(300);
+                options.IdleTimeout = TimeSpan.FromSeconds(500);
                 options.Cookie.HttpOnly = true;
             });
 
             services.ConfigureApplicationCookie(options =>
             {
-                options.ExpireTimeSpan = TimeSpan.FromSeconds(300);
+                options.ExpireTimeSpan = TimeSpan.FromSeconds(500);
                 options.LoginPath = "/Account/Login";
                 options.LogoutPath = "/Account/Logout";
                 options.AccessDeniedPath = "/Account/AccessDenied";

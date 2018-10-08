@@ -236,7 +236,7 @@ namespace MyCollections.Controllers
                                 _context.SaveChanges();
                                 continue;
                             }
-                            
+                            continue;
                         }
                         
                         Game game = new Game();
@@ -304,10 +304,10 @@ namespace MyCollections.Controllers
 
         // GET: Games
         [Route("Games/ViewGames/{*id}")]
-        public async Task<IActionResult> ViewGames(string id)
+        public ViewResult ViewGames(string id)
         {
-            var games = _context.Game.Where(u => u.User.Email == id && u.Active == true).ToList().Distinct().OrderBy(g => g.FriendlyName);
-            return View(_mapper.Map<IEnumerable<GameApiDTO>>(games));
+            var games = _context.Game.Where(u => u.User.Email == id && u.Active == true).ToList().OrderBy(g => g.FriendlyName);
+            return View(_mapper.Map<IEnumerable<GameApiDTO>>(games).Distinct());
         }
     }
 }
