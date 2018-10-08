@@ -32,7 +32,7 @@ namespace MyCollections.Controllers
             var userId = HttpContext.Session.GetString("loggedUserId");
             if (userId != null)
             {
-                var user = _context.Users.Find(userId);
+                var user = _context.User.Find(userId);
                             ViewBag.userId = userId;
             ViewBag.userEmail = user.Email;
 
@@ -82,7 +82,7 @@ namespace MyCollections.Controllers
             if (ModelState.IsValid)
             {
                 var userId = HttpContext.Session.GetString("loggedUserId");
-                var user = _context.Users.Find(userId);
+                var user = _context.User.Find(userId);
                 game.User = user;
                 _context.Add(game);
                 await _context.SaveChangesAsync();
@@ -196,7 +196,7 @@ namespace MyCollections.Controllers
         {
             string steamkey = _context.Param.FirstOrDefault(p => p.key == "steam-key").value;
             string igdbkey = _context.Param.FirstOrDefault(p => p.key == "igdb-key").value;
-            var user = _context.Users.Find(userId);
+            var user = _context.User.Find(userId);
             string steamid = user.steamUser;
 
             //Variáveis para exibir resumo pro cliente
