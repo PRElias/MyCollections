@@ -31,11 +31,12 @@
             <div class="navbar-collapse collapse">
                 @if (User.Identity.IsAuthenticated)
                 {
-                    <ul class="nav navbar-nav">
-                        <li><a asp-area="" asp-controller="Params" asp-action="Index">Params</a></li>
-                        <li><a asp-area="" asp-controller="Games" asp-action="Index">Games</a></li>
-                        <li><a href="../swagger">API</a></li>
-                    </ul>
+                <ul class="nav navbar-nav">
+                    @*<li><a asp-area="" asp-controller="Params" asp-action="Index">Params</a></li>*@
+                    <li><a asp-area="" asp-controller="Games" asp-action="Index">Games</a></li>
+                    <li><a asp-area="" asp-controller="User" asp-action="Edit">MyUser</a></li>
+                    @*<li><a href="../swagger">API</a></li>*@
+                </ul>
 
                     <partial name="_LoginPartial.cshtml" />
                 }

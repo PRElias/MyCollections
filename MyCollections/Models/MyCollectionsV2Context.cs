@@ -33,7 +33,7 @@ namespace MyCollections.Models
         //public DbQuery<GamesDetailsView> GamesDetailsView { get; set; }
         public DbSet<GameDetails> GameDetails { get; set; }
 
-        public new DbSet<User> Users { get; set; }
+        public DbSet<User> User { get; set; }
     }
 
 }
