@@ -34,6 +34,8 @@
 }
 
 .main_div {
+    margin: auto;
+    width: 50%;
     /*background-image: url('../../img/wooden.png');*/
 }
 
@@ -48,7 +50,7 @@
 }
 
 .game {
-    padding: 25px 10px 0px 10px;
+    padding: 25px 20px 0px 20px;
     display: inline-block;
     width: 220px;
     height: 110px;
