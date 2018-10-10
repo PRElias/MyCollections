@@ -306,8 +306,24 @@ namespace MyCollections.Controllers
         [Route("Games/ViewGames/{*id}")]
         public ViewResult ViewGames(string id)
         {
-            var games = _context.Game.Where(u => u.User.Email == id && u.Active == true).ToList().OrderBy(g => g.FriendlyName);
-            return View(_mapper.Map<IEnumerable<GameApiDTO>>(games).Distinct());
+            var user = _context.User.Where(u => u.Email == id);
+            if (user != null)
+            {
+                var games = _context.Game.Where(u => u.User.Email == id && u.Active == true).ToList().OrderBy(g => g.FriendlyName);
+                return View(_mapper.Map<IEnumerable<GameApiDTO>>(games).Distinct());
+            }
+            else
+            {
+                //TODO: arrumar
+                return View("ViewGames_empty");
+            }
+        }
+
+        // GET: Games
+        [Route("Games/ViewGames/")]
+        public ViewResult ViewGames()
+        {
+            return View("ViewGames_empty");
         }
     }
 }
