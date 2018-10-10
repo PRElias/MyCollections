@@ -9,14 +9,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyCollections</title>
     <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="~/css/viewgame.min.css">
+    <link rel="stylesheet" href="~/css/viewgame.css">
 </head>
 
 <body>
-    <div id="main_div" class="main_div">
+    <div id="main_div" class="row">
         @foreach (var item in Model)
         {
-            <span id='@item.Name' class='game'>
+            <span id='@item.Name' class='game col-lg-4 col-sm-12 col-md-12 col-xs-12'>
                 <img class='cover' src='@item.Cover' alt='logo' data-game='@item.Name' data-toggle='modal' data-target='#myModal'>
             </span>
         }

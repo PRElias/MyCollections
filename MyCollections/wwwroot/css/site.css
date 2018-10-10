@@ -1,6 +1,6 @@
 ﻿body {
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 /* Wrapping element */
@@ -47,4 +47,14 @@
     50% {
         opacity: 0;
     }
+}
+
+.rodape {
+    background-color: black;
+    text-align: center;
+    color: #9d9d9d;
+}
+
+p {
+    margin: 0 0 0px;
 }
