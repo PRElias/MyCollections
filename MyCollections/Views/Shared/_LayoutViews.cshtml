@@ -19,7 +19,8 @@
 </head>
 <body>
     <nav id="navbar" class="navbar">
-        <a href="http://mycollections.paulorobertoelias.com"><img src="~/images/favicon.svg" class="icon" /></a>
+        @*<a href="http://mycollections.paulorobertoelias.com"><img src="~/images/favicon.svg" class="icon" /></a>*@
+        <a asp-area="" asp-controller="Home" asp-action="Index"><img src="~/images/favicon.svg" class="icon" /></a>
     </nav>
 
     @RenderBody()

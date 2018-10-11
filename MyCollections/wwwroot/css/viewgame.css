@@ -1,5 +1,5 @@
 ﻿html {
-    background-color: gray;
+    background-color: #CC9C49;
 }
 
 /* Wrapping element */
@@ -19,8 +19,9 @@
 }
 
 .main_div {
-    margin: auto;
-    width: 50%;
+    /*margin: auto;
+    width: 50%;*/
+    margin-top: 50px;
     /*background-image: url('../../img/wooden.png');*/
 }
 
@@ -76,6 +77,8 @@
     width: 100%; /* Full width */
     transition: top 0.8s; /* Transition effect when sliding down (and up) */
     z-index: 3;
+    background-image: linear-gradient(#B8832E, #CC9C49);
+    border-bottom-style: unset;
 }
     /* Style the navbar links */
     #navbar a {
