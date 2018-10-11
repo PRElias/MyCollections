@@ -35,7 +35,7 @@
                     @*<li><a asp-area="" asp-controller="Params" asp-action="Index">Params</a></li>*@
                     <li><a asp-area="" asp-controller="Games" asp-action="Index">Games</a></li>
                     <li><a asp-area="" asp-controller="User" asp-action="Edit">MyUser</a></li>
-                    @*<li><a href="../swagger">API</a></li>*@
+                    <li><a href="../swagger">API</a></li>
                 </ul>
 
                     <partial name="_LoginPartial.cshtml" />
@@ -45,9 +45,8 @@
     </nav>
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; Paulo Roberto Elias</p>
+        <footer class="navbar-fixed-bottom rodape">
+            <p>Desenvolvido por <a href="http://paulorobertoelias.com">Paulo Roberto Elias</a></p>
         </footer>
     </div>
 

@@ -1,0 +1,30 @@
+﻿ @{
+       Layout = null;
+ }
+
+ <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MyCollections</title>
+        <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="~/css/viewgame.css">
+        <link rel="manifest" href="manifest.json" />
+ </head>
+
+ <body>
+     <div>
+         <form class="form-control" method="get" id="form">
+             Usuário
+             <input type="text" id="id" />
+             <button type="submit" id="button">Enviar</button>
+        </form>
+     </div>
+ </body>
+
+ <script>
+     var button = document.getElementById("button");
+     var form = document.getElementById("form");
+     button.onclick = function () {
+         form.setAttribute('action', '/Games/ViewGames/' + document.getElementById("id").value);
+     };
+ </script>

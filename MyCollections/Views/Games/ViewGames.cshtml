@@ -1,28 +1,20 @@
 ﻿@model IEnumerable<MyCollections.Models.GameApiDTO>
 
 @{
-    Layout = null;
+    Layout = "_LayoutViews";
 }
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyCollections</title>
-    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="~/css/viewgame.min.css">
-</head>
+<input type="hidden" id="hiddenUserEmail" data-value="@ViewBag.userEmail" /> 
 
-<body>
-    <div id="main_div" class="main_div">
+    <div id="main_div" class="row">
         @foreach (var item in Model)
         {
-            <span id='@item.Name' class='game'>
-                <img class='cover' src='@item.Cover' alt='logo' data-game='@item.Name' data-toggle='modal' data-target='#myModal'>
+            <span id='@item.Name' class='game col-lg-2 col-sm-12 col-md-12 col-xs-12'>
+                <img class='cover' src='@item.Cover' alt='logo' data-game='@item.Name' data-toggle='modal' data-target='#myModal' />
             </span>
         }
     </div>
-</body>
-@*<div id="myModal" class="modal fade" role="dialog">
+    <div id="myModal" class="modal fade" role="dialog">
         <div class="modal-dialog mymodal">
             <div class="modal-content mymodal-content">
                 <div class="modal-header">
@@ -32,5 +24,3 @@
             </div>
         </div>
     </div>
-
-    <script src="js/GameView.js"></script>*@

@@ -1,27 +1,8 @@
 ﻿/* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-/* Carousel */
-.carousel-caption p {
-    font-size: 20px;
-    line-height: 1.4;
-}
-
-/* Make .svg files in the carousel display properly in older browsers */
-.carousel-inner .item img[src$=".svg"] {
-    width: 100%;
-}
-
-/* Hide/rearrange for smaller screens */
-@media screen and (max-width: 767px) {
-    /* Hide captions */
-    .carousel-caption {
-        display: none;
-    }
+body {
+    /*padding-left: -150px;
+    padding-right: -150px;*/
 }
 
 .margins {
@@ -34,6 +15,8 @@
 }
 
 .main_div {
+    margin: auto;
+    width: 50%;
     /*background-image: url('../../img/wooden.png');*/
 }
 
@@ -45,20 +28,24 @@
 .mymodal-content {
    background-color: darkslategrey !important;
    color: white;
+   width: 90%;
+   margin: inherit;
 }
 
 .game {
-    padding: 25px 10px 0px 10px;
+    padding: 25px 20px 0px 20px;
     display: inline-block;
-    width: 220px;
+    /*width: 220px;*/
     height: 110px;
     background-image: url('../images/wooden.png');
-    margin-left: -10px;
+    /*margin-left: -10px;*/
 }
 
 .cover {
     height: 70px;
     width: 185px;
+    margin: 0 auto;
+    display: block;
     box-shadow: 3px 3px 1px rgb(51, 49, 49);
     -moz-box-shadow: 3px 3px 1px rgb(51, 49, 49);
     -webkit-box-shadow: 3px 3px 1px rgb(51, 49, 49);
@@ -69,4 +56,10 @@
     padding-left: 0px !important;
     width: 100%;
     text-align: center;
+}
+
+/*Fix for scroolbar dissapear when modal area shown*/
+.modal-open {
+    overflow: scroll;
+    padding-right: 0 !important;
 }

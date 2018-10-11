@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace MyCollections.Controllers
 {
@@ -31,11 +32,18 @@ namespace MyCollections.Controllers
             return _mapper.Map<IEnumerable<GameApiDTO>>(games);
         }
 
-        //// GET: api/Games/5
-        //[HttpGet("{name}")]
-        //public IEnumerable<dynamic> GetGame([FromRoute] string name)
-        //{
-        //    return _context.GamesDetailsView.Where(n => n.Game == name).ToList();
-        //}
+        // GET: api/Games/5
+        [HttpGet("GetGame/{email}/{name}")]
+        public IEnumerable<Game> GetGame([FromRoute] string email, string name)
+        {
+            //return _context.GamesDetailsView.Where(n => n.Game == name).ToList();
+            var games = _context.Game.Include("User").Include("System").Include("Store").Where(u => u.User.Email == email && u.Active == true && u.Name == name).ToList().OrderBy(g => g.FriendlyName);
+            var igdbId = games.FirstOrDefault<Game>().IGDBId;
+            if (igdbId != null || igdbId > 0)
+            {
+                var gameDetails = _context.GameDetails.Where(g => g.IGDBId == igdbId);
+            }
+            return games;
+        }
     }
 }

@@ -246,11 +246,11 @@ namespace MyCollections.Controllers
                         game.PlayedTime = item.playtime_forever;
                         if (item.img_logo_url != "" && item.img_logo_url != null)
                         {
-                            game.Logo = "http://media.steampowered.com/steamcommunity/public/images/apps/" + item.appid + "/" + item.img_logo_url + ".jpg";
+                            game.Cover = "http://media.steampowered.com/steamcommunity/public/images/apps/" + item.appid + "/" + item.img_logo_url + ".jpg";
                         }
                         if (item.img_icon_url != "" && item.img_icon_url != null)
                         {
-                            game.Cover = "http://media.steampowered.com/steamcommunity/public/images/apps/" + item.appid + "/" + item.img_icon_url + ".jpg";
+                            game.Logo = "http://media.steampowered.com/steamcommunity/public/images/apps/" + item.appid + "/" + item.img_icon_url + ".jpg";
                         }
                         game.StoreID = _context.Store.FirstOrDefault(s => s.Name == "Steam").StoreID;
                         game.SystemID = _context.System.FirstOrDefault(s => s.Name == "PC").SystemID;
@@ -303,11 +303,31 @@ namespace MyCollections.Controllers
         }
 
         // GET: Games
+        [HttpGet]
         [Route("Games/ViewGames/{*id}")]
         public ViewResult ViewGames(string id)
         {
-            var games = _context.Game.Where(u => u.User.Email == id && u.Active == true).ToList().OrderBy(g => g.FriendlyName);
-            return View(_mapper.Map<IEnumerable<GameApiDTO>>(games).Distinct());
+            var user = _context.User.Where(u => u.Email == id);
+
+            if (user != null)
+            {
+                var games = _context.Game.Where(u => u.User.Email == id && u.Active == true).ToList().OrderBy(g => g.FriendlyName);
+                ViewBag.userEmail = id;
+                return View(_mapper.Map<IEnumerable<GameApiDTO>>(games).Distinct());
+            }
+            else
+            {
+                //TODO: arrumar
+                return View("ViewGames_empty");
+            }
+        }
+
+        // GET: Games
+        [HttpGet]
+        [Route("Games/ViewGames/")]
+        public ViewResult ViewGames()
+        {
+            return View("ViewGames_empty");
         }
     }
 }
