@@ -1,9 +1,13 @@
-﻿/* Wrapping element */
-/* Set some basic padding to keep content from hitting the edges */
-body {
-    /*padding-left: -150px;
-    padding-right: -150px;*/
+﻿html {
+    background-color: gray;
 }
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+/*body {
+    padding-left: -150px;
+    padding-right: -150px;
+}*/
 
 .margins {
     margin-top: 20px !important;
@@ -62,4 +66,30 @@ body {
 .modal-open {
     overflow: scroll;
     padding-right: 0 !important;
+}
+
+
+#navbar {
+    background-color: gray; /* Black background color */
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.8s; /* Transition effect when sliding down (and up) */
+    z-index: 3;
+}
+    /* Style the navbar links */
+    #navbar a {
+        float: left;
+        /*display: block;*/
+        color: white;
+        text-align: center;
+        padding: 15px;
+        /*text-decoration: none;*/
+    }
+
+.icon {
+    /*background: url('../favicon.svg');*/
+    height: 20px;
+    width: 20px;
+    display: block;
 }
