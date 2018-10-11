@@ -28,6 +28,8 @@ body {
 .mymodal-content {
    background-color: darkslategrey !important;
    color: white;
+   width: 90%;
+   margin: inherit;
 }
 
 .game {
@@ -54,4 +56,10 @@ body {
     padding-left: 0px !important;
     width: 100%;
     text-align: center;
+}
+
+/*Fix for scroolbar dissapear when modal area shown*/
+.modal-open {
+    overflow: scroll;
+    padding-right: 0 !important;
 }
