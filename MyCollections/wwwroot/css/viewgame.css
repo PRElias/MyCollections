@@ -18,6 +18,20 @@
     margin-top: 120px !important;
 }
 
+.modal-header{
+    text-align:center;
+}
+
+/* unvisited link */
+.modal-header a:link {
+    color: white;
+}
+
+/* visited link */
+.modal-header a:visited {
+    color: white;
+}
+
 .main_div {
     /*margin: auto;
     width: 50%;*/

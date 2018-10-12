@@ -1,4 +1,5 @@
 ﻿var teste;
+var igdbURL;
 
 function getGameDetails(gameName, userEmail) {
     //debugger;
@@ -24,7 +25,8 @@ function getGameDetails(gameName, userEmail) {
 
     $.each(jsonResponse, function (key) {
         items.push(
-            "<img src='" + jsonResponse[key].store.logo + "' class='storeLogo' /img>"
+            "<img src='" + jsonResponse[key].store.logo + "' class='storeLogo' /img>" +
+            "<img src='" + jsonResponse[key].system.logo + "' class='storeLogo' /img>"
         );
     });
 
@@ -34,33 +36,9 @@ function getGameDetails(gameName, userEmail) {
     //Recupera detalhes
     var detalhes = JSON.parse(jsonResponse[0].details);
 
-    //Caso haja detalhes, cria os elementos HTML
     if (detalhes !== null)
     {
-        var summary = detalhes[0].summary;
-        var igdbURL = detalhes[0].url;
-        var rating = detalhes[0].aggregated_rating;
-        //var screenshots = detalhes[0].screenshots;
-
-        //window.teste = screenshots;
-
-        //wrapper.innerHTML += "<p>" + summary + "</p>";
-        //wrapper.innerHTML += "<p>Rating: " + rating + "</p>";
-        wrapper.innerHTML += "<p><a href='" + igdbURL + "' target='_blank'>Ver detalhes no IGDB</a></p>";
-
-        //var prints = [];
-
-        //if (screenshots !== "undefined") {
-        //    $.each(screenshots, function (key) {
-        //        prints.push(
-        //            "<a href='" + screenshots[key].url + "' target='_blank'>" +
-        //                "<img src='" + screenshots[key].url + "' class='' /img>" +
-        //            "</a>"
-        //        );
-        //    });
-
-        //    wrapper.innerHTML += prints;
-        //}
+        igdbURL = detalhes[0].url;
     }
 
     var modal = document.querySelector('div#myModalBody');
@@ -74,8 +52,13 @@ window.onload = function () {
         var modal = $(this);
         var button = $(event.relatedTarget);
         var recipient = button.data('game');
-        modal.find('.modal-title').text(recipient);
         getGameDetails(recipient, userId);
+        if (igdbURL !== null) {
+            modal.find('.modal-header').empty().append("<a href='" + igdbURL + "' target='_blank'>" + recipient + "</a>");
+        }
+        else {
+            modal.find('.modal-title').text(recipient);
+        }
     });
 }
 
@@ -83,6 +66,7 @@ window.onload = function () {
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function () {
     var currentScrollPos = window.pageYOffset;
+
     if (prevScrollpos > currentScrollPos) {
         document.getElementById("navbar").style.top = "0";
         document.getElementById("main_div").style.marginTop = "50px";
