@@ -18,19 +18,48 @@ function getGameDetails(gameName, userEmail) {
 
     var jsonResponse = JSON.parse(gameDetails);
 
-    console.log(jsonResponse);
+    //console.log(jsonResponse);
 
-    window.teste = jsonResponse;
+   window.teste = jsonResponse;
 
     $.each(jsonResponse, function (key) {
         items.push(
-            
             "<img src='" + jsonResponse[key].store.logo + "' class='storeLogo' /img>"
         );
     });
 
     var wrapper = document.createElement("div");
     wrapper.innerHTML = items.join("");
+
+    //Recupera detalhes
+    var detalhes = JSON.parse(jsonResponse[0].details);
+
+    //Caso haja detalhes, cria os elementos HTML
+    if (detalhes !== null)
+    {
+        var summary = detalhes[0].summary;
+        var rating = detalhes[0].aggregated_rating;
+        var screenshots = detalhes[0].screenshots;
+
+        window.teste = screenshots;
+
+        wrapper.innerHTML += "<p>" + summary + "</p>";
+        wrapper.innerHTML += "<p>Rating: " + rating + "</p>";
+
+        var prints = [];
+
+        if (screenshots !== "undefined") {
+            $.each(screenshots, function (key) {
+                prints.push(
+                    "<a href='" + screenshots[key].url + "' target='_blank'>" +
+                        "<img src='" + screenshots[key].url + "' class='' /img>" +
+                    "</a>"
+                );
+            });
+
+            wrapper.innerHTML += prints;
+        }
+    }
 
     var modal = document.querySelector('div#myModalBody');
     modal.innerHTML = '';

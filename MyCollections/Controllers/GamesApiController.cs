@@ -39,9 +39,11 @@ namespace MyCollections.Controllers
             //return _context.GamesDetailsView.Where(n => n.Game == name).ToList();
             var games = _context.Game.Include("User").Include("System").Include("Store").Where(u => u.User.Email == email && u.Active == true && u.Name == name).ToList().OrderBy(g => g.FriendlyName);
             var igdbId = games.FirstOrDefault<Game>().IGDBId;
-            if (igdbId != null || igdbId > 0)
+            if (igdbId > 0)
             {
                 var gameDetails = _context.GameDetails.Where(g => g.IGDBId == igdbId);
+                var teste = gameDetails.First().IDDBData;
+                games.First().Details = teste;
             }
             return games;
         }
