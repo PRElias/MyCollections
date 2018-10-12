@@ -46,7 +46,7 @@ function getGameDetails(gameName, userEmail) {
     modal.appendChild(wrapper);
 }
 
-window.onload = function () {
+$(document).ready(function () {
     var userId = $("#hiddenUserEmail").data("value");
     $('#myModal').on('show.bs.modal', function (event) {
         var modal = $(this);
@@ -60,7 +60,18 @@ window.onload = function () {
             modal.find('.modal-title').text(recipient);
         }
     });
-}
+
+
+    $(document).keyup(function () {
+        $('#goToGame').attr('href', '#' + encodeURIComponent($('#procurar').val().toUpperCase()));
+        $("#goToGame")[0].click();
+
+        //$('html, body').animate({
+        //    scrollTop: $("mydiv").offset().top
+        //}, 1000);
+    });
+});
+
 
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 var prevScrollpos = window.pageYOffset;
@@ -76,4 +87,5 @@ window.onscroll = function () {
     }
     prevScrollpos = currentScrollPos;
 }
+
 
