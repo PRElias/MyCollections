@@ -38,27 +38,29 @@ function getGameDetails(gameName, userEmail) {
     if (detalhes !== null)
     {
         var summary = detalhes[0].summary;
+        var igdbURL = detalhes[0].url;
         var rating = detalhes[0].aggregated_rating;
-        var screenshots = detalhes[0].screenshots;
+        //var screenshots = detalhes[0].screenshots;
 
-        window.teste = screenshots;
+        //window.teste = screenshots;
 
-        wrapper.innerHTML += "<p>" + summary + "</p>";
-        wrapper.innerHTML += "<p>Rating: " + rating + "</p>";
+        //wrapper.innerHTML += "<p>" + summary + "</p>";
+        //wrapper.innerHTML += "<p>Rating: " + rating + "</p>";
+        wrapper.innerHTML += "<p><a href='" + igdbURL + "' target='_blank'>Ver detalhes no IGDB</a></p>";
 
-        var prints = [];
+        //var prints = [];
 
-        if (screenshots !== "undefined") {
-            $.each(screenshots, function (key) {
-                prints.push(
-                    "<a href='" + screenshots[key].url + "' target='_blank'>" +
-                        "<img src='" + screenshots[key].url + "' class='' /img>" +
-                    "</a>"
-                );
-            });
+        //if (screenshots !== "undefined") {
+        //    $.each(screenshots, function (key) {
+        //        prints.push(
+        //            "<a href='" + screenshots[key].url + "' target='_blank'>" +
+        //                "<img src='" + screenshots[key].url + "' class='' /img>" +
+        //            "</a>"
+        //        );
+        //    });
 
-            wrapper.innerHTML += prints;
-        }
+        //    wrapper.innerHTML += prints;
+        //}
     }
 
     var modal = document.querySelector('div#myModalBody');
