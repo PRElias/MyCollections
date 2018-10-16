@@ -1,10 +1,11 @@
 ﻿var teste;
-var igdbURL;
+
 
 function getGameDetails(gameName, userEmail) {
     //debugger;
     var items = [];
     var gameDetails = [];
+    var igdbURL = '';
     var url = '/api/Games/GetGame/' + encodeURIComponent(userEmail) + '/' + encodeURIComponent(gameName);
     var request = new XMLHttpRequest();
     request.onreadystatechange = function () {
@@ -44,37 +45,42 @@ function getGameDetails(gameName, userEmail) {
     var modal = document.querySelector('div#myModalBody');
     modal.innerHTML = '';
     modal.appendChild(wrapper);
+
+    if (igdbURL !== '') {
+        $('#myModal').find('.modal-title').empty().append("<a href='" + igdbURL + "' target='_blank'>" + gameName + "</a>");
+    }
+    else {
+        $('#myModal').find('.modal-title').text(gameName);
+    }
 }
 
 $(document).ready(function () {
     var userId = $("#hiddenUserEmail").data("value");
     $('#myModal').on('show.bs.modal', function (event) {
-        var modal = $(this);
         var button = $(event.relatedTarget);
         var recipient = button.data('game');
         getGameDetails(recipient, userId);
-        if (igdbURL !== null) {
-            modal.find('.modal-header').empty().append("<a href='" + igdbURL + "' target='_blank'>" + recipient + "</a>");
-        }
-        else {
-            modal.find('.modal-title').text(recipient);
-        }
     });
 
 
     $(document).keyup(function () {
-        $('#goToGame').attr('href', '#' + encodeURIComponent($('#procurar').val().toUpperCase()));
-        $("#goToGame")[0].click();
+        //$('#goToGame').attr('href', '#' + encodeURIComponent($('#procurar').val().toUpperCase()));
+        //$("#goToGame")[0].click();
+        var pesquisa = encodeURIComponent($('#procurar').val().toUpperCase());
+        var jogo = document.getElementById(pesquisa);
 
-        //$('html, body').animate({
-        //    scrollTop: $("mydiv").offset().top
-        //}, 1000);
+        if (jogo !== null) {
+            $('html, body').animate({
+                scrollTop: $(jogo).offset().top - 35
+            }, 1000);
+        }
     });
 });
 
 
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 var prevScrollpos = window.pageYOffset;
+
 window.onscroll = function () {
     var currentScrollPos = window.pageYOffset;
 
@@ -88,4 +94,7 @@ window.onscroll = function () {
     prevScrollpos = currentScrollPos;
 }
 
-
+$('#procurar').focus(
+    function () {
+        $(this).val('');
+    });
