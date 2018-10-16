@@ -46,10 +46,10 @@
 }
 
 .mymodal-content {
-   background-color: darkslategrey !important;
-   color: white;
-   width: 90%;
-   margin: inherit;
+    background-image: linear-gradient(#B8832E, #CC9C49);
+    color: white;
+    width: 90%;
+    margin: inherit;
 }
 
 .game {
