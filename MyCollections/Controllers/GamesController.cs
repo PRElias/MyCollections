@@ -287,12 +287,14 @@ namespace MyCollections.Controllers
                 if (gameIGDBId.Length > 0)
                 {
                     var gameDetails = await IGDB.GetFromIGDBByCode(igdbKey, gameIGDBId[0].Id.ToString());
-                    GameDetails gd = new GameDetails();
-                    gd.IDDBData = Newtonsoft.Json.JsonConvert.SerializeObject(gameDetails);
-                    gd.IGDBId = Convert.ToInt32(gameIGDBId[0].Id);
-                    gd.SteamApID = SteamApId;
-                    gd.Name = Name;
-                    gd.DateUpdated = DateTime.Now;
+                    GameDetails gd = new GameDetails
+                    {
+                        IDDBData = Newtonsoft.Json.JsonConvert.SerializeObject(gameDetails),
+                        IGDBId = Convert.ToInt32(gameIGDBId[0].Id),
+                        SteamApID = SteamApId,
+                        Name = Name,
+                        DateUpdated = DateTime.Now
+                    };
                     _context.GameDetails.Add(gd);
                     _context.SaveChanges();
 

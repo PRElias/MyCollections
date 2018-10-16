@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -27,5 +28,7 @@ namespace MyCollections.Models
         public bool Active { get; set; }
         public int? IGDBId {get; set;}
         public User User { get; set; }
+        [NotMapped]
+        public string Details { get; set; }
     }
 }
