@@ -63,18 +63,23 @@ $(document).ready(function () {
 
 
     $(document).keyup(function () {
-        $('#goToGame').attr('href', '#' + encodeURIComponent($('#procurar').val().toUpperCase()));
-        $("#goToGame")[0].click();
+        //$('#goToGame').attr('href', '#' + encodeURIComponent($('#procurar').val().toUpperCase()));
+        //$("#goToGame")[0].click();
+        var pesquisa = encodeURIComponent($('#procurar').val().toUpperCase());
+        var jogo = document.getElementById(pesquisa);
 
-        //$('html, body').animate({
-        //    scrollTop: $("mydiv").offset().top
-        //}, 1000);
+        if (jogo !== null) {
+            $('html, body').animate({
+                scrollTop: $(jogo).offset().top
+            }, 1000);
+        }
     });
 });
 
 
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 var prevScrollpos = window.pageYOffset;
+
 window.onscroll = function () {
     var currentScrollPos = window.pageYOffset;
 
