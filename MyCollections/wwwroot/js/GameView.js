@@ -94,4 +94,7 @@ window.onscroll = function () {
     prevScrollpos = currentScrollPos;
 }
 
-
+$('#procurar').focus(
+    function () {
+        $(this).val('');
+    });
