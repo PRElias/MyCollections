@@ -70,7 +70,7 @@ $(document).ready(function () {
 
         if (jogo !== null) {
             $('html, body').animate({
-                scrollTop: $(jogo).offset().top
+                scrollTop: $(jogo).offset().top - 35
             }, 1000);
         }
     });
