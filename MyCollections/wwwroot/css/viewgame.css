@@ -46,10 +46,10 @@
 }
 
 .mymodal-content {
-   background-color: darkslategrey !important;
-   color: white;
-   width: 90%;
-   margin: inherit;
+    background-image: linear-gradient(#B8832E, #CC9C49);
+    color: white;
+    width: 90%;
+    margin: inherit;
 }
 
 .game {
@@ -111,3 +111,18 @@
     width: 20px;
     display: block;
 }
+
+.ui-menu {
+    background-color: white;
+    width: 250px;
+    top: 50px;
+}
+
+.ui-menu ul{
+}
+
+    .ui-menu li {
+        list-style: none;
+        margin-left: -25px;
+        padding-top: 10px;
+    }

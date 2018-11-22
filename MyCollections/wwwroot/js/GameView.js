@@ -54,6 +54,17 @@ function getGameDetails(gameName, userEmail) {
     }
 }
 
+function navigateToGame() {
+    var pesquisa = encodeURIComponent($('#procurar').val().toUpperCase());
+    var jogo = document.getElementById(pesquisa);
+
+    if (jogo !== null) {
+        $('html, body').animate({
+            scrollTop: $(jogo).offset().top - 35
+        }, 1000);
+    }
+}
+
 $(document).ready(function () {
     var userId = $("#hiddenUserEmail").data("value");
     $('#myModal').on('show.bs.modal', function (event) {
@@ -61,22 +72,8 @@ $(document).ready(function () {
         var recipient = button.data('game');
         getGameDetails(recipient, userId);
     });
-
-
-    $(document).keyup(function () {
-        //$('#goToGame').attr('href', '#' + encodeURIComponent($('#procurar').val().toUpperCase()));
-        //$("#goToGame")[0].click();
-        var pesquisa = encodeURIComponent($('#procurar').val().toUpperCase());
-        var jogo = document.getElementById(pesquisa);
-
-        if (jogo !== null) {
-            $('html, body').animate({
-                scrollTop: $(jogo).offset().top - 35
-            }, 1000);
-        }
-    });
+   
 });
-
 
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 var prevScrollpos = window.pageYOffset;
@@ -92,9 +89,34 @@ window.onscroll = function () {
         document.getElementById("main_div").style.marginTop = "0";
     }
     prevScrollpos = currentScrollPos;
-}
+};
 
 $('#procurar').focus(
     function () {
         $(this).val('');
+    }
+);
+
+$('#procurar').click(
+    function () {
+        $(this).val('');
+    }
+);
+
+
+//Autocomplete
+$(function () {
+    var availableTags = [];
+    $("div#main_div.row.main_div").children("span").children("img").each(function () {
+        availableTags.push($(this).attr("data-game"));
     });
+        
+    $("#procurar").autocomplete({
+        source: availableTags,
+        select: function (event, ui) {
+            event.preventDefault();
+            $('#procurar').val(ui.item.value);
+            navigateToGame();
+        }
+    });
+});

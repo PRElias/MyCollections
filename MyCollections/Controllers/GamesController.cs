@@ -242,6 +242,7 @@ namespace MyCollections.Controllers
                         Game game = new Game();
                         gameNewCount++;
                         game.Name = item.name;
+                        game.FriendlyName = item.name;
                         game.SteamApID = item.appid;
                         game.PlayedTime = item.playtime_forever;
                         if (item.img_logo_url != "" && item.img_logo_url != null)
