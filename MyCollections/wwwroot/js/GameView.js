@@ -54,6 +54,17 @@ function getGameDetails(gameName, userEmail) {
     }
 }
 
+function navigateToGame() {
+    var pesquisa = encodeURIComponent($('#procurar').val().toUpperCase());
+    var jogo = document.getElementById(pesquisa);
+
+    if (jogo !== null) {
+        $('html, body').animate({
+            scrollTop: $(jogo).offset().top - 35
+        }, 1000);
+    }
+}
+
 $(document).ready(function () {
     var userId = $("#hiddenUserEmail").data("value");
     $('#myModal').on('show.bs.modal', function (event) {
@@ -63,19 +74,13 @@ $(document).ready(function () {
     });
 
 
-    $(document).keyup(function () {
-        //$('#goToGame').attr('href', '#' + encodeURIComponent($('#procurar').val().toUpperCase()));
-        //$("#goToGame")[0].click();
-        var pesquisa = encodeURIComponent($('#procurar').val().toUpperCase());
-        var jogo = document.getElementById(pesquisa);
-
-        if (jogo !== null) {
-            $('html, body').animate({
-                scrollTop: $(jogo).offset().top - 35
-            }, 1000);
-        }
-    });
+    //$(document).keyup(function () {
+    //    navigateToGame();
+    //});
+    
 });
+
+//$("#procurar").on("input", navigateToGame());
 
 
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
@@ -92,7 +97,7 @@ window.onscroll = function () {
         document.getElementById("main_div").style.marginTop = "0";
     }
     prevScrollpos = currentScrollPos;
-}
+};
 
 $('#procurar').focus(
     function () {
@@ -100,15 +105,27 @@ $('#procurar').focus(
     }
 );
 
+$('#procurar').click(
+    function () {
+        $(this).val('');
+    }
+);
+
+
 //Autocomplete
 $(function () {
-    var cat = $(this).children("span").attr("sortcat");
     var availableTags = [];
     $("div#main_div.row.main_div").children("span").children("img").each(function () {
         availableTags.push($(this).attr("data-game"));
     });
         
     $("#procurar").autocomplete({
-        source: availableTags
+        source: availableTags,
+        select: function (event, ui) {
+            event.preventDefault();
+            $("#procurar").val(ui.item.label);
+            $('#procurar').val(ui.item.value);
+            navigateToGame();
+        }
     });
 });
