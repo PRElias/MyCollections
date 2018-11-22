@@ -97,4 +97,18 @@ window.onscroll = function () {
 $('#procurar').focus(
     function () {
         $(this).val('');
+    }
+);
+
+//Autocomplete
+$(function () {
+    var cat = $(this).children("span").attr("sortcat");
+    var availableTags = [];
+    $("div#main_div.row.main_div").children("span").children("img").each(function () {
+        availableTags.push($(this).attr("data-game"));
     });
+        
+    $("#procurar").autocomplete({
+        source: availableTags
+    });
+});

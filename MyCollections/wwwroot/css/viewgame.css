@@ -111,3 +111,18 @@
     width: 20px;
     display: block;
 }
+
+.ui-menu {
+    background-color: white;
+    width: 250px;
+    top: 50px;
+}
+
+.ui-menu ul{
+}
+
+    .ui-menu li {
+        list-style: none;
+        margin-left: -25px;
+        padding-top: 10px;
+    }
