@@ -72,16 +72,8 @@ $(document).ready(function () {
         var recipient = button.data('game');
         getGameDetails(recipient, userId);
     });
-
-
-    //$(document).keyup(function () {
-    //    navigateToGame();
-    //});
-    
+   
 });
-
-//$("#procurar").on("input", navigateToGame());
-
 
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 var prevScrollpos = window.pageYOffset;
@@ -123,7 +115,6 @@ $(function () {
         source: availableTags,
         select: function (event, ui) {
             event.preventDefault();
-            $("#procurar").val(ui.item.label);
             $('#procurar').val(ui.item.value);
             navigateToGame();
         }
