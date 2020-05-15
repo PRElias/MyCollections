@@ -17,15 +17,22 @@ namespace MyCollections.Repositories
             _config = config;
         }
 
-        // public IEnumerable<Param> FindAllParamns()
-        // {
-        //     var params = database.GetCollection<Param>().FindAll().ToList();
-        //     return params;
-        // }
+        public IEnumerable<Config> FindConfig()
+        {
+            var config = database.GetCollection<Config>().FindAll().ToList();
+            if (config == null)
+            {
+                var newConfig = new Config();
+                newConfig.Id = 1;
+                newConfig.key = "SteamAPI";
+                newConfig.value = "";
+            }
+            return config;
+        }
         
-        // public bool Upsert(Param params)
-        // {
-        //     return database.GetCollection<Param>().Upsert(params);
-        // }
+        public bool Upsert(Config config)
+        {
+            return database.GetCollection<Config>().Upsert(config);
+        }
     }
 }
