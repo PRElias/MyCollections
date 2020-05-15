@@ -98,11 +98,12 @@ var colunas = [{
     }
 ]
 
-$('#btnNewGame').prependTo($('#gamesTable_wrapper .dt-buttons'));
-$('#btnGetSteam').prependTo($('#gamesTable_wrapper .dt-buttons'));
 
 $(document).ready(function () {
     $('#gamesTable').DataTable({
         columns: colunas
     });
+
+    $('#btn_NewGame').prependTo($('.dataTables_wrapper  .dt-buttons'));
+    $('#btn_GetFromSteam').prependTo($('.dataTables_wrapper  .dt-buttons'));
 });
