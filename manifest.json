@@ -1,7 +1,7 @@
 {
   {
     "short_name": "MyCollections",
-    "name": "Kinlan's AirHorner of Infamy",
+    "name": "My Collections - PWA de controle de coleções",
     "icons": [
       {
         "src": "wwwroot/favicon.ico",
