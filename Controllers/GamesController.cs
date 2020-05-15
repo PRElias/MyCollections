@@ -14,7 +14,6 @@ namespace MyCollections.Controllers
             LoadJson();
             return View(games);
         }
-
         public void LoadJson()
         {
             using (StreamReader r = new StreamReader("docs/games/games.json"))

@@ -1,31 +1,31 @@
 ﻿@model MyCollections.Models.Config
 
-<h2>Edit</h2>
 
-<h4>Parâmetro</h4>
-<hr />
-<div class="row">
-    <form asp-action="Edit">
-        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-        <div class="form-group">
-            <div class="col-md-4">
-                <input type="text" disabled asp-for="key" />
-            </div>
-            <div class="col-md-4">
-                <label asp-for="value" class="control-label"></label>
-                <input asp-for="value" class="form-control" />
-            </div>
+@using (Html.BeginForm("Upsert", "Config", FormMethod.Post))
+{
+@Html.AntiForgeryToken()
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<div class="form-group">
+    @Html.Hidden("Id", 1)
+    <div class="row">
+        <div class="col-md-4">
+            <label asp-for="key" class="control-label">Steam key</label>
         </div>
-        <div>
-            <input type="submit" value="Save" class="btn btn-default" />
+        <div class="col-md-4">
+            <input type="text" name="steamKey" class="form-control" value="@Model.steamKey" />
         </div>
-    </form>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <label asp-for="value" class="control-label">Steam Id</label>
+        </div>
+        <div class="col-md-4">
+            <input type="text" name="steamId" class="form-control" value="@Model.steamId" />
+        </div>
+    </div>
+    <div class="row">
+        <input type="submit" value="Save" class="btn btn-default" />
+        <a asp-action="Index">Cancelar</a>
+    </div>
 </div>
-
-<div>
-    <a asp-action="Index">Voltar</a>
-</div>
-
-@section Scripts {
-@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
