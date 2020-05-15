@@ -5,7 +5,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Dungeon Keeper",
@@ -13,7 +13,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Fifa Soccer 12",
@@ -21,7 +21,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Fifa Soccer 15",
@@ -29,7 +29,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Fifa Soccer 16",
@@ -37,7 +37,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Fifa Soccer 17",
@@ -45,7 +45,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Jade Empire Special Edition",
@@ -53,7 +53,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Mass Effect 2",
@@ -61,7 +61,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Medal of Honor",
@@ -69,7 +69,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Medal of Honor Pacific Assault",
@@ -77,7 +77,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Mirror's Edge",
@@ -85,7 +85,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Zumas Revenge",
@@ -93,7 +93,7 @@
         "store": "Steam",
         "appID": "3620",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Sid Meier's Civilization IV: Colonization",
@@ -101,7 +101,7 @@
         "store": "Steam",
         "appID": "16810",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Grand Theft Auto IV",
@@ -109,7 +109,7 @@
         "store": "Steam",
         "appID": "12210",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Grand Theft Auto: Episodes from Liberty City",
@@ -117,7 +117,7 @@
         "store": "Steam",
         "appID": "12220",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "F.E.A.R.: Perseus Mandate",
@@ -125,7 +125,7 @@
         "store": "Steam",
         "appID": "21120",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Blazing Star",
@@ -133,7 +133,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "F.E.A.R. 2: Project Origin",
@@ -141,7 +141,7 @@
         "store": "Steam",
         "appID": "16450",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Age of Empires® III: Complete Collection",
@@ -149,7 +149,7 @@
         "store": "Steam",
         "appID": "105450",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "LEGO Harry Potter: Years 5-7",
@@ -157,7 +157,7 @@
         "store": "Steam",
         "appID": "204120",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "X-COM: Interceptor",
@@ -165,7 +165,7 @@
         "store": "Steam",
         "appID": "7730",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "X-COM: Apocalypse",
@@ -173,7 +173,7 @@
         "store": "Steam",
         "appID": "7660",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Home",
@@ -181,7 +181,7 @@
         "store": "Steam",
         "appID": "215670",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Hard Reset",
@@ -189,7 +189,7 @@
         "store": "Steam",
         "appID": "98400",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Batman: Arkham Asylum GOTY Edition",
@@ -197,7 +197,7 @@
         "store": "Steam",
         "appID": "35140",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Galactic Civilizations I: Ultimate Edition",
@@ -205,7 +205,7 @@
         "store": "Steam",
         "appID": "214150",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "RaceRoom Racing Experience ",
@@ -213,7 +213,7 @@
         "store": "Steam",
         "appID": "211500",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Sanctum 2",
@@ -221,7 +221,7 @@
         "store": "Steam",
         "appID": "210770",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Twinkle Star Sprites",
@@ -229,7 +229,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Just Cause 2",
@@ -237,7 +237,7 @@
         "store": "Steam",
         "appID": "8190",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Strike Vector",
@@ -245,7 +245,7 @@
         "store": "Steam",
         "appID": "246700",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Batman™: Arkham Origins",
@@ -253,7 +253,7 @@
         "store": "Steam",
         "appID": "209000",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Game Dev Tycoon",
@@ -261,7 +261,7 @@
         "store": "Steam",
         "appID": "239820",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "ENSLAVED™: Odyssey to the West™ Premium Edition",
@@ -269,7 +269,7 @@
         "store": "Steam",
         "appID": "245280",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Lost Planet 3",
@@ -277,7 +277,7 @@
         "store": "Steam",
         "appID": "226720",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "BioShock 2",
@@ -285,7 +285,7 @@
         "store": "Steam",
         "appID": "8850",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "BioShock 2 Remastered",
@@ -293,7 +293,7 @@
         "store": "Steam",
         "appID": "409720",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Damned",
@@ -301,7 +301,7 @@
         "store": "Steam",
         "appID": "251170",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Injustice: Gods Among Us Ultimate Edition",
@@ -309,7 +309,7 @@
         "store": "Steam",
         "appID": "242700",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Amnesia: A Machine for Pigs",
@@ -317,7 +317,7 @@
         "store": "Steam",
         "appID": "239200",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Oniken",
@@ -325,7 +325,7 @@
         "store": "Steam",
         "appID": "252010",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Castlevania: Lords of Shadow – Mirror of Fate HD",
@@ -333,7 +333,7 @@
         "store": "Steam",
         "appID": "282530",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "BeamNG.drive",
@@ -341,7 +341,7 @@
         "store": "Steam",
         "appID": "284160",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "S.T.A.L.K.E.R.: Clear Sky",
@@ -349,7 +349,7 @@
         "store": "Steam",
         "appID": "20510",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Just Survive",
@@ -357,7 +357,7 @@
         "store": "Steam",
         "appID": "295110",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Road Redemption",
@@ -365,7 +365,7 @@
         "store": "Steam",
         "appID": "300380",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Farming Simulator 15",
@@ -373,7 +373,7 @@
         "store": "Steam",
         "appID": "313160",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "LEGO® Batman™ 3: Beyond Gotham",
@@ -381,7 +381,7 @@
         "store": "Steam",
         "appID": "313690",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Resident Evil 6",
@@ -389,7 +389,7 @@
         "store": "Steam",
         "appID": "221040",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Costume Quest",
@@ -397,7 +397,7 @@
         "store": "Steam",
         "appID": "115100",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Costume Quest 2",
@@ -405,7 +405,7 @@
         "store": "Steam",
         "appID": "275180",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Resident Evil HD REMASTER",
@@ -413,7 +413,7 @@
         "store": "Steam",
         "appID": "304240",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "BASEBALL STARS 2",
@@ -421,7 +421,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "InMind VR",
@@ -429,7 +429,7 @@
         "store": "Steam",
         "appID": "343740",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Assetto Corsa",
@@ -437,7 +437,7 @@
         "store": "Steam",
         "appID": "244210",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Uncanny Valley",
@@ -445,7 +445,7 @@
         "store": "Steam",
         "appID": "359580",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "OlliOlli2: Welcome to Olliwood",
@@ -453,7 +453,7 @@
         "store": "Steam",
         "appID": "365660",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Trine 3: The Artifacts of Power",
@@ -461,7 +461,7 @@
         "store": "Steam",
         "appID": "319910",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Star Chronicles: Delta Quadrant",
@@ -469,7 +469,7 @@
         "store": "Steam",
         "appID": "383330",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Revolution Ace",
@@ -477,7 +477,7 @@
         "store": "Steam",
         "appID": "274560",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Stop Online - Battle of Words",
@@ -485,7 +485,7 @@
         "store": "Steam",
         "appID": "406310",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Resident Evil 0 HD REMASTER",
@@ -493,7 +493,7 @@
         "store": "Steam",
         "appID": "339340",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "TRON RUN/r",
@@ -501,7 +501,7 @@
         "store": "Steam",
         "appID": "392000",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "SHOCK TROOPERS 2nd Squad",
@@ -509,7 +509,7 @@
         "store": "Steam",
         "appID": "465870",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Mighty No. 9",
@@ -517,7 +517,7 @@
         "store": "Steam",
         "appID": "314710",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "City Car Driving",
@@ -525,7 +525,7 @@
         "store": "Steam",
         "appID": "493490",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Drayt Empire",
@@ -533,7 +533,7 @@
         "store": "Steam",
         "appID": "502140",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Warriors of Vilvatikta",
@@ -541,7 +541,7 @@
         "store": "Steam",
         "appID": "515690",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Layers of Fear - Soundtrack",
@@ -549,7 +549,7 @@
         "store": "Steam",
         "appID": "550210",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Germ Wars",
@@ -557,7 +557,7 @@
         "store": "Steam",
         "appID": "557680",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Hellblade: Senua's Sacrifice",
@@ -565,7 +565,7 @@
         "store": "Steam",
         "appID": "414340",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "PRO EVOLUTION SOCCER 2018",
@@ -573,7 +573,7 @@
         "store": "Steam",
         "appID": "592580",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Oddworld: Abes Oddysee",
@@ -581,7 +581,7 @@
         "store": "Steam",
         "appID": "15700",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Stories: The Path of Destinies",
@@ -589,7 +589,7 @@
         "store": "Steam",
         "appID": "439190",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Guns of Icarus Online",
@@ -597,7 +597,7 @@
         "store": "Steam",
         "appID": "209080",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Shock Troopers",
@@ -605,7 +605,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Samurai Shodown V Special",
@@ -613,7 +613,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "King of the Monsters",
@@ -621,7 +621,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Metal Slug X",
@@ -629,7 +629,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The King of Fighters 2000",
@@ -637,7 +637,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Last Blade",
@@ -645,7 +645,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Mount & Blade",
@@ -653,7 +653,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Saints Row 2",
@@ -661,7 +661,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "System Shock 2",
@@ -669,7 +669,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Little Big Adventure",
@@ -677,7 +677,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Aliens versus Predator Classic 2000",
@@ -685,7 +685,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Beneath a Steel Sky",
@@ -693,7 +693,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Tyrian 2000",
@@ -701,7 +701,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Elder Scrolls IV: Oblivion ",
@@ -709,7 +709,7 @@
         "store": "Steam",
         "appID": "22330",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Metro 2033",
@@ -717,7 +717,7 @@
         "store": "Steam",
         "appID": "43110",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Rocket Knight",
@@ -725,7 +725,7 @@
         "store": "Steam",
         "appID": "19030",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Mirror's Edge",
@@ -733,7 +733,7 @@
         "store": "Steam",
         "appID": "17410",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Prince of Persia: Warrior Within",
@@ -741,7 +741,7 @@
         "store": "Steam",
         "appID": "13500",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Elder Scrolls V: Skyrim",
@@ -749,7 +749,7 @@
         "store": "Steam",
         "appID": "72850",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Saints Row: The Third",
@@ -757,7 +757,7 @@
         "store": "Steam",
         "appID": "55230",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "L.A. Noire",
@@ -765,7 +765,7 @@
         "store": "Steam",
         "appID": "110800",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Braid",
@@ -773,7 +773,7 @@
         "store": "Steam",
         "appID": "26800",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Lone Survivor: The Director's Cut",
@@ -781,7 +781,7 @@
         "store": "Steam",
         "appID": "209830",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Castle Crashers",
@@ -789,7 +789,7 @@
         "store": "Steam",
         "appID": "204360",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Borderlands 2",
@@ -797,7 +797,7 @@
         "store": "Steam",
         "appID": "49520",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Amazing Spider-Man",
@@ -805,7 +805,7 @@
         "store": "Steam",
         "appID": "212580",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Rocksmith",
@@ -813,7 +813,7 @@
         "store": "Steam",
         "appID": "205190",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Galactic Civilizations II: Ultimate Edition",
@@ -821,7 +821,7 @@
         "store": "Steam",
         "appID": "202200",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Sonic Adventure DX",
@@ -829,7 +829,7 @@
         "store": "Steam",
         "appID": "71250",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Space Channel 5: Part 2",
@@ -837,7 +837,7 @@
         "store": "Steam",
         "appID": "71260",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Resident Evil 5",
@@ -845,7 +845,7 @@
         "store": "Steam",
         "appID": "21690",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Bureau: XCOM Declassified",
@@ -853,7 +853,7 @@
         "store": "Steam",
         "appID": "65930",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Brothers - A Tale of Two Sons",
@@ -861,7 +861,7 @@
         "store": "Steam",
         "appID": "225080",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Metal Slug 3",
@@ -869,7 +869,7 @@
         "store": "Steam",
         "appID": "250180",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "F1 2013",
@@ -877,7 +877,7 @@
         "store": "Steam",
         "appID": "223670",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Guardians of Middle-earth",
@@ -885,7 +885,7 @@
         "store": "Steam",
         "appID": "111900",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Chroma Squad",
@@ -893,7 +893,7 @@
         "store": "Steam",
         "appID": "251130",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "WRC 4 FIA WORLD RALLY CHAMPIONSHIP",
@@ -901,7 +901,7 @@
         "store": "Steam",
         "appID": "256330",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Lords Of The Fallen",
@@ -909,7 +909,7 @@
         "store": "Steam",
         "appID": "265300",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Stock Car Extreme",
@@ -917,7 +917,7 @@
         "store": "Steam",
         "appID": "273840",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Super Toy Cars",
@@ -925,7 +925,7 @@
         "store": "Steam",
         "appID": "116100",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Just Survive Test Server",
@@ -933,7 +933,7 @@
         "store": "Steam",
         "appID": "362300",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "ADR1FT",
@@ -941,7 +941,7 @@
         "store": "Steam",
         "appID": "300060",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Adventurezator: When Pigs Fly",
@@ -949,7 +949,7 @@
         "store": "Steam",
         "appID": "300280",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Expendabros",
@@ -957,7 +957,7 @@
         "store": "Steam",
         "appID": "312990",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Vanishing of Ethan Carter Redux",
@@ -965,7 +965,7 @@
         "store": "Steam",
         "appID": "400430",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Ultra Street Fighter IV",
@@ -973,7 +973,7 @@
         "store": "Steam",
         "appID": "45760",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Grow Home",
@@ -981,7 +981,7 @@
         "store": "Steam",
         "appID": "323320",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "DARK SOULS™: Prepare To Die Edition",
@@ -989,7 +989,7 @@
         "store": "Steam",
         "appID": "211420",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Batman™: Arkham Origins Blackgate - Deluxe Edition",
@@ -997,7 +997,7 @@
         "store": "Steam",
         "appID": "267490",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "rFactor",
@@ -1005,7 +1005,7 @@
         "store": "Steam",
         "appID": "339790",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Art of Playing",
@@ -1013,7 +1013,7 @@
         "store": "Steam",
         "appID": "349210",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Resident Evil Revelations 2",
@@ -1021,7 +1021,7 @@
         "store": "Steam",
         "appID": "287290",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Death Rally (Classic)",
@@ -1029,7 +1029,7 @@
         "store": "Steam",
         "appID": "358270",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Wacky Wheels",
@@ -1037,7 +1037,7 @@
         "store": "Steam",
         "appID": "358380",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Mortal Kombat: Legacy II: Prelude",
@@ -1045,7 +1045,7 @@
         "store": "Steam",
         "appID": "495470",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Escape Machines",
@@ -1053,7 +1053,7 @@
         "store": "Steam",
         "appID": "363490",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "SHOCK TROOPERS",
@@ -1061,7 +1061,7 @@
         "store": "Steam",
         "appID": "366270",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Twinkle Star Sprites",
@@ -1069,7 +1069,7 @@
         "store": "Steam",
         "appID": "366280",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Pesadelo - Regressão",
@@ -1077,7 +1077,7 @@
         "store": "Steam",
         "appID": "378930",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Borderless Gaming",
@@ -1085,7 +1085,7 @@
         "store": "Steam",
         "appID": "388080",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Project Druid - 2D Labyrinth Explorer-",
@@ -1093,7 +1093,7 @@
         "store": "Steam",
         "appID": "388160",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "F1 2016",
@@ -1101,7 +1101,7 @@
         "store": "Steam",
         "appID": "391040",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Stellar 2D",
@@ -1109,7 +1109,7 @@
         "store": "Steam",
         "appID": "391070",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Clergy Splode",
@@ -1117,7 +1117,7 @@
         "store": "Steam",
         "appID": "403900",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Recursion Deluxe",
@@ -1125,7 +1125,7 @@
         "store": "Steam",
         "appID": "425160",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Fractured Space",
@@ -1133,7 +1133,7 @@
         "store": "Steam",
         "appID": "310380",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Oxenfree",
@@ -1141,7 +1141,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Last Blade",
@@ -1149,7 +1149,7 @@
         "store": "Steam",
         "appID": "465840",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "GameMaker: Studio",
@@ -1157,7 +1157,7 @@
         "store": "Steam",
         "appID": "214850",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Freebie",
@@ -1165,7 +1165,7 @@
         "store": "Steam",
         "appID": "487220",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Evolve Stage 2",
@@ -1173,7 +1173,7 @@
         "store": "Steam",
         "appID": "273350",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Hyper color ball",
@@ -1181,7 +1181,7 @@
         "store": "Steam",
         "appID": "515470",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Bunny & Piggy",
@@ -1189,7 +1189,7 @@
         "store": "Steam",
         "appID": "549810",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Battleborn",
@@ -1197,7 +1197,7 @@
         "store": "Steam",
         "appID": "394230",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Outland",
@@ -1205,7 +1205,7 @@
         "store": "Steam",
         "appID": "305050",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "PAYDAY 2",
@@ -1213,7 +1213,7 @@
         "store": "Steam",
         "appID": "218620",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Jotun: Valhalla Edition",
@@ -1221,7 +1221,7 @@
         "store": "Steam",
         "appID": "323580",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Guns of Icarus Alliance",
@@ -1229,7 +1229,7 @@
         "store": "Steam",
         "appID": "608800",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Watch Dogs",
@@ -1237,7 +1237,7 @@
         "store": "UPlay",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "World in Conflict Complete Edition",
@@ -1245,7 +1245,7 @@
         "store": "UPlay",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Carmageddon TDR 2000",
@@ -1253,7 +1253,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Grim Fandango Remastered",
@@ -1261,7 +1261,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "MDK",
@@ -1269,7 +1269,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Syberia",
@@ -1277,7 +1277,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Oddworld: Abes Oddysee",
@@ -1285,7 +1285,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Deadlight: directors Cut",
@@ -1293,7 +1293,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Shadow Warrior Classic Complete",
@@ -1301,7 +1301,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Metal Slug",
@@ -1309,7 +1309,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Fatal Fury Special",
@@ -1317,7 +1317,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Metal Slug 2",
@@ -1325,7 +1325,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Samurai Shodown II",
@@ -1333,7 +1333,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Metal Slug 3",
@@ -1341,7 +1341,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Beyond Good & Evil",
@@ -1349,7 +1349,7 @@
         "store": "UPlay",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Far Cry 3",
@@ -1357,7 +1357,7 @@
         "store": "UPlay",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Far Cry Blood Dragon",
@@ -1365,7 +1365,7 @@
         "store": "UPlay",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Far Cry Primal",
@@ -1373,7 +1373,7 @@
         "store": "UPlay",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Prince of Persia: The Sands of Time",
@@ -1381,7 +1381,7 @@
         "store": "UPlay",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Rayman Origins",
@@ -1389,7 +1389,7 @@
         "store": "UPlay",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Crew",
@@ -1397,7 +1397,7 @@
         "store": "UPlay",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Tom Clancys Ghost Recon",
@@ -1405,7 +1405,7 @@
         "store": "UPlay",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Splinter Cell Stealth Action Redefined",
@@ -1413,7 +1413,7 @@
         "store": "UPlay",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Splinter Cell Chaos Theory",
@@ -1421,7 +1421,7 @@
         "store": "UPlay",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Splinter Cell Blacklist",
@@ -1429,7 +1429,7 @@
         "store": "UPlay",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Splinter Cell Blacklist Deluxe Edition",
@@ -1437,7 +1437,7 @@
         "store": "UPlay",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Division",
@@ -1445,7 +1445,7 @@
         "store": "UPlay",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Trials of the Blood Dragon",
@@ -1453,7 +1453,7 @@
         "store": "UPlay",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Talos Principle",
@@ -1461,7 +1461,7 @@
         "store": "Steam",
         "appID": "257510",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Oceanhorn: Monster of Uncharted Seas",
@@ -1469,7 +1469,7 @@
         "store": "Steam",
         "appID": "339200",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Terra Incognita ~ Chapter One: The Descendant",
@@ -1477,7 +1477,7 @@
         "store": "Steam",
         "appID": "347560",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "UBERMOSH",
@@ -1485,7 +1485,7 @@
         "store": "Steam",
         "appID": "357070",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Mortal Kombat: Legacy",
@@ -1493,7 +1493,7 @@
         "store": "Steam",
         "appID": "361700",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "rFactor 2",
@@ -1501,7 +1501,7 @@
         "store": "Steam",
         "appID": "365960",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Kung Fury",
@@ -1509,7 +1509,7 @@
         "store": "Steam",
         "appID": "374570",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "ABZÛ",
@@ -1517,7 +1517,7 @@
         "store": "Steam",
         "appID": "384190",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Painters Guild",
@@ -1525,7 +1525,7 @@
         "store": "Steam",
         "appID": "384550",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Mad Max",
@@ -1533,7 +1533,7 @@
         "store": "Steam",
         "appID": "234140",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Dead Space 2",
@@ -1541,7 +1541,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Punch Club",
@@ -1549,7 +1549,7 @@
         "store": "Steam",
         "appID": "394310",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Motorsport Manager",
@@ -1557,7 +1557,7 @@
         "store": "Steam",
         "appID": "415200",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Bullshot",
@@ -1565,7 +1565,7 @@
         "store": "Steam",
         "appID": "436530",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "PAC-MAN 256",
@@ -1573,7 +1573,7 @@
         "store": "Steam",
         "appID": "455400",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Eon Altar",
@@ -1581,7 +1581,7 @@
         "store": "Steam",
         "appID": "382050",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Shiny",
@@ -1589,7 +1589,7 @@
         "store": "Steam",
         "appID": "496390",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Joana's Life",
@@ -1597,7 +1597,7 @@
         "store": "Steam",
         "appID": "513740",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Land of Dasthir",
@@ -1605,7 +1605,7 @@
         "store": "Steam",
         "appID": "545700",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Descendant",
@@ -1613,7 +1613,7 @@
         "store": "Steam",
         "appID": "351940",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Lethal League",
@@ -1621,7 +1621,7 @@
         "store": "Steam",
         "appID": "261180",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Red Solstice",
@@ -1629,7 +1629,7 @@
         "store": "Steam",
         "appID": "265590",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Crysis 2 Maximum Edition",
@@ -1637,7 +1637,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Crysis 3",
@@ -1645,7 +1645,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Dead Space",
@@ -1653,7 +1653,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Dead Space 3",
@@ -1661,7 +1661,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Bully",
@@ -1669,7 +1669,7 @@
         "store": "Steam",
         "appID": "12200",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Saints Row 2",
@@ -1677,7 +1677,7 @@
         "store": "Steam",
         "appID": "9480",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Dead Space",
@@ -1685,7 +1685,7 @@
         "store": "Steam",
         "appID": "17470",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Watchmen: The End Is Nigh",
@@ -1693,7 +1693,7 @@
         "store": "Steam",
         "appID": "21010",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Last Remnant",
@@ -1701,7 +1701,7 @@
         "store": "Steam",
         "appID": "23310",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Burnout Paradise: The Ultimate Box",
@@ -1709,7 +1709,7 @@
         "store": "Steam",
         "appID": "24740",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Left 4 Dead 2 Beta",
@@ -1717,7 +1717,7 @@
         "store": "Steam",
         "appID": "223530",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Crash Time III",
@@ -1725,7 +1725,7 @@
         "store": "Steam",
         "appID": "33620",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Fallout 3 - Game of the Year Edition",
@@ -1733,7 +1733,7 @@
         "store": "Steam",
         "appID": "22370",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Lego Harry Potter",
@@ -1741,7 +1741,7 @@
         "store": "Steam",
         "appID": "21130",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "F.E.A.R. 3",
@@ -1749,7 +1749,7 @@
         "store": "Steam",
         "appID": "21100",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Test Drive Unlimited 2",
@@ -1757,7 +1757,7 @@
         "store": "Steam",
         "appID": "9930",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Deus Ex: Human Revolution",
@@ -1765,7 +1765,7 @@
         "store": "Steam",
         "appID": "28050",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Tropico 4",
@@ -1773,7 +1773,7 @@
         "store": "Steam",
         "appID": "57690",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Binding of Isaac",
@@ -1781,7 +1781,7 @@
         "store": "Steam",
         "appID": "113200",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "RAGE",
@@ -1789,7 +1789,7 @@
         "store": "Steam",
         "appID": "9200",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "inMomentum",
@@ -1797,7 +1797,7 @@
         "store": "Steam",
         "appID": "110400",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "X-COM: Enforcer",
@@ -1805,7 +1805,7 @@
         "store": "Steam",
         "appID": "7770",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Inversion™",
@@ -1813,7 +1813,7 @@
         "store": "Steam",
         "appID": "212410",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Sine Mora",
@@ -1821,7 +1821,7 @@
         "store": "Steam",
         "appID": "207040",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Legacy of Kain: Defiance",
@@ -1829,7 +1829,7 @@
         "store": "Steam",
         "appID": "224300",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Legacy of Kain: Soul Reaver",
@@ -1837,7 +1837,7 @@
         "store": "Steam",
         "appID": "224920",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Legacy of Kain: Soul Reaver 2",
@@ -1845,7 +1845,7 @@
         "store": "Steam",
         "appID": "224940",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "GTR 2 - FIA GT Racing Game",
@@ -1853,7 +1853,7 @@
         "store": "Steam",
         "appID": "8790",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Warframe",
@@ -1861,7 +1861,7 @@
         "store": "Steam",
         "appID": "230410",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Resident Evil Revelations",
@@ -1869,7 +1869,7 @@
         "store": "Steam",
         "appID": "222480",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Cook",
@@ -1877,7 +1877,7 @@
         "store": " Delicious!",
         "appID": "http://media.steampowered.com/steamcommunity/public/images/apps/247020/de4baa7c9a46021dee1326254687f4d936b16b8b.jpg",
         "system": "Steam",
-        "disabled": "247020"
+        "disabled": false
     },
     {
         "name": "Syder Arcade",
@@ -1885,7 +1885,7 @@
         "store": "Steam",
         "appID": "252310",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Shadow Warrior",
@@ -1893,7 +1893,7 @@
         "store": "Steam",
         "appID": "233130",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Viscera Cleanup Detail: Shadow Warrior",
@@ -1901,7 +1901,7 @@
         "store": "Steam",
         "appID": "255520",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Riptide GP2",
@@ -1909,7 +1909,7 @@
         "store": "Steam",
         "appID": "257790",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Type:Rider",
@@ -1917,7 +1917,7 @@
         "store": "Steam",
         "appID": "258890",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Sonic & All-Stars Racing Transformed Collection",
@@ -1925,7 +1925,7 @@
         "store": "Steam",
         "appID": "212480",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Sonic and All-Stars Racing Transformed Metal Sonic DLC Pack",
@@ -1933,7 +1933,7 @@
         "store": "Steam",
         "appID": "229660",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "The Stanley Parable",
@@ -1941,7 +1941,7 @@
         "store": "Steam",
         "appID": "221910",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Ethan: Meteor Hunter",
@@ -1949,7 +1949,7 @@
         "store": "Steam",
         "appID": "266330",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Automobilista",
@@ -1957,7 +1957,7 @@
         "store": "Steam",
         "appID": "431600",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "DeadCore",
@@ -1965,7 +1965,7 @@
         "store": "Steam",
         "appID": "284460",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "F1 2015",
@@ -1973,7 +1973,7 @@
         "store": "Steam",
         "appID": "286570",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "H1Z1",
@@ -1981,7 +1981,7 @@
         "store": "Steam",
         "appID": "433850",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Arma: Cold War Assault",
@@ -1989,7 +1989,7 @@
         "store": "Steam",
         "appID": "65790",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Microsoft Flight Simulator X: Steam Edition",
@@ -1997,7 +1997,7 @@
         "store": "Steam",
         "appID": "314160",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Super Indie Karts",
@@ -2005,7 +2005,7 @@
         "store": "Steam",
         "appID": "323670",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Ryse: Son of Rome",
@@ -2013,7 +2013,7 @@
         "store": "Steam",
         "appID": "302510",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "bit Dungeon II",
@@ -2021,7 +2021,7 @@
         "store": "Steam",
         "appID": "331440",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Phoenix Force",
@@ -2029,7 +2029,7 @@
         "store": "Steam",
         "appID": "332480",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "THE KING OF FIGHTERS 2002 UNLIMITED MATCH",
@@ -2037,7 +2037,7 @@
         "store": "Steam",
         "appID": "222440",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Cities: Skylines",
@@ -2045,7 +2045,7 @@
         "store": "Steam",
         "appID": "255710",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Mean Greens - Plastic Warfare",
@@ -2053,7 +2053,7 @@
         "store": "Steam",
         "appID": "360940",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Hacknet",
@@ -2061,7 +2061,7 @@
         "store": "Steam",
         "appID": "365450",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "TIS-100",
@@ -2069,7 +2069,7 @@
         "store": "Steam",
         "appID": "370360",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Trine",
@@ -2077,7 +2077,7 @@
         "store": "Steam",
         "appID": "35700",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Dungeon Souls",
@@ -2085,7 +2085,7 @@
         "store": "Steam",
         "appID": "383230",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Layers of Fear",
@@ -2093,7 +2093,7 @@
         "store": "Steam",
         "appID": "391720",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Race The Sun",
@@ -2101,7 +2101,7 @@
         "store": "Steam",
         "appID": "253030",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Waveform",
@@ -2109,7 +2109,7 @@
         "store": "Steam",
         "appID": "204180",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Street Fighter V",
@@ -2117,7 +2117,7 @@
         "store": "Steam",
         "appID": "310950",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Street Fighter V Beta",
@@ -2125,7 +2125,7 @@
         "store": "Steam",
         "appID": "386800",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Eaten Alive",
@@ -2133,7 +2133,7 @@
         "store": "Steam",
         "appID": "403560",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Home Design 3D",
@@ -2141,7 +2141,7 @@
         "store": "Steam",
         "appID": "420000",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Super Mustache",
@@ -2149,7 +2149,7 @@
         "store": "Steam",
         "appID": "438180",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "DUCATI - 90th Anniversary",
@@ -2157,7 +2157,7 @@
         "store": "Steam",
         "appID": "456780",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Star Drifter",
@@ -2165,7 +2165,7 @@
         "store": "Steam",
         "appID": "485330",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Star Fields",
@@ -2173,7 +2173,7 @@
         "store": "Steam",
         "appID": "499420",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Drive Megapolis",
@@ -2181,7 +2181,7 @@
         "store": "Steam",
         "appID": "514970",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Town of Night",
@@ -2189,7 +2189,7 @@
         "store": "Steam",
         "appID": "546990",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Sonic Mania",
@@ -2197,7 +2197,7 @@
         "store": "Steam",
         "appID": "584400",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Satellite Reign",
@@ -2205,7 +2205,7 @@
         "store": "Steam",
         "appID": "268870",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Flame in the Flood",
@@ -2213,7 +2213,7 @@
         "store": "Steam",
         "appID": "318600",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Desert Law",
@@ -2221,7 +2221,7 @@
         "store": "Steam",
         "appID": "356280",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Assassins Creed III",
@@ -2229,7 +2229,7 @@
         "store": "UPlay",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Assassins Creed IV Black Flag",
@@ -2237,7 +2237,7 @@
         "store": "UPlay",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Assassins Creed Rogue",
@@ -2245,7 +2245,7 @@
         "store": "UPlay",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Assassins Creed Chronicles China",
@@ -2253,7 +2253,7 @@
         "store": "UPlay",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Shift 2 Unleashed",
@@ -2261,7 +2261,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "SimCity 2000 Special Edition",
@@ -2269,7 +2269,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "SimCity",
@@ -2277,7 +2277,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Syndicate",
@@ -2285,7 +2285,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Sims 3",
@@ -2293,7 +2293,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Theme Hospoital",
@@ -2301,7 +2301,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Pagan Ultima VIII",
@@ -2309,7 +2309,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Wing Commander III",
@@ -2317,7 +2317,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Zumas Revenge",
@@ -2325,7 +2325,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Anno 2070",
@@ -2333,7 +2333,7 @@
         "store": "UPlay",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Day of Defeat: Source",
@@ -2341,7 +2341,7 @@
         "store": "Steam",
         "appID": "300",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Sid Meier's Civilization III: Complete",
@@ -2349,7 +2349,7 @@
         "store": "Steam",
         "appID": "3910",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Garry's Mod",
@@ -2357,7 +2357,7 @@
         "store": "Steam",
         "appID": "4000",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "FlatOut 2",
@@ -2365,7 +2365,7 @@
         "store": "Steam",
         "appID": "2990",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Lost Planet: Extreme Condition",
@@ -2373,7 +2373,7 @@
         "store": "Steam",
         "appID": "6510",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Portal",
@@ -2381,15 +2381,15 @@
         "store": "Steam",
         "appID": "400",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Mortal Kombat: Legacy: Jax",
         "logoURL": " Sonya and Kano (Part 2)",
         "store": "Mídia Física",
         "appID": "Steam",
-        "system": "361710",
-        "disabled": "PC"
+        "system": "PC",
+        "disabled": true
     },
     {
         "name": "RACE 07",
@@ -2397,7 +2397,7 @@
         "store": "Steam",
         "appID": "8600",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "RACE 07 - Formula RaceRoom Add-On",
@@ -2405,7 +2405,7 @@
         "store": "Steam",
         "appID": "44630",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Overlord",
@@ -2413,7 +2413,7 @@
         "store": "Steam",
         "appID": "11450",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Grand Theft Auto III",
@@ -2421,7 +2421,7 @@
         "store": "Steam",
         "appID": "12100",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Grand Theft Auto: San Andreas",
@@ -2429,7 +2429,7 @@
         "store": "Steam",
         "appID": "12120",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Manhunt",
@@ -2437,7 +2437,7 @@
         "store": "Steam",
         "appID": "12130",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Far Cry",
@@ -2445,7 +2445,7 @@
         "store": "Steam",
         "appID": "13520",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Assassin's Creed",
@@ -2453,7 +2453,7 @@
         "store": "Steam",
         "appID": "15100",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Team Fortress Classic",
@@ -2461,7 +2461,7 @@
         "store": "Steam",
         "appID": "20",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Half-Life: Opposing Force",
@@ -2469,7 +2469,7 @@
         "store": "Steam",
         "appID": "50",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Half-Life",
@@ -2477,7 +2477,7 @@
         "store": "Steam",
         "appID": "70",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Half-Life: Blue Shift",
@@ -2485,7 +2485,7 @@
         "store": "Steam",
         "appID": "130",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Half-Life 2",
@@ -2493,7 +2493,7 @@
         "store": "Steam",
         "appID": "220",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Half-Life: Source",
@@ -2501,7 +2501,7 @@
         "store": "Steam",
         "appID": "280",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Half-Life 2: Deathmatch",
@@ -2509,7 +2509,7 @@
         "store": "Steam",
         "appID": "320",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Half-Life 2: Lost Coast",
@@ -2517,7 +2517,7 @@
         "store": "Steam",
         "appID": "340",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Half-Life Deathmatch: Source",
@@ -2525,7 +2525,7 @@
         "store": "Steam",
         "appID": "360",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Half-Life 2: Episode One",
@@ -2533,7 +2533,7 @@
         "store": "Steam",
         "appID": "380",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Half-Life 2: Episode Two",
@@ -2541,7 +2541,7 @@
         "store": "Steam",
         "appID": "420",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "GRID",
@@ -2549,7 +2549,7 @@
         "store": "Steam",
         "appID": "12750",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "GTR Evolution",
@@ -2557,7 +2557,7 @@
         "store": "Steam",
         "appID": "8660",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Far Cry 2",
@@ -2565,7 +2565,7 @@
         "store": "Steam",
         "appID": "19900",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Plants vs. Zombies: Game of the Year",
@@ -2573,7 +2573,7 @@
         "store": "Steam",
         "appID": "3590",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Assassin's Creed II",
@@ -2581,7 +2581,7 @@
         "store": "Steam",
         "appID": "33230",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Singularity",
@@ -2589,7 +2589,7 @@
         "store": "Steam",
         "appID": "42670",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "SimCity 4 Deluxe",
@@ -2597,7 +2597,7 @@
         "store": "Steam",
         "appID": "24780",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Homefront",
@@ -2605,7 +2605,7 @@
         "store": "Steam",
         "appID": "55100",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "BIT.TRIP RUNNER",
@@ -2613,7 +2613,7 @@
         "store": "Steam",
         "appID": "63710",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Assassin's Creed Brotherhood",
@@ -2621,7 +2621,7 @@
         "store": "Steam",
         "appID": "48190",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Portal 2",
@@ -2629,7 +2629,7 @@
         "store": "Steam",
         "appID": "620",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Terraria",
@@ -2637,7 +2637,7 @@
         "store": "Steam",
         "appID": "105600",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Witcher 2: Assassins of Kings Enhanced Edition",
@@ -2645,7 +2645,7 @@
         "store": "Steam",
         "appID": "20920",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Anno 2070",
@@ -2653,7 +2653,7 @@
         "store": "Steam",
         "appID": "48240",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Binary Domain",
@@ -2661,7 +2661,7 @@
         "store": "Steam",
         "appID": "203750",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Rune Classic",
@@ -2669,7 +2669,7 @@
         "store": "Steam",
         "appID": "210950",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "DiRT Showdown",
@@ -2677,7 +2677,7 @@
         "store": "Steam",
         "appID": "201700",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Resident Evil™: Operation Raccoon City",
@@ -2685,7 +2685,7 @@
         "store": "Steam",
         "appID": "209100",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Bang Bang Racing",
@@ -2693,7 +2693,7 @@
         "store": "Steam",
         "appID": "207020",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Hotline Miami",
@@ -2701,7 +2701,7 @@
         "store": "Steam",
         "appID": "219150",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Company of Heroes: Tales of Valor",
@@ -2709,7 +2709,7 @@
         "store": "Steam",
         "appID": "20540",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Darksiders",
@@ -2717,7 +2717,7 @@
         "store": "Steam",
         "appID": "50620",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Red Faction: Armageddon",
@@ -2725,7 +2725,7 @@
         "store": "Steam",
         "appID": "55110",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Company of Heroes ",
@@ -2733,7 +2733,7 @@
         "store": "Steam",
         "appID": "228200",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Darksiders Warmastered Edition",
@@ -2741,7 +2741,7 @@
         "store": "Steam",
         "appID": "462780",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "DmC Devil May Cry",
@@ -2749,7 +2749,7 @@
         "store": "Steam",
         "appID": "220440",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Waking Mars",
@@ -2757,7 +2757,7 @@
         "store": "Steam",
         "appID": "227200",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Euro Truck Simulator",
@@ -2765,7 +2765,7 @@
         "store": "Steam",
         "appID": "232010",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "FINAL FANTASY VII",
@@ -2773,7 +2773,7 @@
         "store": "Steam",
         "appID": "39140",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Mortal Kombat",
@@ -2781,7 +2781,7 @@
         "store": "Steam",
         "appID": "237110",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Medal of Honor(TM) Single Player",
@@ -2789,7 +2789,7 @@
         "store": "Steam",
         "appID": "47790",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Wizardry 8",
@@ -2797,7 +2797,7 @@
         "store": "Steam",
         "appID": "245450",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Catzilla",
@@ -2805,7 +2805,7 @@
         "store": "Steam",
         "appID": "261920",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Jets'n'Guns Gold",
@@ -2813,7 +2813,7 @@
         "store": "Steam",
         "appID": "262260",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The LEGO® Movie - Videogame",
@@ -2821,7 +2821,7 @@
         "store": "Steam",
         "appID": "267530",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Cuphead",
@@ -2829,7 +2829,7 @@
         "store": "Steam",
         "appID": "268910",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Etherlords",
@@ -2837,7 +2837,7 @@
         "store": "Steam",
         "appID": "270770",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Shantae: Risky's Revenge - Director's Cut",
@@ -2845,7 +2845,7 @@
         "store": "Steam",
         "appID": "277890",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "MURDERED: SOUL SUSPECT™",
@@ -2853,7 +2853,7 @@
         "store": "Steam",
         "appID": "233290",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Dreaming Sarah",
@@ -2861,7 +2861,7 @@
         "store": "Steam",
         "appID": "296870",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "RC Mini Racers",
@@ -2869,7 +2869,7 @@
         "store": "Steam",
         "appID": "311820",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Solstice",
@@ -2877,7 +2877,7 @@
         "store": "Steam",
         "appID": "317280",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Gauntlet™ ",
@@ -2885,7 +2885,7 @@
         "store": "Steam",
         "appID": "258970",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "This War of Mine",
@@ -2893,7 +2893,7 @@
         "store": "Steam",
         "appID": "282070",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "DARK SOULS™ II: Scholar of the First Sin",
@@ -2901,7 +2901,7 @@
         "store": "Steam",
         "appID": "335300",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "THE KING OF FIGHTERS '98 ULTIMATE MATCH FINAL EDITION",
@@ -2909,7 +2909,7 @@
         "store": "Steam",
         "appID": "222420",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Grand Theft Auto V",
@@ -2917,7 +2917,7 @@
         "store": "Steam",
         "appID": "271590",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Surge",
@@ -2925,7 +2925,7 @@
         "store": "Steam",
         "appID": "378540",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Overlord II",
@@ -2933,7 +2933,7 @@
         "store": "Steam",
         "appID": "12810",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Killing Floor",
@@ -2941,7 +2941,7 @@
         "store": "Steam",
         "appID": "1250",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Killing Floor Mod: Defence Alliance 2",
@@ -2949,7 +2949,7 @@
         "store": "Steam",
         "appID": "35420",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Bionic Commando Rearmed",
@@ -2957,7 +2957,7 @@
         "store": "Steam",
         "appID": "21680",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Bionic Commando",
@@ -2965,7 +2965,7 @@
         "store": "Steam",
         "appID": "21670",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Sid Meier's Civilization IV",
@@ -2973,7 +2973,7 @@
         "store": "Steam",
         "appID": "3900",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "VVVVVV",
@@ -2981,7 +2981,7 @@
         "store": "Steam",
         "appID": "70300",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Sid Meier's Civilization V",
@@ -2989,7 +2989,7 @@
         "store": "Steam",
         "appID": "8930",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Lost Planet 2",
@@ -2997,7 +2997,7 @@
         "store": "Steam",
         "appID": "45750",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Prince of Persia: The Two Thrones",
@@ -3005,7 +3005,7 @@
         "store": "Steam",
         "appID": "13530",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Prince of Persia: The Sands of Time",
@@ -3013,7 +3013,7 @@
         "store": "Steam",
         "appID": "13600",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Prince of Persia",
@@ -3021,7 +3021,7 @@
         "store": "Steam",
         "appID": "19980",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Prince of Persia: The Forgotten Sands",
@@ -3029,7 +3029,7 @@
         "store": "Steam",
         "appID": "33320",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "DiRT 3",
@@ -3037,7 +3037,7 @@
         "store": "Steam",
         "appID": "44320",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "DiRT 3 Complete Edition",
@@ -3045,7 +3045,7 @@
         "store": "Steam",
         "appID": "321040",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "X-COM: UFO Defense",
@@ -3053,7 +3053,7 @@
         "store": "Steam",
         "appID": "7760",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Vessel",
@@ -3061,7 +3061,7 @@
         "store": "Steam",
         "appID": "108500",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Bastion",
@@ -3069,7 +3069,7 @@
         "store": "Steam",
         "appID": "107100",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Max Payne 3",
@@ -3077,7 +3077,7 @@
         "store": "Steam",
         "appID": "204100",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Darksiders II",
@@ -3085,7 +3085,7 @@
         "store": "Steam",
         "appID": "50650",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Sleeping Dogs™",
@@ -3093,7 +3093,7 @@
         "store": "Steam",
         "appID": "202170",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Counter-Strike: Global Offensive",
@@ -3101,7 +3101,7 @@
         "store": "Steam",
         "appID": "730",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "STAR WARS™ Knights of the Old Republic™ II: The Sith Lords™",
@@ -3109,7 +3109,7 @@
         "store": "Steam",
         "appID": "208580",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "XCOM: Enemy Unknown",
@@ -3117,7 +3117,7 @@
         "store": "Steam",
         "appID": "200510",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "I Am Alive",
@@ -3125,7 +3125,7 @@
         "store": "Steam",
         "appID": "214250",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Sine Mora EX",
@@ -3133,7 +3133,7 @@
         "store": "Steam",
         "appID": "606730",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Far Cry 3",
@@ -3141,7 +3141,7 @@
         "store": "Steam",
         "appID": "220240",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "F1 Race Stars",
@@ -3149,7 +3149,7 @@
         "store": "Steam",
         "appID": "203680",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Sonic Adventure™ 2 ",
@@ -3157,7 +3157,7 @@
         "store": "Steam",
         "appID": "213610",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Hitman: Absolution",
@@ -3165,7 +3165,7 @@
         "store": "Steam",
         "appID": "203140",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Hitman: Sniper Challenge",
@@ -3173,15 +3173,15 @@
         "store": "Steam",
         "appID": "205930",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Warhammer 40",
         "logoURL": "000: Dawn of War - Game of the Year Edition",
         "store": "http://media.steampowered.com/steamcommunity/public/images/apps/4570/2068980dca52521b069abc109f976d72ba0b1651.jpg",
         "appID": "Steam",
-        "system": "4570",
-        "disabled": "PC"
+        "system": "PC",
+        "disabled": false
     },
     {
         "name": "Jet Set Radio",
@@ -3189,7 +3189,7 @@
         "store": "Steam",
         "appID": "205950",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "DisplayFusion",
@@ -3197,7 +3197,7 @@
         "store": "Steam",
         "appID": "227260",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "The Showdown Effect",
@@ -3205,7 +3205,7 @@
         "store": "Steam",
         "appID": "204080",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Swapper",
@@ -3213,7 +3213,7 @@
         "store": "Steam",
         "appID": "231160",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Trine 2",
@@ -3221,7 +3221,7 @@
         "store": "Steam",
         "appID": "35720",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Banished",
@@ -3229,7 +3229,7 @@
         "store": "Steam",
         "appID": "242920",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Medal of Honor(TM) Multiplayer",
@@ -3237,7 +3237,7 @@
         "store": "Steam",
         "appID": "47830",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "GRID Autosport",
@@ -3245,7 +3245,7 @@
         "store": "Steam",
         "appID": "255220",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Little Racers STREET",
@@ -3253,7 +3253,7 @@
         "store": "Steam",
         "appID": "262690",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Etherlords II",
@@ -3261,7 +3261,7 @@
         "store": "Steam",
         "appID": "270790",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "RIVE",
@@ -3269,7 +3269,7 @@
         "store": "Steam",
         "appID": "278100",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "ACE COMBAT™ ASSAULT HORIZON Enhanced Edition",
@@ -3277,7 +3277,7 @@
         "store": "Steam",
         "appID": "228400",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Witcher 3: Wild Hunt",
@@ -3285,7 +3285,7 @@
         "store": "Steam",
         "appID": "292030",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "XenoRaptor",
@@ -3293,7 +3293,7 @@
         "store": "Steam",
         "appID": "298280",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Metal Slug X",
@@ -3301,7 +3301,7 @@
         "store": "Steam",
         "appID": "312610",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Toren",
@@ -3309,7 +3309,7 @@
         "store": "Steam",
         "appID": "320820",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Deep Dungeons of Doom",
@@ -3317,7 +3317,7 @@
         "store": "Steam",
         "appID": "325090",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "ZOMBI",
@@ -3325,7 +3325,7 @@
         "store": "Steam",
         "appID": "339230",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Mortal Kombat X",
@@ -3333,7 +3333,7 @@
         "store": "Steam",
         "appID": "307780",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Commander Cool 2",
@@ -3341,7 +3341,7 @@
         "store": "Steam",
         "appID": "356070",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Porcunipine",
@@ -3349,7 +3349,7 @@
         "store": "Steam",
         "appID": "352620",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Mortal Kombat: Legacy: Johnny Cage",
@@ -3357,7 +3357,7 @@
         "store": "Steam",
         "appID": "361720",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Mortal Kombat: Legacy: Kitana & Mileena (Part 1)",
@@ -3365,7 +3365,7 @@
         "store": "Steam",
         "appID": "361730",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Mortal Kombat: Legacy: Kitana & Mileena (Part 2)",
@@ -3373,7 +3373,7 @@
         "store": "Steam",
         "appID": "361740",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Mortal Kombat: Legacy: Raiden",
@@ -3381,7 +3381,7 @@
         "store": "Steam",
         "appID": "361750",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Mortal Kombat: Legacy: Scorpion and Sub-Zero (Part 1)",
@@ -3389,7 +3389,7 @@
         "store": "Steam",
         "appID": "361760",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Mortal Kombat: Legacy: Scorpion and Sub-Zero (Part 2)",
@@ -3397,7 +3397,7 @@
         "store": "Steam",
         "appID": "361770",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Mortal Kombat: Legacy: Cyrax & Sektor",
@@ -3405,15 +3405,15 @@
         "store": "Steam",
         "appID": "361780",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Mortal Kombat: Legacy: Jax",
         "logoURL": " Sonya and Kano (Part 1)",
         "store": "Mídia Física",
         "appID": "Steam",
-        "system": "495460",
-        "disabled": "PC"
+        "system": "PC",
+        "disabled": true
     },
     {
         "name": "Metal Slug",
@@ -3421,7 +3421,7 @@
         "store": "Steam",
         "appID": "366250",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Metal Slug 2",
@@ -3429,7 +3429,7 @@
         "store": "Steam",
         "appID": "366260",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Sniper Elite",
@@ -3437,7 +3437,7 @@
         "store": "Steam",
         "appID": "3700",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Sniper Elite V2",
@@ -3445,7 +3445,7 @@
         "store": "Steam",
         "appID": "63380",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Sniper Elite 3",
@@ -3453,7 +3453,7 @@
         "store": "Steam",
         "appID": "238090",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "INK",
@@ -3461,7 +3461,7 @@
         "store": "Steam",
         "appID": "385710",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "ShareX",
@@ -3469,7 +3469,7 @@
         "store": "Steam",
         "appID": "400040",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Medieval II: Total War",
@@ -3477,7 +3477,7 @@
         "store": "Steam",
         "appID": "4700",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Viking: Battle for Asgard",
@@ -3485,7 +3485,7 @@
         "store": "Steam",
         "appID": "211160",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "SHOGUN: Total War™ - Gold Edition",
@@ -3493,7 +3493,7 @@
         "store": "Steam",
         "appID": "345240",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Turbo Pug",
@@ -3501,7 +3501,7 @@
         "store": "Steam",
         "appID": "418070",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Wallpaper Engine",
@@ -3509,7 +3509,7 @@
         "store": "Steam",
         "appID": "431960",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "XSplit",
@@ -3517,7 +3517,7 @@
         "store": "Steam",
         "appID": "433800",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Neon Hardcorps",
@@ -3525,7 +3525,7 @@
         "store": "Steam",
         "appID": "454200",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Cosmic Dust & Rust",
@@ -3533,7 +3533,7 @@
         "store": "Steam",
         "appID": "473560",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "ShapeShifter",
@@ -3541,7 +3541,7 @@
         "store": "Steam",
         "appID": "497050",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Turbo Pug DX",
@@ -3549,7 +3549,7 @@
         "store": "Steam",
         "appID": "513780",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Midnight Carnival",
@@ -3557,7 +3557,7 @@
         "store": "Steam",
         "appID": "546980",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Starpoint Gemini 2",
@@ -3565,7 +3565,7 @@
         "store": "Steam",
         "appID": "236150",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Crusader Kings II",
@@ -3573,7 +3573,7 @@
         "store": "Steam",
         "appID": "203770",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Driver: Parallel Lines",
@@ -3581,7 +3581,7 @@
         "store": "Steam",
         "appID": "21780",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Need for Speed Most Wanted",
@@ -3589,7 +3589,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Nox",
@@ -3597,7 +3597,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Peggle",
@@ -3605,7 +3605,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Plants vc Zombies",
@@ -3613,7 +3613,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Populous",
@@ -3621,7 +3621,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Streamline",
@@ -3629,7 +3629,7 @@
         "store": "Steam",
         "appID": "252850",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Mirage: Arcane Warfare",
@@ -3637,7 +3637,7 @@
         "store": "Steam",
         "appID": "368420",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Back to Bed",
@@ -3645,7 +3645,7 @@
         "store": "Steam",
         "appID": "308040",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Fortified",
@@ -3653,7 +3653,7 @@
         "store": "Steam",
         "appID": "334210",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Dragonsphere",
@@ -3661,7 +3661,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Ultima IV: Quest of the Avatar",
@@ -3669,7 +3669,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Treasure Adventure Game",
@@ -3677,7 +3677,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Worlds of Ultima: The Savage Empire",
@@ -3685,7 +3685,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Warsow",
@@ -3693,7 +3693,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Mass Effect",
@@ -3701,7 +3701,7 @@
         "store": "Windows Store",
         "appID": "",
         "system": "XBOX 360",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "TimeShift",
@@ -3709,7 +3709,7 @@
         "store": "Steam",
         "appID": "10130",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Crash Time II",
@@ -3717,7 +3717,7 @@
         "store": "Steam",
         "appID": "11390",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Sid Meier's Civilization IV: Warlords",
@@ -3725,7 +3725,7 @@
         "store": "Steam",
         "appID": "3990",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Sid Meier's Civilization IV: Beyond the Sword",
@@ -3733,7 +3733,7 @@
         "store": "Steam",
         "appID": "8800",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Fallout: New Vegas",
@@ -3741,7 +3741,7 @@
         "store": "Steam",
         "appID": "22380",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "F.E.A.R.",
@@ -3749,7 +3749,7 @@
         "store": "Steam",
         "appID": "21090",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "F.E.A.R.: Extraction Point",
@@ -3757,7 +3757,7 @@
         "store": "Steam",
         "appID": "21110",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "The Darkness II",
@@ -3765,7 +3765,7 @@
         "store": "Steam",
         "appID": "67370",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Spec Ops: The Line",
@@ -3773,7 +3773,7 @@
         "store": "Steam",
         "appID": "50300",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Alan Wake's American Nightmare",
@@ -3781,7 +3781,7 @@
         "store": "Steam",
         "appID": "202750",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "BioShock",
@@ -3789,7 +3789,7 @@
         "store": "Steam",
         "appID": "7670",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "BioShock Remastered",
@@ -3797,7 +3797,7 @@
         "store": "Steam",
         "appID": "409710",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Dead Island",
@@ -3805,7 +3805,7 @@
         "store": "Steam",
         "appID": "91310",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Dishonored",
@@ -3813,7 +3813,7 @@
         "store": "Steam",
         "appID": "205100",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Dota 2 Test",
@@ -3821,7 +3821,7 @@
         "store": "Steam",
         "appID": "205790",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "DOOM 3: BFG Edition",
@@ -3829,7 +3829,7 @@
         "store": "Steam",
         "appID": "208200",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Chivalry: Medieval Warfare",
@@ -3837,7 +3837,7 @@
         "store": "Steam",
         "appID": "219640",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Scribblenauts Unlimited",
@@ -3845,7 +3845,7 @@
         "store": "Steam",
         "appID": "218680",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Giana Sisters: Twisted Dreams",
@@ -3853,7 +3853,7 @@
         "store": "Steam",
         "appID": "223220",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Deadlight",
@@ -3861,7 +3861,7 @@
         "store": "Steam",
         "appID": "211400",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "NiGHTS into Dreams...",
@@ -3869,7 +3869,7 @@
         "store": "Steam",
         "appID": "219950",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Crazy Taxi",
@@ -3877,7 +3877,7 @@
         "store": "Steam",
         "appID": "71230",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "SEGA Bass Fishing",
@@ -3885,7 +3885,7 @@
         "store": "Steam",
         "appID": "71240",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "War Thunder",
@@ -3893,7 +3893,7 @@
         "store": "Steam",
         "appID": "236390",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "DCS World",
@@ -3901,7 +3901,7 @@
         "store": "Steam",
         "appID": "223750",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Free to Play",
@@ -3909,7 +3909,7 @@
         "store": "Steam",
         "appID": "245550",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Free To Play (Streaming)",
@@ -3917,7 +3917,7 @@
         "store": "Steam",
         "appID": "343450",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Sniper Ghost Warrior 2",
@@ -3925,7 +3925,7 @@
         "store": "Steam",
         "appID": "34870",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Brütal Legend",
@@ -3933,7 +3933,7 @@
         "store": "Steam",
         "appID": "225260",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Star Trek",
@@ -3941,7 +3941,7 @@
         "store": "Steam",
         "appID": "203250",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Remember Me",
@@ -3949,7 +3949,7 @@
         "store": "Steam",
         "appID": "228300",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Rising Storm/Red Orchestra 2 Multiplayer",
@@ -3957,7 +3957,7 @@
         "store": "Steam",
         "appID": "35450",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Castlevania: Lords of Shadow - Ultimate Edition",
@@ -3965,15 +3965,15 @@
         "store": "Steam",
         "appID": "234080",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
-        "name": "Papers",
-        "logoURL": " Please",
-        "store": "http://media.steampowered.com/steamcommunity/public/images/apps/239030/eb4c045f73f9a4b1bac708e70fb12f12cd53010f.jpg",
-        "appID": "Steam",
-        "system": "239030",
-        "disabled": "PC"
+        "name": "Papers Please",
+        "logoURL": "http://media.steampowered.com/steamcommunity/public/images/apps/239030/eb4c045f73f9a4b1bac708e70fb12f12cd53010f.jpg",
+        "store": "Steam",
+        "appID": "239030",
+        "system": "PC",
+        "disabled": false
     },
     {
         "name": "Double Dragon Neon",
@@ -3981,7 +3981,7 @@
         "store": "Steam",
         "appID": "252350",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Battlefield Bad Company 2",
@@ -3989,7 +3989,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Bus-Simulator 2012",
@@ -3997,7 +3997,7 @@
         "store": "Steam",
         "appID": "253770",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Killer is Dead",
@@ -4005,7 +4005,7 @@
         "store": "Steam",
         "appID": "261110",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "FINAL FANTASY VIII",
@@ -4013,7 +4013,7 @@
         "store": "Steam",
         "appID": "39150",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Blades of Time",
@@ -4021,7 +4021,7 @@
         "store": "Steam",
         "appID": "208670",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Broforce",
@@ -4029,7 +4029,7 @@
         "store": "Steam",
         "appID": "274190",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "OlliOlli",
@@ -4037,7 +4037,7 @@
         "store": "Steam",
         "appID": "274250",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Toybox Turbos",
@@ -4045,7 +4045,7 @@
         "store": "Steam",
         "appID": "287260",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "H1Z1: Test Server",
@@ -4053,7 +4053,7 @@
         "store": "Steam",
         "appID": "439700",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "BlazeRush",
@@ -4061,7 +4061,7 @@
         "store": "Steam",
         "appID": "302710",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Aritana and the Harpy's Feather",
@@ -4069,7 +4069,7 @@
         "store": "Steam",
         "appID": "314360",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Devil May Cry 3: Special Edition",
@@ -4077,7 +4077,7 @@
         "store": "Steam",
         "appID": "6550",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Grandia II Anniversary Edition",
@@ -4085,7 +4085,7 @@
         "store": "Steam",
         "appID": "330390",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "HuniePop",
@@ -4093,7 +4093,7 @@
         "store": "Steam",
         "appID": "339800",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Glorkian Warrior: The Trials Of Glork",
@@ -4101,7 +4101,7 @@
         "store": "Steam",
         "appID": "341120",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Giana Sisters: Dream Runners",
@@ -4109,7 +4109,7 @@
         "store": "Steam",
         "appID": "352900",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "PAC-MAN Championship Edition DX+",
@@ -4117,7 +4117,7 @@
         "store": "Steam",
         "appID": "236450",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "JumpJet Rex",
@@ -4125,7 +4125,7 @@
         "store": "Steam",
         "appID": "329460",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Blender",
@@ -4133,7 +4133,7 @@
         "store": "Steam",
         "appID": "365670",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Controller Companion",
@@ -4141,7 +4141,7 @@
         "store": "Steam",
         "appID": "367670",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Her Story",
@@ -4149,7 +4149,7 @@
         "store": "Steam",
         "appID": "368370",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Shoppe Keep",
@@ -4157,7 +4157,7 @@
         "store": "Steam",
         "appID": "381120",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Shadow Complex Remastered",
@@ -4165,7 +4165,7 @@
         "store": "Steam",
         "appID": "385560",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Company of Heroes 2",
@@ -4173,7 +4173,7 @@
         "store": "Steam",
         "appID": "231430",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Just Cause 3",
@@ -4181,7 +4181,7 @@
         "store": "Steam",
         "appID": "225540",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Tinboy",
@@ -4189,7 +4189,7 @@
         "store": "Steam",
         "appID": "399430",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Lup",
@@ -4197,15 +4197,15 @@
         "store": "Steam",
         "appID": "412600",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
-        "name": "Kivi",
-        "logoURL": " Toilet and Shotgun",
-        "store": "http://media.steampowered.com/steamcommunity/public/images/apps/428950/20899d04aabd7cc8fb1cd5500a9a02d3a17fc65b.jpg",
-        "appID": "Steam",
-        "system": "428950",
-        "disabled": "PC"
+        "name": "Kivi Toilet and Shotgun",
+        "logoURL": "http://media.steampowered.com/steamcommunity/public/images/apps/428950/20899d04aabd7cc8fb1cd5500a9a02d3a17fc65b.jpg",
+        "store": "Steam",
+        "appID": "428950",
+        "system": "PC",
+        "disabled": false
     },
     {
         "name": "Calcu-Late",
@@ -4213,7 +4213,7 @@
         "store": "Steam",
         "appID": "449200",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Catch a Falling Star",
@@ -4221,7 +4221,7 @@
         "store": "Steam",
         "appID": "451880",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Super Space Pug",
@@ -4229,7 +4229,7 @@
         "store": "Steam",
         "appID": "466840",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Monster Puzzle",
@@ -4237,7 +4237,7 @@
         "store": "Steam",
         "appID": "493700",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "$1 Ride",
@@ -4245,7 +4245,7 @@
         "store": "Steam",
         "appID": "508290",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Spikit",
@@ -4253,7 +4253,7 @@
         "store": "Steam",
         "appID": "509110",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Turbo Pug 3D",
@@ -4261,7 +4261,7 @@
         "store": "Steam",
         "appID": "528510",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "RESIDENT EVIL 7",
@@ -4269,7 +4269,7 @@
         "store": "Steam",
         "appID": "418370",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Distant Space",
@@ -4277,7 +4277,7 @@
         "store": "Steam",
         "appID": "569610",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "HITMAN™",
@@ -4285,7 +4285,7 @@
         "store": "Steam",
         "appID": "236870",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Kingdom: Classic",
@@ -4293,7 +4293,7 @@
         "store": "Steam",
         "appID": "368230",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Alice Madness Returns",
@@ -4301,7 +4301,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Gears of War 4",
@@ -4309,7 +4309,7 @@
         "store": "Windows Store",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Forza Horizon 3",
@@ -4317,7 +4317,7 @@
         "store": "Windows Store",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Forza Motorport 7",
@@ -4325,7 +4325,7 @@
         "store": "Windows Store",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Prey",
@@ -4333,7 +4333,7 @@
         "store": "Windows Store",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Final Fantasy XV",
@@ -4341,7 +4341,7 @@
         "store": "Windows Store",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "God of War III Remastered",
@@ -4349,7 +4349,7 @@
         "store": "PSN",
         "appID": "",
         "system": "Playstation 4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Bully",
@@ -4357,7 +4357,7 @@
         "store": "PSN",
         "appID": "",
         "system": "Playstation 4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Journey",
@@ -4365,7 +4365,7 @@
         "store": "PSN",
         "appID": "",
         "system": "Playstation 4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Grand Theft Auto: San Andreas",
@@ -4373,7 +4373,7 @@
         "store": "Google Play",
         "appID": "",
         "system": "Android",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Max Payne",
@@ -4381,7 +4381,7 @@
         "store": "Google Play",
         "appID": "",
         "system": "Android",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "World of Goo",
@@ -4389,7 +4389,7 @@
         "store": "Google Play",
         "appID": "",
         "system": "Android",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Rayman Jungle Run",
@@ -4397,7 +4397,7 @@
         "store": "Google Play",
         "appID": "",
         "system": "Android",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Far Cry 3",
@@ -4405,7 +4405,7 @@
         "store": "Undefined",
         "appID": "",
         "system": "Playstation 3",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Hellblade: Senua's Sacrifice VR Edition",
@@ -4413,15 +4413,15 @@
         "store": "Steam",
         "appID": "747350",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
-        "name": "Warhammer 40",
-        "logoURL": "000: Space Marine",
-        "store": "http://media.steampowered.com/steamcommunity/public/images/apps/55150/46b0ce6e587472d1d56cc88dd32c8b57392f8b10.jpg",
-        "appID": "Steam",
-        "system": "55150",
-        "disabled": "PC"
+        "name": "Warhammer 40000: Space Marine",
+        "logoURL": "http://media.steampowered.com/steamcommunity/public/images/apps/55150/46b0ce6e587472d1d56cc88dd32c8b57392f8b10.jpg",
+        "store": "Steam",
+        "appID": "55150",
+        "system": "PC",
+        "disabled": false
     },
     {
         "name": "Heavy Metal Machines",
@@ -4429,7 +4429,7 @@
         "store": "Steam",
         "appID": "331360",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Project CARS 2",
@@ -4437,7 +4437,7 @@
         "store": "Steam",
         "appID": "378860",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Orwell",
@@ -4445,7 +4445,7 @@
         "store": "Steam",
         "appID": "491950",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Left 4 Dead 2",
@@ -4453,7 +4453,7 @@
         "store": "Steam",
         "appID": "550",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Sid Meier's Civilization IV",
@@ -4461,7 +4461,7 @@
         "store": "Steam",
         "appID": "34440",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "MX vs. ATV Reflex",
@@ -4469,7 +4469,7 @@
         "store": "Steam",
         "appID": "55140",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Mafia II",
@@ -4477,7 +4477,7 @@
         "store": "Steam",
         "appID": "50130",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Mortal Kombat Kollection",
@@ -4485,7 +4485,7 @@
         "store": "Steam",
         "appID": "205350",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "X-COM: Terror from the Deep",
@@ -4493,7 +4493,7 @@
         "store": "Steam",
         "appID": "7650",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Crysis 2 Maximum Edition",
@@ -4501,7 +4501,7 @@
         "store": "Steam",
         "appID": "108800",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Psychonauts",
@@ -4509,7 +4509,7 @@
         "store": "Steam",
         "appID": "3830",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "LIMBO",
@@ -4517,7 +4517,7 @@
         "store": "Steam",
         "appID": "48000",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Amnesia: The Dark Descent",
@@ -4525,7 +4525,7 @@
         "store": "Steam",
         "appID": "57300",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Superbrothers: Sword & Sworcery EP",
@@ -4533,7 +4533,7 @@
         "store": "Steam",
         "appID": "204060",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Batman: Arkham City",
@@ -4541,7 +4541,7 @@
         "store": "Steam",
         "appID": "200260",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Company of Heroes - Legacy Edition",
@@ -4549,7 +4549,7 @@
         "store": "Steam",
         "appID": "4560",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "The Cave",
@@ -4557,7 +4557,7 @@
         "store": "Steam",
         "appID": "221810",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "BioShock Infinite",
@@ -4565,7 +4565,7 @@
         "store": "Steam",
         "appID": "8870",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Surgeon Simulator",
@@ -4573,7 +4573,7 @@
         "store": "Steam",
         "appID": "233720",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Realms of Arkania: Blade of Destiny",
@@ -4581,7 +4581,7 @@
         "store": "Steam",
         "appID": "237550",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Toki Tori",
@@ -4589,7 +4589,7 @@
         "store": "Steam",
         "appID": "38700",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "RUSH",
@@ -4597,7 +4597,7 @@
         "store": "Steam",
         "appID": "38720",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "EDGE",
@@ -4605,7 +4605,7 @@
         "store": "Steam",
         "appID": "38740",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Toki Tori 2+",
@@ -4613,7 +4613,7 @@
         "store": "Steam",
         "appID": "201420",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Toki Tori 2+ Level Editor",
@@ -4621,7 +4621,7 @@
         "store": "Steam",
         "appID": "237530",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Castlevania: Lords of Shadow 2",
@@ -4629,7 +4629,7 @@
         "store": "Steam",
         "appID": "239250",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Just Cause",
@@ -4637,7 +4637,7 @@
         "store": "Steam",
         "appID": "6880",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Tom Clancy's Splinter Cell Blacklist",
@@ -4645,7 +4645,7 @@
         "store": "Steam",
         "appID": "235600",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Hitman: Contracts",
@@ -4653,7 +4653,7 @@
         "store": "Steam",
         "appID": "247430",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Platformines",
@@ -4661,7 +4661,7 @@
         "store": "Steam",
         "appID": "264540",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "American Truck Simulator",
@@ -4669,7 +4669,7 @@
         "store": "Steam",
         "appID": "270880",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Strider",
@@ -4677,7 +4677,7 @@
         "store": "Steam",
         "appID": "235210",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "resident evil 4",
@@ -4685,7 +4685,7 @@
         "store": "Steam",
         "appID": "254700",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Ridge Racer™ Unbounded",
@@ -4693,7 +4693,7 @@
         "store": "Steam",
         "appID": "202310",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Valkyria Chronicles™",
@@ -4701,7 +4701,7 @@
         "store": "Steam",
         "appID": "294860",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Transistor",
@@ -4709,7 +4709,7 @@
         "store": "Steam",
         "appID": "237930",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Rogue Stormers",
@@ -4717,7 +4717,7 @@
         "store": "Steam",
         "appID": "299480",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Fahrenheit: Indigo Prophecy Remastered",
@@ -4725,7 +4725,7 @@
         "store": "Steam",
         "appID": "312840",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Vanishing of Ethan Carter",
@@ -4733,7 +4733,7 @@
         "store": "Steam",
         "appID": "258520",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "VEGAS Movie Studio 13 Platinum - Steam Powered",
@@ -4741,7 +4741,7 @@
         "store": "Steam",
         "appID": "330070",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Batman™: Arkham Knight",
@@ -4749,7 +4749,7 @@
         "store": "Steam",
         "appID": "208650",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "RIDE: Game",
@@ -4757,7 +4757,7 @@
         "store": "Steam",
         "appID": "345660",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Elder Scrolls Online: Tamriel Unlimited",
@@ -4765,7 +4765,7 @@
         "store": "Steam",
         "appID": "306130",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Mortal Kombat: Legacy II: Reunited in Macau",
@@ -4773,7 +4773,7 @@
         "store": "Steam",
         "appID": "362180",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Mortal Kombat: Legacy II: The Fall of Liu Kang",
@@ -4781,7 +4781,7 @@
         "store": "Steam",
         "appID": "362190",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Mortal Kombat: Legacy II: Kenshi's Origin",
@@ -4789,7 +4789,7 @@
         "store": "Steam",
         "appID": "362200",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Mortal Kombat: Legacy II: Kenshi Encounters Ermac",
@@ -4797,7 +4797,7 @@
         "store": "Steam",
         "appID": "362210",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Mortal Kombat: Legacy II: Kitana and Mileena",
@@ -4805,7 +4805,7 @@
         "store": "Steam",
         "appID": "362220",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Mortal Kombat: Legacy II: Johnny Cage",
@@ -4813,7 +4813,7 @@
         "store": "Steam",
         "appID": "362230",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Mortal Kombat: Legacy II: Scorpion and Sub-Zero (Part 1)",
@@ -4821,7 +4821,7 @@
         "store": "Steam",
         "appID": "362240",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Mortal Kombat: Legacy II: Scorpion and Sub-Zero (Part 2)",
@@ -4829,7 +4829,7 @@
         "store": "Steam",
         "appID": "362250",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Mortal Kombat: Legacy II: Liu Kang",
@@ -4837,7 +4837,7 @@
         "store": "Steam",
         "appID": "362260",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Mortal Kombat: Legacy II: Liu Kang and Kung Lao",
@@ -4845,7 +4845,7 @@
         "store": "Steam",
         "appID": "362270",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Mortal Kombat: Legacy II",
@@ -4853,7 +4853,7 @@
         "store": "Steam",
         "appID": "362280",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Shoot 1UP",
@@ -4861,7 +4861,7 @@
         "store": "Steam",
         "appID": "373610",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Flesh Eaters",
@@ -4869,7 +4869,7 @@
         "store": "Steam",
         "appID": "383580",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Saviors",
@@ -4877,7 +4877,7 @@
         "store": "Steam",
         "appID": "314450",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Dangerous Golf",
@@ -4885,7 +4885,7 @@
         "store": "Steam",
         "appID": "405500",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Super Button Soccer",
@@ -4893,7 +4893,7 @@
         "store": "Steam",
         "appID": "425300",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "SEGA Mega Drive & Genesis Classics",
@@ -4901,7 +4901,7 @@
         "store": "Steam",
         "appID": "34270",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Holodrive",
@@ -4909,7 +4909,7 @@
         "store": "Steam",
         "appID": "370770",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Deep Space Dash",
@@ -4917,7 +4917,7 @@
         "store": "Steam",
         "appID": "493650",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Life is Strange™",
@@ -4925,7 +4925,7 @@
         "store": "Steam",
         "appID": "319630",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Stone Age Wars",
@@ -4933,7 +4933,7 @@
         "store": "Steam",
         "appID": "521230",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Modern Warfare 3",
@@ -4941,7 +4941,7 @@
         "store": "Windows Store",
         "appID": "",
         "system": "XBOX 360",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Tomb Raider: Legend",
@@ -4949,7 +4949,7 @@
         "store": "Windows Store",
         "appID": "",
         "system": "XBOX 360",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "MGS 2 and 3",
@@ -4957,7 +4957,7 @@
         "store": "Windows Store",
         "appID": "",
         "system": "XBOX 360",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Batman: Arkham City",
@@ -4965,7 +4965,7 @@
         "store": "Windows Store",
         "appID": "",
         "system": "XBOX 360",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Evil Within",
@@ -4973,7 +4973,7 @@
         "store": "Windows Store",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Metro Redux",
@@ -4981,7 +4981,7 @@
         "store": "Windows Store",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Quantum Break",
@@ -4989,7 +4989,7 @@
         "store": "Windows Store",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Super Mega Neo Pug",
@@ -4997,7 +4997,7 @@
         "store": "Steam",
         "appID": "469730",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Laraan",
@@ -5005,7 +5005,7 @@
         "store": "Steam",
         "appID": "493710",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Final Quest",
@@ -5013,7 +5013,7 @@
         "store": "Steam",
         "appID": "512640",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Final Quest II",
@@ -5021,7 +5021,7 @@
         "store": "Steam",
         "appID": "540020",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "OR",
@@ -5029,7 +5029,7 @@
         "store": "Steam",
         "appID": "586620",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Cortex Command",
@@ -5037,7 +5037,7 @@
         "store": "Steam",
         "appID": "209670",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Battlefield 3",
@@ -5045,7 +5045,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Battlefield 4",
@@ -5053,7 +5053,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Bejeweled 3",
@@ -5061,7 +5061,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Burnout Paradise: The Ultimate Box",
@@ -5069,7 +5069,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Command and Conquer Red Alert 3 Uprising",
@@ -5077,7 +5077,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Crusader no Remorse",
@@ -5085,7 +5085,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Crysis Warhead",
@@ -5093,7 +5093,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Crysis",
@@ -5101,7 +5101,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "PRO EVOLUTION SOCCER 2019",
@@ -5109,7 +5109,7 @@
         "store": "Steam",
         "appID": "770240",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Assetto Corsa Competizione",
@@ -5117,7 +5117,7 @@
         "store": "Steam",
         "appID": "805550",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Far Cry 5",
@@ -5125,7 +5125,7 @@
         "store": "Steam",
         "appID": "552520",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "For Honor",
@@ -5133,7 +5133,7 @@
         "store": "Steam",
         "appID": "304390",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "For Honor - Public Test",
@@ -5141,7 +5141,7 @@
         "store": "Steam",
         "appID": "654310",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "The Tiny Bang Story",
@@ -5149,7 +5149,7 @@
         "store": "Steam",
         "appID": "96000",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Grand Theft Auto III",
@@ -5157,7 +5157,7 @@
         "store": "Steam",
         "appID": "12230",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Grand Theft Auto: San Andreas",
@@ -5165,7 +5165,7 @@
         "store": "Steam",
         "appID": "12250",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Grand Theft Auto: Vice City",
@@ -5173,7 +5173,7 @@
         "store": "Steam",
         "appID": "12240",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Sonic CD",
@@ -5181,7 +5181,7 @@
         "store": "Steam",
         "appID": "200940",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "F1 2018",
@@ -5189,7 +5189,7 @@
         "store": "Steam",
         "appID": "737800",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Command and Conquer Red Alert 3 Uprising",
@@ -5197,7 +5197,7 @@
         "store": "Steam",
         "appID": "24800",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Witcher: Enhanced Edition",
@@ -5205,7 +5205,7 @@
         "store": "Steam",
         "appID": "20900",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Sid Meier's Civilization IV: Warlords",
@@ -5213,7 +5213,7 @@
         "store": "Steam",
         "appID": "34450",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Sid Meier's Civilization IV: Beyond the Sword",
@@ -5221,7 +5221,7 @@
         "store": "Steam",
         "appID": "34460",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Eversion ",
@@ -5229,7 +5229,7 @@
         "store": "Steam",
         "appID": "33680",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Super Meat Boy",
@@ -5237,7 +5237,7 @@
         "store": "Steam",
         "appID": "40800",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Need for Speed: Hot Pursuit",
@@ -5245,7 +5245,7 @@
         "store": "Steam",
         "appID": "47870",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Titan Quest",
@@ -5253,7 +5253,7 @@
         "store": "Steam",
         "appID": "4540",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Titan Quest Anniversary Edition",
@@ -5261,7 +5261,7 @@
         "store": "Steam",
         "appID": "475150",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Borderlands",
@@ -5269,7 +5269,7 @@
         "store": "Steam",
         "appID": "8980",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Lord of the Rings: War in the North",
@@ -5277,7 +5277,7 @@
         "store": "Steam",
         "appID": "32800",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Alan Wake",
@@ -5285,7 +5285,7 @@
         "store": "Steam",
         "appID": "108710",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Luxor Evolved",
@@ -5293,7 +5293,7 @@
         "store": "Steam",
         "appID": "205830",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "F1 2012",
@@ -5301,7 +5301,7 @@
         "store": "Steam",
         "appID": "208500",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Company of Heroes: Opposing Fronts",
@@ -5309,7 +5309,7 @@
         "store": "Steam",
         "appID": "9340",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Grand Theft Auto: Vice City",
@@ -5317,7 +5317,7 @@
         "store": "Steam",
         "appID": "12110",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Euro Truck Simulator 2",
@@ -5325,7 +5325,7 @@
         "store": "Steam",
         "appID": "227300",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "3DMark",
@@ -5333,7 +5333,7 @@
         "store": "Steam",
         "appID": "223850",
         "system": "PC",
-        "disabled": "true"
+        "disabled": true
     },
     {
         "name": "Spiral Knights",
@@ -5341,7 +5341,7 @@
         "store": "Steam",
         "appID": "99900",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "FEZ",
@@ -5349,7 +5349,7 @@
         "store": "Steam",
         "appID": "224760",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Zack Zero",
@@ -5357,7 +5357,7 @@
         "store": "Steam",
         "appID": "234290",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Shadowrun Returns",
@@ -5365,7 +5365,7 @@
         "store": "Steam",
         "appID": "234650",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Call of Juarez Gunslinger",
@@ -5373,7 +5373,7 @@
         "store": "Steam",
         "appID": "204450",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Mini Motor Racing EVO",
@@ -5381,7 +5381,7 @@
         "store": "Steam",
         "appID": "209520",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Rocksmith® 2014 Edition - Remastered",
@@ -5389,7 +5389,7 @@
         "store": "Steam",
         "appID": "221680",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Gas Guzzlers Extreme",
@@ -5397,7 +5397,7 @@
         "store": "Steam",
         "appID": "243800",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "LEGO® MARVEL Super Heroes",
@@ -5405,7 +5405,7 @@
         "store": "Steam",
         "appID": "249130",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Beware Planet Earth",
@@ -5413,7 +5413,7 @@
         "store": "Steam",
         "appID": "267340",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Insurgency",
@@ -5421,7 +5421,7 @@
         "store": "Steam",
         "appID": "222880",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Age of Wonders III",
@@ -5429,7 +5429,7 @@
         "store": "Steam",
         "appID": "226840",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "FATE: Undiscovered Realms",
@@ -5437,7 +5437,7 @@
         "store": "Steam",
         "appID": "276890",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Colin McRae Rally",
@@ -5445,7 +5445,7 @@
         "store": "Steam",
         "appID": "287340",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Qasir al-Wasat: International Edition",
@@ -5453,7 +5453,7 @@
         "store": "Steam",
         "appID": "296030",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "DiRT Rally",
@@ -5461,7 +5461,7 @@
         "store": "Steam",
         "appID": "310560",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Saints Row IV",
@@ -5469,7 +5469,7 @@
         "store": "Steam",
         "appID": "206420",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Grim Fandango Remastered",
@@ -5477,7 +5477,7 @@
         "store": "Steam",
         "appID": "316790",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Alien: Isolation",
@@ -5485,7 +5485,7 @@
         "store": "Steam",
         "appID": "214490",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Middle-earth™: Shadow of Mordor™",
@@ -5493,7 +5493,7 @@
         "store": "Steam",
         "appID": "241930",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Dying Light",
@@ -5501,7 +5501,7 @@
         "store": "Steam",
         "appID": "239140",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Outlast",
@@ -5509,7 +5509,7 @@
         "store": "Steam",
         "appID": "238320",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "StuntMANIA Reloaded",
@@ -5517,7 +5517,7 @@
         "store": "Steam",
         "appID": "324750",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Project CARS",
@@ -5525,7 +5525,7 @@
         "store": "Steam",
         "appID": "234630",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "iRacing",
@@ -5533,7 +5533,7 @@
         "store": "Steam",
         "appID": "266410",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Sky Force Anniversary",
@@ -5541,7 +5541,7 @@
         "store": "Steam",
         "appID": "355050",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Wolfenstein: The Old Blood ",
@@ -5549,7 +5549,7 @@
         "store": "Steam",
         "appID": "350080",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Karate Master 2 Knock Down Blow",
@@ -5557,7 +5557,7 @@
         "store": "Steam",
         "appID": "347670",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Mother Russia Bleeds",
@@ -5565,7 +5565,7 @@
         "store": "Steam",
         "appID": "361300",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "BASEBALL STARS 2",
@@ -5573,7 +5573,7 @@
         "store": "Steam",
         "appID": "366230",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "New kind of adventure",
@@ -5581,7 +5581,7 @@
         "store": "Steam",
         "appID": "375510",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Tower Of Elements",
@@ -5589,7 +5589,7 @@
         "store": "Steam",
         "appID": "377310",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Jet Racing Extreme",
@@ -5597,7 +5597,7 @@
         "store": "Steam",
         "appID": "385270",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Game Corp DX",
@@ -5605,7 +5605,7 @@
         "store": "Steam",
         "appID": "399670",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Ampersand",
@@ -5613,7 +5613,7 @@
         "store": "Steam",
         "appID": "410210",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Dead Rising",
@@ -5621,7 +5621,7 @@
         "store": "Steam",
         "appID": "427190",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Neon Chrome",
@@ -5629,7 +5629,7 @@
         "store": "Steam",
         "appID": "428750",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Hell Yeah!",
@@ -5637,7 +5637,7 @@
         "store": "Steam",
         "appID": "205230",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Tom Clancy's The Division",
@@ -5645,7 +5645,7 @@
         "store": "Steam",
         "appID": "365590",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Tom Clancy's The Division PTS",
@@ -5653,7 +5653,7 @@
         "store": "Steam",
         "appID": "524440",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "DOOM",
@@ -5661,7 +5661,7 @@
         "store": "Steam",
         "appID": "379720",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Subnautica",
@@ -5669,7 +5669,7 @@
         "store": "Epic",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Shadow Complex Remastered",
@@ -5677,7 +5677,7 @@
         "store": "Epic",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Super Meat Boy",
@@ -5685,7 +5685,7 @@
         "store": "Epic",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Resident Evil 2 Classic",
@@ -5693,7 +5693,7 @@
         "store": "PSN",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Journey",
@@ -5701,7 +5701,7 @@
         "store": "PSN",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Epic Mickey",
@@ -5709,7 +5709,7 @@
         "store": "PSN",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Duck Tales Remastered",
@@ -5717,7 +5717,7 @@
         "store": "PSN",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Castle of Illusions",
@@ -5725,7 +5725,7 @@
         "store": "PSN",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Crysis 3",
@@ -5733,7 +5733,7 @@
         "store": "PSN",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Puppeteer",
@@ -5741,7 +5741,7 @@
         "store": "PSN",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "F1 2013",
@@ -5749,7 +5749,7 @@
         "store": "PSN",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Ni No Kuni",
@@ -5757,7 +5757,7 @@
         "store": "PSN",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Mirror's Edge",
@@ -5765,7 +5765,7 @@
         "store": "PSN",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Resident Evil Directors Cut",
@@ -5773,7 +5773,7 @@
         "store": "PSN",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Metal Gear Solid",
@@ -5781,7 +5781,7 @@
         "store": "PSN",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Metal Gear Solid VR Missions",
@@ -5789,7 +5789,7 @@
         "store": "PSN",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Beyond Two Souls",
@@ -5797,7 +5797,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Dragon Age 2",
@@ -5805,7 +5805,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Far Cry 3",
@@ -5813,7 +5813,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "God of War 3",
@@ -5821,7 +5821,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "God of War Ascension",
@@ -5829,7 +5829,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "God of War Collection",
@@ -5837,7 +5837,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Gran Turismo 5 XL Edition",
@@ -5845,7 +5845,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Gran Turismo 6",
@@ -5853,7 +5853,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Heavy Rain Movie Edition",
@@ -5861,7 +5861,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "inFamous",
@@ -5869,7 +5869,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Killzone Trilogy",
@@ -5877,7 +5877,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Little Big Planet 2",
@@ -5885,7 +5885,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Lost Planet 2",
@@ -5893,7 +5893,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Lost Planet Extreme Condition",
@@ -5901,7 +5901,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Midnight Club Log Angeles Complete Edition",
@@ -5909,7 +5909,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Mortal Kombat",
@@ -5917,7 +5917,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Motorstorm",
@@ -5925,7 +5925,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "PRO EVOLUTION SOCCER 2013",
@@ -5933,7 +5933,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Ratchet and Clank All 4 One",
@@ -5941,7 +5941,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Red Dead Redemption",
@@ -5949,7 +5949,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The ICO Shadow of Colossus Collection",
@@ -5957,7 +5957,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Uncharted 2 Among thieves",
@@ -5965,7 +5965,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Uncharted 3 Drakes Deception",
@@ -5973,7 +5973,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Uncharted Drakes Fortune",
@@ -5981,7 +5981,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS3",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Assassins Creed Syndicate",
@@ -5989,7 +5989,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Battlefield 4",
@@ -5997,7 +5997,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Bloodborne",
@@ -6005,7 +6005,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Call of Duty Advanced Warfare",
@@ -6013,7 +6013,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Dark Souls 3",
@@ -6021,7 +6021,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "DriveClub",
@@ -6029,7 +6029,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Evolve",
@@ -6037,7 +6037,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Far Cry 4",
@@ -6045,7 +6045,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Fifa Soccer 14",
@@ -6053,7 +6053,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Gran Turismo Sport",
@@ -6061,7 +6061,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Grand Theft Auto V",
@@ -6069,7 +6069,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Horizon Zero Dawn",
@@ -6077,7 +6077,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Infamous Second Son",
@@ -6085,7 +6085,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Killzone Shadow Fall",
@@ -6093,7 +6093,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "NBA 2K14",
@@ -6101,7 +6101,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "PRO EVOLUTION SOCCER 2018",
@@ -6109,7 +6109,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Ratchet and Clank",
@@ -6117,7 +6117,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Rayman Origins",
@@ -6125,7 +6125,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Red Dead Redemption 2",
@@ -6133,7 +6133,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Last of Us Remastered",
@@ -6141,7 +6141,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Order 1886",
@@ -6149,7 +6149,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Uncharted 4 A Thiefs End",
@@ -6157,7 +6157,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Watch Dogs",
@@ -6165,7 +6165,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Assassins Creed IV Black Flag",
@@ -6173,7 +6173,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Crash Bandicoot Insane Trilogy",
@@ -6181,7 +6181,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Dead Rising 3",
@@ -6189,7 +6189,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Dead Rising 4",
@@ -6197,7 +6197,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Dragon Age Inquisition",
@@ -6205,7 +6205,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Forza 5",
@@ -6213,7 +6213,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Gears of War Ultimate Edition",
@@ -6221,7 +6221,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Halo 5",
@@ -6229,7 +6229,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Metal Gear Solid The Phantom Pain",
@@ -6237,7 +6237,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "PRO EVOLUTION SOCCER 2016",
@@ -6245,7 +6245,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Rise of Tomb Raider",
@@ -6253,7 +6253,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Ryse: Son of Rome",
@@ -6261,7 +6261,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Sunset Overdrive",
@@ -6269,7 +6269,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Titanfall",
@@ -6277,7 +6277,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Gears of War",
@@ -6285,7 +6285,7 @@
         "store": "Windows Store",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Gears of War",
@@ -6293,7 +6293,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Gears of War 2",
@@ -6301,7 +6301,7 @@
         "store": "Windows Store",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Gears of War 3",
@@ -6309,7 +6309,7 @@
         "store": "Windows Store",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Gears of War Judgement",
@@ -6317,7 +6317,7 @@
         "store": "Windows Store",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Assassins Creed Unity",
@@ -6325,7 +6325,7 @@
         "store": "Windows Store",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Donkey Kong Country Returns",
@@ -6333,7 +6333,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "Wii",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Mario Kart",
@@ -6341,7 +6341,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "Wii",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "New Super Mario Bros Wii",
@@ -6349,7 +6349,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "Wii",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Pikmin 2",
@@ -6357,7 +6357,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "Wii",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "resident evil 4",
@@ -6365,7 +6365,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "Wii",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Super Mario Galaxy",
@@ -6373,7 +6373,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "Wii",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Super Mario Galaxy 2",
@@ -6381,7 +6381,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "Wii",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Super Paper Mario",
@@ -6389,7 +6389,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "Wii",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Last Story",
@@ -6397,7 +6397,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "Wii",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Legend of Zelda Skyward Sword",
@@ -6405,7 +6405,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "Wii",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "The Legend of Zelda Twilight Princess",
@@ -6413,7 +6413,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "Wii",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Wii Sports",
@@ -6421,7 +6421,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "Wii",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Wii Sports Resort",
@@ -6429,7 +6429,7 @@
         "store": "Mídia Física",
         "appID": "",
         "system": "Wii",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Battlefield 1",
@@ -6437,7 +6437,7 @@
         "store": "Origin",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Flashback",
@@ -6445,7 +6445,7 @@
         "store": "Windows Store",
         "appID": "",
         "system": "XBOX One",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Child of Light",
@@ -6453,7 +6453,7 @@
         "store": "PSN",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Yooka Laylee",
@@ -6461,7 +6461,7 @@
         "store": "GOG",
         "appID": "",
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "RESIDENT EVIL 2 Remastered",
@@ -6469,7 +6469,7 @@
         "store": "Steam",
         "appID": 883710,
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Vanquish",
@@ -6477,7 +6477,7 @@
         "store": "Steam",
         "appID": 460810,
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "RiME",
@@ -6485,7 +6485,7 @@
         "store": "Steam",
         "appID": 493200,
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Bayonetta",
@@ -6493,7 +6493,7 @@
         "store": "Steam",
         "appID": 460790,
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Deponia: The Complete Journey",
@@ -6501,7 +6501,7 @@
         "store": "Steam",
         "appID": 292910,
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "A Story About My Uncle",
@@ -6509,7 +6509,7 @@
         "store": "Steam",
         "appID": 278360,
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "GRID 2",
@@ -6517,7 +6517,7 @@
         "store": "Steam",
         "appID": 44350,
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "LEGO® The Lord of the Rings™",
@@ -6525,7 +6525,7 @@
         "store": "Steam",
         "appID": 214510,
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "To the Moon",
@@ -6533,7 +6533,7 @@
         "store": "Steam",
         "appID": 206440,
         "system": "PC",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Injustice: Gods Among Us Ultimate Edition",
@@ -6541,7 +6541,7 @@
         "store": "PSN",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Metal Gear Solid V: Ground Zeroes",
@@ -6549,7 +6549,7 @@
         "store": "PSN",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Trials Fusion",
@@ -6557,7 +6557,7 @@
         "store": "PSN",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     },
     {
         "name": "Diablo III",
@@ -6565,6 +6565,6 @@
         "store": "PSN",
         "appID": "",
         "system": "PS4",
-        "disabled": "false"
+        "disabled": false
     }
 ]
