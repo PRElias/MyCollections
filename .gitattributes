@@ -63,5 +63,4 @@
 #*.RTF   diff=astextplain
 
 
-MyCollectionsPWA/Content/* linguist-vendored
-MyCollectionsPWA/scripts/* linguist-vendored
+docs/vendor/* linguist-vendored
