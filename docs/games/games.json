@@ -1,0 +1,6570 @@
+[
+    {
+        "name": "Dragon Age Origins",
+        "logoURL": "./games/covers/DragonAgeOrigins.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Dungeon Keeper",
+        "logoURL": "./games/covers/DungeonKeeper.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Fifa Soccer 12",
+        "logoURL": "./games/covers/FifaSoccer12.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Fifa Soccer 15",
+        "logoURL": "./games/covers/FifaSoccer15.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Fifa Soccer 16",
+        "logoURL": "./games/covers/FicaSoccer16.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Fifa Soccer 17",
+        "logoURL": "./games/covers/FifaSoccer17.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Jade Empire Special Edition",
+        "logoURL": "./games/covers/JadeEmpireSpecialEdition.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Mass Effect 2",
+        "logoURL": "./games/covers/MassEffect2.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Medal of Honor",
+        "logoURL": "./games/covers/MedalofHonor.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Medal of Honor Pacific Assault",
+        "logoURL": "./games/covers/MedalofHonorPacificAssault.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Mirror's Edge",
+        "logoURL": "./games/covers/MirrorsEdge.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Zumas Revenge",
+        "logoURL": "./games/covers/ZumasRevenge.jpg",
+        "store": "Steam",
+        "appID": "3620",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Sid Meier's Civilization IV: Colonization",
+        "logoURL": "./games/covers/SidMeiersCivilizationIVColonization.jpg",
+        "store": "Steam",
+        "appID": "16810",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Grand Theft Auto IV",
+        "logoURL": "./games/covers/GrandTheftAutoIV.jpg",
+        "store": "Steam",
+        "appID": "12210",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Grand Theft Auto: Episodes from Liberty City",
+        "logoURL": "./games/covers/GrandTheftAutoEpisodesfromLibertyCity.jpg",
+        "store": "Steam",
+        "appID": "12220",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "F.E.A.R.: Perseus Mandate",
+        "logoURL": "./games/covers/FEARPerseusMandate.jpg",
+        "store": "Steam",
+        "appID": "21120",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Blazing Star",
+        "logoURL": "./games/covers/BlazingStar.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "F.E.A.R. 2: Project Origin",
+        "logoURL": "./games/covers/FEAR2ProjectOrigin.jpg",
+        "store": "Steam",
+        "appID": "16450",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Age of Empires® III: Complete Collection",
+        "logoURL": "./games/covers/AgeofEmpiresIIICompleteCollection.jpg",
+        "store": "Steam",
+        "appID": "105450",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "LEGO Harry Potter: Years 5-7",
+        "logoURL": "./games/covers/LEGOHarryPotterYears57.jpg",
+        "store": "Steam",
+        "appID": "204120",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "X-COM: Interceptor",
+        "logoURL": "./games/covers/XCOMInterceptor.jpg",
+        "store": "Steam",
+        "appID": "7730",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "X-COM: Apocalypse",
+        "logoURL": "./games/covers/XCOMApocalypse.jpg",
+        "store": "Steam",
+        "appID": "7660",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Home",
+        "logoURL": "./games/covers/Home.jpg",
+        "store": "Steam",
+        "appID": "215670",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Hard Reset",
+        "logoURL": "./games/covers/HardReset.jpg",
+        "store": "Steam",
+        "appID": "98400",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Batman: Arkham Asylum GOTY Edition",
+        "logoURL": "./games/covers/BatmanArkhamAsylumGOTYEdition.jpg",
+        "store": "Steam",
+        "appID": "35140",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Galactic Civilizations I: Ultimate Edition",
+        "logoURL": "./games/covers/GalacticCivilizationsIUltimateEdition.jpg",
+        "store": "Steam",
+        "appID": "214150",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "RaceRoom Racing Experience ",
+        "logoURL": "./games/covers/RaceRoomRacingExperience.jpg",
+        "store": "Steam",
+        "appID": "211500",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Sanctum 2",
+        "logoURL": "./games/covers/Sanctum2.jpg",
+        "store": "Steam",
+        "appID": "210770",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Twinkle Star Sprites",
+        "logoURL": "./games/covers/TWINKLESTARSPRITES.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Just Cause 2",
+        "logoURL": "./games/covers/JustCause2.jpg",
+        "store": "Steam",
+        "appID": "8190",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Strike Vector",
+        "logoURL": "./games/covers/StrikeVector.jpg",
+        "store": "Steam",
+        "appID": "246700",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Batman™: Arkham Origins",
+        "logoURL": "./games/covers/BatmanArkhamOrigins.jpg",
+        "store": "Steam",
+        "appID": "209000",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Game Dev Tycoon",
+        "logoURL": "./games/covers/GameDevTycoon.jpg",
+        "store": "Steam",
+        "appID": "239820",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "ENSLAVED™: Odyssey to the West™ Premium Edition",
+        "logoURL": "./games/covers/ENSLAVEDOdysseytotheWestPremiumEdition.jpg",
+        "store": "Steam",
+        "appID": "245280",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Lost Planet 3",
+        "logoURL": "./games/covers/LostPlanet3.jpg",
+        "store": "Steam",
+        "appID": "226720",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "BioShock 2",
+        "logoURL": "./games/covers/BioShock2.jpg",
+        "store": "Steam",
+        "appID": "8850",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "BioShock 2 Remastered",
+        "logoURL": "./games/covers/BioShock2Remastered.jpg",
+        "store": "Steam",
+        "appID": "409720",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Damned",
+        "logoURL": "./games/covers/Damned.jpg",
+        "store": "Steam",
+        "appID": "251170",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Injustice: Gods Among Us Ultimate Edition",
+        "logoURL": "./games/covers/InjusticeGodsAmongUsUltimateEdition.jpg",
+        "store": "Steam",
+        "appID": "242700",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Amnesia: A Machine for Pigs",
+        "logoURL": "./games/covers/AmnesiaAMachineforPigs.jpg",
+        "store": "Steam",
+        "appID": "239200",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Oniken",
+        "logoURL": "./games/covers/Oniken.jpg",
+        "store": "Steam",
+        "appID": "252010",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Castlevania: Lords of Shadow – Mirror of Fate HD",
+        "logoURL": "./games/covers/CastlevaniaLordsofShadowMirrorofFateHD.jpg",
+        "store": "Steam",
+        "appID": "282530",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "BeamNG.drive",
+        "logoURL": "./games/covers/BeamNGdrive.jpg",
+        "store": "Steam",
+        "appID": "284160",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "S.T.A.L.K.E.R.: Clear Sky",
+        "logoURL": "./games/covers/STALKERClearSky.jpg",
+        "store": "Steam",
+        "appID": "20510",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Just Survive",
+        "logoURL": "./games/covers/JustSurvive.jpg",
+        "store": "Steam",
+        "appID": "295110",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Road Redemption",
+        "logoURL": "./games/covers/RoadRedemption.jpg",
+        "store": "Steam",
+        "appID": "300380",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Farming Simulator 15",
+        "logoURL": "./games/covers/FarmingSimulator15.jpg",
+        "store": "Steam",
+        "appID": "313160",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "LEGO® Batman™ 3: Beyond Gotham",
+        "logoURL": "./games/covers/LEGOBatman3BeyondGotham.jpg",
+        "store": "Steam",
+        "appID": "313690",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Resident Evil 6",
+        "logoURL": "./games/covers/ResidentEvil6Biohazard6.jpg",
+        "store": "Steam",
+        "appID": "221040",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Costume Quest",
+        "logoURL": "./games/covers/CostumeQuest.jpg",
+        "store": "Steam",
+        "appID": "115100",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Costume Quest 2",
+        "logoURL": "./games/covers/CostumeQuest2.jpg",
+        "store": "Steam",
+        "appID": "275180",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Resident Evil HD REMASTER",
+        "logoURL": "./games/covers/ResidentEvilbiohazardHDREMASTER.jpg",
+        "store": "Steam",
+        "appID": "304240",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "BASEBALL STARS 2",
+        "logoURL": "./games/covers/BASEBALLSTARS2.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "InMind VR",
+        "logoURL": "./games/covers/InMindVR.jpg",
+        "store": "Steam",
+        "appID": "343740",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Assetto Corsa",
+        "logoURL": "./games/covers/AssettoCorsa.jpg",
+        "store": "Steam",
+        "appID": "244210",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Uncanny Valley",
+        "logoURL": "./games/covers/UncannyValley.jpg",
+        "store": "Steam",
+        "appID": "359580",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "OlliOlli2: Welcome to Olliwood",
+        "logoURL": "./games/covers/OlliOlli2WelcometoOlliwood.jpg",
+        "store": "Steam",
+        "appID": "365660",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Trine 3: The Artifacts of Power",
+        "logoURL": "./games/covers/Trine3TheArtifactsofPower.jpg",
+        "store": "Steam",
+        "appID": "319910",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Star Chronicles: Delta Quadrant",
+        "logoURL": "./games/covers/StarChroniclesDeltaQuadrant.jpg",
+        "store": "Steam",
+        "appID": "383330",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Revolution Ace",
+        "logoURL": "./games/covers/RevolutionAce.jpg",
+        "store": "Steam",
+        "appID": "274560",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Stop Online - Battle of Words",
+        "logoURL": "./games/covers/StopOnlineBattleofWords.jpg",
+        "store": "Steam",
+        "appID": "406310",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Resident Evil 0 HD REMASTER",
+        "logoURL": "./games/covers/ResidentEvil0biohazard0HDREMASTER.jpg",
+        "store": "Steam",
+        "appID": "339340",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "TRON RUN/r",
+        "logoURL": "./games/covers/TRONRUNr.jpg",
+        "store": "Steam",
+        "appID": "392000",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "SHOCK TROOPERS 2nd Squad",
+        "logoURL": "./games/covers/SHOCKTROOPERS2ndSquad.jpg",
+        "store": "Steam",
+        "appID": "465870",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Mighty No. 9",
+        "logoURL": "./games/covers/MightyNo9.jpg",
+        "store": "Steam",
+        "appID": "314710",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "City Car Driving",
+        "logoURL": "./games/covers/CityCarDriving.jpg",
+        "store": "Steam",
+        "appID": "493490",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Drayt Empire",
+        "logoURL": "./games/covers/DraytEmpire.jpg",
+        "store": "Steam",
+        "appID": "502140",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Warriors of Vilvatikta",
+        "logoURL": "./games/covers/WarriorsofVilvatikta.jpg",
+        "store": "Steam",
+        "appID": "515690",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Layers of Fear - Soundtrack",
+        "logoURL": "",
+        "store": "Steam",
+        "appID": "550210",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Germ Wars",
+        "logoURL": "./games/covers/GermWars.jpg",
+        "store": "Steam",
+        "appID": "557680",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Hellblade: Senua's Sacrifice",
+        "logoURL": "./games/covers/HellbladeSenuasSacrifice.jpg",
+        "store": "Steam",
+        "appID": "414340",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "PRO EVOLUTION SOCCER 2018",
+        "logoURL": "./games/covers/PES2018.jpg",
+        "store": "Steam",
+        "appID": "592580",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Oddworld: Abes Oddysee",
+        "logoURL": "./games/covers/OddworldAbesOddysee.jpg",
+        "store": "Steam",
+        "appID": "15700",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Stories: The Path of Destinies",
+        "logoURL": "./games/covers/StoriesThePathofDestinies.jpg",
+        "store": "Steam",
+        "appID": "439190",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Guns of Icarus Online",
+        "logoURL": "./games/covers/GunsofIcarusOnline.jpg",
+        "store": "Steam",
+        "appID": "209080",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Shock Troopers",
+        "logoURL": "./games/covers/SHOCKTROOPERS.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Samurai Shodown V Special",
+        "logoURL": "./games/covers/SamuraiShodownVSpecial.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "King of the Monsters",
+        "logoURL": "./games/covers/KingoftheMonsters.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Metal Slug X",
+        "logoURL": "./games/covers/METALSLUGX.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The King of Fighters 2000",
+        "logoURL": "./games/covers/TheKingofFighters2000.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Last Blade",
+        "logoURL": "./games/covers/THELASTBLADE.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Mount & Blade",
+        "logoURL": "./games/covers/MountBlade.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Saints Row 2",
+        "logoURL": "./games/covers/SaintsRow2.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "System Shock 2",
+        "logoURL": "./games/covers/SystemShock2.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Little Big Adventure",
+        "logoURL": "./games/covers/LittleBigAdventure.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Aliens versus Predator Classic 2000",
+        "logoURL": "./games/covers/AliensversusPredatorClassic2000.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Beneath a Steel Sky",
+        "logoURL": "./games/covers/BeneathaSteelSky.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Tyrian 2000",
+        "logoURL": "./games/covers/Tyrian2000.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Elder Scrolls IV: Oblivion ",
+        "logoURL": "./games/covers/TheElderScrollsIVOblivion.jpg",
+        "store": "Steam",
+        "appID": "22330",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Metro 2033",
+        "logoURL": "./games/covers/Metro2033.jpg",
+        "store": "Steam",
+        "appID": "43110",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Rocket Knight",
+        "logoURL": "./games/covers/RocketKnight.jpg",
+        "store": "Steam",
+        "appID": "19030",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Mirror's Edge",
+        "logoURL": "./games/covers/MirrorsEdge.jpg",
+        "store": "Steam",
+        "appID": "17410",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Prince of Persia: Warrior Within",
+        "logoURL": "./games/covers/PrinceofPersiaWarriorWithin.jpg",
+        "store": "Steam",
+        "appID": "13500",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Elder Scrolls V: Skyrim",
+        "logoURL": "./games/covers/TheElderScrollsVSkyrim.jpg",
+        "store": "Steam",
+        "appID": "72850",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Saints Row: The Third",
+        "logoURL": "./games/covers/SaintsRowTheThird.jpg",
+        "store": "Steam",
+        "appID": "55230",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "L.A. Noire",
+        "logoURL": "./games/covers/LANoire.jpg",
+        "store": "Steam",
+        "appID": "110800",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Braid",
+        "logoURL": "./games/covers/Braid.jpg",
+        "store": "Steam",
+        "appID": "26800",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Lone Survivor: The Director's Cut",
+        "logoURL": "./games/covers/LoneSurvivorTheDirectorsCut.jpg",
+        "store": "Steam",
+        "appID": "209830",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Castle Crashers",
+        "logoURL": "./games/covers/CastleCrashers.jpg",
+        "store": "Steam",
+        "appID": "204360",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Borderlands 2",
+        "logoURL": "./games/covers/Borderlands2.jpg",
+        "store": "Steam",
+        "appID": "49520",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Amazing Spider-Man",
+        "logoURL": "./games/covers/TheAmazingSpiderMan.jpg",
+        "store": "Steam",
+        "appID": "212580",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Rocksmith",
+        "logoURL": "./games/covers/Rocksmith.jpg",
+        "store": "Steam",
+        "appID": "205190",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Galactic Civilizations II: Ultimate Edition",
+        "logoURL": "./games/covers/GalacticCivilizationsIIUltimateEdition.jpg",
+        "store": "Steam",
+        "appID": "202200",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Sonic Adventure DX",
+        "logoURL": "./games/covers/SonicAdventureDX.jpg",
+        "store": "Steam",
+        "appID": "71250",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Space Channel 5: Part 2",
+        "logoURL": "./games/covers/SpaceChannel5Part2.jpg",
+        "store": "Steam",
+        "appID": "71260",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Resident Evil 5",
+        "logoURL": "./games/covers/ResidentEvil5Biohazard5.jpg",
+        "store": "Steam",
+        "appID": "21690",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Bureau: XCOM Declassified",
+        "logoURL": "./games/covers/TheBureauXCOMDeclassified.jpg",
+        "store": "Steam",
+        "appID": "65930",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Brothers - A Tale of Two Sons",
+        "logoURL": "./games/covers/BrothersATaleofTwoSons.jpg",
+        "store": "Steam",
+        "appID": "225080",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Metal Slug 3",
+        "logoURL": "./games/covers/METALSLUG3.jpg",
+        "store": "Steam",
+        "appID": "250180",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "F1 2013",
+        "logoURL": "./games/covers/F12013.jpg",
+        "store": "Steam",
+        "appID": "223670",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Guardians of Middle-earth",
+        "logoURL": "./games/covers/GuardiansofMiddleearth.jpg",
+        "store": "Steam",
+        "appID": "111900",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Chroma Squad",
+        "logoURL": "./games/covers/ChromaSquad.jpg",
+        "store": "Steam",
+        "appID": "251130",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "WRC 4 FIA WORLD RALLY CHAMPIONSHIP",
+        "logoURL": "./games/covers/WRC4FIAWORLDRALLYCHAMPIONSHIP.jpg",
+        "store": "Steam",
+        "appID": "256330",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Lords Of The Fallen",
+        "logoURL": "./games/covers/LordsOfTheFallen.jpg",
+        "store": "Steam",
+        "appID": "265300",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Stock Car Extreme",
+        "logoURL": "./games/covers/StockCarExtreme.jpg",
+        "store": "Steam",
+        "appID": "273840",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Super Toy Cars",
+        "logoURL": "./games/covers/SuperToyCars.jpg",
+        "store": "Steam",
+        "appID": "116100",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Just Survive Test Server",
+        "logoURL": "./games/covers/JustSurviveTestServer.jpg",
+        "store": "Steam",
+        "appID": "362300",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "ADR1FT",
+        "logoURL": "./games/covers/ADR1FT.jpg",
+        "store": "Steam",
+        "appID": "300060",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Adventurezator: When Pigs Fly",
+        "logoURL": "./games/covers/AdventurezatorWhenPigsFly.jpg",
+        "store": "Steam",
+        "appID": "300280",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Expendabros",
+        "logoURL": "./games/covers/TheExpendabros.jpg",
+        "store": "Steam",
+        "appID": "312990",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Vanishing of Ethan Carter Redux",
+        "logoURL": "./games/covers/TheVanishingofEthanCarterRedux.jpg",
+        "store": "Steam",
+        "appID": "400430",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Ultra Street Fighter IV",
+        "logoURL": "./games/covers/UltraStreetFighterIV.jpg",
+        "store": "Steam",
+        "appID": "45760",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Grow Home",
+        "logoURL": "./games/covers/GrowHome.jpg",
+        "store": "Steam",
+        "appID": "323320",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "DARK SOULS™: Prepare To Die Edition",
+        "logoURL": "./games/covers/DARKSOULSPrepareToDieEdition.jpg",
+        "store": "Steam",
+        "appID": "211420",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Batman™: Arkham Origins Blackgate - Deluxe Edition",
+        "logoURL": "./games/covers/BatmanArkhamOriginsBlackgateDeluxeEdition.jpg",
+        "store": "Steam",
+        "appID": "267490",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "rFactor",
+        "logoURL": "./games/covers/rFactor.jpg",
+        "store": "Steam",
+        "appID": "339790",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Art of Playing",
+        "logoURL": "",
+        "store": "Steam",
+        "appID": "349210",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Resident Evil Revelations 2",
+        "logoURL": "./games/covers/ResidentEvilRevelations2BiohazardRevelations2.jpg",
+        "store": "Steam",
+        "appID": "287290",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Death Rally (Classic)",
+        "logoURL": "./games/covers/DeathRallyClassic.jpg",
+        "store": "Steam",
+        "appID": "358270",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Wacky Wheels",
+        "logoURL": "./games/covers/WackyWheels.jpg",
+        "store": "Steam",
+        "appID": "358380",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Mortal Kombat: Legacy II: Prelude",
+        "logoURL": "",
+        "store": "Steam",
+        "appID": "495470",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Escape Machines",
+        "logoURL": "./games/covers/EscapeMachines.jpg",
+        "store": "Steam",
+        "appID": "363490",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "SHOCK TROOPERS",
+        "logoURL": "./games/covers/SHOCKTROOPERS.jpg",
+        "store": "Steam",
+        "appID": "366270",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Twinkle Star Sprites",
+        "logoURL": "./games/covers/TWINKLESTARSPRITES.jpg",
+        "store": "Steam",
+        "appID": "366280",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Pesadelo - Regressão",
+        "logoURL": "./games/covers/PesadeloRegresso.jpg",
+        "store": "Steam",
+        "appID": "378930",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Borderless Gaming",
+        "logoURL": "./games/covers/BorderlessGaming.jpg",
+        "store": "Steam",
+        "appID": "388080",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Project Druid - 2D Labyrinth Explorer-",
+        "logoURL": "./games/covers/ProjectDruid2DLabyrinthExplorer.jpg",
+        "store": "Steam",
+        "appID": "388160",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "F1 2016",
+        "logoURL": "./games/covers/F12016.jpg",
+        "store": "Steam",
+        "appID": "391040",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Stellar 2D",
+        "logoURL": "./games/covers/Stellar2D.jpg",
+        "store": "Steam",
+        "appID": "391070",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Clergy Splode",
+        "logoURL": "./games/covers/ClergySplode.jpg",
+        "store": "Steam",
+        "appID": "403900",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Recursion Deluxe",
+        "logoURL": "./games/covers/RecursionDeluxe.jpg",
+        "store": "Steam",
+        "appID": "425160",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Fractured Space",
+        "logoURL": "./games/covers/FracturedSpace.jpg",
+        "store": "Steam",
+        "appID": "310380",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Oxenfree",
+        "logoURL": "./games/covers/Oxenfree.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Last Blade",
+        "logoURL": "./games/covers/THELASTBLADE.jpg",
+        "store": "Steam",
+        "appID": "465840",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "GameMaker: Studio",
+        "logoURL": "./games/covers/GameMakerStudio.jpg",
+        "store": "Steam",
+        "appID": "214850",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Freebie",
+        "logoURL": "./games/covers/Freebie.jpg",
+        "store": "Steam",
+        "appID": "487220",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Evolve Stage 2",
+        "logoURL": "./games/covers/EvolveStage2.jpg",
+        "store": "Steam",
+        "appID": "273350",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Hyper color ball",
+        "logoURL": "./games/covers/Hypercolorball.jpg",
+        "store": "Steam",
+        "appID": "515470",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Bunny & Piggy",
+        "logoURL": "./games/covers/BunnyPiggy.jpg",
+        "store": "Steam",
+        "appID": "549810",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Battleborn",
+        "logoURL": "./games/covers/Battleborn.jpg",
+        "store": "Steam",
+        "appID": "394230",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Outland",
+        "logoURL": "./games/covers/Outland.jpg",
+        "store": "Steam",
+        "appID": "305050",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "PAYDAY 2",
+        "logoURL": "./games/covers/PAYDAY2.jpg",
+        "store": "Steam",
+        "appID": "218620",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Jotun: Valhalla Edition",
+        "logoURL": "./games/covers/JotunValhallaEdition.jpg",
+        "store": "Steam",
+        "appID": "323580",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Guns of Icarus Alliance",
+        "logoURL": "./games/covers/GunsofIcarusAlliance.jpg",
+        "store": "Steam",
+        "appID": "608800",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Watch Dogs",
+        "logoURL": "./games/covers/WatchDogs.jpg",
+        "store": "UPlay",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "World in Conflict Complete Edition",
+        "logoURL": "./games/covers/WorldinConflictCompleteEdition.jpg",
+        "store": "UPlay",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Carmageddon TDR 2000",
+        "logoURL": "./games/covers/CarmageddonTDR2000.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Grim Fandango Remastered",
+        "logoURL": "./games/covers/GrimFandangoRemastered.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "MDK",
+        "logoURL": "./games/covers/MDK.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Syberia",
+        "logoURL": "./games/covers/Syberia.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Oddworld: Abes Oddysee",
+        "logoURL": "./games/covers/OddworldAbesOddysee.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Deadlight: directors Cut",
+        "logoURL": "./games/covers/DeadlightdirectorsCut.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Shadow Warrior Classic Complete",
+        "logoURL": "./games/covers/ShadowWarriorClassicComplete.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Metal Slug",
+        "logoURL": "./games/covers/METALSLUG.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Fatal Fury Special",
+        "logoURL": "./games/covers/FatalFurySpecial.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Metal Slug 2",
+        "logoURL": "./games/covers/METALSLUG2.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Samurai Shodown II",
+        "logoURL": "./games/covers/SamuraiShodownII.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Metal Slug 3",
+        "logoURL": "./games/covers/METALSLUG3.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Beyond Good & Evil",
+        "logoURL": "./games/covers/BeyondGoodEvil.jpg",
+        "store": "UPlay",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Far Cry 3",
+        "logoURL": "./games/covers/FarCry3.jpg",
+        "store": "UPlay",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Far Cry Blood Dragon",
+        "logoURL": "./games/covers/FarCryBloodDragon.jpg",
+        "store": "UPlay",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Far Cry Primal",
+        "logoURL": "./games/covers/FarCryPrimal.jpg",
+        "store": "UPlay",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Prince of Persia: The Sands of Time",
+        "logoURL": "./games/covers/PrinceofPersiaTheSandsofTime.jpg",
+        "store": "UPlay",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Rayman Origins",
+        "logoURL": "./games/covers/RaymanOrigins.jpg",
+        "store": "UPlay",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Crew",
+        "logoURL": "./games/covers/TheCrew.jpg",
+        "store": "UPlay",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Tom Clancys Ghost Recon",
+        "logoURL": "./games/covers/TomClancysGhostRecon.jpg",
+        "store": "UPlay",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Splinter Cell Stealth Action Redefined",
+        "logoURL": "./games/covers/SplinterCellStealthActionRedefined.jpg",
+        "store": "UPlay",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Splinter Cell Chaos Theory",
+        "logoURL": "./games/covers/SplinterCellChaosTheory.jpg",
+        "store": "UPlay",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Splinter Cell Blacklist",
+        "logoURL": "./games/covers/SplinterCellBlacklist.jpg",
+        "store": "UPlay",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Splinter Cell Blacklist Deluxe Edition",
+        "logoURL": "./games/covers/SplinterCellBlacklistDeluxeEdition.jpg",
+        "store": "UPlay",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Division",
+        "logoURL": "./games/covers/TheDivision.jpg",
+        "store": "UPlay",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Trials of the Blood Dragon",
+        "logoURL": "./games/covers/TrialsoftheBloodDragon.jpg",
+        "store": "UPlay",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Talos Principle",
+        "logoURL": "./games/covers/TheTalosPrinciple.jpg",
+        "store": "Steam",
+        "appID": "257510",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Oceanhorn: Monster of Uncharted Seas",
+        "logoURL": "./games/covers/OceanhornMonsterofUnchartedSeas.jpg",
+        "store": "Steam",
+        "appID": "339200",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Terra Incognita ~ Chapter One: The Descendant",
+        "logoURL": "./games/covers/TerraIncognitaChapterOneTheDescendant.jpg",
+        "store": "Steam",
+        "appID": "347560",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "UBERMOSH",
+        "logoURL": "./games/covers/UBERMOSH.jpg",
+        "store": "Steam",
+        "appID": "357070",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Mortal Kombat: Legacy",
+        "logoURL": "./games/covers/MortalKombatLegacy.jpg",
+        "store": "Steam",
+        "appID": "361700",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "rFactor 2",
+        "logoURL": "./games/covers/rFactor2.jpg",
+        "store": "Steam",
+        "appID": "365960",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Kung Fury",
+        "logoURL": "./games/covers/KungFury.jpg",
+        "store": "Steam",
+        "appID": "374570",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "ABZÛ",
+        "logoURL": "./games/covers/ABZ.jpg",
+        "store": "Steam",
+        "appID": "384190",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Painters Guild",
+        "logoURL": "./games/covers/PaintersGuild.jpg",
+        "store": "Steam",
+        "appID": "384550",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Mad Max",
+        "logoURL": "./games/covers/MadMax.jpg",
+        "store": "Steam",
+        "appID": "234140",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Dead Space 2",
+        "logoURL": "./games/covers/DeadSpace2.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Punch Club",
+        "logoURL": "./games/covers/PunchClub.jpg",
+        "store": "Steam",
+        "appID": "394310",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Motorsport Manager",
+        "logoURL": "./games/covers/MotorsportManager.jpg",
+        "store": "Steam",
+        "appID": "415200",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Bullshot",
+        "logoURL": "./games/covers/Bullshot.jpg",
+        "store": "Steam",
+        "appID": "436530",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "PAC-MAN 256",
+        "logoURL": "./games/covers/PACMAN256.jpg",
+        "store": "Steam",
+        "appID": "455400",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Eon Altar",
+        "logoURL": "./games/covers/EonAltar.jpg",
+        "store": "Steam",
+        "appID": "382050",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Shiny",
+        "logoURL": "./games/covers/Shiny.jpg",
+        "store": "Steam",
+        "appID": "496390",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Joana's Life",
+        "logoURL": "./games/covers/JoanasLife.jpg",
+        "store": "Steam",
+        "appID": "513740",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Land of Dasthir",
+        "logoURL": "./games/covers/TheLandofDasthir.jpg",
+        "store": "Steam",
+        "appID": "545700",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Descendant",
+        "logoURL": "./games/covers/TheDescendant.jpg",
+        "store": "Steam",
+        "appID": "351940",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Lethal League",
+        "logoURL": "./games/covers/LethalLeague.jpg",
+        "store": "Steam",
+        "appID": "261180",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Red Solstice",
+        "logoURL": "./games/covers/TheRedSolstice.jpg",
+        "store": "Steam",
+        "appID": "265590",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Crysis 2 Maximum Edition",
+        "logoURL": "./games/covers/Crysis2MaximumEdition.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Crysis 3",
+        "logoURL": "./games/covers/Crysis3.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Dead Space",
+        "logoURL": "./games/covers/DeadSpace.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Dead Space 3",
+        "logoURL": "./games/covers/DeadSpace3.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Bully",
+        "logoURL": "./games/covers/Bully.jpg",
+        "store": "Steam",
+        "appID": "12200",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Saints Row 2",
+        "logoURL": "./games/covers/SaintsRow2.jpg",
+        "store": "Steam",
+        "appID": "9480",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Dead Space",
+        "logoURL": "./games/covers/DeadSpace.jpg",
+        "store": "Steam",
+        "appID": "17470",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Watchmen: The End Is Nigh",
+        "logoURL": "./games/covers/WatchmenTheEndIsNigh.jpg",
+        "store": "Steam",
+        "appID": "21010",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Last Remnant",
+        "logoURL": "./games/covers/TheLastRemnant.jpg",
+        "store": "Steam",
+        "appID": "23310",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Burnout Paradise: The Ultimate Box",
+        "logoURL": "./games/covers/BurnoutParadiseTheUltimateBox.jpg",
+        "store": "Steam",
+        "appID": "24740",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Left 4 Dead 2 Beta",
+        "logoURL": "",
+        "store": "Steam",
+        "appID": "223530",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Crash Time III",
+        "logoURL": "./games/covers/CrashTimeIII.jpg",
+        "store": "Steam",
+        "appID": "33620",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Fallout 3 - Game of the Year Edition",
+        "logoURL": "./games/covers/Fallout3GameoftheYearEdition.jpg",
+        "store": "Steam",
+        "appID": "22370",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Lego Harry Potter",
+        "logoURL": "./games/covers/LegoHarryPotter.jpg",
+        "store": "Steam",
+        "appID": "21130",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "F.E.A.R. 3",
+        "logoURL": "./games/covers/FEAR3.jpg",
+        "store": "Steam",
+        "appID": "21100",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Test Drive Unlimited 2",
+        "logoURL": "./games/covers/TestDriveUnlimited2.jpg",
+        "store": "Steam",
+        "appID": "9930",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Deus Ex: Human Revolution",
+        "logoURL": "./games/covers/DeusExHumanRevolution.jpg",
+        "store": "Steam",
+        "appID": "28050",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Tropico 4",
+        "logoURL": "./games/covers/Tropico4.jpg",
+        "store": "Steam",
+        "appID": "57690",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Binding of Isaac",
+        "logoURL": "./games/covers/TheBindingofIsaac.jpg",
+        "store": "Steam",
+        "appID": "113200",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "RAGE",
+        "logoURL": "./games/covers/RAGE.jpg",
+        "store": "Steam",
+        "appID": "9200",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "inMomentum",
+        "logoURL": "./games/covers/inMomentum.jpg",
+        "store": "Steam",
+        "appID": "110400",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "X-COM: Enforcer",
+        "logoURL": "./games/covers/XCOMEnforcer.jpg",
+        "store": "Steam",
+        "appID": "7770",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Inversion™",
+        "logoURL": "./games/covers/Inversion.jpg",
+        "store": "Steam",
+        "appID": "212410",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Sine Mora",
+        "logoURL": "./games/covers/SineMora.jpg",
+        "store": "Steam",
+        "appID": "207040",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Legacy of Kain: Defiance",
+        "logoURL": "./games/covers/LegacyofKainDefiance.jpg",
+        "store": "Steam",
+        "appID": "224300",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Legacy of Kain: Soul Reaver",
+        "logoURL": "./games/covers/LegacyofKainSoulReaver.jpg",
+        "store": "Steam",
+        "appID": "224920",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Legacy of Kain: Soul Reaver 2",
+        "logoURL": "./games/covers/LegacyofKainSoulReaver2.jpg",
+        "store": "Steam",
+        "appID": "224940",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "GTR 2 - FIA GT Racing Game",
+        "logoURL": "./games/covers/GTR2FIAGTRacingGame.jpg",
+        "store": "Steam",
+        "appID": "8790",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Warframe",
+        "logoURL": "./games/covers/Warframe.jpg",
+        "store": "Steam",
+        "appID": "230410",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Resident Evil Revelations",
+        "logoURL": "./games/covers/ResidentEvilRevelationsBiohazardRevelations.jpg",
+        "store": "Steam",
+        "appID": "222480",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Cook",
+        "logoURL": " Serve",
+        "store": " Delicious!",
+        "appID": "http://media.steampowered.com/steamcommunity/public/images/apps/247020/de4baa7c9a46021dee1326254687f4d936b16b8b.jpg",
+        "system": "Steam",
+        "disabled": false
+    },
+    {
+        "name": "Syder Arcade",
+        "logoURL": "./games/covers/SyderArcade.jpg",
+        "store": "Steam",
+        "appID": "252310",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Shadow Warrior",
+        "logoURL": "./games/covers/ShadowWarrior.jpg",
+        "store": "Steam",
+        "appID": "233130",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Viscera Cleanup Detail: Shadow Warrior",
+        "logoURL": "./games/covers/VisceraCleanupDetailShadowWarrior.jpg",
+        "store": "Steam",
+        "appID": "255520",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Riptide GP2",
+        "logoURL": "./games/covers/RiptideGP2.jpg",
+        "store": "Steam",
+        "appID": "257790",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Type:Rider",
+        "logoURL": "./games/covers/TypeRider.jpg",
+        "store": "Steam",
+        "appID": "258890",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Sonic & All-Stars Racing Transformed Collection",
+        "logoURL": "./games/covers/SonicAllStarsRacingTransformedCollection.jpg",
+        "store": "Steam",
+        "appID": "212480",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Sonic and All-Stars Racing Transformed Metal Sonic DLC Pack",
+        "logoURL": "",
+        "store": "Steam",
+        "appID": "229660",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "The Stanley Parable",
+        "logoURL": "./games/covers/TheStanleyParable.jpg",
+        "store": "Steam",
+        "appID": "221910",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Ethan: Meteor Hunter",
+        "logoURL": "./games/covers/EthanMeteorHunter.jpg",
+        "store": "Steam",
+        "appID": "266330",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Automobilista",
+        "logoURL": "./games/covers/Automobilista.jpg",
+        "store": "Steam",
+        "appID": "431600",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "DeadCore",
+        "logoURL": "./games/covers/DeadCore.jpg",
+        "store": "Steam",
+        "appID": "284460",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "F1 2015",
+        "logoURL": "./games/covers/F12015.jpg",
+        "store": "Steam",
+        "appID": "286570",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "H1Z1",
+        "logoURL": "./games/covers/H1Z1.jpg",
+        "store": "Steam",
+        "appID": "433850",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Arma: Cold War Assault",
+        "logoURL": "./games/covers/ArmaColdWarAssault.jpg",
+        "store": "Steam",
+        "appID": "65790",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Microsoft Flight Simulator X: Steam Edition",
+        "logoURL": "./games/covers/MicrosoftFlightSimulatorXSteamEdition.jpg",
+        "store": "Steam",
+        "appID": "314160",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Super Indie Karts",
+        "logoURL": "./games/covers/SuperIndieKarts.jpg",
+        "store": "Steam",
+        "appID": "323670",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Ryse: Son of Rome",
+        "logoURL": "./games/covers/RyseSonofRome.jpg",
+        "store": "Steam",
+        "appID": "302510",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "bit Dungeon II",
+        "logoURL": "./games/covers/bitDungeonII.jpg",
+        "store": "Steam",
+        "appID": "331440",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Phoenix Force",
+        "logoURL": "./games/covers/PhoenixForce.jpg",
+        "store": "Steam",
+        "appID": "332480",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "THE KING OF FIGHTERS 2002 UNLIMITED MATCH",
+        "logoURL": "./games/covers/THEKINGOFFIGHTERS2002UNLIMITEDMATCH.jpg",
+        "store": "Steam",
+        "appID": "222440",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Cities: Skylines",
+        "logoURL": "./games/covers/CitiesSkylines.jpg",
+        "store": "Steam",
+        "appID": "255710",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Mean Greens - Plastic Warfare",
+        "logoURL": "./games/covers/TheMeanGreensPlasticWarfare.jpg",
+        "store": "Steam",
+        "appID": "360940",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Hacknet",
+        "logoURL": "./games/covers/Hacknet.jpg",
+        "store": "Steam",
+        "appID": "365450",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "TIS-100",
+        "logoURL": "./games/covers/TIS100.jpg",
+        "store": "Steam",
+        "appID": "370360",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Trine",
+        "logoURL": "./games/covers/Trine.jpg",
+        "store": "Steam",
+        "appID": "35700",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Dungeon Souls",
+        "logoURL": "./games/covers/DungeonSouls.jpg",
+        "store": "Steam",
+        "appID": "383230",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Layers of Fear",
+        "logoURL": "./games/covers/LayersofFear.jpg",
+        "store": "Steam",
+        "appID": "391720",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Race The Sun",
+        "logoURL": "./games/covers/RaceTheSun.jpg",
+        "store": "Steam",
+        "appID": "253030",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Waveform",
+        "logoURL": "./games/covers/Waveform.jpg",
+        "store": "Steam",
+        "appID": "204180",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Street Fighter V",
+        "logoURL": "./games/covers/StreetFighterV.jpg",
+        "store": "Steam",
+        "appID": "310950",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Street Fighter V Beta",
+        "logoURL": "./games/covers/StreetFighterVBeta.jpg",
+        "store": "Steam",
+        "appID": "386800",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Eaten Alive",
+        "logoURL": "./games/covers/EatenAlive.jpg",
+        "store": "Steam",
+        "appID": "403560",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Home Design 3D",
+        "logoURL": "./games/covers/HomeDesign3D.jpg",
+        "store": "Steam",
+        "appID": "420000",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Super Mustache",
+        "logoURL": "./games/covers/SuperMustache.jpg",
+        "store": "Steam",
+        "appID": "438180",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "DUCATI - 90th Anniversary",
+        "logoURL": "./games/covers/DUCATI90thAnniversary.jpg",
+        "store": "Steam",
+        "appID": "456780",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Star Drifter",
+        "logoURL": "./games/covers/StarDrifter.jpg",
+        "store": "Steam",
+        "appID": "485330",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Star Fields",
+        "logoURL": "./games/covers/StarFields.jpg",
+        "store": "Steam",
+        "appID": "499420",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Drive Megapolis",
+        "logoURL": "./games/covers/DriveMegapolis.jpg",
+        "store": "Steam",
+        "appID": "514970",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Town of Night",
+        "logoURL": "./games/covers/TownofNight.jpg",
+        "store": "Steam",
+        "appID": "546990",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Sonic Mania",
+        "logoURL": "./games/covers/SonicMania.jpg",
+        "store": "Steam",
+        "appID": "584400",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Satellite Reign",
+        "logoURL": "./games/covers/SatelliteReign.jpg",
+        "store": "Steam",
+        "appID": "268870",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Flame in the Flood",
+        "logoURL": "./games/covers/TheFlameintheFlood.jpg",
+        "store": "Steam",
+        "appID": "318600",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Desert Law",
+        "logoURL": "./games/covers/DesertLaw.jpg",
+        "store": "Steam",
+        "appID": "356280",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Assassins Creed III",
+        "logoURL": "./games/covers/AssassinsCreedIII.jpg",
+        "store": "UPlay",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Assassins Creed IV Black Flag",
+        "logoURL": "./games/covers/AssassinsCreedIVBlackFlag.jpg",
+        "store": "UPlay",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Assassins Creed Rogue",
+        "logoURL": "./games/covers/AssassinsCreedRogue.jpg",
+        "store": "UPlay",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Assassins Creed Chronicles China",
+        "logoURL": "./games/covers/AssassinsCreedChroniclesChina.jpg",
+        "store": "UPlay",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Shift 2 Unleashed",
+        "logoURL": "./games/covers/Shift2Unleashed.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "SimCity 2000 Special Edition",
+        "logoURL": "./games/covers/SimCity2000SpecialEdition.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "SimCity",
+        "logoURL": "./games/covers/SimCity.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Syndicate",
+        "logoURL": "./games/covers/Syndicate.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Sims 3",
+        "logoURL": "./games/covers/TheSims3.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Theme Hospoital",
+        "logoURL": "./games/covers/ThemeHospoital.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Pagan Ultima VIII",
+        "logoURL": "./games/covers/PaganUltimaVIII.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Wing Commander III",
+        "logoURL": "./games/covers/WingCommanderIII.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Zumas Revenge",
+        "logoURL": "./games/covers/ZumasRevenge.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Anno 2070",
+        "logoURL": "./games/covers/Anno2070.jpg",
+        "store": "UPlay",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Day of Defeat: Source",
+        "logoURL": "./games/covers/DayofDefeatSource.jpg",
+        "store": "Steam",
+        "appID": "300",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Sid Meier's Civilization III: Complete",
+        "logoURL": "./games/covers/SidMeiersCivilizationIIIComplete.jpg",
+        "store": "Steam",
+        "appID": "3910",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Garry's Mod",
+        "logoURL": "./games/covers/GarrysMod.jpg",
+        "store": "Steam",
+        "appID": "4000",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "FlatOut 2",
+        "logoURL": "./games/covers/FlatOut2.jpg",
+        "store": "Steam",
+        "appID": "2990",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Lost Planet: Extreme Condition",
+        "logoURL": "./games/covers/LostPlanetExtremeCondition.jpg",
+        "store": "Steam",
+        "appID": "6510",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Portal",
+        "logoURL": "./games/covers/Portal.jpg",
+        "store": "Steam",
+        "appID": "400",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Mortal Kombat: Legacy: Jax",
+        "logoURL": " Sonya and Kano (Part 2)",
+        "store": "Mídia Física",
+        "appID": "Steam",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "RACE 07",
+        "logoURL": "./games/covers/RACE07.jpg",
+        "store": "Steam",
+        "appID": "8600",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "RACE 07 - Formula RaceRoom Add-On",
+        "logoURL": "./games/covers/RACE07FormulaRaceRoomAddOn.jpg",
+        "store": "Steam",
+        "appID": "44630",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Overlord",
+        "logoURL": "./games/covers/Overlord.jpg",
+        "store": "Steam",
+        "appID": "11450",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Grand Theft Auto III",
+        "logoURL": "./games/covers/GrandTheftAutoIII.jpg",
+        "store": "Steam",
+        "appID": "12100",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Grand Theft Auto: San Andreas",
+        "logoURL": "./games/covers/GrandTheftAutoSanAndreas.jpg",
+        "store": "Steam",
+        "appID": "12120",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Manhunt",
+        "logoURL": "./games/covers/Manhunt.jpg",
+        "store": "Steam",
+        "appID": "12130",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Far Cry",
+        "logoURL": "./games/covers/FarCry.jpg",
+        "store": "Steam",
+        "appID": "13520",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Assassin's Creed",
+        "logoURL": "./games/covers/AssassinsCreed.jpg",
+        "store": "Steam",
+        "appID": "15100",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Team Fortress Classic",
+        "logoURL": "./games/covers/TeamFortressClassic.jpg",
+        "store": "Steam",
+        "appID": "20",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Half-Life: Opposing Force",
+        "logoURL": "./games/covers/HalfLifeOpposingForce.jpg",
+        "store": "Steam",
+        "appID": "50",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Half-Life",
+        "logoURL": "./games/covers/HalfLife.jpg",
+        "store": "Steam",
+        "appID": "70",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Half-Life: Blue Shift",
+        "logoURL": "./games/covers/HalfLifeBlueShift.jpg",
+        "store": "Steam",
+        "appID": "130",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Half-Life 2",
+        "logoURL": "./games/covers/HalfLife2.jpg",
+        "store": "Steam",
+        "appID": "220",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Half-Life: Source",
+        "logoURL": "./games/covers/HalfLifeSource.jpg",
+        "store": "Steam",
+        "appID": "280",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Half-Life 2: Deathmatch",
+        "logoURL": "./games/covers/HalfLife2Deathmatch.jpg",
+        "store": "Steam",
+        "appID": "320",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Half-Life 2: Lost Coast",
+        "logoURL": "./games/covers/HalfLife2LostCoast.jpg",
+        "store": "Steam",
+        "appID": "340",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Half-Life Deathmatch: Source",
+        "logoURL": "./games/covers/HalfLifeDeathmatchSource.jpg",
+        "store": "Steam",
+        "appID": "360",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Half-Life 2: Episode One",
+        "logoURL": "./games/covers/HalfLife2EpisodeOne.jpg",
+        "store": "Steam",
+        "appID": "380",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Half-Life 2: Episode Two",
+        "logoURL": "./games/covers/HalfLife2EpisodeTwo.jpg",
+        "store": "Steam",
+        "appID": "420",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "GRID",
+        "logoURL": "./games/covers/GRID.jpg",
+        "store": "Steam",
+        "appID": "12750",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "GTR Evolution",
+        "logoURL": "./games/covers/GTREvolution.jpg",
+        "store": "Steam",
+        "appID": "8660",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Far Cry 2",
+        "logoURL": "./games/covers/FarCry2.jpg",
+        "store": "Steam",
+        "appID": "19900",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Plants vs. Zombies: Game of the Year",
+        "logoURL": "./games/covers/PlantsvsZombiesGameoftheYear.jpg",
+        "store": "Steam",
+        "appID": "3590",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Assassin's Creed II",
+        "logoURL": "./games/covers/AssassinsCreedII.jpg",
+        "store": "Steam",
+        "appID": "33230",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Singularity",
+        "logoURL": "./games/covers/Singularity.jpg",
+        "store": "Steam",
+        "appID": "42670",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "SimCity 4 Deluxe",
+        "logoURL": "./games/covers/SimCity4Deluxe.jpg",
+        "store": "Steam",
+        "appID": "24780",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Homefront",
+        "logoURL": "./games/covers/Homefront.jpg",
+        "store": "Steam",
+        "appID": "55100",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "BIT.TRIP RUNNER",
+        "logoURL": "./games/covers/BITTRIPRUNNER.jpg",
+        "store": "Steam",
+        "appID": "63710",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Assassin's Creed Brotherhood",
+        "logoURL": "./games/covers/AssassinsCreedBrotherhood.jpg",
+        "store": "Steam",
+        "appID": "48190",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Portal 2",
+        "logoURL": "./games/covers/Portal2.jpg",
+        "store": "Steam",
+        "appID": "620",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Terraria",
+        "logoURL": "./games/covers/Terraria.jpg",
+        "store": "Steam",
+        "appID": "105600",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Witcher 2: Assassins of Kings Enhanced Edition",
+        "logoURL": "./games/covers/TheWitcher2AssassinsofKingsEnhancedEdition.jpg",
+        "store": "Steam",
+        "appID": "20920",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Anno 2070",
+        "logoURL": "./games/covers/Anno2070.jpg",
+        "store": "Steam",
+        "appID": "48240",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Binary Domain",
+        "logoURL": "./games/covers/BinaryDomain.jpg",
+        "store": "Steam",
+        "appID": "203750",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Rune Classic",
+        "logoURL": "./games/covers/RuneClassic.jpg",
+        "store": "Steam",
+        "appID": "210950",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "DiRT Showdown",
+        "logoURL": "./games/covers/DiRTShowdown.jpg",
+        "store": "Steam",
+        "appID": "201700",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Resident Evil™: Operation Raccoon City",
+        "logoURL": "./games/covers/ResidentEvilOperationRaccoonCity.jpg",
+        "store": "Steam",
+        "appID": "209100",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Bang Bang Racing",
+        "logoURL": "./games/covers/BangBangRacing.jpg",
+        "store": "Steam",
+        "appID": "207020",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Hotline Miami",
+        "logoURL": "./games/covers/HotlineMiami.jpg",
+        "store": "Steam",
+        "appID": "219150",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Company of Heroes: Tales of Valor",
+        "logoURL": "./games/covers/CompanyofHeroesTalesofValor.jpg",
+        "store": "Steam",
+        "appID": "20540",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Darksiders",
+        "logoURL": "./games/covers/Darksiders.jpg",
+        "store": "Steam",
+        "appID": "50620",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Red Faction: Armageddon",
+        "logoURL": "./games/covers/RedFactionArmageddon.jpg",
+        "store": "Steam",
+        "appID": "55110",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Company of Heroes ",
+        "logoURL": "./games/covers/CompanyofHeroes.jpg",
+        "store": "Steam",
+        "appID": "228200",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Darksiders Warmastered Edition",
+        "logoURL": "./games/covers/DarksidersWarmasteredEdition.jpg",
+        "store": "Steam",
+        "appID": "462780",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "DmC Devil May Cry",
+        "logoURL": "./games/covers/DmCDevilMayCry.jpg",
+        "store": "Steam",
+        "appID": "220440",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Waking Mars",
+        "logoURL": "./games/covers/WakingMars.jpg",
+        "store": "Steam",
+        "appID": "227200",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Euro Truck Simulator",
+        "logoURL": "./games/covers/EuroTruckSimulator.jpg",
+        "store": "Steam",
+        "appID": "232010",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "FINAL FANTASY VII",
+        "logoURL": "./games/covers/FINALFANTASYVII.jpg",
+        "store": "Steam",
+        "appID": "39140",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Mortal Kombat",
+        "logoURL": "./games/covers/MortalKombat.jpg",
+        "store": "Steam",
+        "appID": "237110",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Medal of Honor(TM) Single Player",
+        "logoURL": "./games/covers/MedalofHonorTMSinglePlayer.jpg",
+        "store": "Steam",
+        "appID": "47790",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Wizardry 8",
+        "logoURL": "./games/covers/Wizardry8.jpg",
+        "store": "Steam",
+        "appID": "245450",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Catzilla",
+        "logoURL": "./games/covers/Catzilla.jpg",
+        "store": "Steam",
+        "appID": "261920",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Jets'n'Guns Gold",
+        "logoURL": "./games/covers/JetsnGunsGold.jpg",
+        "store": "Steam",
+        "appID": "262260",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The LEGO® Movie - Videogame",
+        "logoURL": "./games/covers/TheLEGOMovieVideogame.jpg",
+        "store": "Steam",
+        "appID": "267530",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Cuphead",
+        "logoURL": "./games/covers/Cuphead.jpg",
+        "store": "Steam",
+        "appID": "268910",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Etherlords",
+        "logoURL": "./games/covers/Etherlords.jpg",
+        "store": "Steam",
+        "appID": "270770",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Shantae: Risky's Revenge - Director's Cut",
+        "logoURL": "./games/covers/ShantaeRiskysRevengeDirectorsCut.jpg",
+        "store": "Steam",
+        "appID": "277890",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "MURDERED: SOUL SUSPECT™",
+        "logoURL": "./games/covers/MURDEREDSOULSUSPECT.jpg",
+        "store": "Steam",
+        "appID": "233290",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Dreaming Sarah",
+        "logoURL": "./games/covers/DreamingSarah.jpg",
+        "store": "Steam",
+        "appID": "296870",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "RC Mini Racers",
+        "logoURL": "./games/covers/RCMiniRacers.jpg",
+        "store": "Steam",
+        "appID": "311820",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Solstice",
+        "logoURL": "./games/covers/Solstice.jpg",
+        "store": "Steam",
+        "appID": "317280",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Gauntlet™ ",
+        "logoURL": "./games/covers/Gauntlet.jpg",
+        "store": "Steam",
+        "appID": "258970",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "This War of Mine",
+        "logoURL": "./games/covers/ThisWarofMine.jpg",
+        "store": "Steam",
+        "appID": "282070",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "DARK SOULS™ II: Scholar of the First Sin",
+        "logoURL": "./games/covers/DARKSOULSIIScholaroftheFirstSin.jpg",
+        "store": "Steam",
+        "appID": "335300",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "THE KING OF FIGHTERS '98 ULTIMATE MATCH FINAL EDITION",
+        "logoURL": "./games/covers/THEKINGOFFIGHTERS98ULTIMATEMATCHFINALEDITION.jpg",
+        "store": "Steam",
+        "appID": "222420",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Grand Theft Auto V",
+        "logoURL": "./games/covers/GrandTheftAutoV.jpg",
+        "store": "Steam",
+        "appID": "271590",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Surge",
+        "logoURL": "./games/covers/TheSurge.jpg",
+        "store": "Steam",
+        "appID": "378540",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Overlord II",
+        "logoURL": "./games/covers/OverlordII.jpg",
+        "store": "Steam",
+        "appID": "12810",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Killing Floor",
+        "logoURL": "./games/covers/KillingFloor.jpg",
+        "store": "Steam",
+        "appID": "1250",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Killing Floor Mod: Defence Alliance 2",
+        "logoURL": "./games/covers/KillingFloorModDefenceAlliance2.jpg",
+        "store": "Steam",
+        "appID": "35420",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Bionic Commando Rearmed",
+        "logoURL": "./games/covers/BionicCommandoRearmed.jpg",
+        "store": "Steam",
+        "appID": "21680",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Bionic Commando",
+        "logoURL": "./games/covers/BionicCommando.jpg",
+        "store": "Steam",
+        "appID": "21670",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Sid Meier's Civilization IV",
+        "logoURL": "./games/covers/SidMeiersCivilizationIV.jpg",
+        "store": "Steam",
+        "appID": "3900",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "VVVVVV",
+        "logoURL": "./games/covers/VVVVVV.jpg",
+        "store": "Steam",
+        "appID": "70300",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Sid Meier's Civilization V",
+        "logoURL": "./games/covers/SidMeiersCivilizationV.jpg",
+        "store": "Steam",
+        "appID": "8930",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Lost Planet 2",
+        "logoURL": "./games/covers/LostPlanet2.jpg",
+        "store": "Steam",
+        "appID": "45750",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Prince of Persia: The Two Thrones",
+        "logoURL": "./games/covers/PrinceofPersiaTheTwoThrones.jpg",
+        "store": "Steam",
+        "appID": "13530",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Prince of Persia: The Sands of Time",
+        "logoURL": "./games/covers/PrinceofPersiaTheSandsofTime.jpg",
+        "store": "Steam",
+        "appID": "13600",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Prince of Persia",
+        "logoURL": "./games/covers/PrinceofPersia.jpg",
+        "store": "Steam",
+        "appID": "19980",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Prince of Persia: The Forgotten Sands",
+        "logoURL": "./games/covers/PrinceofPersiaTheForgottenSands.jpg",
+        "store": "Steam",
+        "appID": "33320",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "DiRT 3",
+        "logoURL": "./games/covers/DiRT3.jpg",
+        "store": "Steam",
+        "appID": "44320",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "DiRT 3 Complete Edition",
+        "logoURL": "./games/covers/DiRT3CompleteEdition.jpg",
+        "store": "Steam",
+        "appID": "321040",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "X-COM: UFO Defense",
+        "logoURL": "./games/covers/XCOMUFODefense.jpg",
+        "store": "Steam",
+        "appID": "7760",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Vessel",
+        "logoURL": "./games/covers/Vessel.jpg",
+        "store": "Steam",
+        "appID": "108500",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Bastion",
+        "logoURL": "./games/covers/Bastion.jpg",
+        "store": "Steam",
+        "appID": "107100",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Max Payne 3",
+        "logoURL": "./games/covers/MaxPayne3.jpg",
+        "store": "Steam",
+        "appID": "204100",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Darksiders II",
+        "logoURL": "./games/covers/DarksidersII.jpg",
+        "store": "Steam",
+        "appID": "50650",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Sleeping Dogs™",
+        "logoURL": "./games/covers/SleepingDogs.jpg",
+        "store": "Steam",
+        "appID": "202170",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Counter-Strike: Global Offensive",
+        "logoURL": "./games/covers/CounterStrikeGlobalOffensive.jpg",
+        "store": "Steam",
+        "appID": "730",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "STAR WARS™ Knights of the Old Republic™ II: The Sith Lords™",
+        "logoURL": "./games/covers/STARWARSKnightsoftheOldRepublicIITheSithLords.jpg",
+        "store": "Steam",
+        "appID": "208580",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "XCOM: Enemy Unknown",
+        "logoURL": "./games/covers/XCOMEnemyUnknown.jpg",
+        "store": "Steam",
+        "appID": "200510",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "I Am Alive",
+        "logoURL": "./games/covers/IAmAlive.jpg",
+        "store": "Steam",
+        "appID": "214250",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Sine Mora EX",
+        "logoURL": "./games/covers/SineMoraEX.jpg",
+        "store": "Steam",
+        "appID": "606730",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Far Cry 3",
+        "logoURL": "./games/covers/FarCry3.jpg",
+        "store": "Steam",
+        "appID": "220240",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "F1 Race Stars",
+        "logoURL": "./games/covers/F1RaceStars.jpg",
+        "store": "Steam",
+        "appID": "203680",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Sonic Adventure™ 2 ",
+        "logoURL": "./games/covers/SonicAdventure2.jpg",
+        "store": "Steam",
+        "appID": "213610",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Hitman: Absolution",
+        "logoURL": "./games/covers/HitmanAbsolution.jpg",
+        "store": "Steam",
+        "appID": "203140",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Hitman: Sniper Challenge",
+        "logoURL": "./games/covers/HitmanSniperChallenge.jpg",
+        "store": "Steam",
+        "appID": "205930",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Warhammer 40",
+        "logoURL": "000: Dawn of War - Game of the Year Edition",
+        "store": "http://media.steampowered.com/steamcommunity/public/images/apps/4570/2068980dca52521b069abc109f976d72ba0b1651.jpg",
+        "appID": "Steam",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Jet Set Radio",
+        "logoURL": "./games/covers/JetSetRadio.jpg",
+        "store": "Steam",
+        "appID": "205950",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "DisplayFusion",
+        "logoURL": "./games/covers/DisplayFusion.jpg",
+        "store": "Steam",
+        "appID": "227260",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "The Showdown Effect",
+        "logoURL": "./games/covers/TheShowdownEffect.jpg",
+        "store": "Steam",
+        "appID": "204080",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Swapper",
+        "logoURL": "./games/covers/TheSwapper.jpg",
+        "store": "Steam",
+        "appID": "231160",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Trine 2",
+        "logoURL": "./games/covers/Trine2.jpg",
+        "store": "Steam",
+        "appID": "35720",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Banished",
+        "logoURL": "./games/covers/Banished.jpg",
+        "store": "Steam",
+        "appID": "242920",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Medal of Honor(TM) Multiplayer",
+        "logoURL": "./games/covers/MedalofHonorTMMultiplayer.jpg",
+        "store": "Steam",
+        "appID": "47830",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "GRID Autosport",
+        "logoURL": "./games/covers/GRIDAutosport.jpg",
+        "store": "Steam",
+        "appID": "255220",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Little Racers STREET",
+        "logoURL": "./games/covers/LittleRacersSTREET.jpg",
+        "store": "Steam",
+        "appID": "262690",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Etherlords II",
+        "logoURL": "./games/covers/EtherlordsII.jpg",
+        "store": "Steam",
+        "appID": "270790",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "RIVE",
+        "logoURL": "./games/covers/RIVE.jpg",
+        "store": "Steam",
+        "appID": "278100",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "ACE COMBAT™ ASSAULT HORIZON Enhanced Edition",
+        "logoURL": "./games/covers/ACECOMBATASSAULTHORIZONEnhancedEdition.jpg",
+        "store": "Steam",
+        "appID": "228400",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Witcher 3: Wild Hunt",
+        "logoURL": "./games/covers/TheWitcher3WildHunt.jpg",
+        "store": "Steam",
+        "appID": "292030",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "XenoRaptor",
+        "logoURL": "./games/covers/XenoRaptor.jpg",
+        "store": "Steam",
+        "appID": "298280",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Metal Slug X",
+        "logoURL": "./games/covers/METALSLUGX.jpg",
+        "store": "Steam",
+        "appID": "312610",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Toren",
+        "logoURL": "./games/covers/Toren.jpg",
+        "store": "Steam",
+        "appID": "320820",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Deep Dungeons of Doom",
+        "logoURL": "./games/covers/DeepDungeonsofDoom.jpg",
+        "store": "Steam",
+        "appID": "325090",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "ZOMBI",
+        "logoURL": "./games/covers/ZOMBI.jpg",
+        "store": "Steam",
+        "appID": "339230",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Mortal Kombat X",
+        "logoURL": "./games/covers/MortalKombatX.jpg",
+        "store": "Steam",
+        "appID": "307780",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Commander Cool 2",
+        "logoURL": "./games/covers/CommanderCool2.jpg",
+        "store": "Steam",
+        "appID": "356070",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Porcunipine",
+        "logoURL": "./games/covers/Porcunipine.jpg",
+        "store": "Steam",
+        "appID": "352620",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Mortal Kombat: Legacy: Johnny Cage",
+        "logoURL": "./games/covers/MortalKombatLegacyJohnnyCage.jpg",
+        "store": "Steam",
+        "appID": "361720",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Mortal Kombat: Legacy: Kitana & Mileena (Part 1)",
+        "logoURL": "./games/covers/MortalKombatLegacyKitanaMileenaPart1.jpg",
+        "store": "Steam",
+        "appID": "361730",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Mortal Kombat: Legacy: Kitana & Mileena (Part 2)",
+        "logoURL": "./games/covers/MortalKombatLegacyKitanaMileenaPart2.jpg",
+        "store": "Steam",
+        "appID": "361740",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Mortal Kombat: Legacy: Raiden",
+        "logoURL": "./games/covers/MortalKombatLegacyRaiden.jpg",
+        "store": "Steam",
+        "appID": "361750",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Mortal Kombat: Legacy: Scorpion and Sub-Zero (Part 1)",
+        "logoURL": "./games/covers/MortalKombatLegacyScorpionandSubZeroPart1.jpg",
+        "store": "Steam",
+        "appID": "361760",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Mortal Kombat: Legacy: Scorpion and Sub-Zero (Part 2)",
+        "logoURL": "./games/covers/MortalKombatLegacyScorpionandSubZeroPart2.jpg",
+        "store": "Steam",
+        "appID": "361770",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Mortal Kombat: Legacy: Cyrax & Sektor",
+        "logoURL": "./games/covers/MortalKombatLegacyCyraxSektor.jpg",
+        "store": "Steam",
+        "appID": "361780",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Mortal Kombat: Legacy: Jax",
+        "logoURL": " Sonya and Kano (Part 1)",
+        "store": "Mídia Física",
+        "appID": "Steam",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Metal Slug",
+        "logoURL": "./games/covers/METALSLUG.jpg",
+        "store": "Steam",
+        "appID": "366250",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Metal Slug 2",
+        "logoURL": "./games/covers/METALSLUG2.jpg",
+        "store": "Steam",
+        "appID": "366260",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Sniper Elite",
+        "logoURL": "./games/covers/SniperElite.jpg",
+        "store": "Steam",
+        "appID": "3700",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Sniper Elite V2",
+        "logoURL": "./games/covers/SniperEliteV2.jpg",
+        "store": "Steam",
+        "appID": "63380",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Sniper Elite 3",
+        "logoURL": "./games/covers/SniperElite3.jpg",
+        "store": "Steam",
+        "appID": "238090",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "INK",
+        "logoURL": "./games/covers/INK.jpg",
+        "store": "Steam",
+        "appID": "385710",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "ShareX",
+        "logoURL": "./games/covers/ShareX.jpg",
+        "store": "Steam",
+        "appID": "400040",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Medieval II: Total War",
+        "logoURL": "./games/covers/MedievalIITotalWar.jpg",
+        "store": "Steam",
+        "appID": "4700",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Viking: Battle for Asgard",
+        "logoURL": "./games/covers/VikingBattleforAsgard.jpg",
+        "store": "Steam",
+        "appID": "211160",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "SHOGUN: Total War™ - Gold Edition",
+        "logoURL": "./games/covers/SHOGUNTotalWarGoldEdition.jpg",
+        "store": "Steam",
+        "appID": "345240",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Turbo Pug",
+        "logoURL": "./games/covers/TurboPug.jpg",
+        "store": "Steam",
+        "appID": "418070",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Wallpaper Engine",
+        "logoURL": "./games/covers/WallpaperEngine.jpg",
+        "store": "Steam",
+        "appID": "431960",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "XSplit",
+        "logoURL": "./games/covers/XSplit.jpg",
+        "store": "Steam",
+        "appID": "433800",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Neon Hardcorps",
+        "logoURL": "./games/covers/NeonHardcorps.jpg",
+        "store": "Steam",
+        "appID": "454200",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Cosmic Dust & Rust",
+        "logoURL": "./games/covers/CosmicDustRust.jpg",
+        "store": "Steam",
+        "appID": "473560",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "ShapeShifter",
+        "logoURL": "./games/covers/ShapeShifter.jpg",
+        "store": "Steam",
+        "appID": "497050",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Turbo Pug DX",
+        "logoURL": "./games/covers/TurboPugDX.jpg",
+        "store": "Steam",
+        "appID": "513780",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Midnight Carnival",
+        "logoURL": "./games/covers/MidnightCarnival.jpg",
+        "store": "Steam",
+        "appID": "546980",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Starpoint Gemini 2",
+        "logoURL": "./games/covers/StarpointGemini2.jpg",
+        "store": "Steam",
+        "appID": "236150",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Crusader Kings II",
+        "logoURL": "./games/covers/CrusaderKingsII.jpg",
+        "store": "Steam",
+        "appID": "203770",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Driver: Parallel Lines",
+        "logoURL": "./games/covers/DriverParallelLines.jpg",
+        "store": "Steam",
+        "appID": "21780",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Need for Speed Most Wanted",
+        "logoURL": "./games/covers/NeedforSpeedMostWanted.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Nox",
+        "logoURL": "./games/covers/Nox.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Peggle",
+        "logoURL": "./games/covers/Peggle.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Plants vc Zombies",
+        "logoURL": "./games/covers/PlantsvcZombies.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Populous",
+        "logoURL": "./games/covers/Populous.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Streamline",
+        "logoURL": "./games/covers/Streamline.jpg",
+        "store": "Steam",
+        "appID": "252850",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Mirage: Arcane Warfare",
+        "logoURL": "./games/covers/MirageArcaneWarfare.jpg",
+        "store": "Steam",
+        "appID": "368420",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Back to Bed",
+        "logoURL": "./games/covers/BacktoBed.jpg",
+        "store": "Steam",
+        "appID": "308040",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Fortified",
+        "logoURL": "./games/covers/Fortified.jpg",
+        "store": "Steam",
+        "appID": "334210",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Dragonsphere",
+        "logoURL": "./games/covers/Dragonsphere.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Ultima IV: Quest of the Avatar",
+        "logoURL": "./games/covers/UltimaIVQuestoftheAvatar.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Treasure Adventure Game",
+        "logoURL": "./games/covers/TreasureAdventureGame.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Worlds of Ultima: The Savage Empire",
+        "logoURL": "./games/covers/WorldsofUltimaTheSavageEmpire.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Warsow",
+        "logoURL": "./games/covers/Warsow.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Mass Effect",
+        "logoURL": "./games/covers/MassEffect.jpg",
+        "store": "Windows Store",
+        "appID": "",
+        "system": "XBOX 360",
+        "disabled": false
+    },
+    {
+        "name": "TimeShift",
+        "logoURL": "./games/covers/TimeShift.jpg",
+        "store": "Steam",
+        "appID": "10130",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Crash Time II",
+        "logoURL": "./games/covers/CrashTimeII.jpg",
+        "store": "Steam",
+        "appID": "11390",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Sid Meier's Civilization IV: Warlords",
+        "logoURL": "./games/covers/SidMeiersCivilizationIVWarlords.jpg",
+        "store": "Steam",
+        "appID": "3990",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Sid Meier's Civilization IV: Beyond the Sword",
+        "logoURL": "./games/covers/SidMeiersCivilizationIVBeyondtheSword.jpg",
+        "store": "Steam",
+        "appID": "8800",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Fallout: New Vegas",
+        "logoURL": "./games/covers/FalloutNewVegas.jpg",
+        "store": "Steam",
+        "appID": "22380",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "F.E.A.R.",
+        "logoURL": "./games/covers/FEAR.jpg",
+        "store": "Steam",
+        "appID": "21090",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "F.E.A.R.: Extraction Point",
+        "logoURL": "./games/covers/FEARExtractionPoint.jpg",
+        "store": "Steam",
+        "appID": "21110",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "The Darkness II",
+        "logoURL": "./games/covers/TheDarknessII.jpg",
+        "store": "Steam",
+        "appID": "67370",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Spec Ops: The Line",
+        "logoURL": "./games/covers/SpecOpsTheLine.jpg",
+        "store": "Steam",
+        "appID": "50300",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Alan Wake's American Nightmare",
+        "logoURL": "./games/covers/AlanWakesAmericanNightmare.jpg",
+        "store": "Steam",
+        "appID": "202750",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "BioShock",
+        "logoURL": "./games/covers/BioShock.jpg",
+        "store": "Steam",
+        "appID": "7670",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "BioShock Remastered",
+        "logoURL": "./games/covers/BioShockRemastered.jpg",
+        "store": "Steam",
+        "appID": "409710",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Dead Island",
+        "logoURL": "./games/covers/DeadIsland.jpg",
+        "store": "Steam",
+        "appID": "91310",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Dishonored",
+        "logoURL": "./games/covers/Dishonored.jpg",
+        "store": "Steam",
+        "appID": "205100",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Dota 2 Test",
+        "logoURL": "",
+        "store": "Steam",
+        "appID": "205790",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "DOOM 3: BFG Edition",
+        "logoURL": "./games/covers/DOOM3BFGEdition.jpg",
+        "store": "Steam",
+        "appID": "208200",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Chivalry: Medieval Warfare",
+        "logoURL": "./games/covers/ChivalryMedievalWarfare.jpg",
+        "store": "Steam",
+        "appID": "219640",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Scribblenauts Unlimited",
+        "logoURL": "./games/covers/ScribblenautsUnlimited.jpg",
+        "store": "Steam",
+        "appID": "218680",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Giana Sisters: Twisted Dreams",
+        "logoURL": "./games/covers/GianaSistersTwistedDreams.jpg",
+        "store": "Steam",
+        "appID": "223220",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Deadlight",
+        "logoURL": "./games/covers/Deadlight.jpg",
+        "store": "Steam",
+        "appID": "211400",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "NiGHTS into Dreams...",
+        "logoURL": "./games/covers/NiGHTSintoDreams.jpg",
+        "store": "Steam",
+        "appID": "219950",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Crazy Taxi",
+        "logoURL": "./games/covers/CrazyTaxi.jpg",
+        "store": "Steam",
+        "appID": "71230",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "SEGA Bass Fishing",
+        "logoURL": "./games/covers/SEGABassFishing.jpg",
+        "store": "Steam",
+        "appID": "71240",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "War Thunder",
+        "logoURL": "./games/covers/WarThunder.jpg",
+        "store": "Steam",
+        "appID": "236390",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "DCS World",
+        "logoURL": "./games/covers/DCSWorld.jpg",
+        "store": "Steam",
+        "appID": "223750",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Free to Play",
+        "logoURL": "./games/covers/FreetoPlay.jpg",
+        "store": "Steam",
+        "appID": "245550",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Free To Play (Streaming)",
+        "logoURL": "",
+        "store": "Steam",
+        "appID": "343450",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Sniper Ghost Warrior 2",
+        "logoURL": "./games/covers/SniperGhostWarrior2.jpg",
+        "store": "Steam",
+        "appID": "34870",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Brütal Legend",
+        "logoURL": "./games/covers/BrtalLegend.jpg",
+        "store": "Steam",
+        "appID": "225260",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Star Trek",
+        "logoURL": "./games/covers/StarTrek.jpg",
+        "store": "Steam",
+        "appID": "203250",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Remember Me",
+        "logoURL": "./games/covers/RememberMe.jpg",
+        "store": "Steam",
+        "appID": "228300",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Rising Storm/Red Orchestra 2 Multiplayer",
+        "logoURL": "./games/covers/RisingStormRedOrchestra2Multiplayer.jpg",
+        "store": "Steam",
+        "appID": "35450",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Castlevania: Lords of Shadow - Ultimate Edition",
+        "logoURL": "./games/covers/CastlevaniaLordsofShadowUltimateEdition.jpg",
+        "store": "Steam",
+        "appID": "234080",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Papers Please",
+        "logoURL": "http://media.steampowered.com/steamcommunity/public/images/apps/239030/eb4c045f73f9a4b1bac708e70fb12f12cd53010f.jpg",
+        "store": "Steam",
+        "appID": "239030",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Double Dragon Neon",
+        "logoURL": "./games/covers/DoubleDragonNeon.jpg",
+        "store": "Steam",
+        "appID": "252350",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Battlefield Bad Company 2",
+        "logoURL": "./games/covers/BattlefieldBadCompany2.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Bus-Simulator 2012",
+        "logoURL": "./games/covers/BusSimulator2012.jpg",
+        "store": "Steam",
+        "appID": "253770",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Killer is Dead",
+        "logoURL": "./games/covers/KillerisDead.jpg",
+        "store": "Steam",
+        "appID": "261110",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "FINAL FANTASY VIII",
+        "logoURL": "./games/covers/FINALFANTASYVIII.jpg",
+        "store": "Steam",
+        "appID": "39150",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Blades of Time",
+        "logoURL": "./games/covers/BladesofTime.jpg",
+        "store": "Steam",
+        "appID": "208670",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Broforce",
+        "logoURL": "./games/covers/Broforce.jpg",
+        "store": "Steam",
+        "appID": "274190",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "OlliOlli",
+        "logoURL": "./games/covers/OlliOlli.jpg",
+        "store": "Steam",
+        "appID": "274250",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Toybox Turbos",
+        "logoURL": "./games/covers/ToyboxTurbos.jpg",
+        "store": "Steam",
+        "appID": "287260",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "H1Z1: Test Server",
+        "logoURL": "./games/covers/H1Z1TestServer.jpg",
+        "store": "Steam",
+        "appID": "439700",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "BlazeRush",
+        "logoURL": "./games/covers/BlazeRush.jpg",
+        "store": "Steam",
+        "appID": "302710",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Aritana and the Harpy's Feather",
+        "logoURL": "./games/covers/AritanaandtheHarpysFeather.jpg",
+        "store": "Steam",
+        "appID": "314360",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Devil May Cry 3: Special Edition",
+        "logoURL": "./games/covers/DevilMayCry3SpecialEdition.jpg",
+        "store": "Steam",
+        "appID": "6550",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Grandia II Anniversary Edition",
+        "logoURL": "./games/covers/GrandiaIIAnniversaryEdition.jpg",
+        "store": "Steam",
+        "appID": "330390",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "HuniePop",
+        "logoURL": "./games/covers/HuniePop.jpg",
+        "store": "Steam",
+        "appID": "339800",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Glorkian Warrior: The Trials Of Glork",
+        "logoURL": "./games/covers/GlorkianWarriorTheTrialsOfGlork.jpg",
+        "store": "Steam",
+        "appID": "341120",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Giana Sisters: Dream Runners",
+        "logoURL": "./games/covers/GianaSistersDreamRunners.jpg",
+        "store": "Steam",
+        "appID": "352900",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "PAC-MAN Championship Edition DX+",
+        "logoURL": "./games/covers/PACMANChampionshipEditionDX.jpg",
+        "store": "Steam",
+        "appID": "236450",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "JumpJet Rex",
+        "logoURL": "./games/covers/JumpJetRex.jpg",
+        "store": "Steam",
+        "appID": "329460",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Blender",
+        "logoURL": "./games/covers/Blender.jpg",
+        "store": "Steam",
+        "appID": "365670",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Controller Companion",
+        "logoURL": "./games/covers/ControllerCompanion.jpg",
+        "store": "Steam",
+        "appID": "367670",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Her Story",
+        "logoURL": "./games/covers/HerStory.jpg",
+        "store": "Steam",
+        "appID": "368370",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Shoppe Keep",
+        "logoURL": "./games/covers/ShoppeKeep.jpg",
+        "store": "Steam",
+        "appID": "381120",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Shadow Complex Remastered",
+        "logoURL": "./games/covers/ShadowComplexRemastered.jpg",
+        "store": "Steam",
+        "appID": "385560",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Company of Heroes 2",
+        "logoURL": "./games/covers/CompanyofHeroes2.jpg",
+        "store": "Steam",
+        "appID": "231430",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Just Cause 3",
+        "logoURL": "./games/covers/JustCause3.jpg",
+        "store": "Steam",
+        "appID": "225540",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Tinboy",
+        "logoURL": "./games/covers/Tinboy.jpg",
+        "store": "Steam",
+        "appID": "399430",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Lup",
+        "logoURL": "./games/covers/Lup.jpg",
+        "store": "Steam",
+        "appID": "412600",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Kivi Toilet and Shotgun",
+        "logoURL": "http://media.steampowered.com/steamcommunity/public/images/apps/428950/20899d04aabd7cc8fb1cd5500a9a02d3a17fc65b.jpg",
+        "store": "Steam",
+        "appID": "428950",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Calcu-Late",
+        "logoURL": "./games/covers/CalcuLate.jpg",
+        "store": "Steam",
+        "appID": "449200",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Catch a Falling Star",
+        "logoURL": "./games/covers/CatchaFallingStar.jpg",
+        "store": "Steam",
+        "appID": "451880",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Super Space Pug",
+        "logoURL": "./games/covers/SuperSpacePug.jpg",
+        "store": "Steam",
+        "appID": "466840",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Monster Puzzle",
+        "logoURL": "./games/covers/MonsterPuzzle.jpg",
+        "store": "Steam",
+        "appID": "493700",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "$1 Ride",
+        "logoURL": "./games/covers/1Ride.jpg",
+        "store": "Steam",
+        "appID": "508290",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Spikit",
+        "logoURL": "./games/covers/Spikit.jpg",
+        "store": "Steam",
+        "appID": "509110",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Turbo Pug 3D",
+        "logoURL": "./games/covers/TurboPug3D.jpg",
+        "store": "Steam",
+        "appID": "528510",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "RESIDENT EVIL 7",
+        "logoURL": "./games/covers/RESIDENTEVIL7biohazardBIOHAZARD7residentevil.jpg",
+        "store": "Steam",
+        "appID": "418370",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Distant Space",
+        "logoURL": "./games/covers/DistantSpace.jpg",
+        "store": "Steam",
+        "appID": "569610",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "HITMAN™",
+        "logoURL": "./games/covers/HITMAN.jpg",
+        "store": "Steam",
+        "appID": "236870",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Kingdom: Classic",
+        "logoURL": "./games/covers/KingdomClassic.jpg",
+        "store": "Steam",
+        "appID": "368230",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Alice Madness Returns",
+        "logoURL": "./games/covers/AliceMadnessReturns.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Gears of War 4",
+        "logoURL": "./games/covers/GearsofWar4.jpg",
+        "store": "Windows Store",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "Forza Horizon 3",
+        "logoURL": "./games/covers/ForzaHorizon3.jpg",
+        "store": "Windows Store",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "Forza Motorport 7",
+        "logoURL": "./games/covers/ForzaMotorport7.jpg",
+        "store": "Windows Store",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "Prey",
+        "logoURL": "./games/covers/Prey.jpg",
+        "store": "Windows Store",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "Final Fantasy XV",
+        "logoURL": "./games/covers/FinalFantasyXV.jpg",
+        "store": "Windows Store",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "God of War III Remastered",
+        "logoURL": "./games/covers/GodofWarIIIRemastered.jpg",
+        "store": "PSN",
+        "appID": "",
+        "system": "Playstation 4",
+        "disabled": false
+    },
+    {
+        "name": "Bully",
+        "logoURL": "./games/covers/Bully.jpg",
+        "store": "PSN",
+        "appID": "",
+        "system": "Playstation 4",
+        "disabled": false
+    },
+    {
+        "name": "Journey",
+        "logoURL": "./games/covers/Journey.jpg",
+        "store": "PSN",
+        "appID": "",
+        "system": "Playstation 4",
+        "disabled": false
+    },
+    {
+        "name": "Grand Theft Auto: San Andreas",
+        "logoURL": "./games/covers/GrandTheftAutoSanAndreas.jpg",
+        "store": "Google Play",
+        "appID": "",
+        "system": "Android",
+        "disabled": false
+    },
+    {
+        "name": "Max Payne",
+        "logoURL": "./games/covers/MaxPayne.jpg",
+        "store": "Google Play",
+        "appID": "",
+        "system": "Android",
+        "disabled": false
+    },
+    {
+        "name": "World of Goo",
+        "logoURL": "./games/covers/WorldofGoo.jpg",
+        "store": "Google Play",
+        "appID": "",
+        "system": "Android",
+        "disabled": false
+    },
+    {
+        "name": "Rayman Jungle Run",
+        "logoURL": "./games/covers/RaymanJungleRun.jpg",
+        "store": "Google Play",
+        "appID": "",
+        "system": "Android",
+        "disabled": false
+    },
+    {
+        "name": "Far Cry 3",
+        "logoURL": "./games/covers/FarCry3.jpg",
+        "store": "Undefined",
+        "appID": "",
+        "system": "Playstation 3",
+        "disabled": true
+    },
+    {
+        "name": "Hellblade: Senua's Sacrifice VR Edition",
+        "logoURL": "./games/covers/HellbladeSenuasSacrificeVREdition.jpg",
+        "store": "Steam",
+        "appID": "747350",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Warhammer 40000: Space Marine",
+        "logoURL": "http://media.steampowered.com/steamcommunity/public/images/apps/55150/46b0ce6e587472d1d56cc88dd32c8b57392f8b10.jpg",
+        "store": "Steam",
+        "appID": "55150",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Heavy Metal Machines",
+        "logoURL": "./games/covers/HeavyMetalMachines.jpg",
+        "store": "Steam",
+        "appID": "331360",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Project CARS 2",
+        "logoURL": "./games/covers/ProjectCARS2.jpg",
+        "store": "Steam",
+        "appID": "378860",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Orwell",
+        "logoURL": "./games/covers/Orwell.jpg",
+        "store": "Steam",
+        "appID": "491950",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Left 4 Dead 2",
+        "logoURL": "./games/covers/Left4Dead2.jpg",
+        "store": "Steam",
+        "appID": "550",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Sid Meier's Civilization IV",
+        "logoURL": "./games/covers/SidMeiersCivilizationIV.jpg",
+        "store": "Steam",
+        "appID": "34440",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "MX vs. ATV Reflex",
+        "logoURL": "./games/covers/MXvsATVReflex.jpg",
+        "store": "Steam",
+        "appID": "55140",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Mafia II",
+        "logoURL": "./games/covers/MafiaII.jpg",
+        "store": "Steam",
+        "appID": "50130",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Mortal Kombat Kollection",
+        "logoURL": "./games/covers/MortalKombatKollection.jpg",
+        "store": "Steam",
+        "appID": "205350",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "X-COM: Terror from the Deep",
+        "logoURL": "./games/covers/XCOMTerrorfromtheDeep.jpg",
+        "store": "Steam",
+        "appID": "7650",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Crysis 2 Maximum Edition",
+        "logoURL": "./games/covers/Crysis2MaximumEdition.jpg",
+        "store": "Steam",
+        "appID": "108800",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Psychonauts",
+        "logoURL": "./games/covers/Psychonauts.jpg",
+        "store": "Steam",
+        "appID": "3830",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "LIMBO",
+        "logoURL": "./games/covers/LIMBO.jpg",
+        "store": "Steam",
+        "appID": "48000",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Amnesia: The Dark Descent",
+        "logoURL": "./games/covers/AmnesiaTheDarkDescent.jpg",
+        "store": "Steam",
+        "appID": "57300",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Superbrothers: Sword & Sworcery EP",
+        "logoURL": "./games/covers/SuperbrothersSwordSworceryEP.jpg",
+        "store": "Steam",
+        "appID": "204060",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Batman: Arkham City",
+        "logoURL": "./games/covers/BatmanArkhamCityGOTY.jpg",
+        "store": "Steam",
+        "appID": "200260",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Company of Heroes - Legacy Edition",
+        "logoURL": "./games/covers/CompanyofHeroesLegacyEdition.jpg",
+        "store": "Steam",
+        "appID": "4560",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "The Cave",
+        "logoURL": "./games/covers/TheCave.jpg",
+        "store": "Steam",
+        "appID": "221810",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "BioShock Infinite",
+        "logoURL": "./games/covers/BioShockInfinite.jpg",
+        "store": "Steam",
+        "appID": "8870",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Surgeon Simulator",
+        "logoURL": "./games/covers/SurgeonSimulator.jpg",
+        "store": "Steam",
+        "appID": "233720",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Realms of Arkania: Blade of Destiny",
+        "logoURL": "./games/covers/RealmsofArkaniaBladeofDestiny.jpg",
+        "store": "Steam",
+        "appID": "237550",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Toki Tori",
+        "logoURL": "./games/covers/TokiTori.jpg",
+        "store": "Steam",
+        "appID": "38700",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "RUSH",
+        "logoURL": "./games/covers/RUSH.jpg",
+        "store": "Steam",
+        "appID": "38720",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "EDGE",
+        "logoURL": "./games/covers/EDGE.jpg",
+        "store": "Steam",
+        "appID": "38740",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Toki Tori 2+",
+        "logoURL": "./games/covers/TokiTori2.jpg",
+        "store": "Steam",
+        "appID": "201420",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Toki Tori 2+ Level Editor",
+        "logoURL": "",
+        "store": "Steam",
+        "appID": "237530",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Castlevania: Lords of Shadow 2",
+        "logoURL": "./games/covers/CastlevaniaLordsofShadow2.jpg",
+        "store": "Steam",
+        "appID": "239250",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Just Cause",
+        "logoURL": "./games/covers/JustCause.jpg",
+        "store": "Steam",
+        "appID": "6880",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Tom Clancy's Splinter Cell Blacklist",
+        "logoURL": "./games/covers/TomClancysSplinterCellBlacklist.jpg",
+        "store": "Steam",
+        "appID": "235600",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Hitman: Contracts",
+        "logoURL": "./games/covers/HitmanContracts.jpg",
+        "store": "Steam",
+        "appID": "247430",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Platformines",
+        "logoURL": "./games/covers/Platformines.jpg",
+        "store": "Steam",
+        "appID": "264540",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "American Truck Simulator",
+        "logoURL": "./games/covers/AmericanTruckSimulator.jpg",
+        "store": "Steam",
+        "appID": "270880",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Strider",
+        "logoURL": "./games/covers/Strider.jpg",
+        "store": "Steam",
+        "appID": "235210",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "resident evil 4",
+        "logoURL": "./games/covers/residentevil4biohazard4.jpg",
+        "store": "Steam",
+        "appID": "254700",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Ridge Racer™ Unbounded",
+        "logoURL": "./games/covers/RidgeRacerUnbounded.jpg",
+        "store": "Steam",
+        "appID": "202310",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Valkyria Chronicles™",
+        "logoURL": "./games/covers/ValkyriaChronicles.jpg",
+        "store": "Steam",
+        "appID": "294860",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Transistor",
+        "logoURL": "./games/covers/Transistor.jpg",
+        "store": "Steam",
+        "appID": "237930",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Rogue Stormers",
+        "logoURL": "./games/covers/RogueStormers.jpg",
+        "store": "Steam",
+        "appID": "299480",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Fahrenheit: Indigo Prophecy Remastered",
+        "logoURL": "./games/covers/FahrenheitIndigoProphecyRemastered.jpg",
+        "store": "Steam",
+        "appID": "312840",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Vanishing of Ethan Carter",
+        "logoURL": "./games/covers/TheVanishingofEthanCarter.jpg",
+        "store": "Steam",
+        "appID": "258520",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "VEGAS Movie Studio 13 Platinum - Steam Powered",
+        "logoURL": "./games/covers/VEGASMovieStudio13PlatinumSteamPowered.jpg",
+        "store": "Steam",
+        "appID": "330070",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Batman™: Arkham Knight",
+        "logoURL": "./games/covers/BatmanArkhamKnight.jpg",
+        "store": "Steam",
+        "appID": "208650",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "RIDE: Game",
+        "logoURL": "./games/covers/RIDEGame.jpg",
+        "store": "Steam",
+        "appID": "345660",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Elder Scrolls Online: Tamriel Unlimited",
+        "logoURL": "./games/covers/TheElderScrollsOnlineTamrielUnlimited.jpg",
+        "store": "Steam",
+        "appID": "306130",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Mortal Kombat: Legacy II: Reunited in Macau",
+        "logoURL": "./games/covers/MortalKombatLegacyIIReunitedinMacau.jpg",
+        "store": "Steam",
+        "appID": "362180",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Mortal Kombat: Legacy II: The Fall of Liu Kang",
+        "logoURL": "./games/covers/MortalKombatLegacyIITheFallofLiuKang.jpg",
+        "store": "Steam",
+        "appID": "362190",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Mortal Kombat: Legacy II: Kenshi's Origin",
+        "logoURL": "./games/covers/MortalKombatLegacyIIKenshisOrigin.jpg",
+        "store": "Steam",
+        "appID": "362200",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Mortal Kombat: Legacy II: Kenshi Encounters Ermac",
+        "logoURL": "./games/covers/MortalKombatLegacyIIKenshiEncountersErmac.jpg",
+        "store": "Steam",
+        "appID": "362210",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Mortal Kombat: Legacy II: Kitana and Mileena",
+        "logoURL": "./games/covers/MortalKombatLegacyIIKitanaandMileena.jpg",
+        "store": "Steam",
+        "appID": "362220",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Mortal Kombat: Legacy II: Johnny Cage",
+        "logoURL": "./games/covers/MortalKombatLegacyIIJohnnyCage.jpg",
+        "store": "Steam",
+        "appID": "362230",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Mortal Kombat: Legacy II: Scorpion and Sub-Zero (Part 1)",
+        "logoURL": "./games/covers/MortalKombatLegacyIIScorpionandSubZeroPart1.jpg",
+        "store": "Steam",
+        "appID": "362240",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Mortal Kombat: Legacy II: Scorpion and Sub-Zero (Part 2)",
+        "logoURL": "./games/covers/MortalKombatLegacyIIScorpionandSubZeroPart2.jpg",
+        "store": "Steam",
+        "appID": "362250",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Mortal Kombat: Legacy II: Liu Kang",
+        "logoURL": "./games/covers/MortalKombatLegacyIILiuKang.jpg",
+        "store": "Steam",
+        "appID": "362260",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Mortal Kombat: Legacy II: Liu Kang and Kung Lao",
+        "logoURL": "./games/covers/MortalKombatLegacyIILiuKangandKungLao.jpg",
+        "store": "Steam",
+        "appID": "362270",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Mortal Kombat: Legacy II",
+        "logoURL": "./games/covers/MortalKombatLegacyII.jpg",
+        "store": "Steam",
+        "appID": "362280",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Shoot 1UP",
+        "logoURL": "./games/covers/Shoot1UP.jpg",
+        "store": "Steam",
+        "appID": "373610",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Flesh Eaters",
+        "logoURL": "./games/covers/FleshEaters.jpg",
+        "store": "Steam",
+        "appID": "383580",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Saviors",
+        "logoURL": "./games/covers/Saviors.jpg",
+        "store": "Steam",
+        "appID": "314450",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Dangerous Golf",
+        "logoURL": "./games/covers/DangerousGolf.jpg",
+        "store": "Steam",
+        "appID": "405500",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Super Button Soccer",
+        "logoURL": "./games/covers/SuperButtonSoccer.jpg",
+        "store": "Steam",
+        "appID": "425300",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "SEGA Mega Drive & Genesis Classics",
+        "logoURL": "./games/covers/SEGAMegaDriveGenesisClassics.jpg",
+        "store": "Steam",
+        "appID": "34270",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Holodrive",
+        "logoURL": "./games/covers/Holodrive.jpg",
+        "store": "Steam",
+        "appID": "370770",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Deep Space Dash",
+        "logoURL": "./games/covers/DeepSpaceDash.jpg",
+        "store": "Steam",
+        "appID": "493650",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Life is Strange™",
+        "logoURL": "./games/covers/LifeisStrange.jpg",
+        "store": "Steam",
+        "appID": "319630",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Stone Age Wars",
+        "logoURL": "./games/covers/StoneAgeWars.jpg",
+        "store": "Steam",
+        "appID": "521230",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Modern Warfare 3",
+        "logoURL": "./games/covers/ModernWarfare3.jpg",
+        "store": "Windows Store",
+        "appID": "",
+        "system": "XBOX 360",
+        "disabled": false
+    },
+    {
+        "name": "Tomb Raider: Legend",
+        "logoURL": "./games/covers/TombRaiderLegend.jpg",
+        "store": "Windows Store",
+        "appID": "",
+        "system": "XBOX 360",
+        "disabled": false
+    },
+    {
+        "name": "MGS 2 and 3",
+        "logoURL": "./games/covers/MGS2and3.jpg",
+        "store": "Windows Store",
+        "appID": "",
+        "system": "XBOX 360",
+        "disabled": false
+    },
+    {
+        "name": "Batman: Arkham City",
+        "logoURL": "./games/covers/BatmanArkhamCityGOTY.jpg",
+        "store": "Windows Store",
+        "appID": "",
+        "system": "XBOX 360",
+        "disabled": false
+    },
+    {
+        "name": "The Evil Within",
+        "logoURL": "./games/covers/TheEvilWithin.jpg",
+        "store": "Windows Store",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "Metro Redux",
+        "logoURL": "./games/covers/MetroRedux.jpg",
+        "store": "Windows Store",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "Quantum Break",
+        "logoURL": "./games/covers/QuantumBreak.jpg",
+        "store": "Windows Store",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "Super Mega Neo Pug",
+        "logoURL": "./games/covers/SuperMegaNeoPug.jpg",
+        "store": "Steam",
+        "appID": "469730",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Laraan",
+        "logoURL": "./games/covers/Laraan.jpg",
+        "store": "Steam",
+        "appID": "493710",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Final Quest",
+        "logoURL": "./games/covers/FinalQuest.jpg",
+        "store": "Steam",
+        "appID": "512640",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Final Quest II",
+        "logoURL": "./games/covers/FinalQuestII.jpg",
+        "store": "Steam",
+        "appID": "540020",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "OR",
+        "logoURL": "./games/covers/OR.jpg",
+        "store": "Steam",
+        "appID": "586620",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Cortex Command",
+        "logoURL": "./games/covers/CortexCommand.jpg",
+        "store": "Steam",
+        "appID": "209670",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Battlefield 3",
+        "logoURL": "./games/covers/Battlefield3.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Battlefield 4",
+        "logoURL": "./games/covers/Battlefield4.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Bejeweled 3",
+        "logoURL": "./games/covers/Bejeweled3.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Burnout Paradise: The Ultimate Box",
+        "logoURL": "./games/covers/BurnoutParadiseTheUltimateBox.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Command and Conquer Red Alert 3 Uprising",
+        "logoURL": "./games/covers/CommandandConquerRedAlert3Uprising.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Crusader no Remorse",
+        "logoURL": "./games/covers/CrusadernoRemorse.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Crysis Warhead",
+        "logoURL": "./games/covers/CrysisWarhead.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Crysis",
+        "logoURL": "./games/covers/Crysis.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "PRO EVOLUTION SOCCER 2019",
+        "logoURL": "./games/covers/PROEVOLUTIONSOCCER2019.jpg",
+        "store": "Steam",
+        "appID": "770240",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Assetto Corsa Competizione",
+        "logoURL": "./games/covers/AssettoCorsaCompetizione.jpg",
+        "store": "Steam",
+        "appID": "805550",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Far Cry 5",
+        "logoURL": "./games/covers/FarCry5.jpg",
+        "store": "Steam",
+        "appID": "552520",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "For Honor",
+        "logoURL": "./games/covers/ForHonor.jpg",
+        "store": "Steam",
+        "appID": "304390",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "For Honor - Public Test",
+        "logoURL": "./games/covers/ForHonorPublicTest.jpg",
+        "store": "Steam",
+        "appID": "654310",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "The Tiny Bang Story",
+        "logoURL": "./games/covers/TheTinyBangStory.jpg",
+        "store": "Steam",
+        "appID": "96000",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Grand Theft Auto III",
+        "logoURL": "./games/covers/GrandTheftAutoIII.jpg",
+        "store": "Steam",
+        "appID": "12230",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Grand Theft Auto: San Andreas",
+        "logoURL": "./games/covers/GrandTheftAutoSanAndreas.jpg",
+        "store": "Steam",
+        "appID": "12250",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Grand Theft Auto: Vice City",
+        "logoURL": "./games/covers/GrandTheftAutoViceCity.jpg",
+        "store": "Steam",
+        "appID": "12240",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Sonic CD",
+        "logoURL": "./games/covers/SonicCD.jpg",
+        "store": "Steam",
+        "appID": "200940",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "F1 2018",
+        "logoURL": "./games/covers/F12018.jpg",
+        "store": "Steam",
+        "appID": "737800",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Command and Conquer Red Alert 3 Uprising",
+        "logoURL": "./games/covers/CommandandConquerRedAlert3Uprising.jpg",
+        "store": "Steam",
+        "appID": "24800",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Witcher: Enhanced Edition",
+        "logoURL": "./games/covers/TheWitcherEnhancedEdition.jpg",
+        "store": "Steam",
+        "appID": "20900",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Sid Meier's Civilization IV: Warlords",
+        "logoURL": "./games/covers/SidMeiersCivilizationIVWarlords.jpg",
+        "store": "Steam",
+        "appID": "34450",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Sid Meier's Civilization IV: Beyond the Sword",
+        "logoURL": "./games/covers/SidMeiersCivilizationIVBeyondtheSword.jpg",
+        "store": "Steam",
+        "appID": "34460",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Eversion ",
+        "logoURL": "./games/covers/Eversion.jpg",
+        "store": "Steam",
+        "appID": "33680",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Super Meat Boy",
+        "logoURL": "./games/covers/SuperMeatBoy.jpg",
+        "store": "Steam",
+        "appID": "40800",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Need for Speed: Hot Pursuit",
+        "logoURL": "./games/covers/NeedforSpeedHotPursuit.jpg",
+        "store": "Steam",
+        "appID": "47870",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Titan Quest",
+        "logoURL": "./games/covers/TitanQuest.jpg",
+        "store": "Steam",
+        "appID": "4540",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Titan Quest Anniversary Edition",
+        "logoURL": "./games/covers/TitanQuestAnniversaryEdition.jpg",
+        "store": "Steam",
+        "appID": "475150",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Borderlands",
+        "logoURL": "./games/covers/Borderlands.jpg",
+        "store": "Steam",
+        "appID": "8980",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Lord of the Rings: War in the North",
+        "logoURL": "./games/covers/TheLordoftheRingsWarintheNorth.jpg",
+        "store": "Steam",
+        "appID": "32800",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Alan Wake",
+        "logoURL": "./games/covers/AlanWake.jpg",
+        "store": "Steam",
+        "appID": "108710",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Luxor Evolved",
+        "logoURL": "./games/covers/LuxorEvolved.jpg",
+        "store": "Steam",
+        "appID": "205830",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "F1 2012",
+        "logoURL": "./games/covers/F12012.jpg",
+        "store": "Steam",
+        "appID": "208500",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Company of Heroes: Opposing Fronts",
+        "logoURL": "./games/covers/CompanyofHeroesOpposingFronts.jpg",
+        "store": "Steam",
+        "appID": "9340",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Grand Theft Auto: Vice City",
+        "logoURL": "./games/covers/GrandTheftAutoViceCity.jpg",
+        "store": "Steam",
+        "appID": "12110",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Euro Truck Simulator 2",
+        "logoURL": "./games/covers/EuroTruckSimulator2.jpg",
+        "store": "Steam",
+        "appID": "227300",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "3DMark",
+        "logoURL": "./games/covers/3DMark.jpg",
+        "store": "Steam",
+        "appID": "223850",
+        "system": "PC",
+        "disabled": true
+    },
+    {
+        "name": "Spiral Knights",
+        "logoURL": "./games/covers/SpiralKnights.jpg",
+        "store": "Steam",
+        "appID": "99900",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "FEZ",
+        "logoURL": "./games/covers/FEZ.jpg",
+        "store": "Steam",
+        "appID": "224760",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Zack Zero",
+        "logoURL": "./games/covers/ZackZero.jpg",
+        "store": "Steam",
+        "appID": "234290",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Shadowrun Returns",
+        "logoURL": "./games/covers/ShadowrunReturns.jpg",
+        "store": "Steam",
+        "appID": "234650",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Call of Juarez Gunslinger",
+        "logoURL": "./games/covers/CallofJuarezGunslinger.jpg",
+        "store": "Steam",
+        "appID": "204450",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Mini Motor Racing EVO",
+        "logoURL": "./games/covers/MiniMotorRacingEVO.jpg",
+        "store": "Steam",
+        "appID": "209520",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Rocksmith® 2014 Edition - Remastered",
+        "logoURL": "./games/covers/Rocksmith2014EditionRemastered.jpg",
+        "store": "Steam",
+        "appID": "221680",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Gas Guzzlers Extreme",
+        "logoURL": "./games/covers/GasGuzzlersExtreme.jpg",
+        "store": "Steam",
+        "appID": "243800",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "LEGO® MARVEL Super Heroes",
+        "logoURL": "./games/covers/LEGOMARVELSuperHeroes.jpg",
+        "store": "Steam",
+        "appID": "249130",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Beware Planet Earth",
+        "logoURL": "./games/covers/BewarePlanetEarth.jpg",
+        "store": "Steam",
+        "appID": "267340",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Insurgency",
+        "logoURL": "./games/covers/Insurgency.jpg",
+        "store": "Steam",
+        "appID": "222880",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Age of Wonders III",
+        "logoURL": "./games/covers/AgeofWondersIII.jpg",
+        "store": "Steam",
+        "appID": "226840",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "FATE: Undiscovered Realms",
+        "logoURL": "./games/covers/FATEUndiscoveredRealms.jpg",
+        "store": "Steam",
+        "appID": "276890",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Colin McRae Rally",
+        "logoURL": "./games/covers/ColinMcRaeRally.jpg",
+        "store": "Steam",
+        "appID": "287340",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Qasir al-Wasat: International Edition",
+        "logoURL": "./games/covers/QasiralWasatInternationalEdition.jpg",
+        "store": "Steam",
+        "appID": "296030",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "DiRT Rally",
+        "logoURL": "./games/covers/DiRTRally.jpg",
+        "store": "Steam",
+        "appID": "310560",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Saints Row IV",
+        "logoURL": "./games/covers/SaintsRowIV.jpg",
+        "store": "Steam",
+        "appID": "206420",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Grim Fandango Remastered",
+        "logoURL": "./games/covers/GrimFandangoRemastered.jpg",
+        "store": "Steam",
+        "appID": "316790",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Alien: Isolation",
+        "logoURL": "./games/covers/AlienIsolation.jpg",
+        "store": "Steam",
+        "appID": "214490",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Middle-earth™: Shadow of Mordor™",
+        "logoURL": "./games/covers/MiddleearthShadowofMordor.jpg",
+        "store": "Steam",
+        "appID": "241930",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Dying Light",
+        "logoURL": "./games/covers/DyingLight.jpg",
+        "store": "Steam",
+        "appID": "239140",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Outlast",
+        "logoURL": "./games/covers/Outlast.jpg",
+        "store": "Steam",
+        "appID": "238320",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "StuntMANIA Reloaded",
+        "logoURL": "./games/covers/StuntMANIAReloaded.jpg",
+        "store": "Steam",
+        "appID": "324750",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Project CARS",
+        "logoURL": "./games/covers/ProjectCARS.jpg",
+        "store": "Steam",
+        "appID": "234630",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "iRacing",
+        "logoURL": "./games/covers/iRacing.jpg",
+        "store": "Steam",
+        "appID": "266410",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Sky Force Anniversary",
+        "logoURL": "./games/covers/SkyForceAnniversary.jpg",
+        "store": "Steam",
+        "appID": "355050",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Wolfenstein: The Old Blood ",
+        "logoURL": "./games/covers/WolfensteinTheOldBlood.jpg",
+        "store": "Steam",
+        "appID": "350080",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Karate Master 2 Knock Down Blow",
+        "logoURL": "./games/covers/KarateMaster2KnockDownBlow.jpg",
+        "store": "Steam",
+        "appID": "347670",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Mother Russia Bleeds",
+        "logoURL": "./games/covers/MotherRussiaBleeds.jpg",
+        "store": "Steam",
+        "appID": "361300",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "BASEBALL STARS 2",
+        "logoURL": "./games/covers/BASEBALLSTARS2.jpg",
+        "store": "Steam",
+        "appID": "366230",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "New kind of adventure",
+        "logoURL": "./games/covers/Newkindofadventure.jpg",
+        "store": "Steam",
+        "appID": "375510",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "The Tower Of Elements",
+        "logoURL": "./games/covers/TheTowerOfElements.jpg",
+        "store": "Steam",
+        "appID": "377310",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Jet Racing Extreme",
+        "logoURL": "./games/covers/JetRacingExtreme.jpg",
+        "store": "Steam",
+        "appID": "385270",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Game Corp DX",
+        "logoURL": "./games/covers/GameCorpDX.jpg",
+        "store": "Steam",
+        "appID": "399670",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Ampersand",
+        "logoURL": "./games/covers/Ampersand.jpg",
+        "store": "Steam",
+        "appID": "410210",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Dead Rising",
+        "logoURL": "./games/covers/DeadRising.jpg",
+        "store": "Steam",
+        "appID": "427190",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Neon Chrome",
+        "logoURL": "./games/covers/NeonChrome.jpg",
+        "store": "Steam",
+        "appID": "428750",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Hell Yeah!",
+        "logoURL": "./games/covers/HellYeah.jpg",
+        "store": "Steam",
+        "appID": "205230",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Tom Clancy's The Division",
+        "logoURL": "./games/covers/TomClancysTheDivision.jpg",
+        "store": "Steam",
+        "appID": "365590",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Tom Clancy's The Division PTS",
+        "logoURL": "./games/covers/TomClancysTheDivisionPTS.jpg",
+        "store": "Steam",
+        "appID": "524440",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "DOOM",
+        "logoURL": "./games/covers/DOOM.jpg",
+        "store": "Steam",
+        "appID": "379720",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Subnautica",
+        "logoURL": "./games/covers/Subnautica.jpg",
+        "store": "Epic",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Shadow Complex Remastered",
+        "logoURL": "./games/covers/ShadowComplexRemastered.jpg",
+        "store": "Epic",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Super Meat Boy",
+        "logoURL": "./games/covers/SuperMeatBoy.jpg",
+        "store": "Epic",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Resident Evil 2 Classic",
+        "logoURL": "./games/covers/ResidentEvil2Classic.jpg",
+        "store": "PSN",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Journey",
+        "logoURL": "./games/covers/Journey.jpg",
+        "store": "PSN",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Epic Mickey",
+        "logoURL": "./games/covers/EpicMickey.jpg",
+        "store": "PSN",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Duck Tales Remastered",
+        "logoURL": "./games/covers/DuckTalesRemastered.jpg",
+        "store": "PSN",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Castle of Illusions",
+        "logoURL": "./games/covers/CastleofIllusions.jpg",
+        "store": "PSN",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Crysis 3",
+        "logoURL": "./games/covers/Crysis3.jpg",
+        "store": "PSN",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Puppeteer",
+        "logoURL": "./games/covers/Puppeteer.jpg",
+        "store": "PSN",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "F1 2013",
+        "logoURL": "./games/covers/F12013.jpg",
+        "store": "PSN",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Ni No Kuni",
+        "logoURL": "./games/covers/NiNoKuni.jpg",
+        "store": "PSN",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Mirror's Edge",
+        "logoURL": "./games/covers/MirrorsEdge.jpg",
+        "store": "PSN",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Resident Evil Directors Cut",
+        "logoURL": "./games/covers/ResidentEvilDirectorsCut.jpg",
+        "store": "PSN",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Metal Gear Solid",
+        "logoURL": "./games/covers/MetalGearSolid.jpg",
+        "store": "PSN",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Metal Gear Solid VR Missions",
+        "logoURL": "./games/covers/MetalGearSolidVRMissions.jpg",
+        "store": "PSN",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Beyond Two Souls",
+        "logoURL": "./games/covers/BeyondTwoSouls.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Dragon Age 2",
+        "logoURL": "./games/covers/DragonAge2.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Far Cry 3",
+        "logoURL": "./games/covers/FarCry3.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "God of War 3",
+        "logoURL": "./games/covers/GodofWar3.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "God of War Ascension",
+        "logoURL": "./games/covers/GodofWarAscension.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "God of War Collection",
+        "logoURL": "./games/covers/GodofWarCollection.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Gran Turismo 5 XL Edition",
+        "logoURL": "./games/covers/GranTurismo5XLEdition.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Gran Turismo 6",
+        "logoURL": "./games/covers/GranTurismo6.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Heavy Rain Movie Edition",
+        "logoURL": "./games/covers/HeavyRainMovieEdition.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "inFamous",
+        "logoURL": "./games/covers/inFamous.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Killzone Trilogy",
+        "logoURL": "./games/covers/KillzoneTrilogy.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Little Big Planet 2",
+        "logoURL": "./games/covers/LittleBigPlanet2.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Lost Planet 2",
+        "logoURL": "./games/covers/LostPlanet2.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Lost Planet Extreme Condition",
+        "logoURL": "./games/covers/LostPlanetExtremeCondition.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Midnight Club Log Angeles Complete Edition",
+        "logoURL": "./games/covers/MidnightClubLogAngelesCompleteEdition.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Mortal Kombat",
+        "logoURL": "./games/covers/MortalKombat.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Motorstorm",
+        "logoURL": "./games/covers/Motorstorm.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "PRO EVOLUTION SOCCER 2013",
+        "logoURL": "./games/covers/PES2013.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Ratchet and Clank All 4 One",
+        "logoURL": "./games/covers/RatchetandClankAll4One.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Red Dead Redemption",
+        "logoURL": "./games/covers/RedDeadRedemption.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "The ICO Shadow of Colossus Collection",
+        "logoURL": "./games/covers/TheICOShadowofColossusCollection.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Uncharted 2 Among thieves",
+        "logoURL": "./games/covers/Uncharted2Amongthieves.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Uncharted 3 Drakes Deception",
+        "logoURL": "./games/covers/Uncharted3DrakesDeception.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Uncharted Drakes Fortune",
+        "logoURL": "./games/covers/UnchartedDrakesFortune.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS3",
+        "disabled": false
+    },
+    {
+        "name": "Assassins Creed Syndicate",
+        "logoURL": "./games/covers/AssassinsCreedSyndicate.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "Battlefield 4",
+        "logoURL": "./games/covers/Battlefield4.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "Bloodborne",
+        "logoURL": "./games/covers/Bloodborne.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "Call of Duty Advanced Warfare",
+        "logoURL": "./games/covers/CallofDutyAdvancedWarfare.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "Dark Souls 3",
+        "logoURL": "./games/covers/DarkSouls3.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "DriveClub",
+        "logoURL": "./games/covers/DriveClub.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "Evolve",
+        "logoURL": "./games/covers/Evolve.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "Far Cry 4",
+        "logoURL": "./games/covers/FarCry4.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "Fifa Soccer 14",
+        "logoURL": "./games/covers/FIFA14.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "Gran Turismo Sport",
+        "logoURL": "./games/covers/GranTurismoSport.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "Grand Theft Auto V",
+        "logoURL": "./games/covers/GrandTheftAutoV.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "Horizon Zero Dawn",
+        "logoURL": "./games/covers/HorizonZeroDawn.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "Infamous Second Son",
+        "logoURL": "./games/covers/InfamousSecondSon.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "Killzone Shadow Fall",
+        "logoURL": "./games/covers/KillzoneShadowFall.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "NBA 2K14",
+        "logoURL": "./games/covers/NBA2K14.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "PRO EVOLUTION SOCCER 2018",
+        "logoURL": "./games/covers/PES2018.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "Ratchet and Clank",
+        "logoURL": "./games/covers/RatchetandClank.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "Rayman Origins",
+        "logoURL": "./games/covers/RaymanOrigins.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "Red Dead Redemption 2",
+        "logoURL": "./games/covers/RedDeadRedemption2.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "The Last of Us Remastered",
+        "logoURL": "./games/covers/TheLastofUsRemastered.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "The Order 1886",
+        "logoURL": "./games/covers/TheOrder1886.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "Uncharted 4 A Thiefs End",
+        "logoURL": "./games/covers/Uncharted4AThiefsEnd.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "Watch Dogs",
+        "logoURL": "./games/covers/WatchDogs.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "Assassins Creed IV Black Flag",
+        "logoURL": "./games/covers/AssassinsCreedIVBlackFlag.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "Crash Bandicoot Insane Trilogy",
+        "logoURL": "./games/covers/CrashBandicootInsaneTrilogy.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "Dead Rising 3",
+        "logoURL": "./games/covers/DeadRising3.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "Dead Rising 4",
+        "logoURL": "./games/covers/DeadRising4.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "Dragon Age Inquisition",
+        "logoURL": "./games/covers/DragonAgeInquisition.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "Forza 5",
+        "logoURL": "./games/covers/Forza5.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "Gears of War Ultimate Edition",
+        "logoURL": "./games/covers/GearofWarUltimateEdition.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "Halo 5",
+        "logoURL": "./games/covers/Halo5.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "Metal Gear Solid The Phantom Pain",
+        "logoURL": "./games/covers/MetalGearSolidThePhantomPain.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "PRO EVOLUTION SOCCER 2016",
+        "logoURL": "./games/covers/PES2016.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "Rise of Tomb Raider",
+        "logoURL": "./games/covers/RiseofTombRaider.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "Ryse: Son of Rome",
+        "logoURL": "./games/covers/RyseSonofRome.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "Sunset Overdrive",
+        "logoURL": "./games/covers/SunsetOverdrive.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "Titanfall",
+        "logoURL": "./games/covers/Titanfall.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "Gears of War",
+        "logoURL": "./games/covers/GearsofWar.jpg",
+        "store": "Windows Store",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "Gears of War",
+        "logoURL": "./games/covers/GearsofWar.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Gears of War 2",
+        "logoURL": "./games/covers/GearsofWar2.jpg",
+        "store": "Windows Store",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "Gears of War 3",
+        "logoURL": "./games/covers/GearsofWar3.jpg",
+        "store": "Windows Store",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "Gears of War Judgement",
+        "logoURL": "./games/covers/GearsofWarJudgement.jpg",
+        "store": "Windows Store",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "Assassins Creed Unity",
+        "logoURL": "./games/covers/AssassinsCreedUnity.jpg",
+        "store": "Windows Store",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "Donkey Kong Country Returns",
+        "logoURL": "./games/covers/DonkeyKongCountryReturns.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "Wii",
+        "disabled": false
+    },
+    {
+        "name": "Mario Kart",
+        "logoURL": "./games/covers/MarioKart.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "Wii",
+        "disabled": false
+    },
+    {
+        "name": "New Super Mario Bros Wii",
+        "logoURL": "./games/covers/NewSuperMarioBrosWii.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "Wii",
+        "disabled": false
+    },
+    {
+        "name": "Pikmin 2",
+        "logoURL": "./games/covers/Pikmin2.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "Wii",
+        "disabled": false
+    },
+    {
+        "name": "resident evil 4",
+        "logoURL": "./games/covers/residentevil4biohazard4.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "Wii",
+        "disabled": false
+    },
+    {
+        "name": "Super Mario Galaxy",
+        "logoURL": "./games/covers/SuperMarioGalaxy.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "Wii",
+        "disabled": false
+    },
+    {
+        "name": "Super Mario Galaxy 2",
+        "logoURL": "./games/covers/SuperMarioGalaxy2.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "Wii",
+        "disabled": false
+    },
+    {
+        "name": "Super Paper Mario",
+        "logoURL": "./games/covers/SuperPaperMario.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "Wii",
+        "disabled": false
+    },
+    {
+        "name": "The Last Story",
+        "logoURL": "./games/covers/TheLastStory.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "Wii",
+        "disabled": false
+    },
+    {
+        "name": "The Legend of Zelda Skyward Sword",
+        "logoURL": "./games/covers/TheLegendofZeldaSkywardSword.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "Wii",
+        "disabled": false
+    },
+    {
+        "name": "The Legend of Zelda Twilight Princess",
+        "logoURL": "./games/covers/TheLegendofZeldaTwilightPrincess.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "Wii",
+        "disabled": false
+    },
+    {
+        "name": "Wii Sports",
+        "logoURL": "./games/covers/WiiSports.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "Wii",
+        "disabled": false
+    },
+    {
+        "name": "Wii Sports Resort",
+        "logoURL": "./games/covers/WiiSportsResort.jpg",
+        "store": "Mídia Física",
+        "appID": "",
+        "system": "Wii",
+        "disabled": false
+    },
+    {
+        "name": "Battlefield 1",
+        "logoURL": "./games/covers/Battlefield1.jpg",
+        "store": "Origin",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Flashback",
+        "logoURL": "./games/covers/Flashback.jpg",
+        "store": "Windows Store",
+        "appID": "",
+        "system": "XBOX One",
+        "disabled": false
+    },
+    {
+        "name": "Child of Light",
+        "logoURL": "./games/covers/ChildofLight.jpg",
+        "store": "PSN",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "Yooka Laylee",
+        "logoURL": "./games/covers/YookaLaylee.jpg",
+        "store": "GOG",
+        "appID": "",
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "RESIDENT EVIL 2 Remastered",
+        "logoURL": "./games/covers/RESIDENTEVIL2BIOHAZARDRE2.jpg",
+        "store": "Steam",
+        "appID": 883710,
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Vanquish",
+        "logoURL": "./games/covers/Vanquish.jpg",
+        "store": "Steam",
+        "appID": 460810,
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "RiME",
+        "logoURL": "./games/covers/RiME.jpg",
+        "store": "Steam",
+        "appID": 493200,
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Bayonetta",
+        "logoURL": "./games/covers/Bayonetta.jpg",
+        "store": "Steam",
+        "appID": 460790,
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Deponia: The Complete Journey",
+        "logoURL": "./games/covers/DeponiaTheCompleteJourney.jpg",
+        "store": "Steam",
+        "appID": 292910,
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "A Story About My Uncle",
+        "logoURL": "./games/covers/AStoryAboutMyUncle.jpg",
+        "store": "Steam",
+        "appID": 278360,
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "GRID 2",
+        "logoURL": "./games/covers/GRID2.jpg",
+        "store": "Steam",
+        "appID": 44350,
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "LEGO® The Lord of the Rings™",
+        "logoURL": "./games/covers/LEGOTheLordoftheRings.jpg",
+        "store": "Steam",
+        "appID": 214510,
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "To the Moon",
+        "logoURL": "./games/covers/TotheMoon.jpg",
+        "store": "Steam",
+        "appID": 206440,
+        "system": "PC",
+        "disabled": false
+    },
+    {
+        "name": "Injustice: Gods Among Us Ultimate Edition",
+        "logoURL": "./games/covers/InjusticeGodsAmongUsUltimateEdition.jpg",
+        "store": "PSN",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "Metal Gear Solid V: Ground Zeroes",
+        "logoURL": "./games/covers/MetalGearSolidVGroundZeroes.jpg",
+        "store": "PSN",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "Trials Fusion",
+        "logoURL": "./games/covers/TrialsFusion.jpg",
+        "store": "PSN",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    },
+    {
+        "name": "Diablo III",
+        "logoURL": "./games/covers/DiabloIII.jpg",
+        "store": "PSN",
+        "appID": "",
+        "system": "PS4",
+        "disabled": false
+    }
+]

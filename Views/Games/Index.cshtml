@@ -1,0 +1,50 @@
+﻿@model IEnumerable<MyCollections.Models.Game>
+
+<div id="mButtons" class="margins">
+    <a asp-action="Create" class="btn btn-primary" id="btn_NewGame">Novo Jogo</a>
+    <button class="btn btn-primary" id="btn_GetFromSteam" style="width: 250px">Atualizar informações do Steam</button>
+</div>
+
+<table class="table" id="gamesTable">
+        <thead>
+            <tr>
+                <th>
+                    Nome
+                </th>
+                <th>
+                    Logo
+                </th>
+                <th>
+                    Loja
+                </th>
+                <th>
+                    Sistema
+                </th>
+                <th>
+                    Status
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var game in Model)
+            {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => game.Name)
+                </td>
+                <td>
+                    <img src="docs/@Html.DisplayFor(modelItem => game.LogoURL)" class="lazy" style="width: 70px; heigth: 70px;">
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => game.Store)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => game.System)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => game.Disabled)
+                </td>
+            </tr>
+            }
+        </tbody>
+</table>
