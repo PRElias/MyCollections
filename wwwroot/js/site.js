@@ -119,9 +119,9 @@ $(document).ready(function () {
 
     $('#gamesTable').on('click', 'tbody tr', function (evt) {
         var $cell = $(evt.target).closest('td');
-        console.log("Linha clicada: " + $cell);
+        console.log("Linha clicada: " + gamesTable.rows[this.rowIndex]._DT_RowIndex);
         if ($cell.index() > 0) {
-            window.location.href = "/Games/Edit/" + gamesTable.rows[this.rowIndex].firstChild.innerText;
+            window.location.href = "/Games/Edit/" + gamesTable.rows[this.rowIndex].firstElementChild.innerText;
         }
     });
 

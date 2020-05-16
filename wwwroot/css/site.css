@@ -61,7 +61,7 @@ p {
 
 .coverAll {
     z-index: 1000;
-    background: white;
+    background: black;
     position: fixed;
     top: 56px;
     left: 0px;
