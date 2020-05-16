@@ -8,6 +8,8 @@ using System;
 using System.Collections.Generic;
 using MyCollections.Repositories;
 using MyCollections.Services;
+using Microsoft.AspNetCore.Http;
+using System.Linq;
 
 namespace MyCollections.Controllers
 {
@@ -46,6 +48,10 @@ namespace MyCollections.Controllers
                 {
                     Uri uri = new Uri(game.LogoURL);
                     string  fileName = uri.Segments.GetValue(uri.Segments.Length - 1).ToString();
+                    if (fileName.Length == 4)
+                    {
+                        break;
+                    }
                     string newFileName = RemoveSpecialCharacters(game.Name) + ".jpg"; //game.Name.Substring(game.Name.LastIndexOf('.'));
                     WebClient myWebClient = new WebClient();
                     myWebClient.DownloadFile(uri, @"docs\games\covers\" + newFileName);
@@ -115,6 +121,21 @@ namespace MyCollections.Controllers
         {
             var model = NewGamesFromSteam();
             return View(model);
+        }
+
+        [HttpPost]
+        public IActionResult AutoNewGames(IEnumerable<Game> gameSelection) 
+        {
+            var newGames = NewGamesFromSteam();
+            for (int i=0; i < gameSelection.Count(); i++)
+            {
+                if(gameSelection.ToList()[i].Selected == true)
+                {
+                    games.Add(newGames.ToList()[i]);
+                }
+            }
+            _db.SaveJson(games);
+            return RedirectToAction("Index", "Games");
         }
     }
 }

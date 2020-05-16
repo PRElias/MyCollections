@@ -4,27 +4,32 @@
         <img src="images/bannerBackgroundImage.gif" class="overlayGif" />
     </div>
 
+    <form method="POST" action="AutoNewGames">
     <div class="row">
         <div class="form-check">
             <input class="form-check-input" type="checkbox" value="false" id="selectAll">
             <label class="form-check-label">Selecionar todos?</label>
         </div>
+        <div>
+            <button type="submit" class="btn btn-primary">Salvar</button>
+        </div>
     </div>
-    <div class="row">
-        @foreach (var item in Model)
-        {
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src=@item.LogoURL alt="Capa">
-            <div class="card-body">
-                <h5 class="card-title">@item.Name</h5>
-                <p class="card-text">@item.Store</p>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="false" id="@item.Name">
-                    <label class="form-check-label" for="@item.Name">
-                        Deseja incluir o jogo?
-                    </label>
+        <div class="row">
+            @for (int i=0; i < Model.Count(); i++)
+            {
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src=@Model.ToList()[i].LogoURL alt="Capa">
+                <div class="card-body">
+                    <h5 class="card-title">@Model.ToList()[i].Name</h5>
+                    <p class="card-text">@Model.ToList()[i].Store</p>
+                    <div class="form-check">
+                        @Html.CheckBoxFor(j => j.ToList()[i].Selected, new {@class = "form-check-input"})
+                        <label class="form-check-label">
+                            Deseja incluir o jogo?
+                        </label>
+                    </div>
                 </div>
             </div>
+            }
         </div>
-        }
-    </div>
+    </form>
