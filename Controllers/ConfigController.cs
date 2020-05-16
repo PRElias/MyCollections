@@ -13,8 +13,15 @@ namespace MyCollections.Controllers
         }
         public IActionResult Edit()
         {
-            var config = _db.FindConfig();
-            return View();
+            var config = _db.GetAll();
+            return View(config);
         }
+
+        public IActionResult Upsert(Config config)
+        {
+            _db.Upsert(config);
+            return RedirectToAction("Edit", "Config");
+        }
+
     }
 }
