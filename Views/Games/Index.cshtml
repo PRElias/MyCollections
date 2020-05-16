@@ -1,11 +1,16 @@
 ﻿@model IEnumerable<MyCollections.Models.Game>
 
-<div id="mButtons" class="margins">
-    <a asp-action="Create" class="btn btn-primary" id="btn_NewGame">Novo Jogo</a>
-    <button class="btn btn-primary" id="btn_GetFromSteam" style="width: 250px">Atualizar informações do Steam</button>
-</div>
+    <div id="overlay" class="coverAll">
+        <img src="images/bannerBackgroundImage.gif" class="overlayGif" />
+    </div>
 
-<table class="table" id="gamesTable">
+    <div id="mButtons" class="margins">
+        @* <a asp-action="Create" class="btn btn-primary" id="btn_NewGame">Novo Jogo</a> *@
+        <button class="btn btn-primary" id="btn_AutoNewGames"><a href="Games/AutoNewGames" style="color: white !important;">Buscar novos jogos</a></button>
+        @* <button class="btn btn-primary" id="btn_GetFromSteam" style="width: 250px">Atualizar informações do Steam</button> *@
+    </div>
+
+    <table class="table" id="gamesTable">
         <thead>
             <tr>
                 <th>
@@ -33,7 +38,8 @@
                     @Html.DisplayFor(modelItem => game.Name)
                 </td>
                 <td>
-                    <img src="docs/@Html.DisplayFor(modelItem => game.LogoURL)" class="lazy" style="width: 70px; heigth: 70px;">
+                    <img src="docs/@Html.DisplayFor(modelItem => game.LogoURL)" class="lazy"
+                        style="width: 70px; heigth: 70px;">
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => game.Store)
@@ -47,4 +53,4 @@
             </tr>
             }
         </tbody>
-</table>
+    </table>

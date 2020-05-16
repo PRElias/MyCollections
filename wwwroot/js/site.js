@@ -1,24 +1,24 @@
-﻿$('#btn_GetFromSteam').click(function () {
-    $('#btn_GetFromSteam').text("Aguarde").addClass("blink_me").css("pointer-events", "none");
-    var userId = $("#hiddenUserId").data("value");
-    $.ajax({
-        method: "GET",
-        url: "GetFromSteam/" + userId,
-        success: function (results) {
-            $('#btn_GetFromSteam').text("Atualizar informações do Steam").removeClass("blink_me").css("pointer-events", "initial");
-            alert(results);
-            location.reload();
-        },
-        error: function (jqXHR, error, errorThrown) {
-            $('#btn_GetFromSteam').text("Atualizar informações do Steam").removeClass("blink_me").css("pointer-events", "initial");
-            if (jqXHR.status && jqXHR.status === 401) {
-                alert(jqXHR.responseText);
-            } else {
-                alert("Erro ao recuperar informações do Steam");
-            }
-        }
-    });
-});
+﻿// $('#btn_GetFromSteam').click(function () {
+//     $('#btn_GetFromSteam').text("Aguarde").addClass("blink_me").css("pointer-events", "none");
+//     var userId = $("#hiddenUserId").data("value");
+//     $.ajax({
+//         method: "GET",
+//         url: "GetFromSteam/" + userId,
+//         success: function (results) {
+//             $('#btn_GetFromSteam').text("Atualizar informações do Steam").removeClass("blink_me").css("pointer-events", "initial");
+//             alert(results);
+//             location.reload();
+//         },
+//         error: function (jqXHR, error, errorThrown) {
+//             $('#btn_GetFromSteam').text("Atualizar informações do Steam").removeClass("blink_me").css("pointer-events", "initial");
+//             if (jqXHR.status && jqXHR.status === 401) {
+//                 alert(jqXHR.responseText);
+//             } else {
+//                 alert("Erro ao recuperar informações do Steam");
+//             }
+//         }
+//     });
+// });
 
 // Opções padrão para todas as datatables
 $.extend($.fn.dataTable.defaults, {
@@ -98,6 +98,11 @@ var colunas = [{
     }
 ]
 
+$(window).on('load', function(){
+    // PAGE IS FULLY LOADED  
+    // FADE OUT YOUR OVERLAYING DIV
+    $('#overlay').fadeOut();
+ });
 
 $(document).ready(function () {
     $('#gamesTable').DataTable({
@@ -105,5 +110,9 @@ $(document).ready(function () {
     });
 
     $('#btn_NewGame').prependTo($('.dataTables_wrapper  .dt-buttons'));
-    $('#btn_GetFromSteam').prependTo($('.dataTables_wrapper  .dt-buttons'));
+    $('#btn_AutoNewGames').prependTo($('.dataTables_wrapper  .dt-buttons'));
+
+    $('#selectAll').click( function () {
+        $('.card input[type="checkbox"]').prop('checked', this.checked)
+    })
 });

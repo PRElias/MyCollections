@@ -11,6 +11,7 @@ app.getGames = function () {
     xobj.onreadystatechange = function () {
         if (xobj.readyState == 4 && xobj.status == "200") {
             // .open will NOT return a value but simply returns undefined in async mode so use a callback
+            console.log("Lista de jogos recuperada");
             app.renderizeGames(xobj.responseText);
         }
     }
@@ -18,36 +19,39 @@ app.getGames = function () {
 }
 
 app.renderizeGames = function (response) {
-    app.games = JSON.parse(response);
+    app.games = app.tryParseJSON(response);
     app.games = onlyEnabled(app.games);
-    app.gameDistinctList = JSON.parse(response);
-    app.gameDistinctList = onlyEnabled(app.gameDistinctList);
+    console.log("Total de jogos: " + app.games.length);
+    app.gameDistinctList = Array.from(app.games);
+    // app.gameDistinctList = onlyEnabled(app.gameDistinctList);
 
     //Ordenando
     app.gameDistinctList.sort(function (a, b) {
-        return a.name.toLowerCase() < b.name.toLowerCase() ? -1 : a.name.toLowerCase() > b.name.toLowerCase() ? 1 : 0;
+        return a.Name.toLowerCase() < b.Name.toLowerCase() ? -1 : a.Name.toLowerCase() > b.Name.toLowerCase() ? 1 : 0;
     });
-
+    
     //Removendo propriedades pra poder fazer o distinct
     for (var index in app.gameDistinctList) {
-        delete app.gameDistinctList[index].store;
-        delete app.gameDistinctList[index].appID;
-        delete app.gameDistinctList[index].system;
-        delete app.gameDistinctList[index].disabled;
+        delete app.gameDistinctList[index].Store;
+        delete app.gameDistinctList[index].GameID;
+        delete app.gameDistinctList[index].SteamApID;
+        delete app.gameDistinctList[index].System;
+        delete app.gameDistinctList[index].Disabled;
     }
-
     //Removendo duplicatas
     app.gameDistinctList = multiDimensionalUnique(app.gameDistinctList);
+
+    console.log("Jogos únicos: " + app.gameDistinctList.length);
 
     //Montando elementos HTML
     let items = [];
     for (let index in app.gameDistinctList) {
         let game = app.gameDistinctList[index];
-        let gameName = game.name.replace("'", "");
+        let gameName = game.Name.replace("'", "");
         items.push(
             "<span class='game col-lg-2 col-sm-6 col-md-6 col-xs-12' id='" + gameName + "' onclick='showDetails(this.id)'>" +
             "<p class='gameName'>" + gameName + "</p>" +
-            "<img class='cover lazy' data-src='" + game.logoURL + "' data-game='" + gameName + "' alt='logo' /img>" +
+            "<img class='cover lazy' data-src='" + game.LogoURL + "' data-game='" + gameName + "' alt='logo' /img>" +
             "</span>"
         );
         app.availableTags.push(gameName);
@@ -98,6 +102,17 @@ app.renderizeDetails = function (gameName) {
     }
 
     main.appendChild(wrapper);
+};
+
+app.tryParseJSON = function (jsonString) {
+    try {
+        var o = JSON.parse(jsonString);
+        if (o && typeof o === "object") {
+            return o;
+        }
+    }
+    catch (e) { }
+    return false;
 };
 
 
@@ -186,7 +201,7 @@ function showDetails(gameName) {
 function onlyEnabled(array) {
     let enabled = [];
     for (var index in array) {
-        if (array[index].disabled == 'false') {
+        if (array[index].Disabled == false) {
             enabled.push(array[index]);
         }
     }

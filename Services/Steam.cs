@@ -1,4 +1,7 @@
-﻿using Newtonsoft.Json;
+﻿using Microsoft.AspNetCore.Mvc;
+using MyCollections.Models;
+using MyCollections.Repositories;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
@@ -8,17 +11,25 @@ namespace MyCollections.Services
 {
     public class Steam
     {
-        static HttpClient client = new HttpClient();
+        private static HttpClient _client = new HttpClient();
+        private static string _steamKey;
+        private static string _steamId;
 
-        public static async Task<RootObject> GetFromSteam(string key, string steamid)
+        public Steam(string key, string id)
         {
-            string path = "IPlayerService/GetOwnedGames/v0001/?key=" + key + "&steamid=" + steamid + "&include_appinfo=1&format=json";
-            if (client.BaseAddress == null)
+            _steamKey = key;
+            _steamId = id;
+        }
+
+        public static async Task<RootObject> GetFromSteam()
+        {
+            string path = "IPlayerService/GetOwnedGames/v0001/?key=" + _steamKey + "&steamid=" + _steamId + "&include_appinfo=1&format=json";
+            if (_client.BaseAddress == null)
             {
-                client.BaseAddress = new Uri("http://api.steampowered.com/");
+                _client.BaseAddress = new Uri("http://api.steampowered.com/");
             }
 
-            HttpResponseMessage response = await client.GetAsync(path);
+            HttpResponseMessage response = await _client.GetAsync(path);
             var retorno = new RootObject();
 
             if (response.IsSuccessStatusCode)
@@ -29,17 +40,6 @@ namespace MyCollections.Services
 
             return retorno;
         }
-    }
-
-    public class SteamGame
-    {
-        public int appid { get; set; }
-        public string name { get; set; }
-        public int playtime_forever { get; set; }
-        public string img_icon_url { get; set; }
-        public string img_logo_url { get; set; }
-        public bool has_community_visible_stats { get; set; }
-        public int? playtime_2weeks { get; set; }
     }
 
     public class Response

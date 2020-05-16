@@ -3,6 +3,9 @@ using MyCollections.Models;
 using System.Linq;
 using System.Collections.Generic;
 using Microsoft.Extensions.Configuration;
+using System.IO;
+using Newtonsoft.Json;
+using JsonSerializer = Newtonsoft.Json.JsonSerializer;
 
 namespace MyCollections.Repositories
 {
@@ -17,22 +20,30 @@ namespace MyCollections.Repositories
             _config = config;
         }
 
-        public IEnumerable<Config> FindConfig()
+        public Config GetAll()
         {
-            var config = database.GetCollection<Config>().FindAll().ToList();
+            var config = database.GetCollection<Config>().FindAll().ToList().FirstOrDefault();
             if (config == null)
             {
-                var newConfig = new Config();
-                newConfig.Id = 1;
-                newConfig.key = "SteamAPI";
-                newConfig.value = "";
+                config = new Config();
+                config.Id = 1;
+                config.steamId = "";
+                config.steamKey = "";
             }
             return config;
         }
-        
         public bool Upsert(Config config)
         {
             return database.GetCollection<Config>().Upsert(config);
+        }
+
+        public void SaveJson(List<Game> data)
+        {
+            using (StreamWriter file = File.CreateText(@"docs\games\games.json"))
+            {
+                JsonSerializer serializer = new JsonSerializer();
+                serializer.Serialize(file, data.ToArray());
+            }
         }
     }
 }
