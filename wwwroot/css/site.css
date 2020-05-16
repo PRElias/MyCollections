@@ -77,4 +77,9 @@ a, a:link, a:visited, a:hover, a:active {
     color: inherit !important;
     text-decoration: inherit !important;
     font-weight: inherit !important;
-  }
+}
+
+.btn {
+    margin-left: 10px;
+    margin-right: 10px;
+}
