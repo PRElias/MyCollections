@@ -110,5 +110,9 @@ $(document).ready(function () {
     });
 
     $('#btn_NewGame').prependTo($('.dataTables_wrapper  .dt-buttons'));
-    $('#btn_GetFromSteam').prependTo($('.dataTables_wrapper  .dt-buttons'));
+    $('#btn_AutoNewGames').prependTo($('.dataTables_wrapper  .dt-buttons'));
+
+    $('#selectAll').click( function () {
+        $('.card input[type="checkbox"]').prop('checked', this.checked)
+    })
 });

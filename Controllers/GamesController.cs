@@ -7,6 +7,7 @@ using System.Net;
 using System;
 using System.Collections.Generic;
 using MyCollections.Repositories;
+using MyCollections.Services;
 
 namespace MyCollections.Controllers
 {
@@ -22,6 +23,7 @@ namespace MyCollections.Controllers
         }
         public IActionResult Index()
         {
+            UpdateGamesProperties();
             DownloadCovers();
             return View(games);
         }
@@ -59,6 +61,60 @@ namespace MyCollections.Controllers
         {
             var invalids = System.IO.Path.GetInvalidFileNameChars();
             return String.Join("", input.Split(invalids, StringSplitOptions.RemoveEmptyEntries) ).TrimEnd('.').Replace(" ", "");
+        }
+
+        public List<Game> NewGamesFromSteam()
+        {
+            var steam = new Steam(_db.GetAll().steamKey, _db.GetAll().steamId);
+            var allSteamGames = Steam.GetFromSteam().Result.response.games;
+            var newGames = new System.Collections.Generic.List<Game>();
+            foreach (var newGame in allSteamGames)
+            {
+                if (games.Exists(g => g.SteamApID == newGame.appid) == false)
+                {
+                    newGames.Add(new Game{
+                        Name = newGame.name,
+                        LogoURL = "http://media.steampowered.com/steamcommunity/public/images/apps/" + newGame.appid + "/" + newGame.img_logo_url + ".jpg",
+                        Store = "Steam",
+                        System = "PC",
+                        Disabled = false,
+                        BuyDate = null,
+                        Price = null,
+                        PlayedTime = newGame.playtime_forever,
+                        Purchased = true,
+                        SteamApID = newGame.appid
+                    });
+                }
+            }
+            return newGames;
+        }
+
+        public IActionResult UpdateGamesProperties()
+        {
+            var steam = new Steam(_db.GetAll().steamKey, _db.GetAll().steamId);
+            try {
+                var allSteamGames = Steam.GetFromSteam().Result.response.games;
+
+                foreach (var steamGame in allSteamGames)
+                {
+                    var gameFound = games.Find(g => g.Name == steamGame.name && g.Store == "Steam");
+                    if(gameFound != null)
+                    {
+                        games[games.IndexOf(gameFound)].PlayedTime = steamGame.playtime_forever;
+                    }
+                }
+                _db.SaveJson(games);
+                return Ok();
+            }
+            catch(Exception error) {
+                return StatusCode(500, error);
+            }
+        }
+
+        public IActionResult AutoNewGames() 
+        {
+            var model = NewGamesFromSteam();
+            return View(model);
         }
     }
 }

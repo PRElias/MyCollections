@@ -14,13 +14,11 @@ namespace MyCollections.Services
         private static HttpClient _client = new HttpClient();
         private static string _steamKey;
         private static string _steamId;
-        private static MyCollectionsRepository _db;
 
-        public Steam([FromServices] MyCollectionsRepository db)
+        public Steam(string key, string id)
         {
-            _db = db;
-            _steamKey = _db.GetAll().steamKey;
-            _steamId = _db.GetAll().steamId;
+            _steamKey = key;
+            _steamId = id;
         }
 
         public static async Task<RootObject> GetFromSteam()
