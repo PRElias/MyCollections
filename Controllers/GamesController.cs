@@ -131,6 +131,7 @@ namespace MyCollections.Controllers
             {
                 if(gameSelection.ToList()[i].Selected == true)
                 {
+                    newGames.ToList()[i].Selected = false;
                     games.Add(newGames.ToList()[i]);
                 }
             }

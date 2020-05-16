@@ -32,11 +32,17 @@ app.renderizeGames = function (response) {
     
     //Removendo propriedades pra poder fazer o distinct
     for (var index in app.gameDistinctList) {
-        delete app.gameDistinctList[index].Store;
-        delete app.gameDistinctList[index].GameID;
-        delete app.gameDistinctList[index].SteamApID;
-        delete app.gameDistinctList[index].System;
+        delete app.gameDistinctList[index].BuyDate;
         delete app.gameDistinctList[index].Disabled;
+        delete app.gameDistinctList[index].GameID;
+        delete app.gameDistinctList[index].IGDBId;
+        delete app.gameDistinctList[index].PlayedTime;
+        delete app.gameDistinctList[index].Price;
+        delete app.gameDistinctList[index].Purchased;
+        delete app.gameDistinctList[index].Selected;
+        delete app.gameDistinctList[index].SteamApID;
+        delete app.gameDistinctList[index].Store;
+        delete app.gameDistinctList[index].System;
     }
     //Removendo duplicatas
     app.gameDistinctList = multiDimensionalUnique(app.gameDistinctList);
