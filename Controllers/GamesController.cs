@@ -73,6 +73,7 @@ namespace MyCollections.Controllers
                     newGames.Add(new Game{
                         Name = newGame.name,
                         LogoURL = "http://media.steampowered.com/steamcommunity/public/images/apps/" + newGame.appid + "/" + newGame.img_logo_url + ".jpg",
+                        SteamOriginalImageURL = newGame.img_logo_url + ".jpg",
                         Store = "Steam",
                         System = "PC",
                         Disabled = false,
@@ -99,6 +100,7 @@ namespace MyCollections.Controllers
                     if(gameFound != null)
                     {
                         games[games.IndexOf(gameFound)].PlayedTime = steamGame.playtime_forever;
+                        //games[games.IndexOf(gameFound)].SteamOriginalImageURL = steamGame.img_logo_url + ".jpg";
                     }
                 }
                 int id = 1;

@@ -15,6 +15,7 @@ namespace MyCollections.Models
         public int? PlayedTime { get; set; }
         public bool Purchased { get; set; }
         public int? SteamApID { get; set; }
+        public string SteamOriginalImageURL {get; set;}
         public int? IGDBId {get; set;}
         public bool Selected {get; set;}
     }

@@ -1,10 +1,60 @@
 @model MyCollections.Models.Game
 
-<div class="form-group">
-    <div class="row">
-        <div class="col-md-4">
-            <label class="form-label">Nome</label>
-            <input type="text" id="Name" name="Name" value="@Model.Name"/>
+<form>
+    <div class="form-group">
+        <div class="row">
+            <div class="col-md-4">
+                <label class="form-label">Nome</label>
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" id="Name" name="Name" value="@Model.Name" />
+            </div>
         </div>
     </div>
-</div>
+    <div class="form-group">
+        <div class="row">
+            <div class="col-md-4">
+                <label class="form-label">Imagem</label>
+            </div>
+            <div class="col-md-4">
+                <img src="../../docs/@Model.LogoURL" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <label class="form-label">Deseja salvar uma nova imagem?</label>
+            </div>
+            <div class="col-md-4">
+                <input type="file" name="LogoURL" class="form-control" />
+            </div>
+        </div>
+        @{ @if(Model.Store == "Steam")
+            {
+                <div class="row">
+                    <div class="col-md-4">
+                        <label class="form-label">Imagem original Steam</label>
+                    </div>
+                    <div class="col-md-4">
+                        <img
+                            src="http://media.steampowered.com/steamcommunity/public/images/apps/@Model.SteamApID/@Model.SteamOriginalImageURL" />
+                    </div>
+                </div>
+            }
+        }
+    </div>
+    <div class="form-group">
+        <div class="row">
+            <div class="col-md-4">
+                <label class="form-label">Sistema</label>
+            </div>
+            <div class="col-md-4">
+                <select id="System" name="System" class="form-control">
+                    <option value="PC">PC</option>
+                    <option value="Xbox One">Xbox One</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</form>
