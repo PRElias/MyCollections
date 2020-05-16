@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Collections;
 using MyCollections.Models;
 using System.IO;
 using Newtonsoft.Json;
@@ -8,7 +7,6 @@ using System;
 using System.Collections.Generic;
 using MyCollections.Repositories;
 using MyCollections.Services;
-using Microsoft.AspNetCore.Http;
 using System.Linq;
 
 namespace MyCollections.Controllers
@@ -52,7 +50,7 @@ namespace MyCollections.Controllers
                     {
                         break;
                     }
-                    string newFileName = RemoveSpecialCharacters(game.Name) + ".jpg"; //game.Name.Substring(game.Name.LastIndexOf('.'));
+                    string newFileName = Util.Helper.RemoveSpecialCharacters(game.Name) + ".jpg"; //game.Name.Substring(game.Name.LastIndexOf('.'));
                     WebClient myWebClient = new WebClient();
                     myWebClient.DownloadFile(uri, @"docs\games\covers\" + newFileName);
                     game.LogoURL = @"games/covers/" + newFileName;
@@ -60,15 +58,9 @@ namespace MyCollections.Controllers
 
                 gamesList.Add(game);
             }
-            _db.SaveJson(gamesList);
+            _db.SaveJson(gamesList, @"docs/games/games.json");
         }
         
-        public static string RemoveSpecialCharacters(string input)
-        {
-            var invalids = System.IO.Path.GetInvalidFileNameChars();
-            return String.Join("", input.Split(invalids, StringSplitOptions.RemoveEmptyEntries) ).TrimEnd('.').Replace(" ", "");
-        }
-
         public List<Game> NewGamesFromSteam()
         {
             var steam = new Steam(_db.GetAll().steamKey, _db.GetAll().steamId);
@@ -109,7 +101,13 @@ namespace MyCollections.Controllers
                         games[games.IndexOf(gameFound)].PlayedTime = steamGame.playtime_forever;
                     }
                 }
-                _db.SaveJson(games);
+                int id = 1;
+                foreach (var savedGame in games)
+                {
+                    savedGame.GameID = id++;
+                }
+
+                _db.SaveJson(games, @"docs/games/games.json");
                 return Ok();
             }
             catch(Exception error) {
@@ -135,7 +133,27 @@ namespace MyCollections.Controllers
                     games.Add(newGames.ToList()[i]);
                 }
             }
-            _db.SaveJson(games);
+            _db.SaveJson(games, @"docs/games/games.json");
+            return RedirectToAction("Index", "Games");
+        }
+
+        public IActionResult Edit(int id)
+        {
+            var game = games.Find(g => g.GameID == id);
+            return View(game);
+        }
+        [HttpPost]
+        public IActionResult Edit(Game game)
+        {
+            var foundGame = games.Find(g => g.GameID == game.GameID);
+            foundGame = game;
+            _db.SaveJson(games, @"docs/games/games.json");
+            return RedirectToAction("Index", "Games");;
+        }
+
+        public IActionResult Commit()
+        {
+            Util.Helper.Commit();
             return RedirectToAction("Index", "Games");
         }
     }

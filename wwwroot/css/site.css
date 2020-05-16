@@ -61,7 +61,7 @@ p {
 
 .coverAll {
     z-index: 1000;
-    background-color: #CCC;
+    background: white;
     position: fixed;
     top: 56px;
     left: 0px;
@@ -70,5 +70,11 @@ p {
 }
 
 .overlayGif {
-    top: 150px;
+    padding-top: 150px;
 }
+
+a, a:link, a:visited, a:hover, a:active {
+    color: inherit !important;
+    text-decoration: inherit !important;
+    font-weight: inherit !important;
+  }

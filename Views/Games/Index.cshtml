@@ -7,12 +7,16 @@
     <div id="mButtons" class="margins">
         @* <a asp-action="Create" class="btn btn-primary" id="btn_NewGame">Novo Jogo</a> *@
         <button class="btn btn-primary" id="btn_AutoNewGames"><a href="Games/AutoNewGames" style="color: white !important;">Buscar novos jogos</a></button>
+        <button class="btn btn-primary" id="btn_Commit"><a href="Games/Commit" style="color: white !important;">Salvar no Servidor</a></button>
         @* <button class="btn btn-primary" id="btn_GetFromSteam" style="width: 250px">Atualizar informações do Steam</button> *@
     </div>
 
     <table class="table" id="gamesTable">
         <thead>
             <tr>
+                <th>
+                    Id
+                </th>
                 <th>
                     Nome
                 </th>
@@ -34,6 +38,9 @@
             @foreach (var game in Model)
             {
             <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => game.GameID)
+                </td>
                 <td>
                     @Html.DisplayFor(modelItem => game.Name)
                 </td>

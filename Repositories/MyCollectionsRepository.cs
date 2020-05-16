@@ -37,9 +37,9 @@ namespace MyCollections.Repositories
             return database.GetCollection<Config>().Upsert(config);
         }
 
-        public void SaveJson(List<Game> data)
+        public void SaveJson(List<Game> data, string fileName)
         {
-            using (StreamWriter file = File.CreateText(@"docs\games\games.json"))
+            using (StreamWriter file = File.CreateText(fileName))
             {
                 JsonSerializer serializer = new JsonSerializer();
                 serializer.Serialize(file, data.ToArray());

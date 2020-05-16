@@ -76,6 +76,10 @@ $.fn.dataTable.render.multi = function (renderArray) {
 
 //Table
 var colunas = [{
+        "data": "GameID",
+        "title": "Id"
+    },
+    {
         "data": "nome",
         "title": "Nome"
     },
@@ -111,6 +115,15 @@ $(document).ready(function () {
 
     $('#btn_NewGame').prependTo($('.dataTables_wrapper  .dt-buttons'));
     $('#btn_AutoNewGames').prependTo($('.dataTables_wrapper  .dt-buttons'));
+    $('#btn_Commit').prependTo($('.dataTables_wrapper  .dt-buttons'));
+
+    $('#gamesTable').on('click', 'tbody tr', function (evt) {
+        var $cell = $(evt.target).closest('td');
+        console.log("Linha clicada: " + $cell);
+        if ($cell.index() > 0) {
+            window.location.href = "/Games/Edit/" + gamesTable.rows[this.rowIndex].firstChild.innerText;
+        }
+    });
 
     $('#selectAll').click( function () {
         $('.card input[type="checkbox"]').prop('checked', this.checked)
