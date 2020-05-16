@@ -3,6 +3,9 @@ using MyCollections.Models;
 using System.Linq;
 using System.Collections.Generic;
 using Microsoft.Extensions.Configuration;
+using System.IO;
+using Newtonsoft.Json;
+using JsonSerializer = Newtonsoft.Json.JsonSerializer;
 
 namespace MyCollections.Repositories
 {
@@ -32,6 +35,15 @@ namespace MyCollections.Repositories
         public bool Upsert(Config config)
         {
             return database.GetCollection<Config>().Upsert(config);
+        }
+
+        public void SaveJson(List<Game> data)
+        {
+            using (StreamWriter file = File.CreateText(@"docs\games\games.json"))
+            {
+                JsonSerializer serializer = new JsonSerializer();
+                serializer.Serialize(file, data.ToArray());
+            }
         }
     }
 }
