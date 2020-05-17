@@ -5,8 +5,8 @@
 {
 @Html.AntiForgeryToken()
 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-<div class="form-group">
     @Html.Hidden("Id", 1)
+<div class="form-group">
     <div class="row">
         <div class="col-md-4">
             <label asp-for="key" class="control-label">Steam key</label>
@@ -15,6 +15,8 @@
             <input type="text" name="steamKey" class="form-control" value="@Model.steamKey" />
         </div>
     </div>
+</div>
+<div class="form-group">
     <div class="row">
         <div class="col-md-4">
             <label asp-for="value" class="control-label">Steam Id</label>
@@ -23,9 +25,11 @@
             <input type="text" name="steamId" class="form-control" value="@Model.steamId" />
         </div>
     </div>
+</div>
+<div class="form-group">
     <div class="row">
-        <input type="submit" value="Save" class="btn btn-default" />
-        <a asp-action="Index">Cancelar</a>
+        <button type="submit" value="Save" class="btn btn-primary">Salvar</button>
+        <button type="button" class="btn btn-primary"><a asp-action="Index">Cancelar</a></button>
     </div>
 </div>
 }

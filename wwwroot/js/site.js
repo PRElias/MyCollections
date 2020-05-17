@@ -129,3 +129,16 @@ $(document).ready(function () {
         $('.card input[type="checkbox"]').prop('checked', this.checked)
     })
 });
+
+function usarImagemSteam() {
+    debugger
+    // document.getElementById("divNewImage").style.display = "none";
+    var element = document.createElement('input');
+    element.type = "text";
+    element.id = "usingSteamLogo";
+    element.value = $("#logoSteam")[0].src;
+    element.name = "SteamOriginalImageURL";
+    element.hidden = true;
+    console.log(element);
+    $("#divNewImage").append(element);
+}

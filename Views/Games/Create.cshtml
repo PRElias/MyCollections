@@ -53,7 +53,10 @@
                 <label class="form-label">Sistema</label>
             </div>
             <div class="col-md-4">
-                <input type="text" id="System" name="System" class="form-control" value="@Model.System" @(Model.Store == "Steam" ? "disabled='disabled'" : "") />
+                <select id="System" name="System" class="form-control">
+                    <option value="PC">PC</option>
+                    <option value="Xbox One">Xbox One</option>
+                </select>
             </div>
         </div>
     </div>

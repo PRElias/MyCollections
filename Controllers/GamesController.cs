@@ -149,6 +149,7 @@ namespace MyCollections.Controllers
         {
             var foundGame = games.Find(g => g.GameID == game.GameID);
             foundGame = game;
+            foundGame.LogoURL = game.SteamOriginalImageURL;
             _db.SaveJson(games, @"docs/games/games.json");
             return RedirectToAction("Index", "Games");;
         }
