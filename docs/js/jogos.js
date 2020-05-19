@@ -11,7 +11,7 @@ app.getGames = function () {
     xobj.onreadystatechange = function () {
         if (xobj.readyState == 4 && xobj.status == "200") {
             // .open will NOT return a value but simply returns undefined in async mode so use a callback
-            console.log("Lista de jogos recuperada");
+            // console.log("Lista de jogos recuperada");
             app.renderizeGames(xobj.responseText);
         }
     }
@@ -21,7 +21,7 @@ app.getGames = function () {
 app.renderizeGames = function (response) {
     app.games = app.tryParseJSON(response);
     app.games = onlyEnabled(app.games);
-    console.log("Total de jogos: " + app.games.length);
+    // console.log("Total de jogos: " + app.games.length);
     app.gameDistinctList = Array.from(app.games);
     // app.gameDistinctList = onlyEnabled(app.gameDistinctList);
 
@@ -47,7 +47,7 @@ app.renderizeGames = function (response) {
     //Removendo duplicatas
     app.gameDistinctList = multiDimensionalUnique(app.gameDistinctList);
 
-    console.log("Jogos únicos: " + app.gameDistinctList.length);
+    //console.log("Jogos únicos: " + app.gameDistinctList.length);
 
     //Montando elementos HTML
     let items = [];
@@ -55,7 +55,7 @@ app.renderizeGames = function (response) {
         let game = app.gameDistinctList[index];
         let gameName = game.Name.replace("'", "");
         items.push(
-            "<span class='game col-lg-2 col-sm-6 col-md-6 col-xs-12' id='" + gameName + "' onclick='showDetails(this.id)'>" +
+            "<span class='game col-lg-2 col-sm-6 col-md-6 col-xs-12' id='" + game.Id + "' onclick='showDetails(this.id)'>" +
             "<p class='gameName'>" + gameName + "</p>" +
             "<img class='cover lazy' data-src='" + game.LogoURL + "' data-game='" + gameName + "' alt='logo' /img>" +
             "</span>"
@@ -137,7 +137,6 @@ function getSteamAppID(gameCopies) {
 function navigateToGame() {
     var pesquisa = $('#procurar').val();
     var jogo = document.getElementById(pesquisa);
-    console.log(pesquisa);
 
     if (jogo !== null) {
         $('html, body').animate({

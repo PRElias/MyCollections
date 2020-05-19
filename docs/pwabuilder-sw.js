@@ -1,34 +1,52 @@
-//This is the "Offline page" service worker
+'use strict';
 
-//Install stage sets up the offline page in the cache and opens a new cache
-self.addEventListener('install', function(event) {
-  var offlinePage = new Request('index.html');
-  event.waitUntil(
-    fetch(offlinePage).then(function(response) {
-      return caches.open('pwabuilder-offline').then(function(cache) {
-        console.log('[PWA Builder] Cached offline page during Install'+ response.url);
-        return cache.put(offlinePage, response);
-      });
-  }));
-});
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
 
-//If any fetch fails, it will show the offline page.
-//Maybe this should be limited to HTML documents?
-self.addEventListener('fetch', function(event) {
-  event.respondWith(
-    fetch(event.request).catch(function(error) {
-      console.error( '[PWA Builder] Network request Failed. Serving offline page ' + error );
-      return caches.open('pwabuilder-offline').then(function(cache) {
-        return cache.match('index.html');
-      });
+if (workbox) {
+    console.log(`Yay! Workbox is loaded 🎉 for service-work.js`);
+} else {
+    console.log(`Boo! Workbox didn't load 😬 for service-work.js`);
+}
+
+workbox.routing.registerRoute(
+    /.*\.(?:png|jpg|jpeg|svg|gif|js|css|woff|woff2|html)/g,
+    new workbox.strategies.CacheFirst({
+        cacheName: "static-cache",
+        cacheableResponse: {
+            statuses: [0, 200]
+        }
+    })
+);
+
+self.addEventListener('activate', (event) => {
+  event.waitUntil((async () => {
+    // See https://developers.google.com/web/updates/2017/02/navigation-preload
+    if ('navigationPreload' in self.registration) {
+      await self.registration.navigationPreload.enable();
     }
-  ));
+  })());
+
+  self.clients.claim();
 });
 
-//This is a event that can be fired from your page to tell the SW to update the offline page
-self.addEventListener('refreshOffline', function(response) {
-  return caches.open('pwabuilder-offline').then(function(cache) {
-    console.log('[PWA Builder] Offline page updated from refreshOffline event: '+ response.url);
-    return cache.put(offlinePage, response);
-  });
+self.addEventListener('fetch', (event) => {
+  if (event.request.mode === 'navigate') {
+    event.respondWith((async () => {
+      try {
+        const preloadResponse = await event.preloadResponse;
+        if (preloadResponse) {
+          return preloadResponse;
+        }
+
+        const networkResponse = await fetch(event.request);
+        return networkResponse;
+      } catch (error) {
+        console.log('Fetch failed; returning offline page instead.', error);
+
+        const cache = await caches.open(CACHE_NAME);
+        const cachedResponse = await cache.match(OFFLINE_URL);
+        return cachedResponse;
+      }
+    })());
+  }
 });
