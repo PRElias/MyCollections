@@ -110,7 +110,14 @@ $(window).on('load', function(){
 
 $(document).ready(function () {
     $('#gamesTable').DataTable({
-        columns: colunas
+        columns: colunas,
+        bStateSave: true,
+        fnStateSave: function (oSettings, oData) {
+            localStorage.setItem('gamesTableState', JSON.stringify(oData));
+        },
+        fnStateLoad: function (oSettings) {
+            return JSON.parse(localStorage.getItem('gamesTableState'));
+        }
     });
 
     $('#btn_NewGame').prependTo($('.dataTables_wrapper  .dt-buttons'));
