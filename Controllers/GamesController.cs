@@ -42,25 +42,28 @@ namespace MyCollections.Controllers
 
             foreach (var game in games)
             {
-                if (game.LogoURL.Contains("http"))
+                if (!String.IsNullOrEmpty(game.LogoURL))
                 {
-                    Uri uri = new Uri(game.LogoURL);
-                    string  fileName = uri.Segments.GetValue(uri.Segments.Length - 1).ToString();
-                    if (fileName.Length == 4)
+                    if (game.LogoURL.Contains("http"))
                     {
-                        break;
+                        Uri uri = new Uri(game.LogoURL);
+                        string fileName = uri.Segments.GetValue(uri.Segments.Length - 1).ToString();
+                        if (fileName.Length == 4)
+                        {
+                            break;
+                        }
+                        string newFileName = Util.Helper.RemoveSpecialCharacters(game.Name) + ".jpg"; //game.Name.Substring(game.Name.LastIndexOf('.'));
+                        WebClient myWebClient = new WebClient();
+                        myWebClient.DownloadFile(uri, @"docs\games\covers\" + newFileName);
+                        game.LogoURL = @"games/covers/" + newFileName;
                     }
-                    string newFileName = Util.Helper.RemoveSpecialCharacters(game.Name) + ".jpg"; //game.Name.Substring(game.Name.LastIndexOf('.'));
-                    WebClient myWebClient = new WebClient();
-                    myWebClient.DownloadFile(uri, @"docs\games\covers\" + newFileName);
-                    game.LogoURL = @"games/covers/" + newFileName;
                 }
 
                 gamesList.Add(game);
             }
             _db.SaveJson(gamesList, @"docs/games/games.json");
         }
-        
+
         public List<Game> NewGamesFromSteam()
         {
             var steam = new Steam(_db.GetAll().steamKey, _db.GetAll().steamId);
@@ -70,7 +73,8 @@ namespace MyCollections.Controllers
             {
                 if (games.Exists(g => g.SteamApID == newGame.appid) == false)
                 {
-                    newGames.Add(new Game{
+                    newGames.Add(new Game
+                    {
                         Name = newGame.name,
                         LogoURL = "http://media.steampowered.com/steamcommunity/public/images/apps/" + newGame.appid + "/" + newGame.img_logo_url + ".jpg",
                         SteamOriginalImageURL = newGame.img_logo_url + ".jpg",
@@ -91,13 +95,14 @@ namespace MyCollections.Controllers
         public IActionResult UpdateGamesProperties()
         {
             var steam = new Steam(_db.GetAll().steamKey, _db.GetAll().steamId);
-            try {
+            try
+            {
                 var allSteamGames = Steam.GetFromSteam().Result.response.games;
 
                 foreach (var steamGame in allSteamGames)
                 {
                     var gameFound = games.Find(g => g.Name == steamGame.name && g.Store == "Steam");
-                    if(gameFound != null)
+                    if (gameFound != null)
                     {
                         games[games.IndexOf(gameFound)].PlayedTime = steamGame.playtime_forever;
                         //games[games.IndexOf(gameFound)].SteamOriginalImageURL = steamGame.img_logo_url + ".jpg";
@@ -112,24 +117,25 @@ namespace MyCollections.Controllers
                 _db.SaveJson(games, @"docs/games/games.json");
                 return Ok();
             }
-            catch(Exception error) {
+            catch (Exception error)
+            {
                 return StatusCode(500, error);
             }
         }
 
-        public IActionResult AutoNewGames() 
+        public IActionResult AutoNewGames()
         {
             var model = NewGamesFromSteam();
             return View(model);
         }
 
         [HttpPost]
-        public IActionResult AutoNewGames(IEnumerable<Game> gameSelection) 
+        public IActionResult AutoNewGames(IEnumerable<Game> gameSelection)
         {
             var newGames = NewGamesFromSteam();
-            for (int i=0; i < gameSelection.Count(); i++)
+            for (int i = 0; i < gameSelection.Count(); i++)
             {
-                if(gameSelection.ToList()[i].Selected == true)
+                if (gameSelection.ToList()[i].Selected == true)
                 {
                     newGames.ToList()[i].Selected = false;
                     games.Add(newGames.ToList()[i]);
@@ -144,14 +150,29 @@ namespace MyCollections.Controllers
             var game = games.Find(g => g.GameID == id);
             return View(game);
         }
+
         [HttpPost]
         public IActionResult Edit(Game game)
         {
-            var foundGame = games.Find(g => g.GameID == game.GameID);
-            foundGame = game;
-            foundGame.LogoURL = game.SteamOriginalImageURL;
+            var foundGame = games.FirstOrDefault(g => g.GameID == game.GameID);
+            if (foundGame != null) 
+            {
+                if (!String.IsNullOrEmpty(game.SteamOriginalImageURL))
+                {
+                    if (game.SteamOriginalImageURL.Contains("http")) foundGame.LogoURL = game.SteamOriginalImageURL;
+                }
+                foundGame.Disabled = game.Disabled;
+            }
             _db.SaveJson(games, @"docs/games/games.json");
-            return RedirectToAction("Index", "Games");;
+            return RedirectToAction("Index", "Games"); ;
+        }
+
+        [HttpPost]
+        public IActionResult Delete(int id)
+        {
+            games.Remove(games.Find(j => j.GameID == id));
+            _db.SaveJson(games, @"docs/games/games.json");
+            return RedirectToAction("Index", "Games"); ;
         }
 
         public IActionResult Commit()
