@@ -1,24 +1,22 @@
 {
-  {
-    "short_name": "MyCollections",
-    "name": "My Collections - PWA de controle de coleções",
-    "icons": [
-      {
-        "src": "wwwroot/favicon.ico",
-        "type": "image/ico",
-        "sizes": "48x48"
-      },
-      {
-        "src": "wwwroot/favicon.ico",
-        "type": "image/ico",
-        "sizes": "96x96"
-      },
-      {
-        "src": "wwwroot/favicon.ico",
-        "type": "image/ico",
-        "sizes": "192x192"
-      }
-    ],
-    "start_url": "https://pepeu.site"
-  }
+  "short_name": "MyCollections",
+  "name": "My Collections - PWA de controle de coleções",
+  "icons": [
+    {
+      "src": "wwwroot/favicon.ico",
+      "type": "image/ico",
+      "sizes": "48x48"
+    },
+    {
+      "src": "wwwroot/favicon.ico",
+      "type": "image/ico",
+      "sizes": "96x96"
+    },
+    {
+      "src": "wwwroot/favicon.ico",
+      "type": "image/ico",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "https://pepeu.site/"
 }
