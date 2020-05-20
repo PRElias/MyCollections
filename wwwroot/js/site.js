@@ -157,7 +157,7 @@ function deleteGame(id) {
         if (xobj.readyState == 4 && xobj.status == "200") {
             // .open will NOT return a value but simply returns undefined in async mode so use a callback
             // console.log("Lista de jogos recuperada");
-            app.renderizeGames(xobj.responseText);
+            window.location.href = '../../Games';
         }
     }
     xobj.send(null);
