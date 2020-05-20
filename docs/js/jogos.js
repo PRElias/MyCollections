@@ -8,9 +8,7 @@ if ('serviceWorker' in navigator) {
 }
 
 var app = {
-    games: [],
-    gameDistinctList: [],
-    availableTags: []
+    games: []
 };
 
 app.getGames = function () {
@@ -29,47 +27,32 @@ app.getGames = function () {
 
 app.renderizeGames = function (response) {
     app.games = app.tryParseJSON(response);
-    app.games = onlyEnabled(app.games);
-    // console.log("Total de jogos: " + app.games.length);
-    app.gameDistinctList = Array.from(app.games);
-    // app.gameDistinctList = onlyEnabled(app.gameDistinctList);
-
     //Ordenando
-    app.gameDistinctList.sort(function (a, b) {
-        return a.Name.toLowerCase() < b.Name.toLowerCase() ? -1 : a.Name.toLowerCase() > b.Name.toLowerCase() ? 1 : 0;
+    app.games.sort(function (a, b) {
+        return a.FriendlyName < b.FriendlyName ? -1 : a.FriendlyName > b.FriendlyName ? 1 : 0;
     });
-    
-    //Removendo propriedades pra poder fazer o distinct
-    for (var index in app.gameDistinctList) {
-        delete app.gameDistinctList[index].BuyDate;
-        delete app.gameDistinctList[index].Disabled;
-        delete app.gameDistinctList[index].GameID;
-        delete app.gameDistinctList[index].IGDBId;
-        delete app.gameDistinctList[index].PlayedTime;
-        delete app.gameDistinctList[index].Price;
-        delete app.gameDistinctList[index].Purchased;
-        delete app.gameDistinctList[index].Selected;
-        delete app.gameDistinctList[index].SteamApID;
-        delete app.gameDistinctList[index].Store;
-        delete app.gameDistinctList[index].System;
-    }
-    //Removendo duplicatas
-    app.gameDistinctList = multiDimensionalUnique(app.gameDistinctList);
 
-    //console.log("Jogos únicos: " + app.gameDistinctList.length);
-
-    //Montando elementos HTML
     let items = [];
-    for (let index in app.gameDistinctList) {
-        let game = app.gameDistinctList[index];
-        let gameName = game.Name.replace("'", "");
-        items.push(
-            "<span class='game col-lg-2 col-sm-6 col-md-6 col-xs-12' id='" + game.Id + "' onclick='showDetails(this.id)'>" +
-            "<p class='gameName'>" + gameName + "</p>" +
-            "<img class='cover lazy' data-src='" + game.LogoURL + "' data-game='" + gameName + "' alt='logo' /img>" +
-            "</span>"
-        );
-        app.availableTags.push(gameName);
+    let lastName = "";
+    let hidden = "";
+    for (let index in app.games) {
+        if (app.games[index].Name == lastName) {
+            hidden = " hidden";
+        }
+        else {
+            hidden = "";
+        }
+        lastName = app.games[index].Name;
+        if (app.games[index].Disabled == false) {
+            items.push(
+                "<span " + hidden + " class='game col-lg-2 col-sm-6 col-md-6 col-xs-12 " + app.games[index].System + " " + app.games[index].Store + "' id='" + app.games[index].GameID + 
+                "' name='" + app.games[index].FriendlyName +
+                "' onclick='showDetails(" + app.games[index].GameID + ")'>" +
+                "<p class='gameName'>" + app.games[index].Name + "</p>" +
+                "<img class='cover lazy' data-src='" + app.games[index].LogoURL + "' data-game='" + app.games[index].FriendlyName + "' alt='logo' /img>" +
+                "</span>"
+            );
+        }
     }
 
     var wrapper = document.createElement('div');
@@ -154,18 +137,6 @@ function navigateToGame() {
     }
 }
 
-function multiDimensionalUnique(arr) {
-    var uniques = [];
-    var itemsFound = {};
-    for (var i = 0, l = arr.length; i < l; i++) {
-        var stringified = JSON.stringify(arr[i]);
-        if (itemsFound[stringified]) { continue; }
-        uniques.push(arr[i]);
-        itemsFound[stringified] = true;
-    }
-    return uniques;
-}
-
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 var prevScrollpos = window.pageYOffset;
 
@@ -197,7 +168,7 @@ $('#procurar').click(
 //Autocomplete
 $(function () {
     $("#procurar").autocomplete({
-        source: app.availableTags,
+        source: app.games.FriendlyName,
         select: function (event, ui) {
             event.preventDefault();
             $('#procurar').val(ui.item.value);
@@ -212,50 +183,10 @@ function showDetails(gameName) {
     $("#modal").modal('show');
 }
 
-function onlyEnabled(array) {
-    let enabled = [];
-    for (var index in array) {
-        if (array[index].Disabled == false) {
-            enabled.push(array[index]);
-        }
-    }
-    return enabled;
-}
-
-function gameTotals(array, system) {
-    let count = 0;
-    for (var index in array) {
-        if (array[index].system == system) {
-            count++;
-        }
-    }
-    return count;
-}
-
-
 function renderizeGeneralDetails() {
 
-    let totalJogosUnicos = document.createElement('p');
-    totalJogosUnicos.innerText = "Total de jogos únicos: " + app.gameDistinctList.length;
-    let totalJogos = document.createElement('p');
-    totalJogos.innerText = "Total de jogos: " + app.games.length;
-    let totalPS3 = document.createElement('p');
-    totalPS3.innerText = "Total de PS3: " + gameTotals(app.games, 'PS3');
-    let totalPS4 = document.createElement('p');
-    totalPS4.innerText = "Total de PS4: " + gameTotals(app.games, 'PS4');
-    let totalXBOXOne = document.createElement('p');
-    totalXBOXOne.innerText = "Total de XBOX One: " + gameTotals(app.games, 'XBOX One');
-
-
-    let wrapper = document.createElement('div');
-    wrapper.appendChild(totalJogosUnicos);
-    wrapper.appendChild(totalJogos);
-    wrapper.appendChild(totalPS3);
-    wrapper.appendChild(totalPS4);
-    wrapper.appendChild(totalXBOXOne);
-
     let main = document.querySelector('.modal-body');
-    main.innerHTML = "";
+    main.innerHTML = "<p>Em contrução</p>";
 
     main.appendChild(wrapper);
 
@@ -271,3 +202,13 @@ $(window).scroll(function () {
     }
 });
 $(function () { $(".scroll").click(function () { $("html,body").animate({ scrollTop: "50" }, "1000"); return false }) })
+
+function copyObject(o) {
+    var output, v, key;
+    output = Array.isArray(o) ? [] : {};
+    for (key in o) {
+        v = o[key];
+        output[key] = (typeof v === "object") ? copyObject(v) : v;
+    }
+    return output;
+}
