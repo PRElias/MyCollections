@@ -164,7 +164,7 @@ namespace MyCollections.Controllers
                 foundGame.Disabled = game.Disabled;
             }
             _db.SaveJson(games, @"docs/games/games.json");
-            return RedirectToAction("Index", "Games"); ;
+            return RedirectToAction("Index", "Games");
         }
 
         [HttpPost]
@@ -172,7 +172,7 @@ namespace MyCollections.Controllers
         {
             games.Remove(games.Find(j => j.GameID == id));
             _db.SaveJson(games, @"docs/games/games.json");
-            return RedirectToAction("Index", "Games"); ;
+            return RedirectToAction("Index", "Games");
         }
 
         public IActionResult Commit()

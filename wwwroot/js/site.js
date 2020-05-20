@@ -149,3 +149,16 @@ function usarImagemSteam() {
     console.log(element);
     $("#divNewImage").append(element);
 }
+
+function deleteGame(id) {
+    var xobj = new XMLHttpRequest();
+    xobj.open('POST', '../../Games/Delete/' + id, true);
+    xobj.onreadystatechange = function () {
+        if (xobj.readyState == 4 && xobj.status == "200") {
+            // .open will NOT return a value but simply returns undefined in async mode so use a callback
+            // console.log("Lista de jogos recuperada");
+            app.renderizeGames(xobj.responseText);
+        }
+    }
+    xobj.send(null);
+}
