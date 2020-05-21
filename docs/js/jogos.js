@@ -26,7 +26,7 @@ app.getGames = function () {
 }
 
 app.renderizeGames = function (response) {
-    app.games = app.tryParseJSON(response);
+    app.games = tryParseJSON(response);
     //Ordenando
     app.games.sort(function (a, b) {
         return a.FriendlyName < b.FriendlyName ? -1 : a.FriendlyName > b.FriendlyName ? 1 : 0;
@@ -66,69 +66,57 @@ app.renderizeGames = function (response) {
 
 app.renderizeDetails = function (gameName) {
 
-    let gameCopies = app.games.filter(function (g) {
-        return g.name == gameName;
-    });
+    // let gameCopies = app.games.filter(function (g) {
+    //     return g.name == gameName;
+    // });
 
     //Montando elementos HTML
-    var items = [];
-    for (var index in gameCopies) {
-        var game = gameCopies[index];
-        items.push(
-            "<p>" + game.system + " / " + game.store + "</p>"
-        );
-    }
+    // var items = [];
+    // for (var index in gameCopies) {
+    //     var game = gameCopies[index];
+    //     items.push(
+    //         "<p>" + game.system + " / " + game.store + "</p>"
+    //     );
+    // }
 
-    let wrapper = document.createElement('div');
-    wrapper.innerHTML = items.join("");
+    // let wrapper = document.createElement('div');
+    // wrapper.innerHTML = items.join("");
 
-    let main = document.querySelector('.modal-body');
-    main.innerHTML = "";
+    // let main = document.querySelector('.modal-body');
+    // main.innerHTML = "";
 
-    let steamAppID = getSteamAppID(gameCopies);
+    // let steamAppID = getSteamAppID(gameCopies);
 
-    if (steamAppID != undefined) {
-        let steamLink = "https://store.steampowered.com/app/" + steamAppID;
+    // if (steamAppID != undefined) {
+    //     let steamLink = "https://store.steampowered.com/app/" + steamAppID;
 
-        if (steamLink != undefined) {
-            let link = document.createElement('a');
-            link.href = steamLink;
-            link.innerHTML = "Link do Steam";
-            link.target = "_blank";
-            wrapper.appendChild(link);
-        }
-    }
+    //     if (steamLink != undefined) {
+    //         let link = document.createElement('a');
+    //         link.href = steamLink;
+    //         link.innerHTML = "Link do Steam";
+    //         link.target = "_blank";
+    //         wrapper.appendChild(link);
+    //     }
+    // }
 
-    main.appendChild(wrapper);
+    // main.appendChild(wrapper);
 };
-
-app.tryParseJSON = function (jsonString) {
-    try {
-        var o = JSON.parse(jsonString);
-        if (o && typeof o === "object") {
-            return o;
-        }
-    }
-    catch (e) { }
-    return false;
-};
-
 
 window.onload = function () {
     app.getGames();
 }
 
-function getSteamAppID(gameCopies) {
-    for (var index in gameCopies) {
-        var game = gameCopies[index];
-        if (game.appID != "")
-            return game.appID;
-    }
-}
+// function getSteamAppID(gameCopies) {
+//     for (var index in gameCopies) {
+//         var game = gameCopies[index];
+//         if (game.appID != "")
+//             return game.appID;
+//     }
+// }
 
 function navigateToGame() {
     var pesquisa = $('#procurar').val();
-    var jogo = document.getElementById(pesquisa);
+    var jogo = document.getElementsByName(pesquisa);
 
     if (jogo !== null) {
         $('html, body').animate({
@@ -145,9 +133,9 @@ window.onscroll = function () {
 
     if (prevScrollpos > currentScrollPos) {
         document.getElementById("navbar").style.top = "0";
-        document.getElementById("main_div").style.marginTop = "50px";
+        document.getElementById("main_div").style.marginTop = "64px";
     } else {
-        document.getElementById("navbar").style.top = "-50px";
+        document.getElementById("navbar").style.top = "-64px";
         document.getElementById("main_div").style.marginTop = "0";
     }
     prevScrollpos = currentScrollPos;
@@ -178,7 +166,7 @@ $(function () {
 });
 
 function showDetails(gameName) {
-    app.renderizeDetails(gameName);
+    //app.renderizeDetails(gameName);
     $('.modal-title').text(gameName);
     $("#modal").modal('show');
 }
@@ -195,20 +183,11 @@ function renderizeGeneralDetails() {
 };
 
 $(window).scroll(function () {
-    if ($(this).scrollTop() > 50) {
+    if ($(this).scrollTop() > 64) {
         $('.scrolltop:hidden').stop(true, true).fadeIn();
     } else {
         $('.scrolltop').stop(true, true).fadeOut();
     }
 });
-$(function () { $(".scroll").click(function () { $("html,body").animate({ scrollTop: "50" }, "1000"); return false }) })
+$(function () { $(".scroll").click(function () { $("html,body").animate({ scrollTop: "64" }, "1000"); return false }) })
 
-function copyObject(o) {
-    var output, v, key;
-    output = Array.isArray(o) ? [] : {};
-    for (key in o) {
-        v = o[key];
-        output[key] = (typeof v === "object") ? copyObject(v) : v;
-    }
-    return output;
-}
