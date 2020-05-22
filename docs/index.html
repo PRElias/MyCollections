@@ -32,20 +32,19 @@
 
 <body>
     <nav id="navbar" class="navbar">
-        <div class="row">
-            <a href="#" id="goToGame" style="display: none" rel="nofollow"></a>
-            <input type="text" placeholder="Procurar" id="procurar" name="procurar" class="form-control"
-                style="margin-top: 10px; margin-left: 10px;" />
-            <select id="sPlataforma" class="form-control">
-                <option value="">Selecione...</option>
-                <option value="PC">PC</option>
-                <option value="Xbox One">Xbox One</option>
-                <option value="PS3">PS3</option>
-                <option value="PS4">PS4</option>
-                <option value="Wii">Wii</option>
-            </select>
-            <span id="geral" onclick="renderizeGeneralDetails()"></span>
-        </div>
+        <a href="#" id="goToGame" style="display: none" rel="nofollow"></a>
+        <input type="text" placeholder="Procurar" id="procurar" name="procurar" class="form-control"
+            style="width: 250px; margin-left: 10px;" />
+        <select id="sPlataforma" class="form-control" style="width: 50px;" onchange="sPlataforma()">
+            <option value="">...</option>
+            <option value="Android">Android</option>
+            <option value="PC">PC</option>
+            <option value="XBOXOne">Xbox One</option>
+            <option value="PS3">PS3</option>
+            <option value="PS4">PS4</option>
+            <option value="Wii">Wii</option>
+        </select>
+        <span id="geral" onclick="renderizeGeneralDetails()"></span>
     </nav>
     <div class="modal fade modal-fullscreen" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
         <div class="modal-dialog" role="document">

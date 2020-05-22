@@ -124,9 +124,9 @@ window.onscroll = function () {
 
     if (prevScrollpos > currentScrollPos) {
         document.getElementById("navbar").style.top = "0";
-        document.getElementById("main_div").style.marginTop = "64px";
+        document.getElementById("main_div").style.marginTop = "54px";
     } else {
-        document.getElementById("navbar").style.top = "-64px";
+        document.getElementById("navbar").style.top = "-54px";
         document.getElementById("main_div").style.marginTop = "0";
     }
     prevScrollpos = currentScrollPos;
@@ -179,11 +179,22 @@ function renderizeGeneralDetails() {
 };
 
 $(window).scroll(function () {
-    if ($(this).scrollTop() > 64) {
+    if ($(this).scrollTop() > 54) {
         $('.scrolltop:hidden').stop(true, true).fadeIn();
     } else {
         $('.scrolltop').stop(true, true).fadeOut();
     }
 });
-$(function () { $(".scroll").click(function () { $("html,body").animate({ scrollTop: "64" }, "1000"); return false }) })
+$(function () { $(".scroll").click(function () { $("html,body").animate({ scrollTop: "54" }, "1000"); return false }) })
 
+function sPlataforma() {
+    let sel = document.getElementById("sPlataforma");
+    for (i = 1; i < sel.length; i++) {
+        let system = "." + sel.options[i].value;
+        $(system).show();
+        if (sel.options[i].selected === false) {
+            $(system).hide();
+        }
+    }
+    //$(sel.value)
+}
