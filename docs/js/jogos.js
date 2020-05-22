@@ -52,7 +52,12 @@ app.renderizeGames = function (response) {
     var main = document.querySelector('div.main_div');
     main.appendChild(wrapper);
 
-    $('.lazy').Lazy();
+    $('.lazy').Lazy({
+        onFinishedAll: function() {
+            if( !this.config("autoDestroy") )
+                this.destroy();
+        }
+    });
 };
 
 app.renderizeDetails = function (gameName) {
@@ -189,9 +194,14 @@ $(function () { $(".scroll").click(function () { $("html,body").animate({ scroll
 
 function sPlataforma() {
     let sel = document.getElementById("sPlataforma");
+    let all = false;
+    if (sel.options[0].selected === true) {
+        all = true;
+    }
     for (i = 1; i < sel.length; i++) {
         let system = "." + sel.options[i].value;
         $(system).show();
+        if (all) { continue; }
         if (sel.options[i].selected === false) {
             $(system).hide();
         }
