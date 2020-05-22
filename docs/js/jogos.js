@@ -53,9 +53,9 @@ app.renderizeGames = function (response) {
     main.appendChild(wrapper);
 
     $('.lazy').Lazy({
+        delay: 1500,
         onFinishedAll: function() {
-            if( !this.config("autoDestroy") )
-                this.destroy();
+            $("img").removeClass("lazy");
         }
     });
 };
