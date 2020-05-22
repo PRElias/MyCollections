@@ -1,12 +1,3 @@
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/pwabuilder-sw.js')
-            .then((reg) => {
-                console.log('Service worker registered.', reg);
-            });
-    });
-}
-
 var app = {
     games: []
 };
@@ -173,8 +164,13 @@ function showDetails(gameName) {
 
 function renderizeGeneralDetails() {
 
+    let texto = document.createElement('p');
+    texto.innerHTML = "Em contrução";
+    let wrapper = document.createElement('div');
+    wrapper.appendChild(texto);
+    
     let main = document.querySelector('.modal-body');
-    main.innerHTML = "<p>Em contrução</p>";
+    main.innerHTML = "";
 
     main.appendChild(wrapper);
 
