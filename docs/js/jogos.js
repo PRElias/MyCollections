@@ -1,6 +1,7 @@
 var app = {
     games: [],
-    tags: []
+    tags: [],
+    hiddens: []
 };
 
 var sPlataforma, total_android, total_pc, total_xbox360, total_xboxone, total_ps3, total_p4, total_wii, total_geral;
@@ -41,13 +42,15 @@ app.renderizeGames = function (response) {
     for (let index in app.games) {
         if (app.games[index].Name == lastName) {
             hidden = " hidden";
+            app.hiddens.push(app.games[index]);
         }
         else {
             hidden = "";
         }
-        lastName = app.games[index].Name;
+
         if (app.games[index].Disabled == false) {
-            app.tags.push(app.games[index].FriendlyName);
+            lastName = app.games[index].Name;
+            app.tags.indexOf(app.games[index].FriendlyName) === -1 ? app.tags.push(app.games[index].FriendlyName) : null;
             items.push(
                 "<span " + hidden + " class='game col-lg-2 col-sm-6 col-md-6 col-xs-12 " + app.games[index].System + " " + app.games[index].Store + "' id='" + app.games[index].GameID + 
                 "' name='" + app.games[index].FriendlyName +
@@ -244,10 +247,23 @@ function changePlataforma() {
     for (i = 1; i < sPlataforma.length; i++) {
         let system = "." + sPlataforma.options[i].value;
         $(system).show();
-        if (all) { continue; }
+        if (all) { 
+            for (h = 0; h < app.hiddens.length; h++) {
+                var game = document.getElementById(app.hiddens[h].GameID);
+                if (game != null){ game.hidden = true };
+            }
+            continue; 
+        }
+        else {
+            for (h = 0; h < app.hiddens.length; h++) {
+                var game = document.getElementById(app.hiddens[h].GameID);
+                if (game != null){ game.hidden = false };
+            }
+        }
         if (sPlataforma.options[i].selected === false) {
             $(system).hide();
         }
     }
+    all = false;
     $("#navbarSupportedContent").removeClass("show");
 }
