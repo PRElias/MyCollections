@@ -109,6 +109,7 @@ window.onload = function () {
 }
 
 var sPlataforma, total_android, total_pc, total_xbox360, total_xboxone, total_ps3, total_p4, total_wii, total_geral;
+var all = false;
 
 function calculaTotais() {
     
@@ -189,6 +190,8 @@ $(function () {
         select: function (event, ui) {
             event.preventDefault();
             $('#procurar').val(ui.item.value);
+            all = true;
+            changePlataforma();
             navigateToGame();
         }
     });
@@ -226,7 +229,6 @@ $(window).scroll(function () {
 $(function () { $(".scroll").click(function () { $("html,body").animate({ scrollTop: "64" }, "1000"); return false }) })
 
 function changePlataforma() {
-    let all = false;
     if (sPlataforma.options[0].selected === true) {
         all = true;
     }
