@@ -121,14 +121,16 @@ function calculaTotais() {
     $(".totais").text("Total de jogos: " + total_geral);
 
     sPlataforma = document.getElementById("sPlataforma");
-    sPlataforma.options[0].setAttribute("data-value", total_geral);
-    sPlataforma.options[1].setAttribute("data-value", total_android);
-    sPlataforma.options[2].setAttribute("data-value", total_pc);
-    sPlataforma.options[3].setAttribute("data-value", total_xbox360);
-    sPlataforma.options[4].setAttribute("data-value", total_xboxone);
-    sPlataforma.options[5].setAttribute("data-value", total_ps3);
-    sPlataforma.options[6].setAttribute("data-value", total_ps4);
-    sPlataforma.options[7].setAttribute("data-value", total_wii);
+    sPlataforma.options[0].text+= " (" + total_geral + ")";
+    sPlataforma.options[1].text+= " (" + total_android + ")";
+    sPlataforma.options[2].text+= " (" + total_pc + ")";
+    sPlataforma.options[3].text+= " (" + total_xbox360 + ")";
+    sPlataforma.options[4].text+= " (" + total_xboxone + ")";
+    sPlataforma.options[5].text+= " (" + total_ps3 + ")";
+    sPlataforma.options[6].text+= " (" + total_ps4 + ")";
+    sPlataforma.options[7].text+= " (" + total_wii + ")";
+
+    //TODO: fazer aparecer os ocultos quando trocar de plataforma e ocultar denovo depois
 }
 
 // function getSteamAppID(gameCopies) {
@@ -232,9 +234,6 @@ function changePlataforma() {
         if (all) { continue; }
         if (sPlataforma.options[i].selected === false) {
             $(system).hide();
-        }
-        else {
-            $(".totais").text("Total de jogos: " + sPlataforma.options[i].dataset.value);
         }
     }
 }
