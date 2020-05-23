@@ -4,7 +4,7 @@ var app = {
     hiddens: []
 };
 
-var sPlataforma, total_android, total_pc, total_xbox360, total_xboxone, total_ps3, total_p4, total_wii, total_geral;
+var sPlataforma, total_android, total_pc, total_xbox360, total_xboxone, total_ps3, total_p4, total_wii, total_geral, total_repetidos;
 var all = false;
 var navHeight = 56;
 
@@ -122,6 +122,7 @@ window.onload = function () {
 
 function calculaTotais() {
     
+    total_repetidos = app.hiddens.length;
     total_android = document.querySelectorAll('.Android').length;
     total_pc = document.querySelectorAll('.PC').length;
     total_xbox360 = document.querySelectorAll('.XBOX360').length;
@@ -130,10 +131,9 @@ function calculaTotais() {
     total_ps4 = document.querySelectorAll('.PS4').length;
     total_wii = document.querySelectorAll('.Wii').length;
     total_geral = total_android + total_pc + total_xbox360 + total_xboxone + total_ps3 + total_ps4 + total_wii;
-    $(".totais").text("Total de jogos: " + total_geral);
 
     sPlataforma = document.getElementById("sPlataforma");
-    sPlataforma.options[0].text+= " (" + total_geral + ")";
+    sPlataforma.options[0].text+= " (" + total_geral + ")(" + (total_geral - total_repetidos) + " únicos)";
     sPlataforma.options[1].text+= " (" + total_android + ")";
     sPlataforma.options[2].text+= " (" + total_pc + ")";
     sPlataforma.options[3].text+= " (" + total_xbox360 + ")";
@@ -141,8 +141,6 @@ function calculaTotais() {
     sPlataforma.options[5].text+= " (" + total_ps3 + ")";
     sPlataforma.options[6].text+= " (" + total_ps4 + ")";
     sPlataforma.options[7].text+= " (" + total_wii + ")";
-
-    //TODO: fazer aparecer os ocultos quando trocar de plataforma e ocultar denovo depois
 }
 
 // function getSteamAppID(gameCopies) {
