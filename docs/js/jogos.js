@@ -3,6 +3,14 @@ var app = {
     tags: []
 };
 
+var sPlataforma, total_android, total_pc, total_xbox360, total_xboxone, total_ps3, total_p4, total_wii, total_geral;
+var all = false;
+var navHeight = 56;
+
+// if ($(window).width() <= 555) {
+//     navHeight = 152;
+// }
+
 app.getGames = function () {
     var xobj = new XMLHttpRequest();
     xobj.overrideMimeType("application/json");
@@ -51,10 +59,10 @@ app.renderizeGames = function (response) {
         }
     }
 
-    var wrapper = document.createElement('div');
+    let wrapper = document.createElement('div');
     wrapper.innerHTML = items.join("");
 
-    var main = document.querySelector('div.main_div');
+    let main = document.querySelector('div.main_div');
     main.appendChild(wrapper);
 
     $('.lazy').Lazy({
@@ -108,9 +116,6 @@ window.onload = function () {
     app.getGames();
 }
 
-var sPlataforma, total_android, total_pc, total_xbox360, total_xboxone, total_ps3, total_p4, total_wii, total_geral;
-var all = false;
-
 function calculaTotais() {
     
     total_android = document.querySelectorAll('.Android').length;
@@ -162,10 +167,13 @@ window.onscroll = function () {
     var currentScrollPos = window.pageYOffset;
 
     if (prevScrollpos > currentScrollPos) {
+        //descendo
         document.getElementById("navbar").style.top = "0";
-        document.getElementById("main_div").style.marginTop = "64px";
+        document.getElementById("main_div").style.marginTop = navHeight + "px";
     } else {
-        document.getElementById("navbar").style.top = "-64px";
+        //subindo
+        $("#navbarSupportedContent").removeClass("show");
+        document.getElementById("navbar").style.top =  (navHeight * -1) + "px";
         document.getElementById("main_div").style.marginTop = "0";
     }
     prevScrollpos = currentScrollPos;
@@ -240,4 +248,5 @@ function changePlataforma() {
             $(system).hide();
         }
     }
+    $("#navbarSupportedContent").removeClass("show");
 }
