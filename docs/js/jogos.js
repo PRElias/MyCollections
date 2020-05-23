@@ -13,6 +13,9 @@ app.getGames = function () {
             app.renderizeGames(xobj.responseText);
         }
     }
+    xobj.onloadend = function() {
+        calculaTotais();
+    }
     xobj.send(null);
 }
 
@@ -53,6 +56,7 @@ app.renderizeGames = function (response) {
     main.appendChild(wrapper);
 
     $('.lazy').Lazy({
+        //TODO: não funcionou o delay no lugar do scroll
         delay: 1500,
         onFinishedAll: function() {
             $("img").removeClass("lazy");
@@ -102,6 +106,31 @@ window.onload = function () {
     app.getGames();
 }
 
+var sPlataforma, total_android, total_pc, total_xbox360, total_xboxone, total_ps3, total_p4, total_wii, total_geral;
+
+function calculaTotais() {
+    
+    total_android = document.querySelectorAll('.Android').length;
+    total_pc = document.querySelectorAll('.PC').length;
+    total_xbox360 = document.querySelectorAll('.XBOX360').length;
+    total_xboxone = document.querySelectorAll('.XBOXOne').length;
+    total_ps3 = document.querySelectorAll('.PS3').length;
+    total_ps4 = document.querySelectorAll('.PS4').length;
+    total_wii = document.querySelectorAll('.Wii').length;
+    total_geral = total_android + total_pc + total_xbox360 + total_xboxone + total_ps3 + total_ps4 + total_wii;
+    $(".totais").text("Total de jogos: " + total_geral);
+
+    sPlataforma = document.getElementById("sPlataforma");
+    sPlataforma.options[0].setAttribute("data-value", total_geral);
+    sPlataforma.options[1].setAttribute("data-value", total_android);
+    sPlataforma.options[2].setAttribute("data-value", total_pc);
+    sPlataforma.options[3].setAttribute("data-value", total_xbox360);
+    sPlataforma.options[4].setAttribute("data-value", total_xboxone);
+    sPlataforma.options[5].setAttribute("data-value", total_ps3);
+    sPlataforma.options[6].setAttribute("data-value", total_ps4);
+    sPlataforma.options[7].setAttribute("data-value", total_wii);
+}
+
 // function getSteamAppID(gameCopies) {
 //     for (var index in gameCopies) {
 //         var game = gameCopies[index];
@@ -129,9 +158,9 @@ window.onscroll = function () {
 
     if (prevScrollpos > currentScrollPos) {
         document.getElementById("navbar").style.top = "0";
-        document.getElementById("main_div").style.marginTop = "54px";
+        document.getElementById("main_div").style.marginTop = "64px";
     } else {
-        document.getElementById("navbar").style.top = "-54px";
+        document.getElementById("navbar").style.top = "-64px";
         document.getElementById("main_div").style.marginTop = "0";
     }
     prevScrollpos = currentScrollPos;
@@ -184,27 +213,28 @@ function renderizeGeneralDetails() {
 };
 
 $(window).scroll(function () {
-    if ($(this).scrollTop() > 54) {
+    if ($(this).scrollTop() > 64) {
         $('.scrolltop:hidden').stop(true, true).fadeIn();
     } else {
         $('.scrolltop').stop(true, true).fadeOut();
     }
 });
-$(function () { $(".scroll").click(function () { $("html,body").animate({ scrollTop: "54" }, "1000"); return false }) })
+$(function () { $(".scroll").click(function () { $("html,body").animate({ scrollTop: "64" }, "1000"); return false }) })
 
-function sPlataforma() {
-    let sel = document.getElementById("sPlataforma");
+function changePlataforma() {
     let all = false;
-    if (sel.options[0].selected === true) {
+    if (sPlataforma.options[0].selected === true) {
         all = true;
     }
-    for (i = 1; i < sel.length; i++) {
-        let system = "." + sel.options[i].value;
+    for (i = 1; i < sPlataforma.length; i++) {
+        let system = "." + sPlataforma.options[i].value;
         $(system).show();
         if (all) { continue; }
-        if (sel.options[i].selected === false) {
+        if (sPlataforma.options[i].selected === false) {
             $(system).hide();
         }
+        else {
+            $(".totais").text("Total de jogos: " + sPlataforma.options[i].dataset.value);
+        }
     }
-    //$(sel.value)
 }

@@ -164,6 +164,16 @@ body.modal-open {
     cursor: pointer;
 }
 
+.totais {
+    margin: unset;
+    color: white;
+    font-size: x-large;
+}
+
+.navbar-toggler-icon {
+    background-image: url("../icons/android/android-launchericon-144-144.png");
+}
+
 .scrolltop {
 	display:none;
 	width:100%;
