@@ -67,9 +67,10 @@ app.renderizeGames = function (response) {
 
     $('.lazy').Lazy({
         //TODO: não funcionou o delay no lugar do scroll
-        delay: 1500,
+        delay: 1100,
         onFinishedAll: function() {
             $("img").removeClass("lazy");
+            $('#loading').hide();
         }
     });
 };
