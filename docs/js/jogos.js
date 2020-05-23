@@ -1,5 +1,6 @@
 var app = {
-    games: []
+    games: [],
+    tags: []
 };
 
 app.getGames = function () {
@@ -38,6 +39,7 @@ app.renderizeGames = function (response) {
         }
         lastName = app.games[index].Name;
         if (app.games[index].Disabled == false) {
+            app.tags.push(app.games[index].FriendlyName);
             items.push(
                 "<span " + hidden + " class='game col-lg-2 col-sm-6 col-md-6 col-xs-12 " + app.games[index].System + " " + app.games[index].Store + "' id='" + app.games[index].GameID + 
                 "' name='" + app.games[index].FriendlyName +
@@ -183,7 +185,7 @@ $('#procurar').click(
 //Autocomplete
 $(function () {
     $("#procurar").autocomplete({
-        source: app.games.FriendlyName,
+        source: app.tags,
         select: function (event, ui) {
             event.preventDefault();
             $('#procurar').val(ui.item.value);
