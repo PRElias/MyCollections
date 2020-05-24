@@ -187,23 +187,6 @@
         "FriendlyName": "MIRRORS EDGE"
     },
     {
-        "GameID": 12,
-        "Name": "Zumas Revenge",
-        "LogoURL": "./games/covers/ZumasRevenge.jpg",
-        "Store": "Steam",
-        "System": "PC",
-        "Disabled": false,
-        "BuyDate": "2018-01-01T00:00:00",
-        "Price": null,
-        "PlayedTime": null,
-        "Purchased": true,
-        "SteamApID": null,
-        "SteamOriginalImageURL": null,
-        "IGDBId": null,
-        "Selected": false,
-        "FriendlyName": "ZUMAS REVENGE"
-    },
-    {
         "GameID": 13,
         "Name": "Sid Meier's Civilization IV: Colonization",
         "LogoURL": "./games/covers/SidMeiersCivilizationIVColonization.jpg",
@@ -14435,7 +14418,7 @@
     {
         "GameID": 853,
         "Name": "Sid Meier's Civilization VI",
-        "LogoURL": "games/covers/SidMeier'sCivilizationVI.jpg",
+        "LogoURL": "games/covers/SidMeiersCivilizationVI.jpg",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
