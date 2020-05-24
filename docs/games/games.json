@@ -14858,6 +14858,23 @@
         "FriendlyName": "JURASSIC WORLD EVOLUTION"
     },
     {
+        "GameID": 878,
+        "Name": "Death Stranding",
+        "LogoURL": "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fdeath-stranding%2Fhome%2FEGS_KojimaProductions_DeathStranding_S1-2560x1440-d57b8f430c573292ea8450e5be7f75a4b4e3f015.jpg",
+        "Store": "",
+        "System": "PS4",
+        "Disabled": false,
+        "BuyDate": null,
+        "Price": null,
+        "PlayedTime": 14,
+        "Purchased": true,
+        "SteamApID": "",
+        "SteamOriginalImageURL": "",
+        "IGDBId": null,
+        "Selected": false,
+        "FriendlyName": "DEATH STRANDING"
+    },
+    {
         "GameID": 879,
         "Name": "DiRT Rally 2.0",
         "LogoURL": "games/covers/DiRTRally2.0.jpg",
