@@ -173,8 +173,11 @@ namespace MyCollections.Controllers
             else
             {
                 var cover = HttpContext.Request.Form.Files.GetFile("LogoURL");
-                MyCollections.Util.File.UploadFile(cover, cover.FileName);
-                game.LogoURL = "games/covers/" + cover.FileName;
+                if (cover != null) 
+                { 
+                    MyCollections.Util.File.UploadFile(cover, cover.FileName); 
+                    game.LogoURL = "games/covers/" + cover.FileName;
+                }
                 games.Add(game);
             }
             _db.SaveJson(games, @"docs/games/games.json");
