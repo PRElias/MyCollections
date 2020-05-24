@@ -22,6 +22,16 @@ if ('undefined' === typeof window) {
       }
     })
   );
+
+  workbox.routing.registerRoute(
+    '/games/games.json',
+    new workbox.strategies.StaleWhileRevalidate({
+      cacheName: CACHE_NAME,
+      cacheableResponse: {
+        statuses: [0, 200]
+      }
+    })
+  );
 }
 
 self.addEventListener('activate', (event) => {
