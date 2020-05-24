@@ -1,6 +1,7 @@
 'use strict';
 
 const CACHE_NAME = 'static-cache';
+const CACHE_NETWORK_FIRST = 'network-first';
 const OFFLINE_URL = '/index.html';
 
 if ('undefined' === typeof window) {
@@ -26,7 +27,7 @@ if ('undefined' === typeof window) {
   workbox.routing.registerRoute(
     '/games/games.json',
     new workbox.strategies.StaleWhileRevalidate({
-      cacheName: CACHE_NAME,
+      cacheName: CACHE_NETWORK_FIRST,
       cacheableResponse: {
         statuses: [0, 200]
       }
