@@ -2653,7 +2653,7 @@
     },
     {
         "GameID": 157,
-        "Name": "Metal Slug",
+        "Name": "METAL SLUG",
         "LogoURL": "./games/covers/METALSLUG.jpg",
         "Store": "GOG",
         "System": "PC",
@@ -2687,7 +2687,7 @@
     },
     {
         "GameID": 159,
-        "Name": "Metal Slug 2",
+        "Name": "METAL SLUG 2",
         "LogoURL": "./games/covers/METALSLUG2.jpg",
         "Store": "GOG",
         "System": "PC",
@@ -2721,7 +2721,7 @@
     },
     {
         "GameID": 161,
-        "Name": "Metal Slug 3",
+        "Name": "METAL SLUG 3",
         "LogoURL": "./games/covers/METALSLUG3.jpg",
         "Store": "GOG",
         "System": "PC",
@@ -8685,23 +8685,6 @@
         "IGDBId": null,
         "Selected": false,
         "FriendlyName": "LUP"
-    },
-    {
-        "GameID": 512,
-        "Name": "Kivi Toilet and Shotgun",
-        "LogoURL": "games/covers/KivToileanShotgun.jpg",
-        "Store": "Steam",
-        "System": "PC",
-        "Disabled": false,
-        "BuyDate": "2018-01-01T00:00:00",
-        "Price": null,
-        "PlayedTime": null,
-        "Purchased": true,
-        "SteamApID": null,
-        "SteamOriginalImageURL": null,
-        "IGDBId": null,
-        "Selected": false,
-        "FriendlyName": "KIVI TOILET AND SHOTGUN"
     },
     {
         "GameID": 513,
