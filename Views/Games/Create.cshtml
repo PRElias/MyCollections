@@ -1,52 +1,27 @@
 @model MyCollections.Models.Game
 
-@using (Html.BeginForm("Edit", "Games", FormMethod.Post))
-{
+
+<form method="POST" method="post" enctype="multipart/form-data" action="Upsert">
     <div class="form-group">
         <div class="row">
             <div class="col-md-4">
                 <label class="form-label">Nome</label>
             </div>
             <div class="col-md-4">
-                <input type="text" class="form-control" id="Name" name="Name" value="@Model.Name" />
-            </div>
-        </div>
-    </div>
-    <div class="form-group">
-        <div class="row">
-            <div class="col-md-4">
-                <label class="form-label">Imagem atual</label>
-            </div>
-            <div class="col-md-4">
-                <img src="../../docs/@Model.LogoURL" style="width: inherit;" />
+                <input type="text" class="form-control" id="Name" name="Name" />
             </div>
         </div>
     </div>
     <div class="form-group" id="divNewImage">
         <div class="row">
             <div class="col-md-4">
-                <label class="form-label">Deseja salvar uma nova imagem?</label>
+                <label class="form-label">Imagem</label>
             </div>
             <div class="col-md-4">
                 <input type="file" name="LogoURL" id="LogoURL" class="form-control" />
             </div>
         </div>
     </div>
-    @if (Model.Store == "Steam")
-    {
-    <div class="form-group">
-        <div class="row">
-            <div class="col-md-4">
-                <label class="form-label">Imagem original Steam</label>
-            </div>
-            <div class="col-md-4">
-                <img style="width: inherit;" id="logoSteam"
-                    src="http://media.steampowered.com/steamcommunity/public/images/apps/@Model.SteamApID/@Model.SteamOriginalImageURL" />
-                <button type="button" class="btn btn-primary" id="btnUsarImagemSteam" onclick="usarImagemSteam()">Usar</button>
-            </div>
-        </div>
-    </div>
-    }
     <div class="form-group">
         <div class="row">
             <div class="col-md-4">
@@ -54,17 +29,21 @@
             </div>
             <div class="col-md-4">
                 <select id="System" name="System" class="form-control">
+                    <option value="">Selecione...</option>
+                    <option value="Android">Android</option>
                     <option value="PC">PC</option>
-                    <option value="Xbox One">Xbox One</option>
+                    <option value="XBOX360">Xbox 360</option>
+                    <option value="XBOXOne">Xbox One</option>
+                    <option value="PS3">PS3</option>
+                    <option value="PS4">PS4</option>
+                    <option value="Wii">Wii</option>
                 </select>
             </div>
         </div>
     </div>
     <div class="form-group">
-        @Html.Hidden("SteamApID", @Model.SteamApID)
-        @Html.Hidden("GameID", @Model.GameID)
         <div class="row">
             <button type="submit" class="btn btn-primary">Salvar</button>
         </div>
     </div>
-}
+</form>

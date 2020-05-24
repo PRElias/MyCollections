@@ -51,6 +51,7 @@ namespace MyCollections.Controllers
                         string fileName = uri.Segments.GetValue(uri.Segments.Length - 1).ToString();
                         if (fileName.Length == 4)
                         {
+                            game.LogoURL = "";
                             continue;
                         }
                         string newFileName = Util.Helper.RemoveSpecialCharacters(game.Name) + ".jpg"; //game.Name.Substring(game.Name.LastIndexOf('.'));
@@ -152,8 +153,13 @@ namespace MyCollections.Controllers
             return View(game);
         }
 
+        public IActionResult Create()
+        {
+            return View();
+        }
+
         [HttpPost]
-        public IActionResult Edit(Game game)
+        public IActionResult Upsert(Game game)
         {
             var foundGame = games.FirstOrDefault(g => g.GameID == game.GameID);
             if (foundGame != null) 
@@ -163,6 +169,13 @@ namespace MyCollections.Controllers
                     if (game.SteamOriginalImageURL.Contains("http")) foundGame.LogoURL = game.SteamOriginalImageURL;
                 }
                 foundGame.Disabled = game.Disabled;
+            }
+            else
+            {
+                var cover = HttpContext.Request.Form.Files.GetFile("LogoURL");
+                MyCollections.Util.File.UploadFile(cover, cover.FileName);
+                game.LogoURL = "games/covers/" + cover.FileName;
+                games.Add(game);
             }
             _db.SaveJson(games, @"docs/games/games.json");
             return RedirectToAction("Index", "Games");
