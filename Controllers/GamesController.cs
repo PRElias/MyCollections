@@ -25,6 +25,7 @@ namespace MyCollections.Controllers
         {
             UpdateGamesProperties();
             DownloadCovers();
+            _db.SaveJson(games, @"docs/games/games.json");
             return View(games);
         }
         public void LoadJson()
@@ -50,7 +51,7 @@ namespace MyCollections.Controllers
                         string fileName = uri.Segments.GetValue(uri.Segments.Length - 1).ToString();
                         if (fileName.Length == 4)
                         {
-                            break;
+                            continue;
                         }
                         string newFileName = Util.Helper.RemoveSpecialCharacters(game.Name) + ".jpg"; //game.Name.Substring(game.Name.LastIndexOf('.'));
                         WebClient myWebClient = new WebClient();
@@ -59,9 +60,9 @@ namespace MyCollections.Controllers
                     }
                 }
 
-                gamesList.Add(game);
+                //gamesList.Add(game);
             }
-            _db.SaveJson(gamesList, @"docs/games/games.json");
+            // _db.SaveJson(gamesList, @"docs/games/games.json");
         }
 
         public List<Game> NewGamesFromSteam()
@@ -92,7 +93,7 @@ namespace MyCollections.Controllers
             return newGames;
         }
 
-        public IActionResult UpdateGamesProperties()
+        public void UpdateGamesProperties()
         {
             var steam = new Steam(_db.GetAll().steamKey, _db.GetAll().steamId);
             try
@@ -114,12 +115,12 @@ namespace MyCollections.Controllers
                     savedGame.GameID = id++;
                 }
 
-                _db.SaveJson(games, @"docs/games/games.json");
-                return Ok();
+                // _db.SaveJson(games, @"docs/games/games.json");
+                // return Ok();
             }
             catch (Exception error)
             {
-                return StatusCode(500, error);
+                // return StatusCode(500, error);
             }
         }
 
