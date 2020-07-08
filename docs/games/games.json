@@ -16675,5 +16675,39 @@
         "IGDBId": null,
         "Selected": false,
         "FriendlyName": "DAYS GONE"
+    },
+    {
+        "GameID": 982,
+        "Name": "Sekiro",
+        "LogoURL": "games/covers/Sekiro.jpg",
+        "Store": "PSN",
+        "System": "PS4",
+        "Disabled": false,
+        "BuyDate": "2018-01-01T00:00:00",
+        "Price": null,
+        "PlayedTime": null,
+        "Purchased": false,
+        "SteamApID": null,
+        "SteamOriginalImageURL": null,
+        "IGDBId": null,
+        "Selected": false,
+        "FriendlyName": "SEKIRO"
+    },
+    {
+        "GameID": 983,
+        "Name": "Trials Rising",
+        "LogoURL": "games/covers/TrialsRising.jpg",
+        "Store": "Windows Store",
+        "System": "XBOXOne",
+        "Disabled": false,
+        "BuyDate": "2018-01-01T00:00:00",
+        "Price": null,
+        "PlayedTime": null,
+        "Purchased": false,
+        "SteamApID": null,
+        "SteamOriginalImageURL": null,
+        "IGDBId": null,
+        "Selected": false,
+        "FriendlyName": "TRIALS RISING"
     }
 ]
