@@ -16709,5 +16709,39 @@
         "IGDBId": null,
         "Selected": false,
         "FriendlyName": "TRIALS RISING"
+    },
+    {
+        "GameID": 984,
+        "Name": "Redout: Enhanced Edition",
+        "LogoURL": "games/covers/RedoutEnhancedEdition.jpg",
+        "Store": "Steam",
+        "System": "PC",
+        "Disabled": false,
+        "BuyDate": null,
+        "Price": null,
+        "PlayedTime": 0,
+        "Purchased": true,
+        "SteamApID": 517710,
+        "SteamOriginalImageURL": "401074d32fe0517830e408ac1ad1371b0ef24cec.jpg",
+        "IGDBId": null,
+        "Selected": false,
+        "FriendlyName": "REDOUT: ENHANCED EDITION"
+    },
+    {
+        "GameID": 985,
+        "Name": "Paw Patrol: On A Roll",
+        "LogoURL": "games/covers/PawPatrolOnARoll.jpg",
+        "Store": "Steam",
+        "System": "PC",
+        "Disabled": false,
+        "BuyDate": null,
+        "Price": null,
+        "PlayedTime": 0,
+        "Purchased": true,
+        "SteamApID": 758730,
+        "SteamOriginalImageURL": "702de48ec41984fad4b1f7502d4884e0126025af.jpg",
+        "IGDBId": null,
+        "Selected": false,
+        "FriendlyName": "PAW PATROL: ON A ROLL"
     }
 ]
