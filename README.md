@@ -16,19 +16,6 @@ O principal intuito da solução é prover a consolidação da coleção proveni
 
 ### Dicas
 
-Para atualizar o banco de dados após alguma alteração
-
-<code>dotnet ef migrations add Initial</code>
-
-<code>dotnet ef database update</code>
-
-Gerar publicação
-
-<code>dotnet publish --configuration Release</code>
-
-Parar a aplicação no servidor para poder subir versão.
-
-Faça upload do arquivo app_offline.htm para a raíz do servidor
 
 # Autor
 
