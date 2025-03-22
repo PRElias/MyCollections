@@ -165,12 +165,6 @@ namespace MyCollections.Controllers
             var foundGame = games.FirstOrDefault(g => g.GameID == game.GameID);
             if (foundGame != null) 
             {
-                game.Store = foundGame.Store;
-                game.System = foundGame.System;
-                game.PlayedTime = foundGame.PlayedTime;
-                game.Purchased = foundGame.Purchased;
-                game.SteamApID = foundGame.SteamApID;
-
                 if (!String.IsNullOrEmpty(game.SteamOriginalImageURL))
                 {
                     if (game.SteamOriginalImageURL.Contains("http")) foundGame.LogoURL = game.SteamOriginalImageURL;
@@ -183,8 +177,10 @@ namespace MyCollections.Controllers
                     MyCollections.Util.File.UploadFile(cover, cover.FileName);
                     game.LogoURL = "games/covers/" + cover.FileName;
                 }
-                games.Remove(foundGame);
-                games.Add(game);
+
+                games[games.IndexOf(foundGame)].LogoURL = game.LogoURL;
+                games[games.IndexOf(foundGame)].Disabled = game.Disabled;
+                games[games.IndexOf(foundGame)].Name = game.Name;
             }
             else
             {

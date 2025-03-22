@@ -18107,7 +18107,7 @@
     {
         "GameID": 1066,
         "Name": "30XX",
-        "LogoURL": "",
+        "LogoURL": "games/covers/30xx.jpg",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
