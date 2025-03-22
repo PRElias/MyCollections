@@ -1,40 +1,66 @@
-# MyCollections
+# Build Cordova Application in Docker
+---
+Use docker to build cordova applications. For local development, testing, CI/CD...
 
-Este projeto refere-se a um sistema para controle de coleções. Inicialmente apenas para jogos, com planos de incluir vídeos e filmes em versões futuras.
 
-Para criar um usuário e montar sua coleção, visite:
+## Docker repository
+https://hub.docker.com/r/hamdifourati/cordova-android-builder/
 
-[My Collections](http://mycollections.paulorobertoelias.com.br)
+## Requirements
+- Docker
 
-## O projeto
+## Installed dependencies
+- NodeJS v20 LTS
+- Cordova v12.0.0
+- Android Platform Tools
+- Android Build Tools 33.0.2
+- Android 33
 
-A solução consiste em uma sistema em .Net Core 2.1, com suporte a base de dados, através do Entity Framework e um API para criação de telas para Web a aplicações móveis.
+## How to
+## Pull image from Docker hub
+```
+docker pull hamdifourati/cordova-android-builder
+```
+### Run Builder Container
+```
+# Check dependencies are installed and configured.
+docker run -v <local-app-src>:/opt/src --rm hamdifourati/cordova-android-builder cordova requirements
 
-### Integração com o Steam
+# Build Android apk
+docker run -v <local-app-src>:/opt/src --rm hamdifourati/cordova-android-builder cordova build
+```
 
-O principal intuito da solução é prover a consolidação da coleção proveniente de diversas lojas. Infelizmente apenas o Steam oferece uma API atualmente, para recuperar sua biblioteca de jogos. Para que a integração com o Steam funcione, é necessário possuir uma 'key' e um 'steamid' do jogador, que você pode inputar na tela de parâmetros.
+## Interactive shell
+> Run a shell inside the conatiner
+```
+docker run -it -v <local-app-src>:/opt/src --rm hamdifourati/cordova-android-builder bash
 
-## Executando e atualizando jogos
+root@cordova:/opt/src# cordova platform add android
+root@cordova:/opt/src# cordova requirements
+root@cordova:/opt/src# cordova build
+```
+The Generated APK is in: `/opt/src/platforms/android/app/build/outputs/apk/`
 
-Para iniciar o site localmente, apenas inicie o debug no VSCode
+## Install Android packages ( build-tools, platform-tools .. )
+> Note that this image uses [sdkmanager](https://developer.android.com/studio/command-line/sdkmanager) to manage android packages and comes with some default [packages](#installed-dependencies). You are more likely to need different versions.
 
-## Atualizando pacotes
+### Install using a custom Dockerfile
+```
+FROM hamdifourati/cordova-android-builder
 
-A forma mais fácil de atualizar é usando a ferramenta automatizada [dotnet outdated](https://github.com/dotnet-outdated/dotnet-outdated)
-Depois de instalado, é só executar o comando abaixo:
-`dotnet list package --outdated`
+RUN ( sleep 5 && while [ 1 ]; do sleep 1; echo y; done ) | sdkmanager "platforms;android-30"
+```
+### Install in interactive shell
+```
+# attach to your already running container
+docker exec -it <cordova-container-name> bash
 
-## Extensões úteis do VSCode
+# Install & Accept linceses
+root@cordova:/opt/src# sdkmanager "platforms;android-30"
+```
+> You can always list available packages either inside the container or directly.
+```
+docker run -it --rm hamdifourati/cordova-android-builder sdkmanager --list
+```
 
-Beautify JSON. Apenas abra o arquivo docs/games/games.json and acione Ctrl + Alt + M para ajustar ou Ctrl + Alt para minificar
-
-[JSON Tools](https://marketplace.visualstudio.com/items?itemName=eriklynd.json-tools)
-
-## App Cordova
-
-Há também a opção de se gerar um app Cordova usando os mesmos arquivos do PWA/Website. Execute a batch `CopyFilesToCordovaApp.bat` e a cópia de todos os arquivo necessários será executada automaticamente
-
-# Autor
-
-[Site pessoal](http://paulorobertoelias.com.br)
-
+### Enjoy !
