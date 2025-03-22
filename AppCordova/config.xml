@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.mycollections.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>HelloCordova</name>
-    <description>Sample Apache Cordova App</description>
-    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
-        Apache Cordova Team
+    <name>My Collections</name>
+    <description>Coleção de jogos offline</description>
+    <author email="ppuspfc@gmail.com" href="https://cordova.apache.org">
+        Paulo Roberto Elias
     </author>
+    <icon src="www/icons/android/android-launchericon-512-512.png"/>
     <content src="index.html" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
