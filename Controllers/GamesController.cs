@@ -175,10 +175,9 @@ namespace MyCollections.Controllers
                 if (cover != null)
                 {
                     MyCollections.Util.File.UploadFile(cover, cover.FileName);
-                    game.LogoURL = "games/covers/" + cover.FileName;
+                    games[games.IndexOf(foundGame)].LogoURL = "games/covers/" + cover.FileName;
                 }
-
-                games[games.IndexOf(foundGame)].LogoURL = game.LogoURL;
+                
                 games[games.IndexOf(foundGame)].Disabled = game.Disabled;
                 games[games.IndexOf(foundGame)].Name = game.Name;
             }

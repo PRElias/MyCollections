@@ -18158,7 +18158,7 @@
     {
         "GameID": 1069,
         "Name": "Acron: Attack of the Squirrels!",
-        "LogoURL": "",
+        "LogoURL": "games/covers/acron.jpg",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -18549,7 +18549,7 @@
     {
         "GameID": 1092,
         "Name": "A Fisherman's Tale",
-        "LogoURL": "",
+        "LogoURL": "games/covers/fishermanstale.png",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -18889,7 +18889,7 @@
     {
         "GameID": 1112,
         "Name": "An Arcade Full of Cats",
-        "LogoURL": "",
+        "LogoURL": "games/covers/an-arcade-full-of-cats-pc-juego-steam-cover.jpg",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
