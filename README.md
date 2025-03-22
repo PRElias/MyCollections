@@ -2,7 +2,11 @@
 
 Este projeto refere-se a um sistema para controle de coleções. Inicialmente apenas para jogos, com planos de incluir vídeos e filmes em versões futuras.
 
+Ele foi concebido em uma era pré-inteligência artificial, então toda concepção da arquitetura e o código foram escritos manualmente (ao menos até a presente data em marcço de 2025) como uma forma de eu estudar as tecnologias envolvidas.
+
 Minha ideia para criá-lo surgiu da minha dificuldade em saber quais jogos eu tenho, tamanha a quantidade. Infelizmente apenas a Steam fornece uma API para que eu possa recuperar os jogos de forma automática, então eu construí como parte integrante do projeto, um site para que eu possa incluir jogos manualmente também.
+
+![png](https://github.com/PRElias/raw/master/readme-images-01.png)
 
 ## O projeto
 
@@ -25,6 +29,8 @@ O principal intuito da solução é prover a consolidação da coleção proveni
 ## Informações diversas
 
 ### Atualizando pacotes .Net
+
+Quando o projeto surgiu, ele utilizada .Net Core 2.1, mas agora o mesmo foi atualizado para a última versão disponível, .Net 9.
 
 A forma mais fácil de atualizar é usando a ferramenta automatizada [dotnet outdated](https://github.com/dotnet-outdated/dotnet-outdated)
 Depois de instalado, é só executar o comando abaixo:
