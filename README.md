@@ -14,9 +14,23 @@ A solução consiste em uma sistema em .Net Core 2.1, com suporte a base de dado
 
 O principal intuito da solução é prover a consolidação da coleção proveniente de diversas lojas. Infelizmente apenas o Steam oferece uma API atualmente, para recuperar sua biblioteca de jogos. Para que a integração com o Steam funcione, é necessário possuir uma 'key' e um 'steamid' do jogador, que você pode inputar na tela de parâmetros.
 
-### Dicas
+## Executando e atualizando jogos
 
+Para iniciar o site localmente, apenas inicie o debug no VSCode
+
+## Atualizando pacotes
+
+A forma mais fácil de atualizar é usando a ferramenta automatizada [dotnet outdated](https://github.com/dotnet-outdated/dotnet-outdated)
+Depois de instalado, é só executar o comando abaixo:
+`dotnet list package --outdated`
+
+## Extensões úteis do VSCode
+
+Beautify JSON. Apenas abra o arquivo docs/games/games.json and acione Ctrl + Alt + M para ajustar ou Ctrl + Alt para minificar
+
+[JSON Tools](https://marketplace.visualstudio.com/items?itemName=eriklynd.json-tools)
 
 # Autor
 
 [Site pessoal](http://paulorobertoelias.com.br)
+
