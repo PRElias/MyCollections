@@ -56,7 +56,7 @@ app.renderizeGames = function (response) {
                 "' name='" + app.games[index].FriendlyName +
                 "' onclick='showDetails(" + app.games[index].GameID + ")'>" +
                 "<p class='gameName'>" + app.games[index].Name + "</p>" +
-                "<img class='cover lazy' data-src='" + app.games[index].LogoURL + "' data-game='" + app.games[index].FriendlyName + "' alt='logo' /img>" +
+                "<img class='cover lazy' data-src='" + app.games[index].LogoURL + "' data-game='" + app.games[index].FriendlyName + "' /img>" +
                 "</span>"
             );
         }
