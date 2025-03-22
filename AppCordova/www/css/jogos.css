@@ -1,0 +1,234 @@
+html {
+    background-color: #CC9C49;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+/*body {
+    padding-left: -150px;
+    padding-right: -150px;
+}*/
+
+.margins {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.mymodal {
+    margin-top: 120px !important;
+}
+
+.modal-header{
+    text-align:center;
+}
+
+/* unvisited link */
+.modal-header a:link {
+    color: white;
+}
+
+/* visited link */
+.modal-header a:visited {
+    color: white;
+}
+
+.main_div {
+    /*margin: auto;
+    width: 50%;*/
+    margin-top: 50px;
+    /*background-image: url('../../img/wooden.png');*/
+}
+
+.storeLogo {
+    height: 20px;
+    width: 20px;
+    margin: 20px;
+}
+
+.mymodal-content {
+    background-image: linear-gradient(#B8832E, #CC9C49);
+    color: white;
+    width: 90%;
+    margin: inherit;
+}
+
+.game {
+    padding: 10px 20px 0px 20px;
+    display: inline-block;
+    /*width: 220px;*/
+    height: 110px;
+    background-image: url('../img/wooden.png');
+    /*margin-left: -10px;*/
+}
+
+.gameName {
+    text-align: center;
+    color: white;
+    font-size: smaller;
+    margin: 0 0 0;
+    white-space: nowrap
+}
+
+.cover {
+    height: 70px;
+    width: 185px;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 10px 0 30px -1px rgb(51, 49, 49);
+    -moz-box-shadow: 10px 0 30px -1px rgb(51, 49, 49);
+    -webkit-box-shadow: 10px 0 30px -1px rgb(51, 49, 49);
+    -khtml-box-shadow: 10px 0 30px -1px rgb(51, 49, 49);
+    cursor: pointer;
+}
+
+.container-fluid {
+    padding-left: 0px !important;
+    width: 100%;
+    text-align: center;
+}
+
+/*Fix for scroolbar dissapear when modal area shown*/
+.modal-open {
+    overflow: scroll;
+    padding-right: 0 !important;
+}
+
+
+#navbar {
+    background-color: gray; /* Black background color */
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.8s; /* Transition effect when sliding down (and up) */
+    z-index: 3;
+    background-image: linear-gradient(#B8832E, #CC9C49);
+    border-bottom-style: unset;
+    display: flex;
+}
+    /* Style the navbar links */
+    #navbar a {
+        float: left;
+        /*display: block;*/
+        color: white;
+        text-align: center;
+        padding: 15px;
+        /*text-decoration: none;*/
+    }
+
+.icon {
+    /*background: url('../favicon.svg');*/
+    height: 20px;
+    width: 20px;
+    display: block;
+}
+
+/* .ui-autocomplete {
+    z-index: 100;
+} */
+
+.ui-menu {
+    background-color: white;
+    width: 250px;
+    top: 54px;
+}
+
+.ui-menu ul{
+}
+
+    .ui-menu li {
+        list-style: none;
+        margin-left: -25px;
+        padding-top: 10px;
+    }
+
+.modal-header{
+    text-align: left !important;
+}
+
+#geral {
+    background-image: url("../icons/android/android-launchericon-144-144.png");
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.totais {
+    margin: unset;
+    color: white;
+    font-size: x-large;
+}
+
+.navbar-toggler-icon {
+    background-image: url("../icons/android/android-launchericon-144-144.png");
+}
+
+.scrolltop {
+	display:none;
+	width:100%;
+	margin:0 auto;
+	position:fixed;
+	bottom:20px;
+	right:10px;	
+}
+.scroll {
+	position:absolute;
+	right:10px;
+	bottom:10px;
+	background:#b2b2b2;
+	background:rgba(202, 99, 14, 0.7);
+	padding:10px;
+	text-align: center;
+	margin: 0 0 0 0;
+	cursor:pointer;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 		
+}
+.scroll:hover {
+	background:rgba(178,178,178,1.0);
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 		
+}
+.scroll:hover .fa {
+	padding-top:-10px;
+}
+/* .scroll .fa {
+	font-size:30px;
+	margin-top:-5px;
+	margin-left:1px;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 	
+} */
+
+img.lazy {
+    width: 185px;
+    height: 70px;
+    background: transparent;
+}
+
+#loading {
+    background: url('../img/pacman.svg') no-repeat center center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+}
