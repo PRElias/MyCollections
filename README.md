@@ -6,7 +6,7 @@ Ele foi concebido em uma era pré-inteligência artificial, então toda concepç
 
 Minha ideia para criá-lo surgiu da minha dificuldade em saber quais jogos eu tenho, tamanha a quantidade. Infelizmente apenas a Steam fornece uma API para que eu possa recuperar os jogos de forma automática, então eu construí como parte integrante do projeto, um site para que eu possa incluir jogos manualmente também.
 
-![png](https://github.com/PRElias/raw/master/readme-images-01.png)
+![png](https://github.com/PRElias/MyCollections/blob/master/readme-images-01.png)
 
 ## O projeto
 
