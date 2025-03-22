@@ -9,11 +9,11 @@ Minha ideia para criá-lo surgiu da minha dificuldade em saber quais jogos eu te
 ![png](https://github.com/PRElias/MyCollections/blob/master/readme-images-01.png)
 
 # Índice
-* [O Projeto](#O_projeto)
-* [Funcionamento Básico](#Funcionamento_básico)
-* [App Cordova](#app_cordova)
-* [Integração com o Steam](#Integração_com_o_Steam)
-* [Informações diversas](#Informações_diversas)
+* [O Projeto](#O-projeto)
+* [Funcionamento Básico](#Funcionamento-básico)
+* [App Cordova](#app-cordova)
+* [Integração com o Steam](#Integração-com-o-Steam)
+* [Informações diversas](#Informações-diversas)
 
 ## O projeto
 
