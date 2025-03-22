@@ -8,6 +8,13 @@ Minha ideia para criá-lo surgiu da minha dificuldade em saber quais jogos eu te
 
 ![png](https://github.com/PRElias/MyCollections/blob/master/readme-images-01.png)
 
+# Índice
+* [O Projeto](#O_projeto)
+* [Funcionamento Básico](#Funcionamento_básico)
+* [App Cordova](#app_cordova)
+* [Integração com o Steam](#Integração_com_o_Steam)
+* [Informações diversas](#Informações_diversas)
+
 ## O projeto
 
 A solução consiste em uma sistema em .Net 9.0 para o site e manutenção dos registros em si, porém, o site da exibição da coleção é a parte e consiste apenas em HTML, CSS e Javascript e foi concebido desta forma para poder ser servido a partir do Github Pages (você pode conferir o conteúdo clicando [aqui](https://mycollections.paulorobertoelias.com.br/)), como um PWA ou mesmo ter todos os arquivos copiados para dentro de um app Cordova, também disponível.
