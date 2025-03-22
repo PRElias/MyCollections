@@ -30,6 +30,10 @@ Beautify JSON. Apenas abra o arquivo docs/games/games.json and acione Ctrl + Alt
 
 [JSON Tools](https://marketplace.visualstudio.com/items?itemName=eriklynd.json-tools)
 
+## App Cordova
+
+Há também a opção de se gerar um app Cordova usando os mesmos arquivos do PWA/Website. Execute a batch `CopyFilesToCordovaApp.bat` e a cópia de todos os arquivo necessários será executada automaticamente
+
 # Autor
 
 [Site pessoal](http://paulorobertoelias.com.br)
