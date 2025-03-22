@@ -1,6 +1,6 @@
 @model MyCollections.Models.Game
 
-@using (Html.BeginForm("Upsert", "Games", FormMethod.Post))
+@using (Html.BeginForm("Upsert", "Games", FormMethod.Post, new { enctype = "multipart/form-data" }))
 {
     <div class="form-group">
         <div class="row">

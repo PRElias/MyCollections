@@ -161,25 +161,36 @@ namespace MyCollections.Controllers
         [HttpPost]
         public IActionResult Upsert(Game game)
         {
+            //Verificar se o jogo já existe, então é um update
             var foundGame = games.FirstOrDefault(g => g.GameID == game.GameID);
             if (foundGame != null) 
             {
+                game.Store = foundGame.Store;
+                game.System = foundGame.System;
+                game.PlayedTime = foundGame.PlayedTime;
+                game.Purchased = foundGame.Purchased;
+                game.SteamApID = foundGame.SteamApID;
+
                 if (!String.IsNullOrEmpty(game.SteamOriginalImageURL))
                 {
                     if (game.SteamOriginalImageURL.Contains("http")) foundGame.LogoURL = game.SteamOriginalImageURL;
+                    foundGame.Disabled = game.Disabled;
                 }
-                foundGame.Disabled = game.Disabled;
+
+                var cover = HttpContext.Request.Form.Files.GetFile("LogoURL");
+                if (cover != null)
+                {
+                    MyCollections.Util.File.UploadFile(cover, cover.FileName);
+                    game.LogoURL = "games/covers/" + cover.FileName;
+                }
+                games.Remove(foundGame);
+                games.Add(game);
             }
             else
             {
-                var cover = HttpContext.Request.Form.Files.GetFile("LogoURL");
-                if (cover != null) 
-                { 
-                    MyCollections.Util.File.UploadFile(cover, cover.FileName); 
-                    game.LogoURL = "games/covers/" + cover.FileName;
-                }
                 games.Add(game);
             }
+
             _db.SaveJson(games, @"docs/games/games.json");
             return RedirectToAction("Index", "Games");
         }

@@ -18548,23 +18548,6 @@
     },
     {
         "GameID": 1092,
-        "Name": "1000xRESIST",
-        "LogoURL": "",
-        "Store": "Steam",
-        "System": "PC",
-        "Disabled": false,
-        "BuyDate": null,
-        "Price": null,
-        "PlayedTime": 17,
-        "Purchased": true,
-        "SteamApID": 1675830,
-        "SteamOriginalImageURL": ".jpg",
-        "IGDBId": null,
-        "Selected": false,
-        "FriendlyName": "1000XRESIST"
-    },
-    {
-        "GameID": 1093,
         "Name": "A Fisherman's Tale",
         "LogoURL": "",
         "Store": "Steam",
@@ -18581,7 +18564,7 @@
         "FriendlyName": "A FISHERMANS TALE"
     },
     {
-        "GameID": 1094,
+        "GameID": 1093,
         "Name": "Crysis Remastered",
         "LogoURL": "",
         "Store": "Steam",
@@ -18598,7 +18581,7 @@
         "FriendlyName": "CRYSIS REMASTERED"
     },
     {
-        "GameID": 1095,
+        "GameID": 1094,
         "Name": "MultiVersus",
         "LogoURL": "",
         "Store": "Steam",
@@ -18615,7 +18598,7 @@
         "FriendlyName": "MULTIVERSUS"
     },
     {
-        "GameID": 1096,
+        "GameID": 1095,
         "Name": "LEGO® Bricktales",
         "LogoURL": "",
         "Store": "Steam",
@@ -18632,7 +18615,7 @@
         "FriendlyName": "LEGO® BRICKTALES"
     },
     {
-        "GameID": 1097,
+        "GameID": 1096,
         "Name": "Poppy Playtime",
         "LogoURL": "",
         "Store": "Steam",
@@ -18649,7 +18632,7 @@
         "FriendlyName": "POPPY PLAYTIME"
     },
     {
-        "GameID": 1098,
+        "GameID": 1097,
         "Name": "Steelrising",
         "LogoURL": "",
         "Store": "Steam",
@@ -18666,7 +18649,7 @@
         "FriendlyName": "STEELRISING"
     },
     {
-        "GameID": 1099,
+        "GameID": 1098,
         "Name": "The First Descendant",
         "LogoURL": "",
         "Store": "Steam",
@@ -18683,7 +18666,7 @@
         "FriendlyName": "THE FIRST DESCENDANT"
     },
     {
-        "GameID": 1100,
+        "GameID": 1099,
         "Name": "Warhammer: Vermintide 2",
         "LogoURL": "",
         "Store": "Steam",
@@ -18700,7 +18683,7 @@
         "FriendlyName": "WARHAMMER: VERMINTIDE 2"
     },
     {
-        "GameID": 1101,
+        "GameID": 1100,
         "Name": "Mafia",
         "LogoURL": "",
         "Store": "Steam",
@@ -18717,7 +18700,7 @@
         "FriendlyName": "MAFIA"
     },
     {
-        "GameID": 1102,
+        "GameID": 1101,
         "Name": "Once Human",
         "LogoURL": "",
         "Store": "Steam",
@@ -18734,7 +18717,7 @@
         "FriendlyName": "ONCE HUMAN"
     },
     {
-        "GameID": 1103,
+        "GameID": 1102,
         "Name": "Atomic Heart",
         "LogoURL": "",
         "Store": "Steam",
@@ -18751,7 +18734,7 @@
         "FriendlyName": "ATOMIC HEART"
     },
     {
-        "GameID": 1104,
+        "GameID": 1103,
         "Name": "Warhammer 40,000: Space Marine 2",
         "LogoURL": "",
         "Store": "Steam",
@@ -18768,7 +18751,7 @@
         "FriendlyName": "WARHAMMER 40,000: SPACE MARINE 2"
     },
     {
-        "GameID": 1105,
+        "GameID": 1104,
         "Name": "theBlu",
         "LogoURL": "",
         "Store": "Steam",
@@ -18785,7 +18768,7 @@
         "FriendlyName": "THEBLU"
     },
     {
-        "GameID": 1106,
+        "GameID": 1105,
         "Name": "Pizza Tower",
         "LogoURL": "",
         "Store": "Steam",
@@ -18802,7 +18785,7 @@
         "FriendlyName": "PIZZA TOWER"
     },
     {
-        "GameID": 1107,
+        "GameID": 1106,
         "Name": "Garten of Banban",
         "LogoURL": "",
         "Store": "Steam",
@@ -18819,7 +18802,7 @@
         "FriendlyName": "GARTEN OF BANBAN"
     },
     {
-        "GameID": 1108,
+        "GameID": 1107,
         "Name": "Street Fighter™ 6",
         "LogoURL": "",
         "Store": "Steam",
@@ -18836,7 +18819,7 @@
         "FriendlyName": "STREET FIGHTER™ 6"
     },
     {
-        "GameID": 1109,
+        "GameID": 1108,
         "Name": "Minigolf Galaxy",
         "LogoURL": "",
         "Store": "Steam",
@@ -18853,7 +18836,7 @@
         "FriendlyName": "MINIGOLF GALAXY"
     },
     {
-        "GameID": 1110,
+        "GameID": 1109,
         "Name": "Figment",
         "LogoURL": "",
         "Store": "Steam",
@@ -18870,7 +18853,7 @@
         "FriendlyName": "FIGMENT"
     },
     {
-        "GameID": 1111,
+        "GameID": 1110,
         "Name": "Black Myth: Wukong",
         "LogoURL": "",
         "Store": "Steam",
@@ -18887,7 +18870,7 @@
         "FriendlyName": "BLACK MYTH: WUKONG"
     },
     {
-        "GameID": 1112,
+        "GameID": 1111,
         "Name": "Thank Goodness You're Here!",
         "LogoURL": "",
         "Store": "Steam",
@@ -18904,7 +18887,7 @@
         "FriendlyName": "THANK GOODNESS YOURE HERE!"
     },
     {
-        "GameID": 1113,
+        "GameID": 1112,
         "Name": "An Arcade Full of Cats",
         "LogoURL": "",
         "Store": "Steam",
@@ -18921,7 +18904,7 @@
         "FriendlyName": "AN ARCADE FULL OF CATS"
     },
     {
-        "GameID": 1114,
+        "GameID": 1113,
         "Name": "Nikoderiko",
         "LogoURL": "",
         "Store": "Steam",
@@ -18938,7 +18921,7 @@
         "FriendlyName": "NIKODERIKO"
     },
     {
-        "GameID": 1115,
+        "GameID": 1114,
         "Name": "Desktop Dungeons",
         "LogoURL": "",
         "Store": "Steam",
@@ -18955,7 +18938,7 @@
         "FriendlyName": "DESKTOP DUNGEONS"
     },
     {
-        "GameID": 1116,
+        "GameID": 1115,
         "Name": "Metro: Last Light Complete Edition",
         "LogoURL": "",
         "Store": "Steam",
@@ -18972,7 +18955,7 @@
         "FriendlyName": "METRO: LAST LIGHT COMPLETE EDITION"
     },
     {
-        "GameID": 1117,
+        "GameID": 1116,
         "Name": "Warhammer 40,000: Gladius - Relics of War",
         "LogoURL": "",
         "Store": "Steam",
@@ -18989,7 +18972,7 @@
         "FriendlyName": "WARHAMMER 40,000: GLADIUS - RELICS OF WAR"
     },
     {
-        "GameID": 1118,
+        "GameID": 1117,
         "Name": "Cards and Castles 2",
         "LogoURL": "",
         "Store": "Steam",
@@ -19006,7 +18989,7 @@
         "FriendlyName": "CARDS AND CASTLES 2"
     },
     {
-        "GameID": 1119,
+        "GameID": 1118,
         "Name": "Hue",
         "LogoURL": "",
         "Store": "Steam",
@@ -19023,7 +19006,7 @@
         "FriendlyName": "HUE"
     },
     {
-        "GameID": 1120,
+        "GameID": 1119,
         "Name": "Dungeon of the ENDLESS™",
         "LogoURL": "",
         "Store": "Steam",
@@ -19040,7 +19023,7 @@
         "FriendlyName": "DUNGEON OF THE ENDLESS™"
     },
     {
-        "GameID": 1121,
+        "GameID": 1120,
         "Name": "Delta Force",
         "LogoURL": "",
         "Store": "Steam",
@@ -19057,7 +19040,7 @@
         "FriendlyName": "DELTA FORCE"
     },
     {
-        "GameID": 1122,
+        "GameID": 1121,
         "Name": "Chained Together",
         "LogoURL": "",
         "Store": "Steam",
@@ -19074,7 +19057,7 @@
         "FriendlyName": "CHAINED TOGETHER"
     },
     {
-        "GameID": 1123,
+        "GameID": 1122,
         "Name": "RoboCop: Rogue City",
         "LogoURL": "",
         "Store": "Steam",
@@ -19091,7 +19074,7 @@
         "FriendlyName": "ROBOCOP: ROGUE CITY"
     },
     {
-        "GameID": 1124,
+        "GameID": 1123,
         "Name": "CRYPTARK",
         "LogoURL": "",
         "Store": "Steam",
@@ -19108,7 +19091,7 @@
         "FriendlyName": "CRYPTARK"
     },
     {
-        "GameID": 1125,
+        "GameID": 1124,
         "Name": "Cats on Duty: Prologue",
         "LogoURL": "",
         "Store": "Steam",
@@ -19125,7 +19108,7 @@
         "FriendlyName": "CATS ON DUTY: PROLOGUE"
     },
     {
-        "GameID": 1126,
+        "GameID": 1125,
         "Name": "SimCity™ 3000 Unlimited",
         "LogoURL": "",
         "Store": "Steam",
@@ -19142,7 +19125,7 @@
         "FriendlyName": "SIMCITY™ 3000 UNLIMITED"
     },
     {
-        "GameID": 1127,
+        "GameID": 1126,
         "Name": "Dead Island Riptide Definitive Edition",
         "LogoURL": "",
         "Store": "Steam",
@@ -19159,7 +19142,7 @@
         "FriendlyName": "DEAD ISLAND RIPTIDE DEFINITIVE EDITION"
     },
     {
-        "GameID": 1128,
+        "GameID": 1127,
         "Name": "RPG Maker XP",
         "LogoURL": "",
         "Store": "Steam",
@@ -19176,7 +19159,7 @@
         "FriendlyName": "RPG MAKER XP"
     },
     {
-        "GameID": 1129,
+        "GameID": 1128,
         "Name": "Content Warning",
         "LogoURL": "",
         "Store": "Steam",
@@ -19193,7 +19176,7 @@
         "FriendlyName": "CONTENT WARNING"
     },
     {
-        "GameID": 1130,
+        "GameID": 1129,
         "Name": "ENDLESS™ Legend",
         "LogoURL": "",
         "Store": "Steam",
@@ -19210,7 +19193,7 @@
         "FriendlyName": "ENDLESS™ LEGEND"
     },
     {
-        "GameID": 1131,
+        "GameID": 1130,
         "Name": "Assetto Corsa EVO",
         "LogoURL": "",
         "Store": "Steam",
@@ -19227,7 +19210,7 @@
         "FriendlyName": "ASSETTO CORSA EVO"
     },
     {
-        "GameID": 1132,
+        "GameID": 1131,
         "Name": "Drawful 2",
         "LogoURL": "",
         "Store": "Steam",
@@ -19244,7 +19227,7 @@
         "FriendlyName": "DRAWFUL 2"
     },
     {
-        "GameID": 1133,
+        "GameID": 1132,
         "Name": "The Jackbox Megapicker",
         "LogoURL": "",
         "Store": "Steam",
@@ -19261,7 +19244,7 @@
         "FriendlyName": "THE JACKBOX MEGAPICKER"
     },
     {
-        "GameID": 1134,
+        "GameID": 1133,
         "Name": "Distant Space 2",
         "LogoURL": "",
         "Store": "Steam",
@@ -19278,7 +19261,7 @@
         "FriendlyName": "DISTANT SPACE 2"
     },
     {
-        "GameID": 1135,
+        "GameID": 1134,
         "Name": "Golden Light",
         "LogoURL": "",
         "Store": "Steam",
@@ -19295,7 +19278,7 @@
         "FriendlyName": "GOLDEN LIGHT"
     },
     {
-        "GameID": 1136,
+        "GameID": 1135,
         "Name": "RPG Maker VX Ace",
         "LogoURL": "",
         "Store": "Steam",
@@ -19310,5 +19293,22 @@
         "IGDBId": null,
         "Selected": false,
         "FriendlyName": "RPG MAKER VX ACE"
+    },
+    {
+        "GameID": 1136,
+        "Name": "1000xRESIST",
+        "LogoURL": "games/covers/OIP.jpg",
+        "Store": "Steam",
+        "System": "PC",
+        "Disabled": false,
+        "BuyDate": "2018-01-01T00:00:00",
+        "Price": null,
+        "PlayedTime": 17,
+        "Purchased": true,
+        "SteamApID": 1675830,
+        "SteamOriginalImageURL": null,
+        "IGDBId": null,
+        "Selected": false,
+        "FriendlyName": "1000XRESIST"
     }
 ]
