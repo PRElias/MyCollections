@@ -17274,7 +17274,7 @@
     {
         "GameID": 1017,
         "Name": "ARK: Survival Evolved",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1017.png",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,

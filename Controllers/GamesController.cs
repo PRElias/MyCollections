@@ -167,8 +167,12 @@ namespace MyCollections.Controllers
             {
                 if (!String.IsNullOrEmpty(game.SteamOriginalImageURL))
                 {
-                    if (game.SteamOriginalImageURL.Contains("http")) foundGame.LogoURL = game.SteamOriginalImageURL;
-                    foundGame.Disabled = game.Disabled;
+                    if (game.SteamOriginalImageURL.Contains("http"))
+                    {
+                        string fileName = game.GameID.ToString() + ".png";
+                        games[games.IndexOf(foundGame)].LogoURL = "games/covers/" + fileName;
+                        _ = MyCollections.Util.File.DownloadImageAsync(game.SteamOriginalImageURL, fileName);
+                    }
                 }
 
                 var cover = HttpContext.Request.Form.Files.GetFile("LogoURL");
