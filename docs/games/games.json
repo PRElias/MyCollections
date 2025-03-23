@@ -15132,7 +15132,7 @@
     {
         "GameID": 891,
         "Name": "Mortal Kombat: Legacy: Jax, Sonya and Kano (Part 2)",
-        "LogoURL": "",
+        "LogoURL": "games/covers/891.png",
         "Store": "Steam",
         "System": "PC",
         "Disabled": true,
@@ -17937,7 +17937,7 @@
     {
         "GameID": 1056,
         "Name": "Monster Hunter: World",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1056.png",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -18209,7 +18209,7 @@
     {
         "GameID": 1072,
         "Name": "Morbid: The Seven Acolytes",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1072.png",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -18804,7 +18804,7 @@
     {
         "GameID": 1107,
         "Name": "Minigolf Galaxy",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1107.png",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
