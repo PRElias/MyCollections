@@ -9,4 +9,9 @@
     <content src="index.html" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
+    <platform name="android">
+        <preference name="SplashScreen" value="none" />
+        <preference name="AutoHideSplashScreen" value="true" />
+        <preference name="SplashScreenDelay" value="0" />
+    </platform>
 </widget>

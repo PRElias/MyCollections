@@ -17121,7 +17121,7 @@
     {
         "GameID": 1008,
         "Name": "Warhammer: End Times - Vermintide",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1008.png",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -17308,10 +17308,10 @@
     {
         "GameID": 1019,
         "Name": "Vessel Demo",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1019.png",
         "Store": "Steam",
         "System": "PC",
-        "Disabled": false,
+        "Disabled": true,
         "BuyDate": null,
         "Price": null,
         "PlayedTime": 0,
@@ -17359,7 +17359,7 @@
     {
         "GameID": 1022,
         "Name": "Warhammer 40,000: Dawn of War - Dark Crusade",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1022.png",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -17376,7 +17376,7 @@
     {
         "GameID": 1023,
         "Name": "Warhammer 40,000: Dawn of War - Winter Assault",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1023.png",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -17393,7 +17393,7 @@
     {
         "GameID": 1024,
         "Name": "Warhammer 40,000: Dawn of War - Soulstorm",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1024.png",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -17410,7 +17410,7 @@
     {
         "GameID": 1025,
         "Name": "Wreckfest",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1025.png",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -17427,7 +17427,7 @@
     {
         "GameID": 1026,
         "Name": "Wreckfest Throw-A-Santa + Sneak Peek 2.0",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1026.png",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -17529,7 +17529,7 @@
     {
         "GameID": 1032,
         "Name": "Vox Machinae",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1032.png",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -17733,7 +17733,7 @@
     {
         "GameID": 1044,
         "Name": "Yonder: The Cloud Catcher Chronicles",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1044.png",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -17784,7 +17784,7 @@
     {
         "GameID": 1047,
         "Name": "Valfaris",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1047.png",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -17903,7 +17903,7 @@
     {
         "GameID": 1054,
         "Name": "Until You Fall",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1054.png",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -18515,7 +18515,7 @@
     {
         "GameID": 1090,
         "Name": "UNCHARTED™: Legacy of Thieves Collection",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1090.png",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -18651,7 +18651,7 @@
     {
         "GameID": 1098,
         "Name": "Warhammer: Vermintide 2",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1098.png",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -18719,7 +18719,7 @@
     {
         "GameID": 1102,
         "Name": "Warhammer 40,000: Space Marine 2",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1102.png",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -18940,7 +18940,7 @@
     {
         "GameID": 1115,
         "Name": "Warhammer 40,000: Gladius - Relics of War",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1115.png",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
