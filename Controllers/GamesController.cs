@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using MyCollections.Repositories;
 using MyCollections.Services;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace MyCollections.Controllers
 {
@@ -206,6 +207,19 @@ namespace MyCollections.Controllers
         {
             Util.Helper.Commit();
             return RedirectToAction("Index", "Games");
+        }
+
+        public async Task FindGameOnSteamAsync()
+        {
+            foreach (var game in games)
+            {
+                if (game.SteamApID == null)
+                {
+                    game.SteamApID = Convert.ToInt32(await Steam.SearchGameByName(game.Name));
+                }
+            }
+            _db.SaveJson(games, @"docs/games/games.json");
+
         }
     }
 }

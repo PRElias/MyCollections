@@ -34,11 +34,31 @@ namespace MyCollections.Services
 
             if (response.IsSuccessStatusCode)
             {
-                var teste2 = response.Content.ReadAsStringAsync().Result;
+                var teste2 = await response.Content.ReadAsStringAsync();
                 retorno = JsonConvert.DeserializeObject<RootObject>(teste2);
             }
 
             return retorno;
+        }
+
+        public static async Task<string> SearchGameByName(string gameName)
+        {
+            string encodedGameName = System.Net.WebUtility.UrlEncode(gameName);
+            string searchUrl = $"https://store.steampowered.com/api/storesearch/?term={encodedGameName}&cc=us&l=en&v=1";
+            HttpResponseMessage response = await _client.GetAsync(searchUrl);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var jsonResponse = await response.Content.ReadAsStringAsync();
+                var searchResults = JsonConvert.DeserializeObject<SearchResults>(jsonResponse);
+
+                if (searchResults.items != null && searchResults.items.Count > 0)
+                {
+                    return searchResults.items[0].id.ToString();
+                }
+            }
+
+            return null;
         }
     }
 
@@ -51,5 +71,16 @@ namespace MyCollections.Services
     public class RootObject
     {
         public Response response { get; set; }
+    }
+
+    public class SearchResults
+    {
+        public List<SearchItem> items { get; set; }
+    }
+
+    public class SearchItem
+    {
+        public int id { get; set; }
+        public string name { get; set; }
     }
 }
