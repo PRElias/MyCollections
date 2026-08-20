@@ -1,6 +1,6 @@
 {
   "name": "My Collections",
-  "short_name": "Collections",
+  "short_name": "My Collections",
   "start_url": "https://mycollections.paulorobertoelias.com.br/",
   "scope": "/",
   "display": "standalone",

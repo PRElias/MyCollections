@@ -1,6 +1,6 @@
 'use strict';
 
-const CACHE_NAME = 'my-collections-v1';
+const CACHE_NAME = 'my-collections-v2';
 const APP_SHELL = [
   './',
   './index.html',
@@ -31,32 +31,15 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
   const requestUrl = new URL(event.request.url);
+  const isStaticAsset = ['style', 'script', 'image', 'font'].includes(event.request.destination);
 
-  if (event.request.method !== 'GET' || requestUrl.origin !== self.location.origin) {
+  if (event.request.method !== 'GET' ||
+      (requestUrl.origin !== self.location.origin && !isStaticAsset)) {
     return;
   }
 
-  if (event.request.mode === 'navigate' || requestUrl.pathname.endsWith('/games/games.json')) {
-    event.respondWith(networkFirst(event.request));
-    return;
-  }
-
-  if (['style', 'script', 'image', 'font'].includes(event.request.destination)) {
-    event.respondWith(cacheFirst(event.request));
-  }
+  event.respondWith(cacheFirst(event.request));
 });
-
-async function networkFirst(request) {
-  try {
-    const networkResponse = await fetch(request);
-    const cache = await caches.open(CACHE_NAME);
-    await cache.put(request, networkResponse.clone());
-    return networkResponse;
-  } catch (error) {
-    const cachedResponse = await caches.match(request);
-    return cachedResponse || caches.match('./index.html');
-  }
-}
 
 async function cacheFirst(request) {
   const cachedResponse = await caches.match(request);
@@ -64,8 +47,18 @@ async function cacheFirst(request) {
     return cachedResponse;
   }
 
-  const networkResponse = await fetch(request);
-  const cache = await caches.open(CACHE_NAME);
-  await cache.put(request, networkResponse.clone());
-  return networkResponse;
+  try {
+    const networkResponse = await fetch(request);
+    if (networkResponse.ok || networkResponse.type === 'opaque') {
+      const cache = await caches.open(CACHE_NAME);
+      await cache.put(request, networkResponse.clone());
+    }
+    return networkResponse;
+  } catch (error) {
+    if (request.mode === 'navigate') {
+      return caches.match('./index.html');
+    }
+
+    return Response.error();
+  }
 }
