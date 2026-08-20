@@ -1,17 +1,13 @@
 if ('serviceWorker' in navigator) {
-    //Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
-    if (navigator.serviceWorker.controller) {
-        console.log('Service worker ativo encontrando')
-    } else {
-        //Register the ServiceWorker
-        window.addEventListener('load', function () {
-            navigator.serviceWorker.register('service-worker.js', {
-                scope: './'
-            }).then(function (reg) {
-                console.log('Service worker registrado para o escopo:' + reg.scope);
-            });
+    window.addEventListener('load', function () {
+        navigator.serviceWorker.register('./service-worker.js', {
+            scope: './'
+        }).then(function (reg) {
+            console.log('Service worker registrado para o escopo: ' + reg.scope);
+        }).catch(function (error) {
+            console.error('Falha ao registrar o service worker:', error);
         });
-    }
+    });
 }
 else {
     console.log("Navegador não aceita serviceWorker");

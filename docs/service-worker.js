@@ -1,69 +1,71 @@
 'use strict';
 
-const CACHE_NAME = 'static-cache';
-const CACHE_NETWORK_FIRST = 'network-first';
-const OFFLINE_URL = '/index.html';
+const CACHE_NAME = 'my-collections-v1';
+const APP_SHELL = [
+  './',
+  './index.html',
+  './css/jogos.css',
+  './js/util.js',
+  './js/jogos.js',
+  './manifest.json',
+  './favicon.ico'
+];
 
-if ('undefined' === typeof window) {
-  importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
-
-
-  if (workbox) {
-    console.log(`Yay! Workbox is loaded 🎉`);
-  } else {
-    console.log(`Boo! Workbox didn't load 😬`);
-  }
-
-  workbox.routing.registerRoute(
-    /.*\.(?:png|jpg|jpeg|svg|gif|js|css|woff|woff2|html)/g,
-    new workbox.strategies.CacheFirst({
-      cacheName: CACHE_NAME,
-      cacheableResponse: {
-        statuses: [0, 200]
-      }
-    })
+self.addEventListener('install', (event) => {
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+      .then((cache) => cache.addAll(APP_SHELL))
+      .then(() => self.skipWaiting())
   );
-
-  workbox.routing.registerRoute(
-    '/games/games.json',
-    new workbox.strategies.StaleWhileRevalidate({
-      cacheName: CACHE_NETWORK_FIRST,
-      cacheableResponse: {
-        statuses: [0, 200]
-      }
-    })
-  );
-}
+});
 
 self.addEventListener('activate', (event) => {
-  event.waitUntil((async () => {
-    // See https://developers.google.com/web/updates/2017/02/navigation-preload
-    if ('navigationPreload' in self.registration) {
-      await self.registration.navigationPreload.enable();
-    }
-  })());
-
-  self.clients.claim();
+  event.waitUntil(
+    caches.keys()
+      .then((cacheNames) => Promise.all(cacheNames
+        .filter((cacheName) => cacheName !== CACHE_NAME)
+        .map((cacheName) => caches.delete(cacheName))))
+      .then(() => self.clients.claim())
+  );
 });
 
 self.addEventListener('fetch', (event) => {
-  if (event.request.mode === 'navigate') {
-    event.respondWith((async () => {
-      try {
-        const preloadResponse = await event.preloadResponse;
-        if (preloadResponse) {
-          return preloadResponse;
-        }
+  const requestUrl = new URL(event.request.url);
 
-        const networkResponse = await fetch(event.request);
-        return networkResponse;
-      } catch (error) {
-        console.log('Fetch failed; returning offline page instead.', error);
+  if (event.request.method !== 'GET' || requestUrl.origin !== self.location.origin) {
+    return;
+  }
 
-        const cache = await caches.open(CACHE_NAME);
-        const cachedResponse = await cache.match(OFFLINE_URL);
-        return cachedResponse;
-      }
-    })());
+  if (event.request.mode === 'navigate' || requestUrl.pathname.endsWith('/games/games.json')) {
+    event.respondWith(networkFirst(event.request));
+    return;
+  }
+
+  if (['style', 'script', 'image', 'font'].includes(event.request.destination)) {
+    event.respondWith(cacheFirst(event.request));
   }
 });
+
+async function networkFirst(request) {
+  try {
+    const networkResponse = await fetch(request);
+    const cache = await caches.open(CACHE_NAME);
+    await cache.put(request, networkResponse.clone());
+    return networkResponse;
+  } catch (error) {
+    const cachedResponse = await caches.match(request);
+    return cachedResponse || caches.match('./index.html');
+  }
+}
+
+async function cacheFirst(request) {
+  const cachedResponse = await caches.match(request);
+  if (cachedResponse) {
+    return cachedResponse;
+  }
+
+  const networkResponse = await fetch(request);
+  const cache = await caches.open(CACHE_NAME);
+  await cache.put(request, networkResponse.clone());
+  return networkResponse;
+}
