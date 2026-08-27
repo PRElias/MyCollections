@@ -78,42 +78,39 @@ app.renderizeGames = function (response) {
     });
 };
 
-app.renderizeDetails = function (gameName) {
+app.renderizeDetails = function (gameId) {
+    let game = app.games.find(function (item) {
+        return item.GameID === Number(gameId);
+    });
+    let main = document.querySelector('.modal-body');
 
-    // let gameCopies = app.games.filter(function (g) {
-    //     return g.name == gameName;
-    // });
+    main.innerHTML = '';
 
-    //Montando elementos HTML
-    // var items = [];
-    // for (var index in gameCopies) {
-    //     var game = gameCopies[index];
-    //     items.push(
-    //         "<p>" + game.system + " / " + game.store + "</p>"
-    //     );
-    // }
+    if (!game) {
+        main.textContent = 'Jogo não encontrado.';
+        return;
+    }
 
-    // let wrapper = document.createElement('div');
-    // wrapper.innerHTML = items.join("");
+    $('.modal-title').text(game.Name);
 
-    // let main = document.querySelector('.modal-body');
-    // main.innerHTML = "";
+    let cover = document.createElement('img');
+    cover.src = game.LogoURL;
+    cover.alt = game.Name;
+    cover.className = 'cover';
+    main.appendChild(cover);
 
-    // let steamAppID = getSteamAppID(gameCopies);
+    let details = document.createElement('p');
+    details.textContent = [game.System, game.Store].filter(Boolean).join(' / ');
+    main.appendChild(details);
 
-    // if (steamAppID != undefined) {
-    //     let steamLink = "https://store.steampowered.com/app/" + steamAppID;
-
-    //     if (steamLink != undefined) {
-    //         let link = document.createElement('a');
-    //         link.href = steamLink;
-    //         link.innerHTML = "Link do Steam";
-    //         link.target = "_blank";
-    //         wrapper.appendChild(link);
-    //     }
-    // }
-
-    // main.appendChild(wrapper);
+    if (game.SteamApID) {
+        let link = document.createElement('a');
+        link.href = 'https://store.steampowered.com/app/' + game.SteamApID;
+        link.textContent = 'Abrir na Steam';
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        main.appendChild(link);
+    }
 };
 
 window.onload = function () {
@@ -207,9 +204,8 @@ $(function () {
     });
 });
 
-function showDetails(gameName) {
-    //app.renderizeDetails(gameName);
-    $('.modal-title').text(gameName);
+function showDetails(gameId) {
+    app.renderizeDetails(gameId);
     $("#modal").modal('show');
 }
 
