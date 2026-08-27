@@ -1,6 +1,6 @@
 'use strict';
 
-const CACHE_NAME = 'my-collections-v2';
+const CACHE_NAME = 'my-collections-v3';
 const APP_SHELL = [
   './',
   './index.html',
@@ -38,7 +38,9 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  event.respondWith(cacheFirst(event.request));
+  event.respondWith(isStaticAsset && event.request.destination === 'image'
+    ? cacheFirst(event.request)
+    : networkFirst(event.request));
 });
 
 async function cacheFirst(request) {
@@ -47,6 +49,15 @@ async function cacheFirst(request) {
     return cachedResponse;
   }
 
+  const networkResponse = await fetch(request);
+  if (networkResponse.ok || networkResponse.type === 'opaque') {
+    const cache = await caches.open(CACHE_NAME);
+    await cache.put(request, networkResponse.clone());
+  }
+  return networkResponse;
+}
+
+async function networkFirst(request) {
   try {
     const networkResponse = await fetch(request);
     if (networkResponse.ok || networkResponse.type === 'opaque') {
@@ -55,6 +66,11 @@ async function cacheFirst(request) {
     }
     return networkResponse;
   } catch (error) {
+    const cachedResponse = await caches.match(request);
+    if (cachedResponse) {
+      return cachedResponse;
+    }
+
     if (request.mode === 'navigate') {
       return caches.match('./index.html');
     }

@@ -1,11 +1,20 @@
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', function () {
+        var hadController = Boolean(navigator.serviceWorker.controller);
         navigator.serviceWorker.register('./service-worker.js', {
-            scope: './'
+            scope: './',
+            updateViaCache: 'none'
         }).then(function (reg) {
             console.log('Service worker registrado para o escopo: ' + reg.scope);
+            return reg.update();
         }).catch(function (error) {
             console.error('Falha ao registrar o service worker:', error);
+        });
+
+        navigator.serviceWorker.addEventListener('controllerchange', function () {
+            if (hadController) {
+                window.location.reload();
+            }
         });
     });
 }
