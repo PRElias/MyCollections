@@ -232,3 +232,78 @@ img.lazy {
     width: 100%;
     z-index: 9999999;
 }
+
+#modal .modal-content {
+    color: #fff;
+    background-color: #9b641e;
+    background-image: linear-gradient(rgba(93, 48, 12, 0.2), rgba(93, 48, 12, 0.2)), url('../img/wooden.png');
+    border: 1px solid #e2b45d;
+    border-radius: 4px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55);
+}
+
+#modal .modal-header {
+    padding: 14px 20px;
+    background: linear-gradient(180deg, #c99338, #8d5819);
+    border-bottom: 1px solid #e2b45d;
+    text-shadow: 1px 1px 2px #4c290c;
+}
+
+#modal .modal-title {
+    color: #fff;
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+#modal .modal-header .close {
+    color: #fff;
+    opacity: 0.9;
+    text-shadow: 1px 1px 2px #4c290c;
+}
+
+#modal .modal-header .close:hover {
+    color: #ffe0a3;
+    opacity: 1;
+}
+
+#modal .modal-body {
+    min-height: 180px;
+    padding: 28px;
+    text-align: center;
+    background-color: rgba(72, 39, 13, 0.32);
+}
+
+#modal .modal-body .cover {
+    width: min(100%, 320px);
+    height: auto;
+    max-height: 220px;
+    object-fit: contain;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 224, 163, 0.65);
+}
+
+#modal .modal-body p {
+    color: #fff4dc;
+    font-size: 1rem;
+    margin: 0 0 18px;
+}
+
+#modal .modal-body a {
+    display: inline-block;
+    padding: 9px 16px;
+    color: #422408;
+    background: #e2b45d;
+    border: 1px solid #f6d38e;
+    border-radius: 3px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#modal .modal-body a:hover {
+    background: #f0c978;
+}
+
+.modal-backdrop.show {
+    opacity: 0.72;
+    background-color: #241507;
+}
