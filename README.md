@@ -23,12 +23,6 @@ A solução consiste em uma sistema em .Net 9.0 para o site e manutenção dos r
 
 Ao executar a aplicação .Net um website local pode ser acessado onde você pode fazer a busca automática do Steam e também adicionar ou editar jogos. Todas essas informações são salvas em um arquivo JSON e respectivas imagens diretamente no diretório local do projeto, que são então salvos no repositório do GitHub e posteriormente copiados para dentro do app Cordova.
 
-## App Cordova
-
-Há também a opção de se gerar um app Cordova usando os mesmos arquivos do PWA/Website. Execute a batch `CopyFilesToCordovaApp.bat` e a cópia de todos os arquivo necessários será executada automaticamente. Depois, é só compilar o app usando a batch `build-debug.bat` e copiar o APK para o celular.
-
-O APK não é assinado com nenhum certificado e não foi pensado para ser disponibilizado na loja do Google, já que ele roda offline, sem nenhuma integração, sendo todos os dados gerados e manipulados de forma desconectada usando a aplicação .Net
-
 ## Integração com o Steam
 
 O principal intuito da solução é prover a consolidação da coleção proveniente de diversas lojas. Infelizmente apenas o Steam oferece uma API atualmente, para recuperar sua biblioteca de jogos. Para que a integração com o Steam funcione, é necessário possuir uma 'key' e um 'steamid' do jogador, que você pode inputar na tela de parâmetros.
