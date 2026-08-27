@@ -7,6 +7,12 @@ html, body {
     overflow-x: hidden;
 }
 
+body {
+    min-height: 100vh;
+    background-color: #9b641e;
+    background-image: url('../img/wooden.png');
+}
+
 body.modal-open {
     overflow: hidden;
 }
@@ -42,10 +48,11 @@ body.modal-open {
 }
 
 .main_div {
-    /*margin: auto;
-    width: 50%;*/
+    min-height: calc(100vh - 50px);
     margin-top: 50px;
-    /*background-image: url('../../img/wooden.png');*/
+    align-content: flex-start;
+    background-color: rgba(155, 100, 30, 0.35);
+    background-image: url('../img/wooden.png');
 }
 
 .storeLogo {
@@ -64,10 +71,10 @@ body.modal-open {
 .game {
     padding: 10px 20px 0px 20px;
     display: inline-block;
-    /*width: 220px;*/
     height: 110px;
+    min-height: 110px;
     background-image: url('../img/wooden.png');
-    /*margin-left: -10px;*/
+    overflow: hidden;
 }
 
 .gameName {
@@ -79,8 +86,10 @@ body.modal-open {
 }
 
 .cover {
-    height: 70px;
-    width: 185px;
+    width: 185px !important;
+    height: 70px !important;
+    max-width: 100%;
+    object-fit: contain;
     margin: 0 auto;
     display: block;
     box-shadow: 10px 0 30px -1px rgb(51, 49, 49);
