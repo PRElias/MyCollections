@@ -4314,7 +4314,7 @@
     "SteamApID": 0,
     "IGDBId": 302156,
     "IGDBUrl": "https://www.igdb.com/games/call-of-duty-black-ops-6",
-    "ExophaseUrl": null,
+    "ExophaseUrl": "https://www.exophase.com/game/call-of-duty-black-ops-6-xbox/achievements/#476920",
     "Summary": "Call of Duty: Black Ops 6 is a first-person shooter co-developed by Treyarch and Raven Software, published by Activision in October 2024. It is the seventh entry in the Black Ops sub-series, set during the early 1990s Gulf War era. The game features a single-player campaign, competitive multiplayer with an omnidirectional movement system allowing players to sprint, dive, and slide in any direction, and a cooperative round-based Zombies mode. It had the longest development cycle in Call of Duty history at four years, during which the team rebuilt core Black Ops systems in a new shared engine.",
     "Storyline": "During Operation Desert Storm, CIA operatives Troy Marshall and William \"\"Case\"\" Calderon are deployed to the Iraq-Kuwait border to extract an Iraqi official. The mission goes sideways when the target claims he is being hunted by a shadowy paramilitary force called Pantheon. After the extraction fails, a rogue former agent named Russell Adler surfaces with a cryptic message pointing to an old KGB safe house in Bulgaria.\n\nSuspended from duty and with no official support, Marshall, Case, and veteran operative Frank Woods assemble a team of outcasts, including an ex-Stasi technician and a skilled assassin. As they dig into Pantheon's operations, they uncover links between the group and CIA leadership itself, along with a dangerous psychochemical weapon called the Cradle. Declared fugitives after being framed for a Pantheon attack, the team must unravel a conspiracy that reaches into the highest levels of American intelligence.",
     "FirstReleaseDate": "2024-10-25T00:00:00",
@@ -4330,7 +4330,7 @@
     ],
     "TotalRating": 78.24013878609085,
     "IDDBData": "{\"id\":302156,\"first_release_date\":1729814400,\"genres\":[{\"id\":5,\"name\":\"Shooter\"}],\"involved_companies\":[{\"id\":397463,\"company\":{\"id\":432,\"name\":\"Beenox\"},\"developer\":false,\"publisher\":false},{\"id\":267498,\"company\":{\"id\":428,\"name\":\"Treyarch\"},\"developer\":true,\"publisher\":false},{\"id\":267477,\"company\":{\"id\":66,\"name\":\"Activision\"},\"developer\":false,\"publisher\":true},{\"id\":267499,\"company\":{\"id\":71,\"name\":\"Raven Software\"},\"developer\":true,\"publisher\":false}],\"name\":\"Call of Duty: Black Ops 6\",\"storyline\":\"During Operation Desert Storm, CIA operatives Troy Marshall and William \\\"\\\"Case\\\"\\\" Calderon are deployed to the Iraq-Kuwait border to extract an Iraqi official. The mission goes sideways when the target claims he is being hunted by a shadowy paramilitary force called Pantheon. After the extraction fails, a rogue former agent named Russell Adler surfaces with a cryptic message pointing to an old KGB safe house in Bulgaria.\\n\\nSuspended from duty and with no official support, Marshall, Case, and veteran operative Frank Woods assemble a team of outcasts, including an ex-Stasi technician and a skilled assassin. As they dig into Pantheon's operations, they uncover links between the group and CIA leadership itself, along with a dangerous psychochemical weapon called the Cradle. Declared fugitives after being framed for a Pantheon attack, the team must unravel a conspiracy that reaches into the highest levels of American intelligence.\",\"summary\":\"Call of Duty: Black Ops 6 is a first-person shooter co-developed by Treyarch and Raven Software, published by Activision in October 2024. It is the seventh entry in the Black Ops sub-series, set during the early 1990s Gulf War era. The game features a single-player campaign, competitive multiplayer with an omnidirectional movement system allowing players to sprint, dive, and slide in any direction, and a cooperative round-based Zombies mode. It had the longest development cycle in Call of Duty history at four years, during which the team rebuilt core Black Ops systems in a new shared engine.\",\"total_rating\":78.24013878609085,\"url\":\"https://www.igdb.com/games/call-of-duty-black-ops-6\"}",
-    "DateUpdated": "2026-09-07T14:27:48.6797603-03:00"
+    "DateUpdated": "2026-09-07T16:16:57.8329194-03:00"
   },
   {
     "GameDetailsID": 1256,
@@ -14346,7 +14346,7 @@
     "SteamApID": 1620730,
     "IGDBId": 196954,
     "IGDBUrl": "https://www.igdb.com/games/hell-is-us",
-    "ExophaseUrl": null,
+    "ExophaseUrl": "https://www.exophase.com/game/hell-is-us-steam/achievements/#884832",
     "Summary": "If war is the closest we get to hell on earth, it's because Earth harbours the worst of demons: humankind. In an isolated country ravaged by infighting, discover the secrets of your past and deal with the repercussions of a mysterious calamity.",
     "Storyline": "As well as the civil war dividing the country, the region is suffering from a mysterious calamity, which has given rise to supernatural creatures that no modern weapon can defeat. Your drone and sword from a different age are your faithful allies as you cut a path through lands infested with terrifying chimeras and try to unravel the mystery of their appearance.",
     "FirstReleaseDate": "2025-09-04T00:00:00",
@@ -14363,7 +14363,7 @@
     ],
     "TotalRating": 78.9628806521312,
     "IDDBData": "{\"id\":196954,\"first_release_date\":1756944000,\"genres\":[{\"id\":4,\"name\":\"Fighting\"},{\"id\":12,\"name\":\"Role-playing (RPG)\"},{\"id\":31,\"name\":\"Adventure\"}],\"involved_companies\":[{\"id\":178143,\"company\":{\"id\":24760,\"name\":\"Nacon\"},\"developer\":false,\"publisher\":true},{\"id\":178142,\"company\":{\"id\":4718,\"name\":\"Rogue Factor\"},\"developer\":true,\"publisher\":false}],\"name\":\"Hell is Us\",\"storyline\":\"As well as the civil war dividing the country, the region is suffering from a mysterious calamity, which has given rise to supernatural creatures that no modern weapon can defeat. Your drone and sword from a different age are your faithful allies as you cut a path through lands infested with terrifying chimeras and try to unravel the mystery of their appearance.\",\"summary\":\"If war is the closest we get to hell on earth, it's because Earth harbours the worst of demons: humankind. In an isolated country ravaged by infighting, discover the secrets of your past and deal with the repercussions of a mysterious calamity.\",\"total_rating\":78.9628806521312,\"url\":\"https://www.igdb.com/games/hell-is-us\"}",
-    "DateUpdated": "2026-09-07T14:25:38.3715751-03:00"
+    "DateUpdated": "2026-09-07T16:17:17.5837299-03:00"
   },
   {
     "GameDetailsID": 1038,

@@ -20724,7 +20724,7 @@
     },
     {
         "GameID": 1220,
-        "Name": "Fallout 3: Game of the Year Edition",
+        "Name": "Fallout 3 - Game of the Year Edition",
         "LogoURL": "games/covers/1221.png",
         "Store": "GOG",
         "System": "PC",
@@ -20737,7 +20737,7 @@
         "SteamOriginalImageURL": null,
         "IGDBId": 15,
         "Selected": false,
-        "FriendlyName": "FALLOUT 3: GAME OF THE YEAR EDITION"
+        "FriendlyName": "FALLOUT 3 - GAME OF THE YEAR EDITION"
     },
     {
         "GameID": 1221,
@@ -23207,7 +23207,7 @@
     {
         "GameID": 1366,
         "Name": "Sin Slayers: The First Sin",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1366.png",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -23615,7 +23615,7 @@
     {
         "GameID": 1390,
         "Name": "Symphonia (Student Project, 2020)",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1390.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -23632,7 +23632,7 @@
     {
         "GameID": 1391,
         "Name": "Syndicate Plus™",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1391.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -23649,7 +23649,7 @@
     {
         "GameID": 1392,
         "Name": "Syndicate Wars™",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1392.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -24125,7 +24125,7 @@
     {
         "GameID": 1420,
         "Name": "The Talos Principle: Gold Edition",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1420.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -24244,7 +24244,7 @@
     {
         "GameID": 1427,
         "Name": "Tomb Raider - The Last Revelation",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1427.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -24516,7 +24516,7 @@
     {
         "GameID": 1443,
         "Name": "Ultima™  Underworld I",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1443.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -24550,7 +24550,7 @@
     {
         "GameID": 1445,
         "Name": "Ultima™  Worlds of Adventure 2: Martian Dreams",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1445.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -24720,7 +24720,7 @@
     {
         "GameID": 1455,
         "Name": "Warhammer 40,000: Rites of War",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1455.webp",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -24822,7 +24822,7 @@
     {
         "GameID": 1461,
         "Name": "Worlds of Ultima™ : The Savage Empire",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1461.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -28494,7 +28494,7 @@
     {
         "GameID": 1677,
         "Name": "Capcom Arcade 2nd Stadium: Street Fighter Alpha: Warriors' Dreams",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1677.jpg",
         "Store": "Windows Store",
         "System": "XBOXOne",
         "Disabled": false,
@@ -28579,7 +28579,7 @@
     {
         "GameID": 1682,
         "Name": "DEATHLOOP Dressed to Kill Bundle",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1682.jpg",
         "Store": "Windows Store",
         "System": "XBOXOne",
         "Disabled": false,
@@ -28630,7 +28630,7 @@
     {
         "GameID": 1685,
         "Name": "DuckTales: Remastered",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1685.jpg",
         "Store": "Windows Store",
         "System": "XBOXOne",
         "Disabled": false,
@@ -28647,7 +28647,7 @@
     {
         "GameID": 1686,
         "Name": "EA SPORTS FC™ 26",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1597.jpg",
         "Store": "Windows Store",
         "System": "XBOXSeries",
         "Disabled": false,
@@ -28664,7 +28664,7 @@
     {
         "GameID": 1687,
         "Name": "Fallout 76",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1687.jpg",
         "Store": "Windows Store",
         "System": "XBOXOne",
         "Disabled": false,
@@ -28885,7 +28885,7 @@
     {
         "GameID": 1700,
         "Name": "Marvel's Avengers - Edição Definitiva",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1700.jpg",
         "Store": "Windows Store",
         "System": "XBOXOne",
         "Disabled": false,
@@ -28970,10 +28970,10 @@
     {
         "GameID": 1705,
         "Name": "Mothership Zeta",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1705.jpg",
         "Store": "Windows Store",
         "System": "XBOX360",
-        "Disabled": false,
+        "Disabled": true,
         "BuyDate": "2018-01-01T00:00:00",
         "Price": null,
         "PlayedTime": null,
@@ -28987,10 +28987,10 @@
     {
         "GameID": 1706,
         "Name": "Operation: Anchorage",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1706.jpg",
         "Store": "Windows Store",
         "System": "XBOX360",
-        "Disabled": false,
+        "Disabled": true,
         "BuyDate": "2018-01-01T00:00:00",
         "Price": null,
         "PlayedTime": null,
@@ -29208,7 +29208,7 @@
     {
         "GameID": 1719,
         "Name": "Super Engine GT Turbo SPEC",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1719.jpg",
         "Store": "Windows Store",
         "System": "XBOXOne",
         "Disabled": false,
@@ -29259,7 +29259,7 @@
     {
         "GameID": 1722,
         "Name": "The Elder Scrolls IV: Oblivion Game of the Year Edition (PC) – 2009",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1722.jpg",
         "Store": "Windows Store",
         "System": "XBOX360",
         "Disabled": false,
@@ -29293,7 +29293,7 @@
     {
         "GameID": 1724,
         "Name": "Tom Clancy's Ghost Recon Breakpoint",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1724.jpg",
         "Store": "Windows Store",
         "System": "XBOXOne",
         "Disabled": false,
@@ -29310,7 +29310,7 @@
     {
         "GameID": 1725,
         "Name": "Tom Clancy's Splinter Cell® Conviction™",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1725.jpg",
         "Store": "Windows Store",
         "System": "XBOX360",
         "Disabled": false,
@@ -29327,7 +29327,7 @@
     {
         "GameID": 1726,
         "Name": "Ufouria: The Saga 2",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1726.jpg",
         "Store": "Windows Store",
         "System": "XBOXOne",
         "Disabled": false,
@@ -29344,7 +29344,7 @@
     {
         "GameID": 1727,
         "Name": "ULTIMATE MARVEL VS. CAPCOM 3",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1727.jpg",
         "Store": "Windows Store",
         "System": "XBOXOne",
         "Disabled": false,
@@ -29361,7 +29361,7 @@
     {
         "GameID": 1728,
         "Name": "Uma Aventura LEGO® 2: Videogame",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1728.jpg",
         "Store": "Windows Store",
         "System": "XBOXOne",
         "Disabled": false,
@@ -29378,7 +29378,7 @@
     {
         "GameID": 1729,
         "Name": "Vampire Survivors",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1729.jpg",
         "Store": "Windows Store",
         "System": "XBOXOne",
         "Disabled": false,
@@ -29395,7 +29395,7 @@
     {
         "GameID": 1730,
         "Name": "Wasteland Remastered",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1730.jpg",
         "Store": "Windows Store",
         "System": "XBOXOne",
         "Disabled": false,
@@ -29412,7 +29412,7 @@
     {
         "GameID": 1731,
         "Name": "Watch Dogs®2",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1731.jpg",
         "Store": "Windows Store",
         "System": "XBOXOne",
         "Disabled": false,
@@ -29446,7 +29446,7 @@
     {
         "GameID": 1733,
         "Name": "Wobbly Life",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1733.jpg",
         "Store": "Windows Store",
         "System": "XBOXOne",
         "Disabled": false,
@@ -29463,7 +29463,7 @@
     {
         "GameID": 1734,
         "Name": "Wolfenstein II: Deluxe Edition",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1734.jpg",
         "Store": "Windows Store",
         "System": "XBOXOne",
         "Disabled": false,
@@ -29497,7 +29497,7 @@
     {
         "GameID": 1736,
         "Name": "Wolfenstein: Youngblood",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1736.jpg",
         "Store": "Windows Store",
         "System": "XBOXOne",
         "Disabled": false,
@@ -29514,7 +29514,7 @@
     {
         "GameID": 1737,
         "Name": "Wolfenstein® II: The New Colossus™ Digital Deluxe Edition",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1737.jpg",
         "Store": "Windows Store",
         "System": "XBOXOne",
         "Disabled": false,
