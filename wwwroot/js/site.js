@@ -184,7 +184,7 @@ function pesquisarImagensJogo(gameId) {
                 $button.attr('title', title);
                 $button.append($('<img />').attr('src', thumbnailUrl).attr('alt', title).css({ width: '160px', height: '90px', objectFit: 'cover' }));
                 $button.on('click', function () {
-                    salvarLogoInternet(gameId, imageUrl, sourceUrl);
+                    salvarLogoInternet(gameId, imageUrl, thumbnailUrl, sourceUrl);
                 });
                 $results.append($button);
             });
@@ -194,10 +194,26 @@ function pesquisarImagensJogo(gameId) {
         });
 }
 
-function salvarLogoInternet(gameId, imageUrl, sourceUrl) {
+function atualizarLinksPesquisaImagem(term) {
+    var query = encodeURIComponent(term + ' game cover');
+    $('#duckDuckGoImageSearch').attr('href', 'https://duckduckgo.com/?q=' + query + '&iax=images&ia=images');
+    $('#bingImageSearch').attr('href', 'https://www.bing.com/images/search?q=' + query);
+}
+
+function salvarLogoManual(gameId) {
+    var imageUrl = $('#manualImageUrl').val();
+    if (!imageUrl) {
+        $('#imageSearchStatus').text('Cole uma URL de imagem para salvar.');
+        return;
+    }
+
+    salvarLogoInternet(gameId, imageUrl, '', '');
+}
+function salvarLogoInternet(gameId, imageUrl, thumbnailUrl, sourceUrl) {
     var $form = $('<form method="post" action="/Games/SalvarLogoInternet"></form>');
     $form.append($('<input type="hidden" name="gameId" />').val(gameId));
     $form.append($('<input type="hidden" name="imageUrl" />').val(imageUrl));
+    $form.append($('<input type="hidden" name="thumbnailUrl" />').val(thumbnailUrl));
     $form.append($('<input type="hidden" name="sourceUrl" />').val(sourceUrl));
     $('body').append($form);
     $form.submit();

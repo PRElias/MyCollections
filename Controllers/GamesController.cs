@@ -244,6 +244,10 @@ namespace MyCollections.Controllers
             {
                 results.AddRange(await SearchImagesAsync(termo + " game cover"));
             }
+            if (results.Count < 12)
+            {
+                results.AddRange(await SearchPageImagesAsync(termo + " game cover"));
+            }
 
             return Json(results
                 .Where(item => !String.IsNullOrWhiteSpace(item.ImageUrl))
@@ -254,7 +258,7 @@ namespace MyCollections.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> SalvarLogoInternet(int gameId, string imageUrl, string sourceUrl)
+        public async Task<IActionResult> SalvarLogoInternet(int gameId, string imageUrl, string thumbnailUrl, string sourceUrl)
         {
             var foundGame = games.FirstOrDefault(g => g.GameID == gameId);
             if (foundGame == null || String.IsNullOrWhiteSpace(imageUrl))
@@ -264,14 +268,14 @@ namespace MyCollections.Controllers
 
             try
             {
-                var fileName = await MyCollections.Util.File.DownloadImageFromUrlAsync(imageUrl, gameId.ToString(), sourceUrl);
+                var fileName = await DownloadSelectedImageAsync(imageUrl, thumbnailUrl, sourceUrl, gameId.ToString());
                 games[games.IndexOf(foundGame)].LogoURL = "games/covers/" + fileName;
                 _db.SaveJson(games, @"docs/games/games.json");
                 TempData["Mensagem"] = "Logo atualizado com a imagem escolhida.";
             }
             catch (Exception)
             {
-                TempData["Mensagem"] = "Não foi possível salvar a imagem escolhida.";
+                TempData["Mensagem"] = "Não foi possível salvar a imagem escolhida nem a miniatura dela.";
             }
 
             return RedirectToAction("Edit", "Games", new { id = gameId });
@@ -342,7 +346,7 @@ namespace MyCollections.Controllers
                             SourceUrl = "https://store.steampowered.com/app/" + appId.Value
                         };
 
-                        if (await IsImageDownloadableAsync(result))
+                        if (await HasDownloadableImageAsync(result))
                         {
                             results.Add(result);
                         }
@@ -355,6 +359,83 @@ namespace MyCollections.Controllers
             {
                 return new List<ImageSearchResult>();
             }
+        }
+        private static async Task<List<ImageSearchResult>> SearchPageImagesAsync(string query)
+        {
+            try
+            {
+                var url = "https://www.bing.com/search?q=" + Uri.EscapeDataString(query);
+                using var request = CreateImageSearchRequest(url);
+                using var response = await _imageSearchClient.SendAsync(request);
+                response.EnsureSuccessStatusCode();
+
+                var html = await response.Content.ReadAsStringAsync();
+                var pageUrls = Regex.Matches(html, "<h2[^>]*>\\s*<a[^>]+href=\\\"(?<url>https?://[^\\\"]+)", RegexOptions.IgnoreCase)
+                    .Select(match => match.Groups["url"].Value)
+                    .Where(pageUrl => !pageUrl.Contains("bing.com", StringComparison.OrdinalIgnoreCase))
+                    .Distinct()
+                    .Take(8)
+                    .ToList();
+
+                var results = new List<ImageSearchResult>();
+                foreach (var pageUrl in pageUrls)
+                {
+                    var image = await GetOpenGraphImageAsync(pageUrl);
+                    if (image != null)
+                    {
+                        results.Add(image);
+                    }
+
+                    if (results.Count == 12)
+                    {
+                        break;
+                    }
+                }
+
+                return results;
+            }
+            catch (Exception)
+            {
+                return new List<ImageSearchResult>();
+            }
+        }
+
+        private static async Task<ImageSearchResult> GetOpenGraphImageAsync(string pageUrl)
+        {
+            try
+            {
+                using var request = CreateImageSearchRequest(pageUrl);
+                using var response = await _imageSearchClient.SendAsync(request);
+                response.EnsureSuccessStatusCode();
+
+                var html = await response.Content.ReadAsStringAsync();
+                var title = GetMetaContent(html, "og:title") ?? Regex.Replace(Regex.Match(html, "<title[^>]*>(?<title>.*?)</title>", RegexOptions.IgnoreCase | RegexOptions.Singleline).Groups["title"].Value, "\\s+", " ").Trim();
+                var imageUrl = GetMetaContent(html, "og:image") ?? GetMetaContent(html, "twitter:image");
+                if (String.IsNullOrWhiteSpace(imageUrl))
+                {
+                    return null;
+                }
+
+                imageUrl = new Uri(new Uri(pageUrl), imageUrl).ToString();
+                return new ImageSearchResult
+                {
+                    Title = title,
+                    ImageUrl = imageUrl,
+                    ThumbnailUrl = imageUrl,
+                    SourceUrl = pageUrl
+                };
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+
+        private static string GetMetaContent(string html, string property)
+        {
+            var pattern = "<meta[^>]+(?:property|name)=['\\\"]" + Regex.Escape(property) + "['\\\"][^>]+content=['\\\"](?<content>[^'\\\"]+)['\\\"]";
+            var match = Regex.Match(html, pattern, RegexOptions.IgnoreCase);
+            return match.Success ? System.Net.WebUtility.HtmlDecode(match.Groups["content"].Value) : null;
         }
         private static async Task<List<ImageSearchResult>> SearchImagesAsync(string query)
         {
@@ -389,21 +470,7 @@ namespace MyCollections.Controllers
                     .Where(item => !String.IsNullOrWhiteSpace(item.ImageUrl) && !String.IsNullOrWhiteSpace(item.ThumbnailUrl))
                     .ToList() ?? new List<ImageSearchResult>();
 
-                var validResults = new List<ImageSearchResult>();
-                foreach (var candidate in candidates)
-                {
-                    if (await IsImageDownloadableAsync(candidate))
-                    {
-                        validResults.Add(candidate);
-                    }
-
-                    if (validResults.Count == 12)
-                    {
-                        break;
-                    }
-                }
-
-                return validResults;
+                return candidates.Take(12).ToList();
             }
             catch (Exception)
             {
@@ -411,11 +478,34 @@ namespace MyCollections.Controllers
             }
         }
 
-        private static async Task<bool> IsImageDownloadableAsync(ImageSearchResult image)
+        private static async Task<string> DownloadSelectedImageAsync(string imageUrl, string thumbnailUrl, string sourceUrl, string baseFileName)
         {
             try
             {
-                using var request = CreateDownloadableImageRequest(image.ImageUrl, image.SourceUrl);
+                return await MyCollections.Util.File.DownloadImageFromUrlAsync(imageUrl, baseFileName, sourceUrl);
+            }
+            catch (Exception) when (!String.IsNullOrWhiteSpace(thumbnailUrl) && !String.Equals(imageUrl, thumbnailUrl, StringComparison.OrdinalIgnoreCase))
+            {
+                return await MyCollections.Util.File.DownloadImageFromUrlAsync(thumbnailUrl, baseFileName, sourceUrl);
+            }
+        }
+
+        private static async Task<bool> HasDownloadableImageAsync(ImageSearchResult image)
+        {
+            return await IsImageUrlDownloadableAsync(image.ImageUrl, image.SourceUrl) ||
+                   await IsImageUrlDownloadableAsync(image.ThumbnailUrl, image.SourceUrl);
+        }
+
+        private static async Task<bool> IsImageUrlDownloadableAsync(string imageUrl, string sourceUrl)
+        {
+            if (String.IsNullOrWhiteSpace(imageUrl))
+            {
+                return false;
+            }
+
+            try
+            {
+                using var request = CreateDownloadableImageRequest(imageUrl, sourceUrl);
                 using var response = await _imageSearchClient.SendAsync(request, HttpCompletionOption.ResponseHeadersRead);
                 if (!response.IsSuccessStatusCode)
                 {
