@@ -18770,7 +18770,7 @@
     {
         "GameID": 1105,
         "Name": "Garten of Banban",
-        "LogoURL": "games/covers/1106.png",
+        "LogoURL": "games/covers/1105.png",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -20385,7 +20385,7 @@
     {
         "GameID": 1200,
         "Name": "Dink Smallwood HD",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1200.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -20470,7 +20470,7 @@
     {
         "GameID": 1205,
         "Name": "DOOM 3: BFG Edition",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1205.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -22595,7 +22595,7 @@
     {
         "GameID": 1330,
         "Name": "Quake II (Original)",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1330.png",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -22629,7 +22629,7 @@
     {
         "GameID": 1332,
         "Name": "Railroad Tycoon 2 Platinum",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1332.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -22935,7 +22935,7 @@
     {
         "GameID": 1350,
         "Name": "Sensible World of Soccer 96/97",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1350.webp",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -22952,7 +22952,7 @@
     {
         "GameID": 1351,
         "Name": "Serious Sam: The First Encounter",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1351.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -23003,7 +23003,7 @@
     {
         "GameID": 1354,
         "Name": "Shadow Warrior Classic Complete",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1354.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -23445,7 +23445,7 @@
     {
         "GameID": 1380,
         "Name": "SteamWorld Quest: Hand of Gilgamech",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1380.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -23700,7 +23700,7 @@
     {
         "GameID": 1395,
         "Name": "Teenagent",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1395.png",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -23853,7 +23853,7 @@
     {
         "GameID": 1404,
         "Name": "The Elder Scrolls III: Morrowind GOTY Edition",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1404.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -23938,7 +23938,7 @@
     {
         "GameID": 1409,
         "Name": "The First Templar - Special Edition",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1409.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -23972,7 +23972,7 @@
     {
         "GameID": 1411,
         "Name": "THE KING OF FIGHTERS 2000",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1411.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -24040,7 +24040,7 @@
     {
         "GameID": 1415,
         "Name": "The Lords of Midnight",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1415.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -24210,7 +24210,7 @@
     {
         "GameID": 1425,
         "Name": "Theme Hospital",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1425.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -24261,7 +24261,7 @@
     {
         "GameID": 1428,
         "Name": "Tomb Raider Chronicles",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1428.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -24278,7 +24278,7 @@
     {
         "GameID": 1429,
         "Name": "Tomb Raider GOTY",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1429.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -26573,7 +26573,7 @@
     {
         "GameID": 1564,
         "Name": "Train Sim World® 6",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1564.jpg",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
