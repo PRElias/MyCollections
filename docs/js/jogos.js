@@ -36,7 +36,7 @@ app.renderizeGames = function (response) {
         return a.FriendlyName < b.FriendlyName ? -1 : a.FriendlyName > b.FriendlyName ? 1 : 0;
     });
 
-    app.tags = [];
+    app.tags.length = 0;
     renderGameList();
 };
 
