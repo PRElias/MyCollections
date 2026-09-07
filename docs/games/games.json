@@ -29548,7 +29548,7 @@
     {
         "GameID": 1739,
         "Name": "Castlevania: SotN",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1739.png",
         "Store": "Google Play",
         "System": "Android",
         "Disabled": false,
@@ -29565,7 +29565,7 @@
     {
         "GameID": 1740,
         "Name": "Civilization Revolution 2",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1740.jpg",
         "Store": "Google Play",
         "System": "Android",
         "Disabled": false,
@@ -29582,7 +29582,7 @@
     {
         "GameID": 1741,
         "Name": "Don't Starve: Pocket Edition",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1741.jpg",
         "Store": "Google Play",
         "System": "Android",
         "Disabled": false,
@@ -29599,7 +29599,7 @@
     {
         "GameID": 1742,
         "Name": "Evoland 2",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1742.png",
         "Store": "Google Play",
         "System": "Android",
         "Disabled": false,
@@ -29633,7 +29633,7 @@
     {
         "GameID": 1744,
         "Name": "Hitman Sniper",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1744.jpg",
         "Store": "Google Play",
         "System": "Android",
         "Disabled": false,
@@ -29650,7 +29650,7 @@
     {
         "GameID": 1745,
         "Name": "Monopoly",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1745.jpg",
         "Store": "Google Play",
         "System": "Android",
         "Disabled": false,
@@ -29667,7 +29667,7 @@
     {
         "GameID": 1746,
         "Name": "The Sun Origin Pós-apocalipse",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1746.jpg",
         "Store": "Google Play",
         "System": "Android",
         "Disabled": false,
@@ -29684,7 +29684,7 @@
     {
         "GameID": 1747,
         "Name": "Wreckfest - Demolition Racing",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1747.jpg",
         "Store": "Google Play",
         "System": "Android",
         "Disabled": false,
