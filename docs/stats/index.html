@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Estatísticas de jogos</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Conquistas e tempo de jogo</p>
+        <h1>Estatísticas da coleção</h1>
+        <p class="updated-at">Atualizada em 07 de setembro de 2026</p>
+      </div>
+      <div class="hero-actions">
+        <a href="../index.html" class="back-link">Voltar à coleção</a>
+      </div>
+    </header>
+    <section class="summary-grid" aria-label="Resumo"></section>
+    <section class="panel chart-panel" aria-labelledby="chartTitle">
+      <div class="panel-heading">
+        <div>
+          <p class="eyebrow">Top 10</p>
+          <h2 id="chartTitle">Mais tempo jogado</h2>
+        </div>
+        <div class="legend" aria-label="Legenda de plataformas"></div>
+      </div>
+      <div id="topChart" class="chart" role="img" aria-label="Top 10 jogos com mais tempo jogado"></div>
+    </section>
+    <section class="panel table-panel" aria-labelledby="tableTitle">
+      <div class="panel-heading table-heading">
+        <div>
+          <p class="eyebrow">Lista completa</p>
+          <h2 id="tableTitle">Jogos catalogados</h2>
+        </div>
+        <div class="filters">
+          <input id="searchBox" type="search" placeholder="Buscar jogo ou plataforma" autocomplete="off">
+          <select id="platformFilter" aria-label="Filtrar plataforma"></select>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table id="statsTable">
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>
+
+

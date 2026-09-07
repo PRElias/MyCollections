@@ -1,6 +1,6 @@
 'use strict';
 
-const CACHE_NAME = 'my-collections-v17';
+const CACHE_NAME = 'my-collections-v20';
 const APP_SHELL = [
   './',
   './index.html',
@@ -8,7 +8,10 @@ const APP_SHELL = [
   './js/util.js',
   './js/jogos.js',
   './manifest.json',
-  './favicon.ico'
+  './favicon.ico',
+  './stats/index.html',
+  './stats/styles.css',
+  './stats/app.js'
 ];
 
 self.addEventListener('install', (event) => {
@@ -78,6 +81,9 @@ async function networkFirst(request) {
     return Response.error();
   }
 }
+
+
+
 
 
 
