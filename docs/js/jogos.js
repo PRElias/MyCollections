@@ -176,6 +176,15 @@ app.renderizeDetails = function (gameId) {
         links.appendChild(link);
     }
 
+    if (gameDetail && gameDetail.ExophaseUrl) {
+        let link = document.createElement('a');
+        link.href = gameDetail.ExophaseUrl;
+        link.textContent = 'Abrir no Exophase';
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        links.appendChild(link);
+    }
+
     if (gameDetail && gameDetail.IGDBUrl) {
         let link = document.createElement('a');
         link.href = gameDetail.IGDBUrl;
@@ -415,5 +424,6 @@ function changePlataforma() {
     all = false;
     $("#navbarSupportedContent").removeClass("show");
 }
+
 
 

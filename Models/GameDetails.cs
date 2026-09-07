@@ -13,6 +13,7 @@ namespace MyCollections.Models
         public int? SteamApID { get; set; }
         public int? IGDBId { get; set; }
         public string IGDBUrl { get; set; }
+        public string ExophaseUrl { get; set; }
         public string Summary { get; set; }
         public string Storyline { get; set; }
         public DateTime? FirstReleaseDate { get; set; }
@@ -24,3 +25,4 @@ namespace MyCollections.Models
         public DateTime DateUpdated { get; set; }
     }
 }
+

@@ -164,6 +164,8 @@ namespace MyCollections.Controllers
         public IActionResult Edit(int id)
         {
             var game = games.Find(g => g.GameID == id);
+            var gameDetails = LoadGameDetails().FirstOrDefault(d => d.FriendlyName == game?.FriendlyName);
+            ViewBag.ExophaseUrl = gameDetails?.ExophaseUrl;
             return View(game);
         }
 
@@ -340,6 +342,44 @@ namespace MyCollections.Controllers
 
             TempData["Mensagem"] = $"Detalhes IGDB atualizados: {updated}. Não encontrados: {notFound}. Erros: {errors}.";
             return id.HasValue ? RedirectToAction("Edit", "Games", new { id = id.Value }) : RedirectToAction("Index", "Games");
+        }
+
+        [HttpPost]
+        public IActionResult SalvarExophaseUrl(int gameId, string exophaseUrl)
+        {
+            var foundGame = games.FirstOrDefault(g => g.GameID == gameId);
+            if (foundGame == null)
+            {
+                TempData["Mensagem"] = "Jogo não encontrado.";
+                return RedirectToAction("Index", "Games");
+            }
+
+            if (!String.IsNullOrWhiteSpace(exophaseUrl) &&
+                (Uri.TryCreate(exophaseUrl, UriKind.Absolute, out var uri) == false || uri.Host.EndsWith("exophase.com", StringComparison.OrdinalIgnoreCase) == false))
+            {
+                TempData["Mensagem"] = "Informe uma URL válida do Exophase.";
+                return RedirectToAction("Edit", "Games", new { id = gameId });
+            }
+
+            var details = LoadGameDetails();
+            var detail = details.FirstOrDefault(d => d.FriendlyName == foundGame.FriendlyName);
+            if (detail == null)
+            {
+                detail = new GameDetails
+                {
+                    GameDetailsID = details.Any() ? details.Max(d => d.GameDetailsID) + 1 : 1,
+                    FriendlyName = foundGame.FriendlyName,
+                    Name = foundGame.Name
+                };
+                details.Add(detail);
+            }
+
+            detail.ExophaseUrl = String.IsNullOrWhiteSpace(exophaseUrl) ? null : exophaseUrl.Trim();
+            detail.DateUpdated = DateTime.Now;
+            SaveGameDetails(details);
+
+            TempData["Mensagem"] = String.IsNullOrWhiteSpace(detail.ExophaseUrl) ? "Link do Exophase removido." : "Link do Exophase salvo.";
+            return RedirectToAction("Edit", "Games", new { id = gameId });
         }
         [HttpPost]
         public IActionResult Delete(int id)
@@ -642,6 +682,7 @@ namespace MyCollections.Controllers
             }
 
             detail.GameDetailsID = existing.GameDetailsID;
+            detail.ExophaseUrl = String.IsNullOrWhiteSpace(detail.ExophaseUrl) ? existing.ExophaseUrl : detail.ExophaseUrl;
             var index = details.IndexOf(existing);
             details[index] = detail;
         }
@@ -801,6 +842,9 @@ namespace MyCollections.Controllers
         }
     }
 }
+
+
+
 
 
 

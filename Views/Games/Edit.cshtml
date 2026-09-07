@@ -84,6 +84,22 @@
         </div>
     </div>
 
+    <div class="form-group" id="divExophaseUrl">
+        <div class="row">
+            <div class="col-md-4">
+                <label class="form-label">Achievements Exophase</label>
+            </div>
+            <div class="col-md-8">
+                <div class="input-group mb-2">
+                    <input type="url" class="form-control" id="exophaseUrl" value="@ViewBag.ExophaseUrl" placeholder="Cole a URL de achievements do Exophase" />
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-secondary" onclick="salvarExophaseUrl(@Model.GameID)">Salvar URL</button>
+                    </div>
+                </div>
+                <a href="https://www.exophase.com/search/?q=@Uri.EscapeDataString(Model.Name)" target="_blank" rel="noopener noreferrer">Pesquisar no Exophase</a>
+            </div>
+        </div>
+    </div>
     <div class="form-group">
         <div class="row">
         <div class="col-md-4">
@@ -119,4 +135,5 @@
         </div>
     </div>
 }
+
 

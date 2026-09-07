@@ -265,3 +265,13 @@ function deleteGame(id) {
 
 
 
+
+function salvarExophaseUrl(gameId) {
+    var exophaseUrl = $('#exophaseUrl').val();
+    showBlockingLoading('Salvando link do Exophase...');
+    var $form = $('<form method="post" action="/Games/SalvarExophaseUrl"></form>');
+    $form.append($('<input type="hidden" name="gameId" />').val(gameId));
+    $form.append($('<input type="hidden" name="exophaseUrl" />').val(exophaseUrl));
+    $('body').append($form);
+    $form.submit();
+}
