@@ -81,7 +81,7 @@ function renderGameList(selectedSystem) {
             app.tags.indexOf(game.FriendlyName) === -1 ? app.tags.push(game.FriendlyName) : null;
             items.push(
                 "<span " + hidden + " class='game col-lg-2 col-sm-6 col-md-6 col-xs-12 " + escapeHtmlAttribute(game.System) + " " + escapeHtmlAttribute(game.Store) + "' id='" + game.GameID +
-                "' name='" + escapeHtmlAttribute(game.FriendlyName) +
+                "' data-key='" + escapeHtmlAttribute(friendlyName) + "' name='" + escapeHtmlAttribute(game.FriendlyName) +
                 "' onclick='showDetails(" + game.GameID + ")'>" +
                 "<p class='gameName'>" + escapeHtml(game.Name) + "</p>" +
                 getCoverHtml(game) +
@@ -355,18 +355,19 @@ function createPlatformOption(value, text, selected) {
 
 function navigateToGame() {
     var pesquisa = $('#procurar').val();
+    var gameKey = normalizeGameKey(pesquisa);
     var jogo = $('.game').filter(function () {
-        return this.getAttribute('name') === pesquisa && !$(this).hasClass('hidden') && $(this).is(':visible');
+        return this.getAttribute('data-key') === gameKey && !$(this).hasClass('hidden') && $(this).is(':visible');
     }).first();
 
     if (jogo.length === 0) {
         jogo = $('.game').filter(function () {
-            return this.getAttribute('name') === pesquisa;
+            return this.getAttribute('data-key') === gameKey;
         }).first();
     }
 
     if (jogo.length > 0) {
-        $('html, body').animate({
+        $('html, body').stop(true).animate({
             scrollTop: jogo.offset().top - 35
         }, 1000);
     }
@@ -415,7 +416,7 @@ $(function () {
                 sPlataforma.value = "";
             }
             changePlataforma();
-            navigateToGame();
+            setTimeout(navigateToGame, 50);
         }
     });
 });
@@ -456,6 +457,8 @@ function changePlataforma() {
     all = false;
     $("#navbarSupportedContent").removeClass("show");
 }
+
+
 
 
 
