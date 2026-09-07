@@ -1,4 +1,4 @@
-﻿// $('#btn_GetFromSteam').click(function () {
+// $('#btn_GetFromSteam').click(function () {
 //     $('#btn_GetFromSteam').text("Aguarde").addClass("blink_me").css("pointer-events", "none");
 //     var userId = $("#hiddenUserId").data("value");
 //     $.ajax({
@@ -151,6 +151,54 @@ function usarImagemSteam() {
     element.hidden = true;
     console.log(element);
     $("#divNewImage").append(element);
+}
+
+function pesquisarImagensJogo(gameId) {
+    var term = $('#imageSearchTerm').val();
+    var $status = $('#imageSearchStatus');
+    var $results = $('#imageSearchResults');
+
+    if (!term) {
+        $status.text('Informe um termo para pesquisar.');
+        return;
+    }
+
+    $status.text('Pesquisando...');
+    $results.empty();
+
+    $.getJSON('/Games/PesquisarImagens', { termo: term })
+        .done(function (images) {
+            if (!images || images.length === 0) {
+                $status.text('Nenhuma imagem encontrada.');
+                return;
+            }
+
+            $status.text('Clique em uma imagem para salvar como logo.');
+            images.forEach(function (image) {
+                var imageUrl = image.imageUrl || image.ImageUrl;
+                var thumbnailUrl = image.thumbnailUrl || image.ThumbnailUrl || imageUrl;
+                var title = image.title || image.Title || '';
+
+                var $button = $('<button type="button" class="btn btn-light border m-1 internet-image-option"></button>');
+                $button.attr('title', title);
+                $button.append($('<img />').attr('src', thumbnailUrl).attr('alt', title).css({ width: '160px', height: '90px', objectFit: 'cover' }));
+                $button.on('click', function () {
+                    salvarLogoInternet(gameId, imageUrl);
+                });
+                $results.append($button);
+            });
+        })
+        .fail(function () {
+            $status.text('Não foi possível pesquisar imagens agora.');
+        });
+}
+
+function salvarLogoInternet(gameId, imageUrl) {
+    var $form = $('<form method="post" action="/Games/SalvarLogoInternet"></form>');
+    $form.append($('<input type="hidden" name="gameId" />').val(gameId));
+    $form.append($('<input type="hidden" name="imageUrl" />').val(imageUrl));
+    $('body').append($form);
+    $form.submit();
 }
 
 function deleteGame(id) {

@@ -2,6 +2,11 @@
 
 @using (Html.BeginForm("Upsert", "Games", FormMethod.Post, new { enctype = "multipart/form-data" }))
 {
+    @if (TempData["Mensagem"] != null)
+    {
+        <div class="alert alert-info">@TempData["Mensagem"]</div>
+    }
+
     <div class="form-group">
         <div class="row">
             <div class="col-md-4">
@@ -47,6 +52,24 @@
         </div>
     </div>
     @* } *@
+    <div class="form-group" id="divInternetImageSearch">
+        <div class="row">
+            <div class="col-md-4">
+                <label class="form-label">Pesquisar imagem na internet</label>
+            </div>
+            <div class="col-md-8">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="imageSearchTerm" value="@Model.Name" />
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-primary" id="btnPesquisarImagem" onclick="pesquisarImagensJogo(@Model.GameID)">Pesquisar</button>
+                    </div>
+                </div>
+                <div id="imageSearchStatus" class="text-muted"></div>
+                <div id="imageSearchResults" class="d-flex flex-wrap"></div>
+            </div>
+        </div>
+    </div>
+
     <div class="form-group">
         <div class="row">
         <div class="col-md-4">

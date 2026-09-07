@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using MyCollections.Models;
 using System.IO;
 using Newtonsoft.Json;
@@ -10,6 +10,8 @@ using MyCollections.Services;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Net.Http;
+using System.Text.RegularExpressions;
+using Newtonsoft.Json.Linq;
 
 namespace MyCollections.Controllers
 {
@@ -17,6 +19,7 @@ namespace MyCollections.Controllers
     {
         private MyCollectionsRepository _db;
         private System.Collections.Generic.List<Game> games = new System.Collections.Generic.List<Game>();
+        private static readonly HttpClient _imageSearchClient = new HttpClient();
 
         public GamesController([FromServices] MyCollectionsRepository db)
         {
@@ -224,6 +227,41 @@ namespace MyCollections.Controllers
             return RedirectToAction("Index", "Games", new { semLogo = true });
         }
 
+        public async Task<IActionResult> PesquisarImagens(string termo)
+        {
+            if (String.IsNullOrWhiteSpace(termo))
+            {
+                return Json(new List<ImageSearchResult>());
+            }
+
+            var results = await SearchImagesAsync(termo + " game cover");
+            return Json(results);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> SalvarLogoInternet(int gameId, string imageUrl)
+        {
+            var foundGame = games.FirstOrDefault(g => g.GameID == gameId);
+            if (foundGame == null || String.IsNullOrWhiteSpace(imageUrl))
+            {
+                return RedirectToAction("Index", "Games");
+            }
+
+            try
+            {
+                var fileName = await MyCollections.Util.File.DownloadImageFromUrlAsync(imageUrl, gameId.ToString());
+                games[games.IndexOf(foundGame)].LogoURL = "games/covers/" + fileName;
+                _db.SaveJson(games, @"docs/games/games.json");
+                TempData["Mensagem"] = "Logo atualizado com a imagem escolhida.";
+            }
+            catch (Exception)
+            {
+                TempData["Mensagem"] = "Não foi possível salvar a imagem escolhida.";
+            }
+
+            return RedirectToAction("Edit", "Games", new { id = gameId });
+        }
+
         [HttpPost]
         public IActionResult Delete(int id)
         {
@@ -249,6 +287,53 @@ namespace MyCollections.Controllers
             }
             _db.SaveJson(games, @"docs/games/games.json");
 
+        }
+
+        private static async Task<List<ImageSearchResult>> SearchImagesAsync(string query)
+        {
+            try
+            {
+                using var pageRequest = CreateImageSearchRequest("https://duckduckgo.com/?q=" + Uri.EscapeDataString(query) + "&iax=images&ia=images");
+                var page = await _imageSearchClient.SendAsync(pageRequest);
+                page.EnsureSuccessStatusCode();
+                var html = await page.Content.ReadAsStringAsync();
+                var vqdMatch = Regex.Match(html, "vqd=['\\\"]?([^'\\\"&]+)");
+                if (!vqdMatch.Success)
+                {
+                    return new List<ImageSearchResult>();
+                }
+
+                var url = "https://duckduckgo.com/i.js?l=us-en&o=json&q=" + Uri.EscapeDataString(query) + "&vqd=" + Uri.EscapeDataString(vqdMatch.Groups[1].Value) + "&f=,,,,,&p=1";
+                using var imageRequest = CreateImageSearchRequest(url);
+                var response = await _imageSearchClient.SendAsync(imageRequest);
+                response.EnsureSuccessStatusCode();
+                var json = await response.Content.ReadAsStringAsync();
+                var parsed = JObject.Parse(json);
+
+                return parsed["results"]?
+                    .Take(12)
+                    .Select(item => new ImageSearchResult
+                    {
+                        Title = item.Value<string>("title"),
+                        ImageUrl = item.Value<string>("image"),
+                        ThumbnailUrl = item.Value<string>("thumbnail"),
+                        SourceUrl = item.Value<string>("url")
+                    })
+                    .Where(item => !String.IsNullOrWhiteSpace(item.ImageUrl) && !String.IsNullOrWhiteSpace(item.ThumbnailUrl))
+                    .ToList() ?? new List<ImageSearchResult>();
+            }
+            catch (Exception)
+            {
+                return new List<ImageSearchResult>();
+            }
+        }
+
+        private static HttpRequestMessage CreateImageSearchRequest(string url)
+        {
+            var request = new HttpRequestMessage(HttpMethod.Get, url);
+            request.Headers.UserAgent.ParseAdd("Mozilla/5.0 MyCollections/1.0");
+            request.Headers.Referrer = new Uri("https://duckduckgo.com/");
+            return request;
         }
 
         private static string GetSteamHeaderUrl(Game game)

@@ -19654,7 +19654,7 @@
     {
         "GameID": 1157,
         "Name": "BioShock Infinite Complete Edition",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1157.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
