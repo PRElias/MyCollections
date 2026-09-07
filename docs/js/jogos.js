@@ -36,38 +36,42 @@ app.renderizeGames = function (response) {
         return a.FriendlyName < b.FriendlyName ? -1 : a.FriendlyName > b.FriendlyName ? 1 : 0;
     });
 
+    app.tags = [];
+    renderGameList();
+};
+
+function renderGameList(selectedSystem) {
     let items = [];
     let lastName = "";
     let hidden = "";
     app.hiddens = [];
+
     for (let index in app.games) {
-        if (app.games[index].Disabled == false) {
-            if (app.games[index].Name == lastName) {
+        let game = app.games[index];
+        if (game.Disabled == false && (!selectedSystem || game.System === selectedSystem)) {
+            if (!selectedSystem && game.Name == lastName) {
                 hidden = " hidden";
-                app.hiddens.push(app.games[index]);
+                app.hiddens.push(game);
             }
             else {
                 hidden = "";
             }
 
-            lastName = app.games[index].Name;
-            app.tags.indexOf(app.games[index].FriendlyName) === -1 ? app.tags.push(app.games[index].FriendlyName) : null;
+            lastName = game.Name;
+            app.tags.indexOf(game.FriendlyName) === -1 ? app.tags.push(game.FriendlyName) : null;
             items.push(
-                "<span " + hidden + " class='game col-lg-2 col-sm-6 col-md-6 col-xs-12 " + app.games[index].System + " " + app.games[index].Store + "' id='" + app.games[index].GameID + 
-                "' name='" + app.games[index].FriendlyName +
-                "' onclick='showDetails(" + app.games[index].GameID + ")'>" +
-                "<p class='gameName'>" + app.games[index].Name + "</p>" +
-                "<img class='cover lazy' data-src='" + app.games[index].LogoURL + "' data-game='" + app.games[index].FriendlyName + "' /img>" +
+                "<span " + hidden + " class='game col-lg-2 col-sm-6 col-md-6 col-xs-12 " + game.System + " " + game.Store + "' id='" + game.GameID +
+                "' name='" + game.FriendlyName +
+                "' onclick='showDetails(" + game.GameID + ")'>" +
+                "<p class='gameName'>" + game.Name + "</p>" +
+                "<img class='cover lazy' data-src='" + game.LogoURL + "' data-game='" + game.FriendlyName + "' /img>" +
                 "</span>"
             );
         }
     }
 
-    let wrapper = document.createElement('div');
-    wrapper.innerHTML = items.join("");
-
     let main = document.querySelector('div.main_div');
-    main.appendChild(wrapper);
+    main.innerHTML = items.join("");
 
     $('.lazy').Lazy({
         //TODO: não funcionou o delay no lugar do scroll
@@ -77,7 +81,7 @@ app.renderizeGames = function (response) {
             $('#loading').hide();
         }
     });
-};
+}
 
 app.renderizeDetails = function (gameId) {
     let game = app.games.find(function (item) {
@@ -291,29 +295,8 @@ $(window).scroll(function () {
 $(function () { $(".scroll").click(function () { $("html,body").animate({ scrollTop: "64" }, "1000"); return false }) })
 
 function changePlataforma() {
-    if (sPlataforma.options[0].selected === true) {
-        all = true;
-    }
-    for (i = 1; i < sPlataforma.length; i++) {
-        let system = "." + sPlataforma.options[i].value;
-        $(system).show();
-        if (all) { 
-            for (h = 0; h < app.hiddens.length; h++) {
-                var game = document.getElementById(app.hiddens[h].GameID);
-                if (game != null){ game.hidden = true };
-            }
-            continue; 
-        }
-        else {
-            for (h = 0; h < app.hiddens.length; h++) {
-                var game = document.getElementById(app.hiddens[h].GameID);
-                if (game != null){ game.hidden = false };
-            }
-        }
-        if (sPlataforma.options[i].selected === false) {
-            $(system).hide();
-        }
-    }
+    var selectedSystem = sPlataforma.value;
+    renderGameList(selectedSystem);
     all = false;
     $("#navbarSupportedContent").removeClass("show");
 }
