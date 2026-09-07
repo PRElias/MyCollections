@@ -23618,7 +23618,7 @@
     "LogoURL": "games/covers/1425.png",
     "Store": "GOG",
     "System": "PC",
-    "Disabled": false,
+    "Disabled": true,
     "BuyDate": null,
     "Price": null,
     "PlayedTime": 0,
@@ -29326,7 +29326,7 @@
   },
   {
     "GameID": 1767,
-    "Name": "The Witcher 3",
+    "Name": "The Witcher 3: Wild Hunt",
     "LogoURL": "games/covers/1767.jpg",
     "Store": "PSN",
     "System": "PS4",
@@ -29339,7 +29339,7 @@
     "SteamOriginalImageURL": null,
     "IGDBId": null,
     "Selected": false,
-    "FriendlyName": "THE WITCHER 3"
+    "FriendlyName": "THE WITCHER 3: WILD HUNT"
   },
   {
     "GameID": 1768,
