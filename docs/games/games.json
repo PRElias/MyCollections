@@ -18412,7 +18412,7 @@
     },
     {
         "GameID": 1084,
-        "Name": "Battlefield™ 2042",
+        "Name": "Battlefield 2042",
         "LogoURL": "games/covers/1085.png",
         "Store": "Steam",
         "System": "PC",
@@ -18425,7 +18425,7 @@
         "SteamOriginalImageURL": ".jpg",
         "IGDBId": null,
         "Selected": false,
-        "FriendlyName": "BATTLEFIELD™ 2042"
+        "FriendlyName": "BATTLEFIELD 2042"
     },
     {
         "GameID": 1085,
@@ -19620,7 +19620,7 @@
     {
         "GameID": 1155,
         "Name": "Biing!: Sex, Intrigue and Scalpels",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1155.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -19977,7 +19977,7 @@
     {
         "GameID": 1176,
         "Name": "Cave Story®'s Secret Santa",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1176.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -20215,7 +20215,7 @@
     {
         "GameID": 1190,
         "Name": "Dark Deity: Complete Edition",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1190.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -20317,7 +20317,7 @@
     {
         "GameID": 1196,
         "Name": "Deus Ex 2: Invisible War",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1196.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -20368,7 +20368,7 @@
     {
         "GameID": 1199,
         "Name": "Deus Ex™ GOTY Edition",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1199.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -20504,7 +20504,7 @@
     {
         "GameID": 1207,
         "Name": "Doomdark's Revenge",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1207.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -20691,7 +20691,7 @@
     {
         "GameID": 1218,
         "Name": "Fall of Porcupine: Prologue",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1218.png",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -20776,7 +20776,7 @@
     {
         "GameID": 1223,
         "Name": "Fallout: London",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1223.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -20810,7 +20810,7 @@
     {
         "GameID": 1225,
         "Name": "FATAL FURY SPECIAL",
-        "LogoURL": null,
+        "LogoURL": "./games/covers/FatalFurySpecial.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -21238,7 +21238,7 @@
         "LogoURL": null,
         "Store": "GOG",
         "System": "PC",
-        "Disabled": false,
+        "Disabled": true,
         "BuyDate": null,
         "Price": null,
         "PlayedTime": 0,
@@ -21456,7 +21456,7 @@
     {
         "GameID": 1263,
         "Name": "Jazz Jackrabbit 2: The Christmas Chronicles",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1263.png",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -21473,7 +21473,7 @@
     {
         "GameID": 1264,
         "Name": "Jazz Jackrabbit 2: The Secret Files",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1264.png",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -21490,7 +21490,7 @@
     {
         "GameID": 1265,
         "Name": "Jill of the Jungle: The Complete Trilogy",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1265.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -21609,7 +21609,7 @@
     {
         "GameID": 1272,
         "Name": "Legendary Hoplite: Ajax’s Trial",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1272.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -21966,7 +21966,7 @@
     {
         "GameID": 1293,
         "Name": "Middle-earth™: Shadow of Mordor™ Game of the Year Edition",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1293.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -22136,7 +22136,7 @@
     {
         "GameID": 1303,
         "Name": "Mortal Kombat 3",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1303.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -22153,7 +22153,7 @@
     {
         "GameID": 1304,
         "Name": "Mortal Kombat 4",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1304.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -22170,7 +22170,7 @@
     {
         "GameID": 1305,
         "Name": "Mortal Kombat Trilogy",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1305.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
