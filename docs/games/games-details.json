@@ -1,0 +1,25 @@
+[
+  {
+    "GameDetailsID": 1,
+    "FriendlyName": "DRAGON AGE ORIGINS",
+    "Name": "Dragon Age: Origins",
+    "SteamApID": 47810,
+    "IGDBId": 76,
+    "IGDBUrl": "https://www.igdb.com/games/dragon-age-origins",
+    "Summary": "Dragon Age: Origins is a third-person role-playing game described as a spiritual successor to Baldur's Gate and Neverwinter Nights franchises. Players create their own character by customizing gender and appearance as well as choosing a race and class. Combat is in real time with the ability to pause at any moment: tactical options include an editor which allows the player to give the AI detailed instructions on how to behave in every possible situation. Although the main storyline is the same for every character created, the game features six unique prologues, two for each race. Dragon Age: Origins received critical acclaim upon release, with praise mostly directed at its story, setting, characters, music and combat system.",
+    "Storyline": "Set in the fictional kingdom of Ferelden during a period of civil strife, the game puts the player in the role of a warrior, mage, or rogue coming from an elven, human, or dwarven background. The player character is recruited into the Grey Wardens, an ancient order that stands against monstrous forces known as Darkspawn, and is tasked with defeating the Archdemon that commands them and ending their invasion.",
+    "FirstReleaseDate": "2009-11-03T00:00:00",
+    "Genres": [
+      "Role-playing (RPG)"
+    ],
+    "Developers": [
+      "BioWare Edmonton"
+    ],
+    "Publishers": [
+      "Electronic Arts"
+    ],
+    "TotalRating": 88.2728393032062,
+    "IDDBData": "{\"id\":76,\"first_release_date\":1257206400,\"genres\":[{\"id\":12,\"name\":\"Role-playing (RPG)\"}],\"involved_companies\":[{\"id\":4148,\"company\":{\"id\":1,\"name\":\"Electronic Arts\"},\"developer\":false,\"publisher\":true},{\"id\":42805,\"company\":{\"id\":223,\"name\":\"Edge of Reality\"},\"developer\":false,\"publisher\":false},{\"id\":192449,\"company\":{\"id\":222,\"name\":\"BioWare Edmonton\"},\"developer\":true,\"publisher\":false}],\"name\":\"Dragon Age: Origins\",\"storyline\":\"Set in the fictional kingdom of Ferelden during a period of civil strife, the game puts the player in the role of a warrior, mage, or rogue coming from an elven, human, or dwarven background. The player character is recruited into the Grey Wardens, an ancient order that stands against monstrous forces known as Darkspawn, and is tasked with defeating the Archdemon that commands them and ending their invasion.\",\"summary\":\"Dragon Age: Origins is a third-person role-playing game described as a spiritual successor to Baldur's Gate and Neverwinter Nights franchises. Players create their own character by customizing gender and appearance as well as choosing a race and class. Combat is in real time with the ability to pause at any moment: tactical options include an editor which allows the player to give the AI detailed instructions on how to behave in every possible situation. Although the main storyline is the same for every character created, the game features six unique prologues, two for each race. Dragon Age: Origins received critical acclaim upon release, with praise mostly directed at its story, setting, characters, music and combat system.\",\"total_rating\":88.2728393032062,\"url\":\"https://www.igdb.com/games/dragon-age-origins\"}",
+    "DateUpdated": "2026-09-07T13:57:28.9487727-03:00"
+  }
+]

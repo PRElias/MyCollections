@@ -9,6 +9,8 @@ using MyCollections.Services;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Text;
 using System.Text.RegularExpressions;
 using Newtonsoft.Json.Linq;
 
@@ -19,6 +21,7 @@ namespace MyCollections.Controllers
         private MyCollectionsRepository _db;
         private System.Collections.Generic.List<Game> games = new System.Collections.Generic.List<Game>();
         private static readonly HttpClient _imageSearchClient = new HttpClient { Timeout = TimeSpan.FromSeconds(15) };
+        private static readonly HttpClient _igdbClient = new HttpClient { Timeout = TimeSpan.FromSeconds(30) };
 
         public GamesController([FromServices] MyCollectionsRepository db)
         {
@@ -280,7 +283,64 @@ namespace MyCollections.Controllers
 
             return RedirectToAction("Edit", "Games", new { id = gameId });
         }
+        public async Task<IActionResult> AtualizarDetalhesIgdb(int? id)
+        {
+            var config = _db.GetAll();
+            if (String.IsNullOrWhiteSpace(config.igdbClientId) || String.IsNullOrWhiteSpace(config.igdbClientSecret))
+            {
+                TempData["Mensagem"] = "Informe IGDB Client ID e IGDB Client Secret em Configurações.";
+                return id.HasValue ? RedirectToAction("Edit", "Games", new { id = id.Value }) : RedirectToAction("Index", "Games");
+            }
 
+            var details = LoadGameDetails();
+            var targets = id.HasValue
+                ? games.Where(g => g.GameID == id.Value).ToList()
+                : games.Where(g => !g.Disabled)
+                    .GroupBy(g => g.FriendlyName)
+                    .Select(group => group.First())
+                    .Where(g => details.Any(d => d.FriendlyName == g.FriendlyName) == false)
+                    .ToList();
+
+            var updated = 0;
+            var notFound = 0;
+            var errors = 0;
+
+            foreach (var game in targets)
+            {
+                try
+                {
+                    var detail = await SearchIgdbGameDetailsAsync(game, config);
+                    if (detail == null)
+                    {
+                        notFound++;
+                    }
+                    else
+                    {
+                        UpsertGameDetails(details, detail);
+                        foreach (var copy in games.Where(g => g.FriendlyName == game.FriendlyName))
+                        {
+                            copy.IGDBId = detail.IGDBId;
+                        }
+                        updated++;
+                    }
+                }
+                catch (Exception)
+                {
+                    errors++;
+                }
+
+                await Task.Delay(300);
+            }
+
+            SaveGameDetails(details);
+            if (updated > 0)
+            {
+                _db.SaveJson(games, @"docs/games/games.json");
+            }
+
+            TempData["Mensagem"] = $"Detalhes IGDB atualizados: {updated}. Não encontrados: {notFound}. Erros: {errors}.";
+            return id.HasValue ? RedirectToAction("Edit", "Games", new { id = id.Value }) : RedirectToAction("Index", "Games");
+        }
         [HttpPost]
         public IActionResult Delete(int id)
         {
@@ -547,6 +607,173 @@ namespace MyCollections.Controllers
             return $"https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/{game.SteamApID}/header.jpg";
         }
 
+        private static List<GameDetails> LoadGameDetails()
+        {
+            var path = Path.Combine("docs", "games", "games-details.json");
+            if (!System.IO.File.Exists(path))
+            {
+                return new List<GameDetails>();
+            }
+
+            var json = System.IO.File.ReadAllText(path);
+            if (String.IsNullOrWhiteSpace(json))
+            {
+                return new List<GameDetails>();
+            }
+
+            return JsonConvert.DeserializeObject<List<GameDetails>>(json) ?? new List<GameDetails>();
+        }
+
+        private static void SaveGameDetails(List<GameDetails> details)
+        {
+            var path = Path.Combine("docs", "games", "games-details.json");
+            var json = JsonConvert.SerializeObject(details.OrderBy(d => d.Name).ToList(), Formatting.Indented);
+            System.IO.File.WriteAllText(path, json);
+        }
+
+        private static void UpsertGameDetails(List<GameDetails> details, GameDetails detail)
+        {
+            var existing = details.FirstOrDefault(d => d.FriendlyName == detail.FriendlyName);
+            if (existing == null)
+            {
+                detail.GameDetailsID = details.Any() ? details.Max(d => d.GameDetailsID) + 1 : 1;
+                details.Add(detail);
+                return;
+            }
+
+            detail.GameDetailsID = existing.GameDetailsID;
+            var index = details.IndexOf(existing);
+            details[index] = detail;
+        }
+
+        private static async Task<GameDetails> SearchIgdbGameDetailsAsync(Game game, Config config)
+        {
+            var token = await GetIgdbAccessTokenAsync(config);
+            var body = "search \"" + EscapeIgdbString(CleanGameNameForSearch(game.Name)) + "\"; " +
+                       "fields id,name,summary,storyline,first_release_date,url,genres.name,involved_companies.company.name,involved_companies.developer,involved_companies.publisher,total_rating; " +
+                       "limit 5;";
+
+            using var request = new HttpRequestMessage(HttpMethod.Post, "https://api.igdb.com/v4/games");
+            request.Headers.Add("Client-ID", config.igdbClientId);
+            request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            request.Headers.Accept.ParseAdd("application/json");
+            request.Content = new StringContent(body, Encoding.UTF8, "text/plain");
+
+            using var response = await _igdbClient.SendAsync(request);
+            response.EnsureSuccessStatusCode();
+
+            var json = await response.Content.ReadAsStringAsync();
+            var results = JArray.Parse(json);
+            if (!results.Any())
+            {
+                return null;
+            }
+
+            var normalizedSearch = NormalizeGameName(CleanGameNameForSearch(game.Name));
+            var selected = results.FirstOrDefault(item => NormalizeGameName(item.Value<string>("name")) == normalizedSearch) ?? results.First();
+            var detail = new GameDetails
+            {
+                FriendlyName = game.FriendlyName,
+                Name = selected.Value<string>("name") ?? game.Name,
+                SteamApID = game.SteamApID,
+                IGDBId = selected.Value<int?>("id"),
+                IGDBUrl = selected.Value<string>("url"),
+                Summary = selected.Value<string>("summary"),
+                Storyline = selected.Value<string>("storyline"),
+                FirstReleaseDate = GetDateFromUnixTime(selected.Value<long?>("first_release_date")),
+                Genres = GetNamedChildren(selected, "genres"),
+                TotalRating = selected.Value<double?>("total_rating"),
+                IDDBData = selected.ToString(Formatting.None),
+                DateUpdated = DateTime.Now
+            };
+
+            FillCompanies(selected, detail);
+            return detail;
+        }
+
+        private static async Task<string> GetIgdbAccessTokenAsync(Config config)
+        {
+            var url = "https://id.twitch.tv/oauth2/token?client_id=" + Uri.EscapeDataString(config.igdbClientId) +
+                      "&client_secret=" + Uri.EscapeDataString(config.igdbClientSecret) +
+                      "&grant_type=client_credentials";
+            using var response = await _igdbClient.PostAsync(url, null);
+            response.EnsureSuccessStatusCode();
+
+            var json = await response.Content.ReadAsStringAsync();
+            var parsed = JObject.Parse(json);
+            return parsed.Value<string>("access_token");
+        }
+
+        private static void FillCompanies(JToken selected, GameDetails detail)
+        {
+            var companies = selected["involved_companies"] as JArray;
+            if (companies == null)
+            {
+                return;
+            }
+
+            foreach (var involvedCompany in companies)
+            {
+                var name = involvedCompany["company"]?.Value<string>("name");
+                if (String.IsNullOrWhiteSpace(name))
+                {
+                    continue;
+                }
+
+                if (involvedCompany.Value<bool?>("developer") == true && detail.Developers.Contains(name) == false)
+                {
+                    detail.Developers.Add(name);
+                }
+                if (involvedCompany.Value<bool?>("publisher") == true && detail.Publishers.Contains(name) == false)
+                {
+                    detail.Publishers.Add(name);
+                }
+            }
+        }
+
+        private static List<string> GetNamedChildren(JToken item, string property)
+        {
+            var values = item[property] as JArray;
+            if (values == null)
+            {
+                return new List<string>();
+            }
+
+            return values
+                .Select(value => value.Value<string>("name"))
+                .Where(value => !String.IsNullOrWhiteSpace(value))
+                .Distinct()
+                .ToList();
+        }
+
+        private static DateTime? GetDateFromUnixTime(long? unixTime)
+        {
+            return unixTime.HasValue ? DateTimeOffset.FromUnixTimeSeconds(unixTime.Value).DateTime : null;
+        }
+
+        private static string CleanGameNameForSearch(string name)
+        {
+            var clean = Regex.Replace(name ?? String.Empty, "[®™©]", String.Empty);
+            clean = Regex.Replace(clean, "\\s*\\((PC|Windows|Xbox Series X\\|S|Xbox One e Xbox Series X\\|S)\\)\\s*$", String.Empty, RegexOptions.IgnoreCase);
+            clean = Regex.Replace(clean, "\\s*-\\s*(PC|Windows)\\s*$", String.Empty, RegexOptions.IgnoreCase);
+            clean = Regex.Replace(clean, "\\s+para\\s+(Xbox|Windows|Xbox One e Xbox Series X\\|S|Xbox Series X\\|S)\\s*$", String.Empty, RegexOptions.IgnoreCase);
+            clean = Regex.Replace(clean, "^Edi[cç][aã]o\\s+(Standard|Padr[aã]o)\\s+do\\s+", String.Empty, RegexOptions.IgnoreCase);
+            clean = Regex.Replace(clean, "\\s+(Edi[cç][aã]o\\s+(Standard|Padr[aã]o)|Standard Edition|Edi[cç][aã]o Digital Deluxe|Digital Deluxe Edition|Deluxe Edition|Definitive Edition|Gold Edition|Game of the Year Edition)\\s*$", String.Empty, RegexOptions.IgnoreCase);
+            return Regex.Replace(clean, "\\s+", " ").Trim();
+        }
+
+        private static string NormalizeGameName(string name)
+        {
+            var clean = CleanGameNameForSearch(name);
+            clean = Regex.Replace(clean, "[^a-zA-Z0-9]+", " ").Trim().ToUpperInvariant();
+            return clean;
+        }
+
+        private static string EscapeIgdbString(string value)
+        {
+            return (value ?? String.Empty).Replace("\\", "\\\\").Replace("\"", "\\\"");
+        }
+
         private static bool GameHasNoLogo(Game game)
         {
             if (String.IsNullOrWhiteSpace(game.LogoURL))
@@ -574,3 +801,7 @@ namespace MyCollections.Controllers
         }
     }
 }
+
+
+
+

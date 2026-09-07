@@ -29,6 +29,8 @@ namespace MyCollections.Repositories
                 config.Id = 1;
                 config.steamId = "";
                 config.steamKey = "";
+                config.igdbClientId = "";
+                config.igdbClientSecret = "";
             }
             return config;
         }
@@ -47,3 +49,4 @@ namespace MyCollections.Repositories
         }
     }
 }
+

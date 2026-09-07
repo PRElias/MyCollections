@@ -327,3 +327,27 @@ img.lazy {
     opacity: 0.72;
     background-color: #241507;
 }
+#modal .modal-body .game-details {
+    max-width: 720px;
+    margin: 0 auto 18px;
+    text-align: left;
+}
+
+#modal .modal-body .game-summary {
+    line-height: 1.55;
+    text-align: left;
+}
+
+#modal .modal-body .game-detail-meta {
+    margin-bottom: 8px;
+    color: #ffe9ba;
+    font-size: 0.95rem;
+    text-align: left;
+}
+
+#modal .modal-body .game-detail-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}

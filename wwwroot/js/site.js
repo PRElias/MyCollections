@@ -127,7 +127,8 @@ $(document).ready(function () {
     $('#btn_Commit').prependTo($('.dataTables_wrapper  .dt-buttons'));
     $('#btn_Todos').prependTo($('.dataTables_wrapper  .dt-buttons'));
     $('#btn_SemLogo').prependTo($('.dataTables_wrapper  .dt-buttons'));
-    $('#btn_AtualizarLogosSteam').prependTo($('.dataTables_wrapper  .dt-buttons'));
+    $("#btn_AtualizarLogosSteam").prependTo($(".dataTables_wrapper  .dt-buttons"));
+    $("#btn_AtualizarDetalhesIgdb").prependTo($(".dataTables_wrapper  .dt-buttons"));
 
     $('#gamesTable').on('click', 'tbody tr', function (evt) {
         var $cell = $(evt.target).closest('td');
@@ -233,3 +234,6 @@ function deleteGame(id) {
     }
     xobj.send(null);
 }
+
+
+

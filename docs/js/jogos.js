@@ -1,5 +1,6 @@
 var app = {
     games: [],
+    gameDetails: {},
     tags: [],
     hiddens: []
 };
@@ -12,6 +13,24 @@ var navHeight = 56;
 //     navHeight = 152;
 // }
 
+
+app.getGameDetails = function () {
+    var xobj = new XMLHttpRequest();
+    xobj.overrideMimeType("application/json");
+    xobj.open('GET', './games/games-details.json', true);
+    xobj.onreadystatechange = function () {
+        if (xobj.readyState == 4 && xobj.status == "200") {
+            var details = tryParseJSON(xobj.responseText) || [];
+            app.gameDetails = {};
+            details.forEach(function (detail) {
+                if (detail.FriendlyName) {
+                    app.gameDetails[detail.FriendlyName] = detail;
+                }
+            });
+        }
+    }
+    xobj.send(null);
+}
 app.getGames = function () {
     var xobj = new XMLHttpRequest();
     xobj.overrideMimeType("application/json");
@@ -136,6 +155,14 @@ app.renderizeDetails = function (gameId) {
     details.textContent = copies.length > 1 ? 'Cópias: ' + getCopyDescriptions(copies).join('; ') : getCopyDescription(game);
     main.appendChild(details);
 
+    let gameDetail = app.gameDetails[game.FriendlyName];
+    if (gameDetail) {
+        main.appendChild(createGameDetailsBlock(gameDetail));
+    }
+
+    let links = document.createElement('div');
+    links.className = 'game-detail-links';
+
     let steamCopy = copies.find(function (item) {
         return item.SteamApID;
     });
@@ -146,10 +173,73 @@ app.renderizeDetails = function (gameId) {
         link.textContent = 'Abrir na Steam';
         link.target = '_blank';
         link.rel = 'noopener noreferrer';
-        main.appendChild(link);
+        links.appendChild(link);
+    }
+
+    if (gameDetail && gameDetail.IGDBUrl) {
+        let link = document.createElement('a');
+        link.href = gameDetail.IGDBUrl;
+        link.textContent = 'Abrir na IGDB';
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        links.appendChild(link);
+    }
+
+    if (links.childNodes.length > 0) {
+        main.appendChild(links);
     }
 };
 
+function createGameDetailsBlock(gameDetail) {
+    let wrapper = document.createElement('div');
+    wrapper.className = 'game-details';
+
+    if (gameDetail.FirstReleaseDate) {
+        wrapper.appendChild(createDetailMeta('Lançamento', formatReleaseDate(gameDetail.FirstReleaseDate)));
+    }
+
+    let description = gameDetail.Summary || gameDetail.Storyline;
+    if (description) {
+        let summary = document.createElement('p');
+        summary.className = 'game-summary';
+        summary.textContent = description;
+        wrapper.appendChild(summary);
+    }
+
+    appendListDetail(wrapper, 'Gêneros', gameDetail.Genres);
+    appendListDetail(wrapper, 'Desenvolvedora', gameDetail.Developers);
+    appendListDetail(wrapper, 'Publicadora', gameDetail.Publishers);
+
+    if (gameDetail.TotalRating) {
+        wrapper.appendChild(createDetailMeta('Nota IGDB', Math.round(gameDetail.TotalRating) + '/100'));
+    }
+
+    return wrapper;
+}
+
+function createDetailMeta(label, value) {
+    let meta = document.createElement('p');
+    meta.className = 'game-detail-meta';
+    meta.textContent = label + ': ' + value;
+    return meta;
+}
+
+function appendListDetail(wrapper, label, values) {
+    if (!values || values.length === 0) {
+        return;
+    }
+
+    wrapper.appendChild(createDetailMeta(label, values.join(', ')));
+}
+
+function formatReleaseDate(value) {
+    let date = new Date(value);
+    if (isNaN(date.getTime())) {
+        return value;
+    }
+
+    return date.toLocaleDateString('pt-BR', { year: 'numeric', month: 'short', day: '2-digit' });
+}
 function getCopyDescriptions(copies) {
     return copies.map(getCopyDescription).filter(function (description, index, descriptions) {
         return description && descriptions.indexOf(description) === index;
@@ -178,6 +268,7 @@ function getSystemLabel(system) {
 }
 
 window.onload = function () {
+    app.getGameDetails();
     app.getGames();
 }
 
@@ -324,3 +415,5 @@ function changePlataforma() {
     all = false;
     $("#navbarSupportedContent").removeClass("show");
 }
+
+
