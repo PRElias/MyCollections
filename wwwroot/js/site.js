@@ -20,6 +20,30 @@
 //     });
 // });
 
+function showBlockingLoading(message) {
+    var $overlay = $('#overlay');
+    if ($overlay.length === 0) {
+        $overlay = $('<div id="overlay" class="coverAll"></div>');
+        $overlay.append($('<img />').attr('src', '/images/bannerBackgroundImage.gif').addClass('overlayGif'));
+        $overlay.append($('<p class="overlayMessage"></p>'));
+        $('body').append($overlay);
+    }
+
+    var $message = $overlay.find('.overlayMessage');
+    if ($message.length === 0) {
+        $message = $('<p class="overlayMessage"></p>');
+        $overlay.append($message);
+    }
+
+    $message.text(message || 'Executando, aguarde...');
+    $overlay.css('display', 'flex');
+}
+
+function bindBlockingLoading(selector, message) {
+    $(document).on('click', selector, function () {
+        showBlockingLoading(message);
+    });
+}
 // Opções padrão para todas as datatables
 $.extend($.fn.dataTable.defaults, {
     pageLength: 50,
@@ -109,6 +133,9 @@ $(window).on('load', function(){
  });
 
 $(document).ready(function () {
+    bindBlockingLoading('#btn_AtualizarDetalhesIgdb a, a[href*="/Games/AtualizarDetalhesIgdb"], a[href*="Games/AtualizarDetalhesIgdb"]', 'Buscando detalhes na IGDB. Isso pode levar alguns minutos...');
+    bindBlockingLoading('#btn_AtualizarLogosSteam a, a[href*="/Games/AtualizarLogosSteam"], a[href*="Games/AtualizarLogosSteam"]', 'Atualizando logos pela Steam...');
+    bindBlockingLoading('#btn_AutoNewGames a, a[href*="/Games/AutoNewGames"], a[href*="Games/AutoNewGames"]', 'Buscando novos jogos na Steam...');
     var gamesTableStateKey = 'gamesTableState:' + window.location.pathname + window.location.search;
 
     $('#gamesTable').DataTable({
@@ -234,6 +261,7 @@ function deleteGame(id) {
     }
     xobj.send(null);
 }
+
 
 
 
