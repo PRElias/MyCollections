@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Mvc;
 using MyCollections.Models;
 using System.IO;
 using Newtonsoft.Json;
-using System.Net;
 using System;
 using System.Collections.Generic;
 using MyCollections.Repositories;
@@ -26,10 +25,10 @@ namespace MyCollections.Controllers
             _db = db;
             LoadJson();
         }
-        public IActionResult Index(bool semLogo = false)
+        public async Task<IActionResult> Index(bool semLogo = false)
         {
             UpdateGamesProperties();
-            DownloadCovers();
+            await DownloadCovers();
             _db.SaveJson(games, @"docs/games/games.json");
             ViewBag.SemLogo = semLogo;
             return View(semLogo ? games.Where(g => !g.Disabled && GameHasNoLogo(g)).ToList() : games);
@@ -43,7 +42,7 @@ namespace MyCollections.Controllers
             }
         }
 
-        public void DownloadCovers()
+        public async Task DownloadCovers()
         {
             var gamesList = new List<Game>();
 
@@ -61,8 +60,7 @@ namespace MyCollections.Controllers
                             continue;
                         }
                         string newFileName = Util.Helper.RemoveSpecialCharacters(game.Name) + ".jpg"; //game.Name.Substring(game.Name.LastIndexOf('.'));
-                        WebClient myWebClient = new WebClient();
-                        myWebClient.DownloadFile(uri, @"docs\games\covers\" + newFileName);
+                        await MyCollections.Util.File.DownloadImageAsync(game.LogoURL, newFileName);
                         game.LogoURL = @"games/covers/" + newFileName;
                     }
                 }
@@ -132,7 +130,7 @@ namespace MyCollections.Controllers
                 // _db.SaveJson(games, @"docs/games/games.json");
                 // return Ok();
             }
-            catch (Exception error)
+            catch (Exception)
             {
                 // return StatusCode(500, error);
             }
