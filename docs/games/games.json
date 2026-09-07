@@ -27283,5 +27283,22 @@
         "IGDBId": null,
         "Selected": false,
         "FriendlyName": "ASSETTO CORSA COMPETIZIONE"
+    },
+    {
+        "GameID": 1606,
+        "Name": "Grand Theft Auto VI",
+        "LogoURL": "",
+        "Store": "",
+        "System": "XBOXSeries",
+        "Disabled": false,
+        "BuyDate": "2026-08-20T00:00:00",
+        "Price": null,
+        "PlayedTime": 0,
+        "Purchased": true,
+        "SteamApID": 0,
+        "SteamOriginalImageURL": "",
+        "IGDBId": null,
+        "Selected": false,
+        "FriendlyName": "Grand Theft Auto VI"
     }
 ]
