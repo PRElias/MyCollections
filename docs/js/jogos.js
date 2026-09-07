@@ -79,10 +79,10 @@ function renderGameList(selectedSystem) {
             lastName = game.Name;
             app.tags.indexOf(game.FriendlyName) === -1 ? app.tags.push(game.FriendlyName) : null;
             items.push(
-                "<span " + hidden + " class='game col-lg-2 col-sm-6 col-md-6 col-xs-12 " + game.System + " " + game.Store + "' id='" + game.GameID +
-                "' name='" + game.FriendlyName +
+                "<span " + hidden + " class='game col-lg-2 col-sm-6 col-md-6 col-xs-12 " + escapeHtmlAttribute(game.System) + " " + escapeHtmlAttribute(game.Store) + "' id='" + game.GameID +
+                "' name='" + escapeHtmlAttribute(game.FriendlyName) +
                 "' onclick='showDetails(" + game.GameID + ")'>" +
-                "<p class='gameName'>" + game.Name + "</p>" +
+                "<p class='gameName'>" + escapeHtml(game.Name) + "</p>" +
                 getCoverHtml(game) +
                 "</span>"
             );
@@ -108,9 +108,22 @@ function getCoverHtml(game) {
         return "";
     }
 
-    return "<img class='cover lazy' data-src='" + logoUrl + "' data-game='" + game.FriendlyName + "' /img>";
+    return "<img class='cover lazy' data-src='" + escapeHtmlAttribute(logoUrl) + "' data-game='" + escapeHtmlAttribute(game.FriendlyName) + "' /img>";
 }
 
+
+function escapeHtml(value) {
+    return String(value || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
+function escapeHtmlAttribute(value) {
+    return escapeHtml(value);
+}
 function getLogoUrl(game) {
     if (!game.LogoURL || !game.LogoURL.trim()) {
         return "";
@@ -424,6 +437,8 @@ function changePlataforma() {
     all = false;
     $("#navbarSupportedContent").removeClass("show");
 }
+
+
 
 
 
