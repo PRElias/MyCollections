@@ -239,8 +239,18 @@ namespace MyCollections.Controllers
                 return Json(new List<ImageSearchResult>());
             }
 
-            var results = await SearchImagesAsync(termo + " game cover");
-            return Json(results);
+            var results = await SearchSteamImagesAsync(termo);
+            if (results.Count < 12)
+            {
+                results.AddRange(await SearchImagesAsync(termo + " game cover"));
+            }
+
+            return Json(results
+                .Where(item => !String.IsNullOrWhiteSpace(item.ImageUrl))
+                .GroupBy(item => item.ImageUrl)
+                .Select(group => group.First())
+                .Take(12)
+                .ToList());
         }
 
         [HttpPost]
@@ -294,6 +304,58 @@ namespace MyCollections.Controllers
 
         }
 
+        private static async Task<List<ImageSearchResult>> SearchSteamImagesAsync(string term)
+        {
+            try
+            {
+                var url = "https://store.steampowered.com/api/storesearch/?term=" + Uri.EscapeDataString(term) + "&cc=us&l=pt-BR&v=1";
+                using var request = CreateImageSearchRequest(url);
+                using var response = await _imageSearchClient.SendAsync(request);
+                response.EnsureSuccessStatusCode();
+
+                var json = await response.Content.ReadAsStringAsync();
+                var parsed = JObject.Parse(json);
+                var results = new List<ImageSearchResult>();
+
+                foreach (var item in parsed["items"]?.Take(5) ?? Enumerable.Empty<JToken>())
+                {
+                    var appId = item.Value<int?>("id");
+                    var name = item.Value<string>("name");
+                    if (!appId.HasValue)
+                    {
+                        continue;
+                    }
+
+                    var imageUrls = new[]
+                    {
+                        $"https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/{appId.Value}/header.jpg",
+                        $"https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/{appId.Value}/capsule_616x353.jpg"
+                    };
+
+                    foreach (var imageUrl in imageUrls)
+                    {
+                        var result = new ImageSearchResult
+                        {
+                            Title = "Steam - " + name,
+                            ImageUrl = imageUrl,
+                            ThumbnailUrl = imageUrl,
+                            SourceUrl = "https://store.steampowered.com/app/" + appId.Value
+                        };
+
+                        if (await IsImageDownloadableAsync(result))
+                        {
+                            results.Add(result);
+                        }
+                    }
+                }
+
+                return results;
+            }
+            catch (Exception)
+            {
+                return new List<ImageSearchResult>();
+            }
+        }
         private static async Task<List<ImageSearchResult>> SearchImagesAsync(string query)
         {
             try
