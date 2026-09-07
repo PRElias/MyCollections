@@ -61,22 +61,23 @@ app.renderizeGames = function (response) {
 
 function renderGameList(selectedSystem) {
     let items = [];
-    let lastName = "";
+    let renderedNames = [];
     let hidden = "";
     app.hiddens = [];
 
     for (let index in app.games) {
         let game = app.games[index];
         if (game.Disabled == false && (!selectedSystem || game.System === selectedSystem)) {
-            if (!selectedSystem && game.Name == lastName) {
+            let friendlyName = normalizeGameKey(game.FriendlyName || game.Name);
+            if (renderedNames.indexOf(friendlyName) !== -1) {
                 hidden = " hidden";
                 app.hiddens.push(game);
             }
             else {
                 hidden = "";
+                renderedNames.push(friendlyName);
             }
 
-            lastName = game.Name;
             app.tags.indexOf(game.FriendlyName) === -1 ? app.tags.push(game.FriendlyName) : null;
             items.push(
                 "<span " + hidden + " class='game col-lg-2 col-sm-6 col-md-6 col-xs-12 " + escapeHtmlAttribute(game.System) + " " + escapeHtmlAttribute(game.Store) + "' id='" + game.GameID +
@@ -100,6 +101,13 @@ function renderGameList(selectedSystem) {
             $('#loading').hide();
         }
     });
+
+    wireGameSearch();
+    applyShelfLayout();
+}
+
+function normalizeGameKey(value) {
+    return (value || "").toString().trim().toUpperCase();
 }
 
 function getCoverHtml(game) {
@@ -437,6 +445,8 @@ function changePlataforma() {
     all = false;
     $("#navbarSupportedContent").removeClass("show");
 }
+
+
 
 
 
