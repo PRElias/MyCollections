@@ -4,7 +4,7 @@ var app = {
     hiddens: []
 };
 
-var sPlataforma, total_android, total_pc, total_xbox360, total_xboxone, total_ps3, total_p4, total_wii, total_geral, total_repetidos;
+var sPlataforma, total_geral, total_repetidos;
 var all = false;
 var navHeight = 56;
 
@@ -39,16 +39,17 @@ app.renderizeGames = function (response) {
     let items = [];
     let lastName = "";
     let hidden = "";
+    app.hiddens = [];
     for (let index in app.games) {
-        if (app.games[index].Name == lastName) {
-            hidden = " hidden";
-            app.hiddens.push(app.games[index]);
-        }
-        else {
-            hidden = "";
-        }
-
         if (app.games[index].Disabled == false) {
+            if (app.games[index].Name == lastName) {
+                hidden = " hidden";
+                app.hiddens.push(app.games[index]);
+            }
+            else {
+                hidden = "";
+            }
+
             lastName = app.games[index].Name;
             app.tags.indexOf(app.games[index].FriendlyName) === -1 ? app.tags.push(app.games[index].FriendlyName) : null;
             items.push(
@@ -118,26 +119,58 @@ window.onload = function () {
 }
 
 function calculaTotais() {
-    
-    total_repetidos = app.hiddens.length;
-    total_android = document.querySelectorAll('.Android').length;
-    total_pc = document.querySelectorAll('.PC').length;
-    total_xbox360 = document.querySelectorAll('.XBOX360').length;
-    total_xboxone = document.querySelectorAll('.XBOXOne').length;
-    total_ps3 = document.querySelectorAll('.PS3').length;
-    total_ps4 = document.querySelectorAll('.PS4').length;
-    total_wii = document.querySelectorAll('.Wii').length;
-    total_geral = total_android + total_pc + total_xbox360 + total_xboxone + total_ps3 + total_ps4 + total_wii;
-
     sPlataforma = document.getElementById("sPlataforma");
-    sPlataforma.options[0].text+= " (" + total_geral + ")(" + (total_geral - total_repetidos) + " únicos)";
-    sPlataforma.options[1].text+= " (" + total_android + ")";
-    sPlataforma.options[2].text+= " (" + total_pc + ")";
-    sPlataforma.options[3].text+= " (" + total_xbox360 + ")";
-    sPlataforma.options[4].text+= " (" + total_xboxone + ")";
-    sPlataforma.options[5].text+= " (" + total_ps3 + ")";
-    sPlataforma.options[6].text+= " (" + total_ps4 + ")";
-    sPlataforma.options[7].text+= " (" + total_wii + ")";
+    if (!sPlataforma) {
+        return;
+    }
+
+    var systemLabels = {
+        Android: "Android",
+        PC: "PC",
+        XBOX360: "Xbox 360",
+        XBOXOne: "Xbox One",
+        XBOXSeries: "Xbox Series",
+        PS3: "PS3",
+        PS4: "PS4",
+        PS5: "PS5",
+        Wii: "Wii",
+        Switch: "Switch"
+    };
+
+    var totalsBySystem = {};
+    app.games.forEach(function (game) {
+        if (game.Disabled === false && game.System) {
+            totalsBySystem[game.System] = (totalsBySystem[game.System] || 0) + 1;
+        }
+    });
+
+    total_repetidos = app.hiddens.length;
+    total_geral = Object.keys(totalsBySystem).reduce(function (total, system) {
+        return total + totalsBySystem[system];
+    }, 0);
+
+    var selectedValues = Array.prototype.slice.call(sPlataforma.options)
+        .filter(function (option) { return option.selected; })
+        .map(function (option) { return option.value; });
+
+    sPlataforma.innerHTML = "";
+    sPlataforma.appendChild(createPlatformOption("", "Todos (" + total_geral + ")(" + (total_geral - total_repetidos) + " únicos)", selectedValues.indexOf("") !== -1));
+
+    Object.keys(totalsBySystem).sort(function (a, b) {
+        var labelA = systemLabels[a] || a;
+        var labelB = systemLabels[b] || b;
+        return labelA.localeCompare(labelB);
+    }).forEach(function (system) {
+        sPlataforma.appendChild(createPlatformOption(system, (systemLabels[system] || system) + " (" + totalsBySystem[system] + ")", selectedValues.indexOf(system) !== -1));
+    });
+}
+
+function createPlatformOption(value, text, selected) {
+    var option = document.createElement("option");
+    option.value = value;
+    option.text = text;
+    option.selected = selected;
+    return option;
 }
 
 // function getSteamAppID(gameCopies) {
