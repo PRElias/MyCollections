@@ -63,3 +63,32 @@ tbody tr:hover { background: #fff8eb; }
   input, select { width: 100%; min-width: 0; }
 }
 
+
+.chart-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 14px 20px 0;
+}
+
+.chart-tab {
+  min-height: 36px;
+  padding: 0 14px;
+  color: #435063;
+  background: #eef3f8;
+  border: 1px solid #cbd6e2;
+  border-radius: 6px;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.chart-tab.active {
+  color: #fff;
+  background: #263241;
+  border-color: #263241;
+}
+
+.chart[hidden] {
+  display: none;
+}
