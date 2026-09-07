@@ -27861,5 +27861,39 @@
         "IGDBId": null,
         "Selected": false,
         "FriendlyName": "BATTLEFIELD 2042"
+    },
+    {
+        "GameID": 1640,
+        "Name": "Cyberpunk 2077",
+        "LogoURL": null,
+        "Store": "Mídia Física",
+        "System": "PS4",
+        "Disabled": false,
+        "BuyDate": "2018-01-01T00:00:00",
+        "Price": null,
+        "PlayedTime": null,
+        "Purchased": false,
+        "SteamApID": null,
+        "SteamOriginalImageURL": null,
+        "IGDBId": null,
+        "Selected": false,
+        "FriendlyName": "CYBERPUNK 2077"
+    },
+    {
+        "GameID": 1641,
+        "Name": "Grand Theft Auto V",
+        "LogoURL": null,
+        "Store": "Windows Store",
+        "System": "XBOXSeries",
+        "Disabled": false,
+        "BuyDate": "2018-01-01T00:00:00",
+        "Price": null,
+        "PlayedTime": null,
+        "Purchased": false,
+        "SteamApID": null,
+        "SteamOriginalImageURL": null,
+        "IGDBId": null,
+        "Selected": false,
+        "FriendlyName": "GRAND THEFT AUTO V"
     }
 ]

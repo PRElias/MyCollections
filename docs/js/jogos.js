@@ -64,7 +64,7 @@ function renderGameList(selectedSystem) {
                 "' name='" + game.FriendlyName +
                 "' onclick='showDetails(" + game.GameID + ")'>" +
                 "<p class='gameName'>" + game.Name + "</p>" +
-                "<img class='cover lazy' data-src='" + game.LogoURL + "' data-game='" + game.FriendlyName + "' /img>" +
+                getCoverHtml(game) +
                 "</span>"
             );
         }
@@ -83,6 +83,27 @@ function renderGameList(selectedSystem) {
     });
 }
 
+function getCoverHtml(game) {
+    var logoUrl = getLogoUrl(game);
+    if (!logoUrl) {
+        return "";
+    }
+
+    return "<img class='cover lazy' data-src='" + logoUrl + "' data-game='" + game.FriendlyName + "' /img>";
+}
+
+function getLogoUrl(game) {
+    if (!game.LogoURL || !game.LogoURL.trim()) {
+        return "";
+    }
+
+    var logoUrl = game.LogoURL.trim();
+    if (logoUrl.indexOf("http://") === 0 || logoUrl.indexOf("https://") === 0 || logoUrl.indexOf("games/") === 0 || logoUrl.indexOf("./games/") === 0) {
+        return logoUrl;
+    }
+
+    return "";
+}
 app.renderizeDetails = function (gameId) {
     let game = app.games.find(function (item) {
         return item.GameID === Number(gameId);
@@ -102,11 +123,14 @@ app.renderizeDetails = function (gameId) {
 
     $('.modal-title').text(game.Name);
 
-    let cover = document.createElement('img');
-    cover.src = game.LogoURL;
-    cover.alt = game.Name;
-    cover.className = 'cover';
-    main.appendChild(cover);
+    let logoUrl = getLogoUrl(game);
+    if (logoUrl) {
+        let cover = document.createElement('img');
+        cover.src = logoUrl;
+        cover.alt = game.Name;
+        cover.className = 'cover';
+        main.appendChild(cover);
+    }
 
     let details = document.createElement('p');
     details.textContent = copies.length > 1 ? 'Cópias: ' + getCopyDescriptions(copies).join('; ') : getCopyDescription(game);

@@ -1,4 +1,4 @@
-﻿@model IEnumerable<MyCollections.Models.Game>
+@model IEnumerable<MyCollections.Models.Game>
 
     <div id="overlay" class="coverAll">
         <img src="images/bannerBackgroundImage.gif" class="overlayGif" />
@@ -59,8 +59,10 @@
                     @Html.DisplayFor(modelItem => game.Name)
                 </td>
                 <td>
-                    <img src="docs/@Html.DisplayFor(modelItem => game.LogoURL)" class="lazy"
-                        style="width: 70px;">
+                    @if (!String.IsNullOrWhiteSpace(game.LogoURL) && (game.LogoURL.Trim().StartsWith("http", StringComparison.OrdinalIgnoreCase) || game.LogoURL.Trim().StartsWith("games/", StringComparison.OrdinalIgnoreCase) || game.LogoURL.Trim().StartsWith("./games/", StringComparison.OrdinalIgnoreCase)))
+                    {
+                        <img src="docs/@game.LogoURL.Trim()" class="lazy" style="width: 70px;">
+                    }
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => game.Store)

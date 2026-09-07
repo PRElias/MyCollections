@@ -23,7 +23,10 @@
                 <label class="form-label">Imagem atual</label>
             </div>
             <div class="col-md-4">
-                <img src="../../docs/@Model.LogoURL" style="width: inherit;" />
+                @if (!String.IsNullOrWhiteSpace(Model.LogoURL) && (Model.LogoURL.Trim().StartsWith("http", StringComparison.OrdinalIgnoreCase) || Model.LogoURL.Trim().StartsWith("games/", StringComparison.OrdinalIgnoreCase) || Model.LogoURL.Trim().StartsWith("./games/", StringComparison.OrdinalIgnoreCase)))
+                {
+                    <img src="../../docs/@Model.LogoURL.Trim()" style="width: inherit;" />
+                }
             </div>
         </div>
     </div>
