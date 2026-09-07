@@ -79,7 +79,7 @@ namespace MyCollections.Controllers
             var newGames = new System.Collections.Generic.List<Game>();
             foreach (var newGame in allSteamGames)
             {
-                if (games.Exists(g => g.SteamApID == newGame.appid) == false)
+                if (HasSteamCopy(newGame) == false)
                 {
                     newGames.Add(new Game
                     {
@@ -100,6 +100,13 @@ namespace MyCollections.Controllers
             return newGames;
         }
 
+        private bool HasSteamCopy(SteamGame steamGame)
+        {
+            return games.Any(game =>
+                String.Equals(game.Store, "Steam", StringComparison.OrdinalIgnoreCase) &&
+                ((game.SteamApID.HasValue && game.SteamApID.Value == steamGame.appid) ||
+                 ((!game.SteamApID.HasValue || game.SteamApID.Value == 0) && String.Equals(game.Name, steamGame.name, StringComparison.OrdinalIgnoreCase))));
+        }
         public void UpdateGamesProperties()
         {
             var steam = new Steam(_db.GetAll().steamKey, _db.GetAll().steamId);
