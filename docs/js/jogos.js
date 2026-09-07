@@ -110,6 +110,36 @@ function normalizeGameKey(value) {
     return (value || "").toString().trim().toUpperCase();
 }
 
+function wireGameSearch() {
+    var $search = $('#procurar');
+
+    $search.off('input.gameSearch keyup.gameSearch').on('input.gameSearch keyup.gameSearch', function () {
+        filterRenderedGames(this.value);
+    });
+
+    filterRenderedGames($search.val());
+}
+
+function filterRenderedGames(value) {
+    var searchKey = normalizeGameKey(value);
+
+    $('.game').each(function () {
+        if (this.hidden) {
+            return;
+        }
+
+        var gameKey = this.getAttribute('data-key') || normalizeGameKey(this.getAttribute('name'));
+        var matches = !searchKey || gameKey.indexOf(searchKey) !== -1;
+        $(this).toggle(matches);
+    });
+
+    applyShelfLayout();
+}
+
+function applyShelfLayout() {
+    // A prateleira usa o fluxo normal do CSS; esta função mantém o filtro e a navegação seguros.
+}
+
 function getCoverHtml(game) {
     var logoUrl = getLogoUrl(game);
     if (!logoUrl) {
@@ -357,7 +387,7 @@ function navigateToGame() {
     var pesquisa = $('#procurar').val();
     var gameKey = normalizeGameKey(pesquisa);
     var jogo = $('.game').filter(function () {
-        return this.getAttribute('data-key') === gameKey && !$(this).hasClass('hidden') && $(this).is(':visible');
+        return this.getAttribute('data-key') === gameKey && !this.hidden && $(this).is(':visible');
     }).first();
 
     if (jogo.length === 0) {
@@ -416,7 +446,10 @@ $(function () {
                 sPlataforma.value = "";
             }
             changePlataforma();
-            setTimeout(navigateToGame, 50);
+            setTimeout(function () {
+                filterRenderedGames(ui.item.value);
+                navigateToGame();
+            }, 100);
         }
     });
 });
@@ -457,6 +490,9 @@ function changePlataforma() {
     all = false;
     $("#navbarSupportedContent").removeClass("show");
 }
+
+
+
 
 
 
