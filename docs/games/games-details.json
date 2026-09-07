@@ -4834,6 +4834,32 @@
     "DateUpdated": "2026-09-07T14:07:36.5648142-03:00"
   },
   {
+    "GameDetailsID": 1413,
+    "FriendlyName": "CASTLEVANIA: SOTN",
+    "Name": "Castlevania: Symphony of the Night",
+    "SteamApID": null,
+    "IGDBId": 1128,
+    "IGDBUrl": "https://www.igdb.com/games/castlevania-symphony-of-the-night",
+    "ExophaseUrl": null,
+    "Summary": "Having been awoken from his eternal slumber by the reappearance of Castlevania, Alucard must once again face the evil minions of darkness. Use your vampiric powers, along with weapons, potions, and other magical relics to change the tide of battle.\n\nA mixture of platform and role-playing action with many hidden areas and secrets. Can you discover them all?",
+    "Storyline": "The game's story takes place during the year 1797, 5 years after the events of Rondo of Blood and begins with Richter Belmont's defeat of Count Dracula, mirroring the end of the former game. However, despite Dracula being defeated, Richter vanishes without a trace. Castlevania rises again five years later, and while there are no Belmonts to storm the castle, Alucard, the son of Dracula, awakens from his self-induced sleep, and decides to investigate what transpired during his slumber.\n\nMeanwhile, Maria Renard, Richter's sister-in-law, enters Castlevania herself to search for the missing Richter. She assists Alucard multiple times throughout the game.",
+    "FirstReleaseDate": "1997-03-20T00:00:00",
+    "Genres": [
+      "Platform",
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "Developers": [
+      "Konami Computer Entertainment Tokyo"
+    ],
+    "Publishers": [
+      "Konami"
+    ],
+    "TotalRating": 92.20600641536515,
+    "IDDBData": "{\"id\":1128,\"first_release_date\":858816000,\"genres\":[{\"id\":8,\"name\":\"Platform\"},{\"id\":12,\"name\":\"Role-playing (RPG)\"},{\"id\":31,\"name\":\"Adventure\"}],\"involved_companies\":[{\"id\":402971,\"company\":{\"id\":159,\"name\":\"Konami Computer Entertainment Tokyo\"},\"developer\":true,\"publisher\":false},{\"id\":402972,\"company\":{\"id\":129,\"name\":\"Konami\"},\"developer\":false,\"publisher\":true}],\"name\":\"Castlevania: Symphony of the Night\",\"storyline\":\"The game's story takes place during the year 1797, 5 years after the events of Rondo of Blood and begins with Richter Belmont's defeat of Count Dracula, mirroring the end of the former game. However, despite Dracula being defeated, Richter vanishes without a trace. Castlevania rises again five years later, and while there are no Belmonts to storm the castle, Alucard, the son of Dracula, awakens from his self-induced sleep, and decides to investigate what transpired during his slumber.\\n\\nMeanwhile, Maria Renard, Richter's sister-in-law, enters Castlevania herself to search for the missing Richter. She assists Alucard multiple times throughout the game.\",\"summary\":\"Having been awoken from his eternal slumber by the reappearance of Castlevania, Alucard must once again face the evil minions of darkness. Use your vampiric powers, along with weapons, potions, and other magical relics to change the tide of battle.\\n\\nA mixture of platform and role-playing action with many hidden areas and secrets. Can you discover them all?\",\"total_rating\":92.20600641536515,\"url\":\"https://www.igdb.com/games/castlevania-symphony-of-the-night\"}",
+    "DateUpdated": "2026-09-07T16:44:26.533976-03:00"
+  },
+  {
     "GameDetailsID": 978,
     "FriendlyName": "CAT QUEST II",
     "Name": "Cat Quest II",
@@ -8424,6 +8450,30 @@
     "DateUpdated": "2026-09-07T14:03:49.2247743-03:00"
   },
   {
+    "GameDetailsID": 1415,
+    "FriendlyName": "DONT STARVE: POCKET EDITION",
+    "Name": "Don't Starve: Pocket Edition",
+    "SteamApID": null,
+    "IGDBId": 86925,
+    "IGDBUrl": "https://www.igdb.com/games/dont-starve-pocket-edition",
+    "ExophaseUrl": null,
+    "Summary": "Don’t Starve: Pocket Edition, brings the hit PC game enjoyed by over 4 million players to the iPhone and iPad. Now you can experience the uncompromising wilderness survival game full of science and magic on the go!\n\nEnter a strange and unexplored world full of strange creatures, dangers, and surprises. Gather resources to craft items and structures that match your survival style. Play your way as you unravel the mysteries of this strange land.",
+    "Storyline": null,
+    "FirstReleaseDate": "2015-07-09T00:00:00",
+    "Genres": [
+      "Adventure"
+    ],
+    "Developers": [
+      "Klei Entertainment"
+    ],
+    "Publishers": [
+      "Klei Entertainment"
+    ],
+    "TotalRating": 90.0,
+    "IDDBData": "{\"id\":86925,\"first_release_date\":1436400000,\"genres\":[{\"id\":31,\"name\":\"Adventure\"}],\"involved_companies\":[{\"id\":337899,\"company\":{\"id\":1005,\"name\":\"Klei Entertainment\"},\"developer\":true,\"publisher\":true}],\"name\":\"Don't Starve: Pocket Edition\",\"summary\":\"Don’t Starve: Pocket Edition, brings the hit PC game enjoyed by over 4 million players to the iPhone and iPad. Now you can experience the uncompromising wilderness survival game full of science and magic on the go!\\n\\nEnter a strange and unexplored world full of strange creatures, dangers, and surprises. Gather resources to craft items and structures that match your survival style. Play your way as you unravel the mysteries of this strange land.\",\"total_rating\":90.0,\"url\":\"https://www.igdb.com/games/dont-starve-pocket-edition\"}",
+    "DateUpdated": "2026-09-07T16:44:28.7382873-03:00"
+  },
+  {
     "GameDetailsID": 647,
     "FriendlyName": "DONKEY KONG COUNTRY RETURNS",
     "Name": "Donkey Kong Country Returns",
@@ -9928,6 +9978,40 @@
     "TotalRating": null,
     "IDDBData": "{\"id\":285580,\"first_release_date\":1697760000,\"genres\":[{\"id\":12,\"name\":\"Role-playing (RPG)\"},{\"id\":15,\"name\":\"Strategy\"},{\"id\":16,\"name\":\"Turn-based strategy (TBS)\"},{\"id\":31,\"name\":\"Adventure\"}],\"involved_companies\":[{\"id\":252026,\"company\":{\"id\":52717,\"name\":\"RetroArts\"},\"developer\":true,\"publisher\":true}],\"name\":\"Evil Dungeon II\",\"storyline\":\"EVIL DUNGEON II - Alrik's revenge\\nThe story of Alrik, a young adventurer who is seeking revenge for his parents who got killed by a group of orcs. Again he has to explore a deadly maze full of monsters, adventure and secrets!\",\"summary\":\"Evil Dungeon II - Alrik's Revenge is the sequel to EVIL DUNGEON (C64) by Gregor Schillinger, an RPG-based fantasy story dungeon crawler for the Commodore 64.\\n\\nThe story of Alrik, a young adventurer seeking revenge for his parents who got killed by a group of orcs. Again he has to explore a deadly maze full of monsters, adventure, and secrets!\",\"url\":\"https://www.igdb.com/games/evil-dungeon-ii\"}",
     "DateUpdated": "2026-09-07T14:18:30.2865896-03:00"
+  },
+  {
+    "GameDetailsID": 1416,
+    "FriendlyName": "EVOLAND 2",
+    "Name": "Evoland 2",
+    "SteamApID": null,
+    "IGDBId": 11798,
+    "IGDBUrl": "https://www.igdb.com/games/evoland-2",
+    "ExophaseUrl": null,
+    "Summary": "Evoland 2 is the spiritual successor to the original Evoland with its graphics style changing as you travel through time and its gameplay evolving as you move along the storyline. It is also a much bigger game and a classic RPG at heart, with a complex scenario based on time travel, dozens of characters with their own backgrounds and ambitions and vastly different gameplay styles that are linked to the story and the player’s actions.",
+    "Storyline": null,
+    "FirstReleaseDate": "2015-08-25T00:00:00",
+    "Genres": [
+      "Fighting",
+      "Music",
+      "Platform",
+      "Role-playing (RPG)",
+      "Strategy",
+      "Turn-based strategy (TBS)",
+      "Hack and slash/Beat 'em up",
+      "Adventure",
+      "Indie",
+      "Card & Board Game"
+    ],
+    "Developers": [
+      "Shiro Games"
+    ],
+    "Publishers": [
+      "Shiro Games",
+      "Playdigious"
+    ],
+    "TotalRating": 79.46357091330341,
+    "IDDBData": "{\"id\":11798,\"first_release_date\":1440460800,\"genres\":[{\"id\":4,\"name\":\"Fighting\"},{\"id\":7,\"name\":\"Music\"},{\"id\":8,\"name\":\"Platform\"},{\"id\":12,\"name\":\"Role-playing (RPG)\"},{\"id\":15,\"name\":\"Strategy\"},{\"id\":16,\"name\":\"Turn-based strategy (TBS)\"},{\"id\":25,\"name\":\"Hack and slash/Beat 'em up\"},{\"id\":31,\"name\":\"Adventure\"},{\"id\":32,\"name\":\"Indie\"},{\"id\":35,\"name\":\"Card & Board Game\"}],\"involved_companies\":[{\"id\":65446,\"company\":{\"id\":1097,\"name\":\"Shiro Games\"},\"developer\":true,\"publisher\":false},{\"id\":65448,\"company\":{\"id\":1097,\"name\":\"Shiro Games\"},\"developer\":false,\"publisher\":true},{\"id\":65447,\"company\":{\"id\":11360,\"name\":\"Playdigious\"},\"developer\":false,\"publisher\":true}],\"name\":\"Evoland 2\",\"summary\":\"Evoland 2 is the spiritual successor to the original Evoland with its graphics style changing as you travel through time and its gameplay evolving as you move along the storyline. It is also a much bigger game and a classic RPG at heart, with a complex scenario based on time travel, dozens of characters with their own backgrounds and ambitions and vastly different gameplay styles that are linked to the story and the player’s actions.\",\"total_rating\":79.46357091330341,\"url\":\"https://www.igdb.com/games/evoland-2\"}",
+    "DateUpdated": "2026-09-07T16:44:29.6975852-03:00"
   },
   {
     "GameDetailsID": 619,
@@ -14711,6 +14795,32 @@
     "DateUpdated": "2026-09-07T14:07:39.7295662-03:00"
   },
   {
+    "GameDetailsID": 1417,
+    "FriendlyName": "HITMAN SNIPER",
+    "Name": "Hitman: Sniper",
+    "SteamApID": null,
+    "IGDBId": 19488,
+    "IGDBUrl": "https://www.igdb.com/games/hitman-sniper",
+    "ExophaseUrl": null,
+    "Summary": "Hitman: Sniper is a mobile game developed by Square Enix Montreal, and is their second Hitman mobile game after Hitman GO.\n\nBECOME THE ULTIMATE SILENT ASSASSIN\nStep into the shoes of Agent 47 in Hitman Sniper and discover the most compelling sniper experience on mobile.\n\nTACTICAL MISSIONS IN MONTENEGRO\nHone your strategic skills and orchestrate the perfect assassination kill shot.\n\nSURVIVOR CHALLENGE IN DEATH VALLEY\nNon-stop action as the zombie hunter in a true test of your skills and speed of execution.\n\nMORE THAN 150 MISSIONS AND 10 DIFFERENT CONTRACTS\nImprove your skills for the perfect assassination as you uncover secrets and subterfuges.\n\n16 UNIQUE GUNS\nEliminate targets, collect weapon parts and complete blueprints to unlock the most powerful guns.\n\nCOMPETE AGAINST YOUR FRIENDS FOR THE FIRST PLACE IN THE LEADERBOARDS\nBoost your score and climb up the contract killer ranks to become the world's finest silent assassin.",
+    "Storyline": null,
+    "FirstReleaseDate": "2015-06-02T00:00:00",
+    "Genres": [
+      "Shooter",
+      "Strategy"
+    ],
+    "Developers": [
+      "Square Enix Montréal"
+    ],
+    "Publishers": [
+      "Square Enix",
+      "CDE Entertainment"
+    ],
+    "TotalRating": 77.65285495882634,
+    "IDDBData": "{\"id\":19488,\"first_release_date\":1433203200,\"genres\":[{\"id\":5,\"name\":\"Shooter\"},{\"id\":15,\"name\":\"Strategy\"}],\"involved_companies\":[{\"id\":58640,\"company\":{\"id\":26,\"name\":\"Square Enix\"},\"developer\":false,\"publisher\":true},{\"id\":58639,\"company\":{\"id\":12473,\"name\":\"Square Enix Montréal\"},\"developer\":true,\"publisher\":false},{\"id\":265351,\"company\":{\"id\":45866,\"name\":\"CDE Entertainment\"},\"developer\":false,\"publisher\":true}],\"name\":\"Hitman: Sniper\",\"summary\":\"Hitman: Sniper is a mobile game developed by Square Enix Montreal, and is their second Hitman mobile game after Hitman GO.\\n\\nBECOME THE ULTIMATE SILENT ASSASSIN\\nStep into the shoes of Agent 47 in Hitman Sniper and discover the most compelling sniper experience on mobile.\\n\\nTACTICAL MISSIONS IN MONTENEGRO\\nHone your strategic skills and orchestrate the perfect assassination kill shot.\\n\\nSURVIVOR CHALLENGE IN DEATH VALLEY\\nNon-stop action as the zombie hunter in a true test of your skills and speed of execution.\\n\\nMORE THAN 150 MISSIONS AND 10 DIFFERENT CONTRACTS\\nImprove your skills for the perfect assassination as you uncover secrets and subterfuges.\\n\\n16 UNIQUE GUNS\\nEliminate targets, collect weapon parts and complete blueprints to unlock the most powerful guns.\\n\\nCOMPETE AGAINST YOUR FRIENDS FOR THE FIRST PLACE IN THE LEADERBOARDS\\nBoost your score and climb up the contract killer ranks to become the world's finest silent assassin.\",\"total_rating\":77.65285495882634,\"url\":\"https://www.igdb.com/games/hitman-sniper\"}",
+    "DateUpdated": "2026-09-07T16:44:31.0153796-03:00"
+  },
+  {
     "GameDetailsID": 345,
     "FriendlyName": "HITMAN: SNIPER CHALLENGE",
     "Name": "Hitman: Sniper Challenge",
@@ -17336,6 +17446,33 @@
     "DateUpdated": "2026-09-07T14:28:12.2895754-03:00"
   },
   {
+    "GameDetailsID": 1396,
+    "FriendlyName": "LEGO® STAR WARS™ III - THE CLONE WARS™",
+    "Name": "LEGO Star Wars III: The Clone Wars",
+    "SteamApID": 32510,
+    "IGDBId": 6844,
+    "IGDBUrl": "https://www.igdb.com/games/lego-star-wars-iii-the-clone-wars",
+    "ExophaseUrl": null,
+    "Summary": "The Saga continues. Build, battle and laugh your way across the Star Wars universe like never before! Play as Anakin Skywalker and Obi-Wan Kenobi through a story spanning the entire Clone Wars era. LEGO Star Wars III: The Clone Wars combines epic space battles, challenging puzzles and of course, the imaginative gameplay of LEGO.\n\nThe Sith and their allies have declared war on the Jedi Council with an army of droids, and it’s up to you to stop them. With the Dark Side gathering power and entire star systems in turmoil, galactic freedom hangs in the balance.",
+    "Storyline": "This LEGO adventure retells events from the animated film and television series Star Wars: The Clone Wars in a playful, brick-built style. Set during the galaxy-spanning conflict between the Galactic Republic and the Separatist droid armies, it follows Jedi heroes like Anakin Skywalker, Obi-Wan Kenobi, and Ahsoka Tano as they lead clone troopers into battle. Players relive the war's memorable campaigns and skirmishes across many worlds. The familiar events are reimagined with the lighthearted humor and charm of LEGO.",
+    "FirstReleaseDate": "2011-02-28T00:00:00",
+    "Genres": [
+      "Platform",
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ],
+    "Developers": [
+      "Traveller's Tales"
+    ],
+    "Publishers": [
+      "Feral Interactive",
+      "LucasArts"
+    ],
+    "TotalRating": 72.06719562671861,
+    "IDDBData": "{\"id\":6844,\"first_release_date\":1298851200,\"genres\":[{\"id\":8,\"name\":\"Platform\"},{\"id\":25,\"name\":\"Hack and slash/Beat 'em up\"},{\"id\":31,\"name\":\"Adventure\"}],\"involved_companies\":[{\"id\":19859,\"company\":{\"id\":292,\"name\":\"Traveller's Tales\"},\"developer\":true,\"publisher\":false},{\"id\":189747,\"company\":{\"id\":23,\"name\":\"Feral Interactive\"},\"developer\":false,\"publisher\":true},{\"id\":215556,\"company\":{\"id\":10,\"name\":\"LucasArts\"},\"developer\":false,\"publisher\":true}],\"name\":\"LEGO Star Wars III: The Clone Wars\",\"storyline\":\"This LEGO adventure retells events from the animated film and television series Star Wars: The Clone Wars in a playful, brick-built style. Set during the galaxy-spanning conflict between the Galactic Republic and the Separatist droid armies, it follows Jedi heroes like Anakin Skywalker, Obi-Wan Kenobi, and Ahsoka Tano as they lead clone troopers into battle. Players relive the war's memorable campaigns and skirmishes across many worlds. The familiar events are reimagined with the lighthearted humor and charm of LEGO.\",\"summary\":\"The Saga continues. Build, battle and laugh your way across the Star Wars universe like never before! Play as Anakin Skywalker and Obi-Wan Kenobi through a story spanning the entire Clone Wars era. LEGO Star Wars III: The Clone Wars combines epic space battles, challenging puzzles and of course, the imaginative gameplay of LEGO.\\n\\nThe Sith and their allies have declared war on the Jedi Council with an army of droids, and it’s up to you to stop them. With the Dark Side gathering power and entire star systems in turmoil, galactic freedom hangs in the balance.\",\"total_rating\":72.06719562671861,\"url\":\"https://www.igdb.com/games/lego-star-wars-iii-the-clone-wars\"}",
+    "DateUpdated": "2026-09-07T16:43:34.3421377-03:00"
+  },
+  {
     "GameDetailsID": 691,
     "FriendlyName": "LEGO® THE HOBBIT™",
     "Name": "LEGO The Hobbit",
@@ -17681,6 +17818,29 @@
     "DateUpdated": "2026-09-07T13:59:44.8568813-03:00"
   },
   {
+    "GameDetailsID": 1397,
+    "FriendlyName": "LORIA",
+    "Name": "Loria",
+    "SteamApID": 946660,
+    "IGDBId": 111928,
+    "IGDBUrl": "https://www.igdb.com/games/loria",
+    "ExophaseUrl": null,
+    "Summary": "Loria is a homage to classics from golden era of strategy games, with modern spin on controls and user experience.",
+    "Storyline": null,
+    "FirstReleaseDate": "2018-11-27T00:00:00",
+    "Genres": [
+      "Real Time Strategy (RTS)",
+      "Role-playing (RPG)",
+      "Strategy",
+      "Indie"
+    ],
+    "Developers": [],
+    "Publishers": [],
+    "TotalRating": 70.0,
+    "IDDBData": "{\"id\":111928,\"first_release_date\":1543276800,\"genres\":[{\"id\":11,\"name\":\"Real Time Strategy (RTS)\"},{\"id\":12,\"name\":\"Role-playing (RPG)\"},{\"id\":15,\"name\":\"Strategy\"},{\"id\":32,\"name\":\"Indie\"}],\"name\":\"Loria\",\"summary\":\"Loria is a homage to classics from golden era of strategy games, with modern spin on controls and user experience.\",\"total_rating\":70.0,\"url\":\"https://www.igdb.com/games/loria\"}",
+    "DateUpdated": "2026-09-07T16:43:35.6217731-03:00"
+  },
+  {
     "GameDetailsID": 326,
     "FriendlyName": "LOST PLANET 2",
     "Name": "Lost Planet 2",
@@ -17755,6 +17915,66 @@
     "TotalRating": 72.28938209862088,
     "IDDBData": "{\"id\":1913,\"first_release_date\":1166659200,\"genres\":[{\"id\":5,\"name\":\"Shooter\"},{\"id\":8,\"name\":\"Platform\"},{\"id\":31,\"name\":\"Adventure\"}],\"involved_companies\":[{\"id\":20065,\"company\":{\"id\":2325,\"name\":\"K2 LLC\"},\"developer\":true,\"publisher\":false},{\"id\":16690,\"company\":{\"id\":37,\"name\":\"Capcom\"},\"developer\":true,\"publisher\":true}],\"name\":\"Lost Planet: Extreme Condition\",\"storyline\":\"Lost Planet takes place in the year known in the game as T.C. -80 on the fictional planet of E.D.N. III. After the Earth's conditions become too hostile for humans due to war, global warming and pollution, a fictional interstellar megacorporation named Neo-Venus Construction (NEVEC) plans to colonize E.D.N. III, a new Earth-like planet in grip of a brutal ice age. NEVEC discover that E.D.N. III is inhabited by an aggressive and territorial insectoid alien species named the Akrid, which come in all shapes and sizes and generate their own precious thermal energy. 150 years after a great war was fought in which the humans lost to the Akrid, the plot of the game revolves around Wayne Holden, a soldier who attempts to overthrow NEVEC, who still vie for control over E.D.N. III, and help colonization efforts for the remainder of the human race by destroying the Akrid, all the while attempting to survive both betrayals and the extreme conditions of the planet.\\n\\nThe game starts with Wayne, his father Gale, and their unit taking on a mission to kill a giant Akrid known as Green Eye. During their mission, Wayne is separated from his squad and watches his father's VS explode. Wayne is left drifting in the snow and is frozen solid for 30 years. Wayne wakes up and finds himself in the care of Yuri Solotov and his crew of snow pirates; Luka and Rick. Apart from his name and the Green Eye, Wayne remembers nothing of his previous life. Yuri is particularly interested in the thermal extension (or Harmonizer) attached to Wayne's arm, which has enabled Wayne to survive all this time. Yuri tells Wayne that NEVEC is working on a project designed to thaw out the planet to make it safe to live on. Wayne joins Yuri's band, and while on a mission to wipe out an Akrid hive, fights a woman named Basil. Basil tells him that Yuri has killed her husband and that she was looking for revenge. At the same time, Yuri mysteriously disappears, leaving Wayne to question his loyalty. With the help of Rick and Luka, Wayne discovers the Green Eye's location and destroys it with Gale's (his fathers) VS. Shortly after, Wayne and his VS are attacked by NEVEC's field commander, Bandero. Slowly, after escaping the attack, Wayne remembers that rather Green Eye being responsible for killing Gale, it was actually a few NEVEC soldiers with Bendero watching. Wayne and Luka barely escape, only to find that their pirate fortress (trailer) has been sieged, and that Rick has been taken captive.\\n\\nFor the next year, Wayne and Luka initiate hit and run attacks against NEVEC, which has taken control over the human race. During one of their attacks, they discover Rick is still alive due to him being rescued by Basil. Basil and Wayne take a NEVEC trooper named Joe hostage. It is after taking Joe prisoner that Basil goes on to explain that the Harmonizer slows down the aging process and unlocks the powers to Gale's VS. After they interrogate him, they find out more about NEVEC's Frontier Project. Joe tells them it is NEVEC's plan to make E.D.N. III a safe place to live for humans. After joining the snow pirates, Joe arranges for Wayne to meet with NEVEC leadership, inadvertently leading to an ambush where Bandero shoots Wayne in the leg. During the confrontation, Wayne and Joe learn that the project will use T-ENG to wipe out not only all Akrid but also kill all humans left on the surface while all of NEVEC watches safely from the sky. Horrified, the pirates go on a final mission to stop the project. Wayne confronts Bandero a final time, killing him and regaining his father's rebuilt VS. Wayne finds Yuri and before dying from torture, Yuri gives Wayne an attachment to his Harmonizer as it would allow him to unlock the true power of his VS.\\n\\nWhile Wayne begins his attack on NEVEC's honcho, Commander Isenberg, Basil sacrifices herself to buy him time and Joe sets off explosives to destroy the elevator from which NEVEC would hide. Wayne confronts Isenberg and after fighting in VSs, shoots him in the head with a single pistol bullet right before he passes out, losing his memory again. Wayne wakes up to find Luka and Rick starting to melt all of the ice and snow from the planet, and slowly colonization begins once more.\",\"summary\":\"The game is played through a third person over-the-shoulder view. Players are allowed to switch between first person and third person at any moment. Players either travel on foot or ride various types of mechanized suits called Vital Suits (VSs). VSs carry heavy weapons such as chainguns and rocket launchers. They can pick up weapons lying on the ground and fire multiple weapons at once. On foot, players are able to use a grappling hook to pull themselves up to normally hard-to-reach places, or to hook onto a VS and hijack it. Driving VSs and using certain weapons requires thermal energy. Also, the planet's cold temperature causes the characters' thermal energy level to continually decrease. Players can replenish their thermal energy level by defeating enemies or activating data posts. Data posts also allow players to use their navigational radars to see incoming enemies. Each of the 11 levels is accompanied by a boss, which can be either a VS or a large Akrid.\",\"total_rating\":72.28938209862088,\"url\":\"https://www.igdb.com/games/lost-planet-extreme-condition\"}",
     "DateUpdated": "2026-09-07T14:03:00.2836027-03:00"
+  },
+  {
+    "GameDetailsID": 1398,
+    "FriendlyName": "LOST RUINS",
+    "Name": "Lost Ruins",
+    "SteamApID": 1306630,
+    "IGDBId": 142596,
+    "IGDBUrl": "https://www.igdb.com/games/lost-ruins",
+    "ExophaseUrl": null,
+    "Summary": "Lost Ruins is a 2D side-scrolling survival action game, where you play as a young girl that has awoken in a strange and foreign place without her memories. With the aid of weapons, spells and tonics, and the guidance of the magical and mysterious Beatrice, you will explore a dark and dangerous world, battle hideous monsters, and topple incredible bosses.",
+    "Storyline": "A young girl wakes up in a dimly lit dungeon without any of her memories. Surrounded by horrible, bloodthirsty monsters, the girl is rescued by the magician, Beatrice. With Beatrice’s help, the girl goes on a perilous journey to find answers, and unlock the secrets of the Lost Ruins.",
+    "FirstReleaseDate": "2021-05-13T00:00:00",
+    "Genres": [
+      "Platform",
+      "Puzzle",
+      "Role-playing (RPG)",
+      "Strategy",
+      "Adventure",
+      "Indie"
+    ],
+    "Developers": [
+      "Altari Games"
+    ],
+    "Publishers": [
+      "DANGEN Entertainment"
+    ],
+    "TotalRating": 72.88578565521134,
+    "IDDBData": "{\"id\":142596,\"first_release_date\":1620864000,\"genres\":[{\"id\":8,\"name\":\"Platform\"},{\"id\":9,\"name\":\"Puzzle\"},{\"id\":12,\"name\":\"Role-playing (RPG)\"},{\"id\":15,\"name\":\"Strategy\"},{\"id\":31,\"name\":\"Adventure\"},{\"id\":32,\"name\":\"Indie\"}],\"involved_companies\":[{\"id\":300953,\"company\":{\"id\":14002,\"name\":\"DANGEN Entertainment\"},\"developer\":false,\"publisher\":true},{\"id\":300954,\"company\":{\"id\":31242,\"name\":\"Altari Games\"},\"developer\":true,\"publisher\":false}],\"name\":\"Lost Ruins\",\"storyline\":\"A young girl wakes up in a dimly lit dungeon without any of her memories. Surrounded by horrible, bloodthirsty monsters, the girl is rescued by the magician, Beatrice. With Beatrice’s help, the girl goes on a perilous journey to find answers, and unlock the secrets of the Lost Ruins.\",\"summary\":\"Lost Ruins is a 2D side-scrolling survival action game, where you play as a young girl that has awoken in a strange and foreign place without her memories. With the aid of weapons, spells and tonics, and the guidance of the magical and mysterious Beatrice, you will explore a dark and dangerous world, battle hideous monsters, and topple incredible bosses.\",\"total_rating\":72.88578565521134,\"url\":\"https://www.igdb.com/games/lost-ruins\"}",
+    "DateUpdated": "2026-09-07T16:43:37.0626599-03:00"
+  },
+  {
+    "GameDetailsID": 1399,
+    "FriendlyName": "LOVECRAFTS UNTOLD STORIES",
+    "Name": "Lovecraft's Untold Stories",
+    "SteamApID": 871420,
+    "IGDBId": 102995,
+    "IGDBUrl": "https://www.igdb.com/games/lovecrafts-untold-stories",
+    "ExophaseUrl": null,
+    "Summary": "Lovecraft’s Untold Stories is an action RPG with rogue-like elements. Explore, improve your skills and gear, and fight cultists and creatures from the Mythos to stop the Old Ones’ plans in randomly generated levels based on Lovecraft stories. Madness and death await you—but maybe you can delay the inevitable…",
+    "Storyline": null,
+    "FirstReleaseDate": "2019-01-31T00:00:00",
+    "Genres": [
+      "Shooter",
+      "Role-playing (RPG)",
+      "Strategy",
+      "Adventure",
+      "Indie",
+      "Arcade"
+    ],
+    "Developers": [
+      "Blini Games"
+    ],
+    "Publishers": [
+      "BadLand Publishing",
+      "Blini Games",
+      "Fulqrum Publishing"
+    ],
+    "TotalRating": 64.14427533102247,
+    "IDDBData": "{\"id\":102995,\"first_release_date\":1548892800,\"genres\":[{\"id\":5,\"name\":\"Shooter\"},{\"id\":12,\"name\":\"Role-playing (RPG)\"},{\"id\":15,\"name\":\"Strategy\"},{\"id\":31,\"name\":\"Adventure\"},{\"id\":32,\"name\":\"Indie\"},{\"id\":33,\"name\":\"Arcade\"}],\"involved_companies\":[{\"id\":355997,\"company\":{\"id\":20640,\"name\":\"BadLand Publishing\"},\"developer\":false,\"publisher\":true},{\"id\":337916,\"company\":{\"id\":17236,\"name\":\"Blini Games\"},\"developer\":true,\"publisher\":true},{\"id\":337917,\"company\":{\"id\":43324,\"name\":\"Fulqrum Publishing\"},\"developer\":false,\"publisher\":true}],\"name\":\"Lovecraft's Untold Stories\",\"summary\":\"Lovecraft’s Untold Stories is an action RPG with rogue-like elements. Explore, improve your skills and gear, and fight cultists and creatures from the Mythos to stop the Old Ones’ plans in randomly generated levels based on Lovecraft stories. Madness and death await you—but maybe you can delay the inevitable…\",\"total_rating\":64.14427533102247,\"url\":\"https://www.igdb.com/games/lovecrafts-untold-stories\"}",
+    "DateUpdated": "2026-09-07T16:43:38.1812821-03:00"
   },
   {
     "GameDetailsID": 445,
@@ -17864,6 +18084,32 @@
     "DateUpdated": "2026-09-07T14:08:51.8631492-03:00"
   },
   {
+    "GameDetailsID": 1400,
+    "FriendlyName": "MABLE &AMP; THE WOOD",
+    "Name": "Mable and the Wood",
+    "SteamApID": 568070,
+    "IGDBId": 89773,
+    "IGDBUrl": "https://www.igdb.com/games/mable-and-the-wood",
+    "ExophaseUrl": null,
+    "Summary": "Will you banish the darkness from the world, or will you become it? Mable & The Wood is an adventure platformer about a shape-shifting girl whose power might be destroying the world she's trying to save.",
+    "Storyline": null,
+    "FirstReleaseDate": "2019-08-23T00:00:00",
+    "Genres": [
+      "Platform",
+      "Adventure",
+      "Indie"
+    ],
+    "Developers": [
+      "Triplevision Games"
+    ],
+    "Publishers": [
+      "Graffiti Games"
+    ],
+    "TotalRating": 60.0,
+    "IDDBData": "{\"id\":89773,\"first_release_date\":1566518400,\"genres\":[{\"id\":8,\"name\":\"Platform\"},{\"id\":31,\"name\":\"Adventure\"},{\"id\":32,\"name\":\"Indie\"}],\"involved_companies\":[{\"id\":129542,\"company\":{\"id\":27056,\"name\":\"Triplevision Games\"},\"developer\":true,\"publisher\":false},{\"id\":129543,\"company\":{\"id\":15257,\"name\":\"Graffiti Games\"},\"developer\":false,\"publisher\":true}],\"name\":\"Mable and the Wood\",\"summary\":\"Will you banish the darkness from the world, or will you become it? Mable & The Wood is an adventure platformer about a shape-shifting girl whose power might be destroying the world she's trying to save.\",\"total_rating\":60.0,\"url\":\"https://www.igdb.com/games/mable-and-the-wood\"}",
+    "DateUpdated": "2026-09-07T16:43:40.7173152-03:00"
+  },
+  {
     "GameDetailsID": 164,
     "FriendlyName": "MAD MAX",
     "Name": "Mad Max",
@@ -17909,6 +18155,26 @@
     "TotalRating": null,
     "IDDBData": "{\"id\":325379,\"first_release_date\":1596585600,\"involved_companies\":[{\"id\":299262,\"company\":{\"id\":60356,\"name\":\"Keskinov\"},\"developer\":true,\"publisher\":false}],\"name\":\"Mafia\",\"summary\":\"Mafia is a psychological game played in a group, similar to Werewolf or Assassin. It takes strategic role playing to a whole new level. With the Mafia App, it’s easy to learn how to play Mafia. Each person in your group is randomly — and secretly — assigned a role, such as Mafia, Police, Doctor, Spy, Prostitute, and more. The peaceful Citizens try to figure out who has the Mafia role and eliminate them. The Mafia tries to eliminate Citizens. With each turn, tensions rise. Everybody claims to not be Mafia. But some of you are lying…\",\"url\":\"https://www.igdb.com/games/mafia--2\"}",
     "DateUpdated": "2026-09-07T14:16:36.3410336-03:00"
+  },
+  {
+    "GameDetailsID": 1402,
+    "FriendlyName": "MAFIA: DEFINITIVE EDITION",
+    "Name": "Mafia",
+    "SteamApID": 1030840,
+    "IGDBId": 325379,
+    "IGDBUrl": "https://www.igdb.com/games/mafia--2",
+    "ExophaseUrl": null,
+    "Summary": "Mafia is a psychological game played in a group, similar to Werewolf or Assassin. It takes strategic role playing to a whole new level. With the Mafia App, it’s easy to learn how to play Mafia. Each person in your group is randomly — and secretly — assigned a role, such as Mafia, Police, Doctor, Spy, Prostitute, and more. The peaceful Citizens try to figure out who has the Mafia role and eliminate them. The Mafia tries to eliminate Citizens. With each turn, tensions rise. Everybody claims to not be Mafia. But some of you are lying…",
+    "Storyline": null,
+    "FirstReleaseDate": "2020-08-05T00:00:00",
+    "Genres": [],
+    "Developers": [
+      "Keskinov"
+    ],
+    "Publishers": [],
+    "TotalRating": null,
+    "IDDBData": "{\"id\":325379,\"first_release_date\":1596585600,\"involved_companies\":[{\"id\":299262,\"company\":{\"id\":60356,\"name\":\"Keskinov\"},\"developer\":true,\"publisher\":false}],\"name\":\"Mafia\",\"summary\":\"Mafia is a psychological game played in a group, similar to Werewolf or Assassin. It takes strategic role playing to a whole new level. With the Mafia App, it’s easy to learn how to play Mafia. Each person in your group is randomly — and secretly — assigned a role, such as Mafia, Police, Doctor, Spy, Prostitute, and more. The peaceful Citizens try to figure out who has the Mafia role and eliminate them. The Mafia tries to eliminate Citizens. With each turn, tensions rise. Everybody claims to not be Mafia. But some of you are lying…\",\"url\":\"https://www.igdb.com/games/mafia--2\"}",
+    "DateUpdated": "2026-09-07T16:43:44.173226-03:00"
   },
   {
     "GameDetailsID": 472,
@@ -17965,6 +18231,34 @@
     "TotalRating": 77.08011570624863,
     "IDDBData": "{\"id\":40,\"first_release_date\":1282608000,\"genres\":[{\"id\":5,\"name\":\"Shooter\"},{\"id\":10,\"name\":\"Racing\"},{\"id\":31,\"name\":\"Adventure\"}],\"involved_companies\":[{\"id\":781,\"company\":{\"id\":8,\"name\":\"2K Games\"},\"developer\":false,\"publisher\":true},{\"id\":20075,\"company\":{\"id\":139,\"name\":\"Take-Two Interactive\"},\"developer\":false,\"publisher\":true},{\"id\":779,\"company\":{\"id\":301,\"name\":\"2K Czech\"},\"developer\":true,\"publisher\":false},{\"id\":780,\"company\":{\"id\":302,\"name\":\"Massive Bear Studios\"},\"developer\":true,\"publisher\":false}],\"name\":\"Mafia II\",\"storyline\":\"In 1943, Sicilian immigrant Vito Scaletta is arrested during a robbery and chooses to enlist in the United States Army rather than serve prison time. After returning home on leave to Empire Bay in 1945, he reunites with childhood friend Joe Barbaro, who has become involved with the city's organized crime families. When Vito learns his late father left the family deeply in debt to a loan shark, he turns to the criminal underworld for work, taking on jobs with Joe and various mob contacts to settle what is owed.\\n\\nAfter a stint in prison, Vito emerges in 1951 and rises quickly through the ranks of the Falcone crime family alongside Joe, securing the lifestyle he has always wanted. But as tensions mount between the city's rival factions, Vito finds his loyalties tested and his ambitions threatened by forces he cannot control.\",\"summary\":\"Mafia II is a third-person action-adventure game set in the fictional American city of Empire Bay between 1945 and 1951. Players control Vito Scaletta through a story-driven campaign involving organized crime, navigating an open world on foot or by vehicle. Gameplay combines shooting, driving, and limited melee combat, with a wanted system that escalates law enforcement response based on criminal activity. The game features era-appropriate vehicles, licensed period music across multiple radio stations, and a cover-based combat system.\",\"total_rating\":77.08011570624863,\"url\":\"https://www.igdb.com/games/mafia-ii\"}",
     "DateUpdated": "2026-09-07T14:14:15.2695204-03:00"
+  },
+  {
+    "GameDetailsID": 1401,
+    "FriendlyName": "MAFIA III: DEFINITIVE EDITION",
+    "Name": "Mafia III",
+    "SteamApID": 360430,
+    "IGDBId": 11492,
+    "IGDBUrl": "https://www.igdb.com/games/mafia-iii",
+    "ExophaseUrl": null,
+    "Summary": "Mafia III is an open-world action-adventure game played from a third-person perspective and the third entry in the Mafia series. Players control Lincoln Clay across a large recreation of the fictional city of New Bordeaux, modeled on New Orleans, tackling missions with a mix of gunplay, melee combat, stealth, and a cover system. Objectives can be approached in different ways, and players seize territory from rival criminal outfits and hand districts to their lieutenants. Period cars can be driven across the city, and the setting and licensed soundtrack draw heavily on the late 1960s American South.",
+    "Storyline": "Set in 1968 in the fictional southern city of New Bordeaux, Mafia III follows Lincoln Clay, a young Vietnam War veteran who returns home to the surrogate family that raised him. He agrees to help the local Black Mob settle its troubles, which brings him into the orbit of the powerful Marcano crime family that controls the city. After the mob betrays and murders the people closest to him and leaves him for dead, Lincoln survives and sets out for revenge. With the aid of a former handler and a group of rival power brokers who have their own grudges against the Marcanos, he begins tearing down their operation and building a criminal organization of his own across New Bordeaux.",
+    "FirstReleaseDate": "2016-10-07T00:00:00",
+    "Genres": [
+      "Shooter",
+      "Racing",
+      "Adventure"
+    ],
+    "Developers": [
+      "Hangar 13"
+    ],
+    "Publishers": [
+      "2K Games",
+      "Take-Two Interactive",
+      "Aspyr Media"
+    ],
+    "TotalRating": 67.457170151068,
+    "IDDBData": "{\"id\":11492,\"first_release_date\":1475798400,\"genres\":[{\"id\":5,\"name\":\"Shooter\"},{\"id\":10,\"name\":\"Racing\"},{\"id\":31,\"name\":\"Adventure\"}],\"involved_companies\":[{\"id\":25001,\"company\":{\"id\":6079,\"name\":\"Hangar 13\"},\"developer\":true,\"publisher\":false},{\"id\":25002,\"company\":{\"id\":8,\"name\":\"2K Games\"},\"developer\":false,\"publisher\":true},{\"id\":98105,\"company\":{\"id\":139,\"name\":\"Take-Two Interactive\"},\"developer\":false,\"publisher\":true},{\"id\":52014,\"company\":{\"id\":73,\"name\":\"Aspyr Media\"},\"developer\":false,\"publisher\":true}],\"name\":\"Mafia III\",\"storyline\":\"Set in 1968 in the fictional southern city of New Bordeaux, Mafia III follows Lincoln Clay, a young Vietnam War veteran who returns home to the surrogate family that raised him. He agrees to help the local Black Mob settle its troubles, which brings him into the orbit of the powerful Marcano crime family that controls the city. After the mob betrays and murders the people closest to him and leaves him for dead, Lincoln survives and sets out for revenge. With the aid of a former handler and a group of rival power brokers who have their own grudges against the Marcanos, he begins tearing down their operation and building a criminal organization of his own across New Bordeaux.\",\"summary\":\"Mafia III is an open-world action-adventure game played from a third-person perspective and the third entry in the Mafia series. Players control Lincoln Clay across a large recreation of the fictional city of New Bordeaux, modeled on New Orleans, tackling missions with a mix of gunplay, melee combat, stealth, and a cover system. Objectives can be approached in different ways, and players seize territory from rival criminal outfits and hand districts to their lieutenants. Period cars can be driven across the city, and the setting and licensed soundtrack draw heavily on the late 1960s American South.\",\"total_rating\":67.457170151068,\"url\":\"https://www.igdb.com/games/mafia-iii\"}",
+    "DateUpdated": "2026-09-07T16:43:42.9177552-03:00"
   },
   {
     "GameDetailsID": 261,
@@ -18066,6 +18360,31 @@
     "DateUpdated": "2026-09-07T14:25:35.8047843-03:00"
   },
   {
+    "GameDetailsID": 1403,
+    "FriendlyName": "MARTIAL LAW",
+    "Name": "Martial Law",
+    "SteamApID": 1712390,
+    "IGDBId": 168099,
+    "IGDBUrl": "https://www.igdb.com/games/martial-law--1",
+    "ExophaseUrl": null,
+    "Summary": "Martial Law is a game about difficulties that came with Communism in Poland. The story is shown from the perspective of a man who is abandoned because of his low social status. He tries his best to be there for his daughter despite the difficulties.",
+    "Storyline": null,
+    "FirstReleaseDate": "2021-12-23T00:00:00",
+    "Genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "Developers": [
+      "Fixer"
+    ],
+    "Publishers": [
+      "Fixer"
+    ],
+    "TotalRating": 57.87927876523981,
+    "IDDBData": "{\"id\":168099,\"first_release_date\":1640217600,\"genres\":[{\"id\":31,\"name\":\"Adventure\"},{\"id\":32,\"name\":\"Indie\"}],\"involved_companies\":[{\"id\":196421,\"company\":{\"id\":44736,\"name\":\"Fixer\"},\"developer\":true,\"publisher\":true}],\"name\":\"Martial Law\",\"summary\":\"Martial Law is a game about difficulties that came with Communism in Poland. The story is shown from the perspective of a man who is abandoned because of his low social status. He tries his best to be there for his daughter despite the difficulties.\",\"total_rating\":57.87927876523981,\"url\":\"https://www.igdb.com/games/martial-law--1\"}",
+    "DateUpdated": "2026-09-07T16:43:45.4389897-03:00"
+  },
+  {
     "GameDetailsID": 394,
     "FriendlyName": "MASS EFFECT",
     "Name": "Mass Effect",
@@ -18142,6 +18461,26 @@
     "TotalRating": 88.58037510967081,
     "IDDBData": "{\"id\":140839,\"first_release_date\":1620950400,\"genres\":[{\"id\":5,\"name\":\"Shooter\"},{\"id\":12,\"name\":\"Role-playing (RPG)\"},{\"id\":15,\"name\":\"Strategy\"},{\"id\":31,\"name\":\"Adventure\"}],\"involved_companies\":[{\"id\":112504,\"company\":{\"id\":1,\"name\":\"Electronic Arts\"},\"developer\":false,\"publisher\":true},{\"id\":112502,\"company\":{\"id\":2,\"name\":\"BioWare\"},\"developer\":true,\"publisher\":false}],\"name\":\"Mass Effect Legendary Edition\",\"storyline\":\"One person is all that stands between humanity and the greatest threat it’s ever faced. Relive the legend of Commander Shepard in the highly acclaimed Mass Effect trilogy with the Mass Effect Legendary Edition. Experience an amazingly rich and detailed universe where your decisions have profound consequences on the action and the outcome.\",\"summary\":\"One person is all that stands between humanity and the greatest threat it’s ever faced. Relive the legend of Commander Shepard in the highly acclaimed Mass Effect trilogy with the Mass Effect Legendary Edition. Includes single-player base content and over 40 DLCs from Mass Effect, Mass Effect 2, and Mass Effect 3 games, including promo weapons, armors and packs. Experience an amazingly rich and detailed universe where your decisions have profound consequences on the action and the outcome.\",\"total_rating\":88.58037510967081,\"url\":\"https://www.igdb.com/games/mass-effect-legendary-edition\"}",
     "DateUpdated": "2026-09-07T14:16:11.9686685-03:00"
+  },
+  {
+    "GameDetailsID": 1404,
+    "FriendlyName": "MASTER OF MAGIC CLASSIC",
+    "Name": "Master of Magic Classic",
+    "SteamApID": 1146370,
+    "IGDBId": 148724,
+    "IGDBUrl": "https://www.igdb.com/games/master-of-magic-classic",
+    "ExophaseUrl": null,
+    "Summary": "Master of Magic Classic is one of the most popular strategy games of the 90s. It is a 4X fantasy strategy game that allows you to play as an extremely powerful wizard, leading your troops and overcoming your magical opponents.",
+    "Storyline": null,
+    "FirstReleaseDate": "1994-09-01T00:00:00",
+    "Genres": [
+      "Strategy"
+    ],
+    "Developers": [],
+    "Publishers": [],
+    "TotalRating": null,
+    "IDDBData": "{\"id\":148724,\"first_release_date\":778377600,\"genres\":[{\"id\":15,\"name\":\"Strategy\"}],\"name\":\"Master of Magic Classic\",\"summary\":\"Master of Magic Classic is one of the most popular strategy games of the 90s. It is a 4X fantasy strategy game that allows you to play as an extremely powerful wizard, leading your troops and overcoming your magical opponents.\",\"url\":\"https://www.igdb.com/games/master-of-magic-classic\"}",
+    "DateUpdated": "2026-09-07T16:43:46.3529906-03:00"
   },
   {
     "GameDetailsID": 464,
@@ -18850,6 +19189,33 @@
     "DateUpdated": "2026-09-07T14:16:53.34916-03:00"
   },
   {
+    "GameDetailsID": 1405,
+    "FriendlyName": "METRO: LAST LIGHT REDUX",
+    "Name": "Metro: Last Light Redux",
+    "SteamApID": 287390,
+    "IGDBId": 50199,
+    "IGDBUrl": "https://www.igdb.com/games/metro-last-light-redux",
+    "ExophaseUrl": null,
+    "Summary": "Metro: Last Light Redux is the definitive version of the critically acclaimed ‘Metro: Last Light’, rebuilt in the latest and greatest iteration of the 4A Engine for Next Gen. Newcomers will get the chance to experience one of the finest story-driven shooters of all time; an epic adventure combining gripping survival horror, exploration and tactical combat and stealth.\n\nThis definitive version also includes all previously released DLC, adding 10 hours of bonus single-player content to the huge solo campaign. Fans of the original game will notice new features and gameplay improvements, including new melee animations, the ability to check your watch and ammo supplies on the fly, and new full-body player animations.\n\nAnd those who favoured the more survival-horror oriented gameplay of the cult prequel ‘Metro 2033’ will find a new way to experience the campaign thanks to the introduction of two unique Play Styles – Survival and Spartan. The former transforms Last light from a more action-oriented stealth combat experience to a fraught, slow burn fight for survival. With the legendary Ranger Mode included to offer an extra layer of challenge and immersion, Metro: Last Light Redux offers hours of AAA gameplay for an incredible price.",
+    "Storyline": "The game picks up after the bad ending from Metro 2033, in which Artyom delivers a devastating attack on the mysterious supernatural race known as the Dark Ones. The station-cities of the Metro struggle for power using weapons found in D6. The player follows Artyom, the main protagonist from Metro 2033, as he searches for the mysterious \"Prisoner\", the supposed “key to survival – the last light in our darkest hour…”",
+    "FirstReleaseDate": "2014-08-26T00:00:00",
+    "Genres": [
+      "Shooter",
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "Developers": [
+      "4A Games"
+    ],
+    "Publishers": [
+      "Koch Media",
+      "Deep Silver"
+    ],
+    "TotalRating": 80.28122567434761,
+    "IDDBData": "{\"id\":50199,\"first_release_date\":1409011200,\"genres\":[{\"id\":5,\"name\":\"Shooter\"},{\"id\":12,\"name\":\"Role-playing (RPG)\"},{\"id\":31,\"name\":\"Adventure\"}],\"involved_companies\":[{\"id\":93780,\"company\":{\"id\":374,\"name\":\"Koch Media\"},\"developer\":false,\"publisher\":true},{\"id\":170143,\"company\":{\"id\":423,\"name\":\"Deep Silver\"},\"developer\":false,\"publisher\":true},{\"id\":170142,\"company\":{\"id\":314,\"name\":\"4A Games\"},\"developer\":true,\"publisher\":false}],\"name\":\"Metro: Last Light Redux\",\"storyline\":\"The game picks up after the bad ending from Metro 2033, in which Artyom delivers a devastating attack on the mysterious supernatural race known as the Dark Ones. The station-cities of the Metro struggle for power using weapons found in D6. The player follows Artyom, the main protagonist from Metro 2033, as he searches for the mysterious \\\"Prisoner\\\", the supposed “key to survival – the last light in our darkest hour…”\",\"summary\":\"Metro: Last Light Redux is the definitive version of the critically acclaimed ‘Metro: Last Light’, rebuilt in the latest and greatest iteration of the 4A Engine for Next Gen. Newcomers will get the chance to experience one of the finest story-driven shooters of all time; an epic adventure combining gripping survival horror, exploration and tactical combat and stealth.\\n\\nThis definitive version also includes all previously released DLC, adding 10 hours of bonus single-player content to the huge solo campaign. Fans of the original game will notice new features and gameplay improvements, including new melee animations, the ability to check your watch and ammo supplies on the fly, and new full-body player animations.\\n\\nAnd those who favoured the more survival-horror oriented gameplay of the cult prequel ‘Metro 2033’ will find a new way to experience the campaign thanks to the introduction of two unique Play Styles – Survival and Spartan. The former transforms Last light from a more action-oriented stealth combat experience to a fraught, slow burn fight for survival. With the legendary Ranger Mode included to offer an extra layer of challenge and immersion, Metro: Last Light Redux offers hours of AAA gameplay for an incredible price.\",\"total_rating\":80.28122567434761,\"url\":\"https://www.igdb.com/games/metro-last-light-redux\"}",
+    "DateUpdated": "2026-09-07T16:43:48.0013379-03:00"
+  },
+  {
     "GameDetailsID": 212,
     "FriendlyName": "MICROSOFT FLIGHT SIMULATOR X: STEAM EDITION",
     "Name": "Microsoft Flight Simulator X: Steam Edition",
@@ -18902,6 +19268,57 @@
     "DateUpdated": "2026-09-07T14:09:18.1070185-03:00"
   },
   {
+    "GameDetailsID": 1406,
+    "FriendlyName": "MIDDLE-EARTH™: SHADOW OF MORDOR™ GAME OF THE YEAR EDITION",
+    "Name": "Middle-earth: Shadow of Mordor",
+    "SteamApID": 0,
+    "IGDBId": 3025,
+    "IGDBUrl": "https://www.igdb.com/games/middle-earth-shadow-of-mordor",
+    "ExophaseUrl": null,
+    "Summary": "Middle-earth: Shadow of Mordor is a open world third-person action role-playing video game developed by Monolith Productions and published by Warner Bros. Interactive Entertainment, which takes place in the world of J.R.R. Tolkien's Legendarium.\n\nThe game takes place in the 60-year gap between the events of Tolkien's The Hobbit and The Lord of The Rings. It is a story of revenge, slaughter, and mystery set entirely in Mordor, the Land of Shadows. At its center is Talion, an ordinary man who loses everything, including his mortal life.\n\nThe game is set in a fully open world, and features various role-playing game elements such as experience points and skills. There are various ways the player can complete their main objective. Aside from the main storyline, there are various side quests and random events the player can complete within Mordor.\n\nThe melee system is inspired by that of the Batman Arkham series. Getting into a good fighting rhythm, using both regular attacks and counter-attacks will improve the player's combo multiplier.\n\nA unique feature of Middle-earth: Shadow of Mordor is the Nemesis system. Every enemy in the game has their own name, rank, and memory. These enemies will continue to do their own jobs and tasks even when they're off screen. If the player does not kill an enemy in an encounter, this enemy will remember the player and change their tactics and conversations based on the encounter.",
+    "Storyline": "You are Talion, a Ranger of the Black Gate, keeping watch over Mordor which has remained undisturbed for ages. In the blink of an eye, everything is taken from you – your friends, your family, and even your own life. Resurrected by a mysterious vengeful spirit, you must now embark on a relentless vendetta against those who have wronged you.",
+    "FirstReleaseDate": "2014-09-30T00:00:00",
+    "Genres": [
+      "Role-playing (RPG)",
+      "Hack and slash/Beat 'em up",
+      "Adventure"
+    ],
+    "Developers": [
+      "Monolith Productions"
+    ],
+    "Publishers": [
+      "WB Games"
+    ],
+    "TotalRating": 81.7254459461174,
+    "IDDBData": "{\"id\":3025,\"first_release_date\":1412035200,\"genres\":[{\"id\":12,\"name\":\"Role-playing (RPG)\"},{\"id\":25,\"name\":\"Hack and slash/Beat 'em up\"},{\"id\":31,\"name\":\"Adventure\"}],\"involved_companies\":[{\"id\":18435,\"company\":{\"id\":407,\"name\":\"Monolith Productions\"},\"developer\":true,\"publisher\":false},{\"id\":96763,\"company\":{\"id\":23,\"name\":\"Feral Interactive\"},\"developer\":false,\"publisher\":false},{\"id\":96762,\"company\":{\"id\":50,\"name\":\"WB Games\"},\"developer\":false,\"publisher\":true},{\"id\":51831,\"company\":{\"id\":1260,\"name\":\"Behaviour Interactive\"},\"developer\":false,\"publisher\":false}],\"name\":\"Middle-earth: Shadow of Mordor\",\"storyline\":\"You are Talion, a Ranger of the Black Gate, keeping watch over Mordor which has remained undisturbed for ages. In the blink of an eye, everything is taken from you – your friends, your family, and even your own life. Resurrected by a mysterious vengeful spirit, you must now embark on a relentless vendetta against those who have wronged you.\",\"summary\":\"Middle-earth: Shadow of Mordor is a open world third-person action role-playing video game developed by Monolith Productions and published by Warner Bros. Interactive Entertainment, which takes place in the world of J.R.R. Tolkien's Legendarium.\\n\\nThe game takes place in the 60-year gap between the events of Tolkien's The Hobbit and The Lord of The Rings. It is a story of revenge, slaughter, and mystery set entirely in Mordor, the Land of Shadows. At its center is Talion, an ordinary man who loses everything, including his mortal life.\\n\\nThe game is set in a fully open world, and features various role-playing game elements such as experience points and skills. There are various ways the player can complete their main objective. Aside from the main storyline, there are various side quests and random events the player can complete within Mordor.\\n\\nThe melee system is inspired by that of the Batman Arkham series. Getting into a good fighting rhythm, using both regular attacks and counter-attacks will improve the player's combo multiplier.\\n\\nA unique feature of Middle-earth: Shadow of Mordor is the Nemesis system. Every enemy in the game has their own name, rank, and memory. These enemies will continue to do their own jobs and tasks even when they're off screen. If the player does not kill an enemy in an encounter, this enemy will remember the player and change their tactics and conversations based on the encounter.\",\"total_rating\":81.7254459461174,\"url\":\"https://www.igdb.com/games/middle-earth-shadow-of-mordor\"}",
+    "DateUpdated": "2026-09-07T16:43:49.3602646-03:00"
+  },
+  {
+    "GameDetailsID": 1407,
+    "FriendlyName": "MIDDLE-EARTH™: SHADOW OF WAR™",
+    "Name": "Middle-earth: Shadow of War",
+    "SteamApID": 356190,
+    "IGDBId": 27421,
+    "IGDBUrl": "https://www.igdb.com/games/middle-earth-shadow-of-war",
+    "ExophaseUrl": null,
+    "Summary": "Go behind enemy lines to forge your army, conquer Fortresses and dominate Mordor from within. Experience how the award winning Nemesis System creates unique personal stories with every enemy and follower, and confront the full power of the Dark Lord Sauron and his Ringwraiths in this epic new story of Middle-earth.",
+    "Storyline": "The world of men is ending.\n\nIn fires of Mount Doom, a ranger, and wraith bound together in death. Crafted the one thing that could challenge Sauron, a Ring of Power.\n\nBut power can blind those who seek it, The Great Deceiver has returned to Middle-Earth, to rebuild his armies. To rule all.\n\nThe corruption will be contained no longer.\n\nThe war for Mordor begins.",
+    "FirstReleaseDate": "2017-10-10T00:00:00",
+    "Genres": [
+      "Role-playing (RPG)",
+      "Adventure"
+    ],
+    "Developers": [
+      "Monolith Productions"
+    ],
+    "Publishers": [
+      "WB Games"
+    ],
+    "TotalRating": 81.60097954665008,
+    "IDDBData": "{\"id\":27421,\"first_release_date\":1507593600,\"genres\":[{\"id\":12,\"name\":\"Role-playing (RPG)\"},{\"id\":31,\"name\":\"Adventure\"}],\"involved_companies\":[{\"id\":51834,\"company\":{\"id\":50,\"name\":\"WB Games\"},\"developer\":false,\"publisher\":true},{\"id\":51835,\"company\":{\"id\":407,\"name\":\"Monolith Productions\"},\"developer\":true,\"publisher\":false}],\"name\":\"Middle-earth: Shadow of War\",\"storyline\":\"The world of men is ending.\\n\\nIn fires of Mount Doom, a ranger, and wraith bound together in death. Crafted the one thing that could challenge Sauron, a Ring of Power.\\n\\nBut power can blind those who seek it, The Great Deceiver has returned to Middle-Earth, to rebuild his armies. To rule all.\\n\\nThe corruption will be contained no longer.\\n\\nThe war for Mordor begins.\",\"summary\":\"Go behind enemy lines to forge your army, conquer Fortresses and dominate Mordor from within. Experience how the award winning Nemesis System creates unique personal stories with every enemy and follower, and confront the full power of the Dark Lord Sauron and his Ringwraiths in this epic new story of Middle-earth.\",\"total_rating\":81.60097954665008,\"url\":\"https://www.igdb.com/games/middle-earth-shadow-of-war\"}",
+    "DateUpdated": "2026-09-07T16:43:50.2957225-03:00"
+  },
+  {
     "GameDetailsID": 376,
     "FriendlyName": "MIDNIGHT CARNIVAL",
     "Name": "Midnight Carnival",
@@ -18924,6 +19341,34 @@
     "TotalRating": 40.0,
     "IDDBData": "{\"id\":30851,\"first_release_date\":1479772800,\"genres\":[{\"id\":34,\"name\":\"Visual Novel\"}],\"involved_companies\":[{\"id\":48282,\"company\":{\"id\":8031,\"name\":\"Back To Basics Gaming\"},\"developer\":false,\"publisher\":true},{\"id\":217065,\"company\":{\"id\":47633,\"name\":\"Delusional Games\"},\"developer\":true,\"publisher\":false}],\"name\":\"Midnight Carnival\",\"summary\":\"Midnight Carnival is a Visual Novel with a dark and disturbing story and theme.\",\"total_rating\":40.0,\"url\":\"https://www.igdb.com/games/midnight-carnival\"}",
     "DateUpdated": "2026-09-07T14:05:22.5391408-03:00"
+  },
+  {
+    "GameDetailsID": 1408,
+    "FriendlyName": "MIDNIGHT FIGHT EXPRESS",
+    "Name": "Midnight Fight Express",
+    "SteamApID": 1390410,
+    "IGDBId": 138244,
+    "IGDBUrl": "https://www.igdb.com/games/midnight-fight-express",
+    "ExophaseUrl": null,
+    "Summary": "Fight your way across the city in a brutal romp that mixes old school brawlers and fast-paced motion-captured combat. You’re Babyface, a former member of the criminal underworld lured back into “the life” by a mysterious AI drone. Your mission against impossible odds: Fight your way across the city before sunrise, and prevent a citywide criminal takeover together.",
+    "Storyline": "A former member of the criminal underworld is lured back into “the life” by a mysterious drone claiming they have until sunrise to prevent a citywide criminal takeover together.",
+    "FirstReleaseDate": "2022-08-23T00:00:00",
+    "Genres": [
+      "Fighting",
+      "Shooter",
+      "Hack and slash/Beat 'em up",
+      "Adventure",
+      "Indie"
+    ],
+    "Developers": [
+      "Jacob Dzwinel"
+    ],
+    "Publishers": [
+      "Humble Games"
+    ],
+    "TotalRating": 75.59251215101574,
+    "IDDBData": "{\"id\":138244,\"first_release_date\":1661212800,\"genres\":[{\"id\":4,\"name\":\"Fighting\"},{\"id\":5,\"name\":\"Shooter\"},{\"id\":25,\"name\":\"Hack and slash/Beat 'em up\"},{\"id\":31,\"name\":\"Adventure\"},{\"id\":32,\"name\":\"Indie\"}],\"involved_companies\":[{\"id\":146309,\"company\":{\"id\":27885,\"name\":\"Jacob Dzwinel\"},\"developer\":true,\"publisher\":false},{\"id\":146310,\"company\":{\"id\":26341,\"name\":\"Humble Games\"},\"developer\":false,\"publisher\":true}],\"name\":\"Midnight Fight Express\",\"storyline\":\"A former member of the criminal underworld is lured back into “the life” by a mysterious drone claiming they have until sunrise to prevent a citywide criminal takeover together.\",\"summary\":\"Fight your way across the city in a brutal romp that mixes old school brawlers and fast-paced motion-captured combat. You’re Babyface, a former member of the criminal underworld lured back into “the life” by a mysterious AI drone. Your mission against impossible odds: Fight your way across the city before sunrise, and prevent a citywide criminal takeover together.\",\"total_rating\":75.59251215101574,\"url\":\"https://www.igdb.com/games/midnight-fight-express\"}",
+    "DateUpdated": "2026-09-07T16:43:51.5585723-03:00"
   },
   {
     "GameDetailsID": 56,
@@ -19178,6 +19623,30 @@
     "DateUpdated": "2026-09-07T13:57:55.5747249-03:00"
   },
   {
+    "GameDetailsID": 1418,
+    "FriendlyName": "MONOPOLY",
+    "Name": "Monopoly",
+    "SteamApID": null,
+    "IGDBId": 336268,
+    "IGDBUrl": "https://www.igdb.com/games/monopoly--23",
+    "ExophaseUrl": null,
+    "Summary": "The #1 board game is now on your PSP (PlayStationPortable) system.\n\nGroup Play — Up to four players can join in on the “rags to riches” fun with hot seat play.\n\nNew Boards —Unlock new and never-before-seen MONOPOLY boards.",
+    "Storyline": null,
+    "FirstReleaseDate": "2010-04-15T00:00:00",
+    "Genres": [
+      "Card & Board Game"
+    ],
+    "Developers": [
+      "Electronic Arts"
+    ],
+    "Publishers": [
+      "Electronic Arts"
+    ],
+    "TotalRating": null,
+    "IDDBData": "{\"id\":336268,\"first_release_date\":1271289600,\"genres\":[{\"id\":35,\"name\":\"Card & Board Game\"}],\"involved_companies\":[{\"id\":312531,\"company\":{\"id\":1,\"name\":\"Electronic Arts\"},\"developer\":true,\"publisher\":true}],\"name\":\"Monopoly\",\"summary\":\"The #1 board game is now on your PSP (PlayStationPortable) system.\\n\\nGroup Play — Up to four players can join in on the “rags to riches” fun with hot seat play.\\n\\nNew Boards —Unlock new and never-before-seen MONOPOLY boards.\",\"url\":\"https://www.igdb.com/games/monopoly--23\"}",
+    "DateUpdated": "2026-09-07T16:44:32.3092403-03:00"
+  },
+  {
     "GameDetailsID": 873,
     "FriendlyName": "MONSTER HUNTER: WORLD",
     "Name": "Monster Hunter: World",
@@ -19201,6 +19670,32 @@
     "TotalRating": 88.50841505991899,
     "IDDBData": "{\"id\":36926,\"first_release_date\":1516924800,\"genres\":[{\"id\":12,\"name\":\"Role-playing (RPG)\"},{\"id\":31,\"name\":\"Adventure\"}],\"involved_companies\":[{\"id\":59586,\"company\":{\"id\":37,\"name\":\"Capcom\"},\"developer\":true,\"publisher\":true},{\"id\":256270,\"company\":{\"id\":4248,\"name\":\"Digital Works Entertainment\"},\"developer\":false,\"publisher\":false}],\"name\":\"Monster Hunter: World\",\"storyline\":\"The player takes the role of a player-created character who travels to the \\\"New World\\\", an unpopulated landmass filled with monsters, to join the Research Commission that studies the land from their central command base of Astera.\",\"summary\":\"Welcome to a new world! Take on the role of a hunter and slay ferocious monsters in a living, breathing ecosystem where you can use the landscape and its diverse inhabitants to get the upper hand. Hunt alone or in co-op with up to three other players, and use materials collected from fallen foes to craft new gear and take on even bigger, badder beasts!\",\"total_rating\":88.50841505991899,\"url\":\"https://www.igdb.com/games/monster-hunter-world\"}",
     "DateUpdated": "2026-09-07T14:15:48.9266452-03:00"
+  },
+  {
+    "GameDetailsID": 1409,
+    "FriendlyName": "MONSTER PROM 2: MONSTER CAMP",
+    "Name": "Monster Prom 2: Monster Camp",
+    "SteamApID": 1140270,
+    "IGDBId": 122195,
+    "IGDBUrl": "https://www.igdb.com/games/monster-prom-2-monster-camp",
+    "ExophaseUrl": null,
+    "Summary": "\"Monster Prom 2: Monster Camp\" brings you more of the world's best (and maybe only?) multiplayer dating sim; but in a way you've never expected!",
+    "Storyline": null,
+    "FirstReleaseDate": "2020-10-23T00:00:00",
+    "Genres": [
+      "Simulator",
+      "Indie",
+      "Visual Novel"
+    ],
+    "Developers": [
+      "Beautiful Glitch"
+    ],
+    "Publishers": [
+      "Beautiful Glitch"
+    ],
+    "TotalRating": 70.0637139675863,
+    "IDDBData": "{\"id\":122195,\"first_release_date\":1603411200,\"genres\":[{\"id\":13,\"name\":\"Simulator\"},{\"id\":32,\"name\":\"Indie\"},{\"id\":34,\"name\":\"Visual Novel\"}],\"involved_companies\":[{\"id\":83673,\"company\":{\"id\":17099,\"name\":\"Beautiful Glitch\"},\"developer\":true,\"publisher\":true}],\"name\":\"Monster Prom 2: Monster Camp\",\"summary\":\"\\\"Monster Prom 2: Monster Camp\\\" brings you more of the world's best (and maybe only?) multiplayer dating sim; but in a way you've never expected!\",\"total_rating\":70.0637139675863,\"url\":\"https://www.igdb.com/games/monster-prom-2-monster-camp\"}",
+    "DateUpdated": "2026-09-07T16:43:53.1666579-03:00"
   },
   {
     "GameDetailsID": 449,
@@ -19227,6 +19722,35 @@
     "DateUpdated": "2026-09-07T14:06:50.6820716-03:00"
   },
   {
+    "GameDetailsID": 1410,
+    "FriendlyName": "MONSTER TRAIN",
+    "Name": "Monster Train",
+    "SteamApID": 1102190,
+    "IGDBId": 129483,
+    "IGDBUrl": "https://www.igdb.com/games/monster-train",
+    "ExophaseUrl": null,
+    "Summary": "Hell has frozen over. Only you can protect the final burning pyre from the forces of heaven and restore the inferno. Monster Train brings a new strategic layer to roguelike deckbuilding, with three vertical playing fields to defend.\nIncludes the released updates Wild Mutations and Friends & Foes!\n\nNo playthrough is ever the same, it’s a fresh challenge every time.\nYou’ll never play the same deck twice!",
+    "Storyline": null,
+    "FirstReleaseDate": "2020-05-21T00:00:00",
+    "Genres": [
+      "Role-playing (RPG)",
+      "Strategy",
+      "Turn-based strategy (TBS)",
+      "Indie",
+      "Card & Board Game"
+    ],
+    "Developers": [
+      "Shiny Shoe"
+    ],
+    "Publishers": [
+      "Good Shepherd Entertainment",
+      "Big Fan Games"
+    ],
+    "TotalRating": 83.34047878882726,
+    "IDDBData": "{\"id\":129483,\"first_release_date\":1590019200,\"genres\":[{\"id\":12,\"name\":\"Role-playing (RPG)\"},{\"id\":15,\"name\":\"Strategy\"},{\"id\":16,\"name\":\"Turn-based strategy (TBS)\"},{\"id\":32,\"name\":\"Indie\"},{\"id\":35,\"name\":\"Card & Board Game\"}],\"involved_companies\":[{\"id\":98554,\"company\":{\"id\":6549,\"name\":\"Good Shepherd Entertainment\"},\"developer\":false,\"publisher\":true},{\"id\":98555,\"company\":{\"id\":19592,\"name\":\"Shiny Shoe\"},\"developer\":true,\"publisher\":false},{\"id\":405024,\"company\":{\"id\":61765,\"name\":\"Big Fan Games\"},\"developer\":false,\"publisher\":true}],\"name\":\"Monster Train\",\"summary\":\"Hell has frozen over. Only you can protect the final burning pyre from the forces of heaven and restore the inferno. Monster Train brings a new strategic layer to roguelike deckbuilding, with three vertical playing fields to defend.\\nIncludes the released updates Wild Mutations and Friends & Foes!\\n\\nNo playthrough is ever the same, it’s a fresh challenge every time.\\nYou’ll never play the same deck twice!\",\"total_rating\":83.34047878882726,\"url\":\"https://www.igdb.com/games/monster-train\"}",
+    "DateUpdated": "2026-09-07T16:43:54.2457842-03:00"
+  },
+  {
     "GameDetailsID": 768,
     "FriendlyName": "MOONLIGHTER",
     "Name": "Moonlighter",
@@ -19247,6 +19771,33 @@
     "TotalRating": null,
     "IDDBData": "{\"id\":227752,\"first_release_date\":939945600,\"involved_companies\":[{\"id\":194851,\"company\":{\"id\":4803,\"name\":\"Climax Entertainment\"},\"developer\":true,\"publisher\":false},{\"id\":194852,\"company\":{\"id\":112,\"name\":\"Sega\"},\"developer\":false,\"publisher\":true}],\"name\":\"Moonlighter\",\"summary\":\"A VMU game released with Time Stalkers.\",\"url\":\"https://www.igdb.com/games/moonlighter--1\"}",
     "DateUpdated": "2026-09-07T14:13:39.1240217-03:00"
+  },
+  {
+    "GameDetailsID": 1411,
+    "FriendlyName": "MOONSCARS",
+    "Name": "Moonscars",
+    "SteamApID": 1374970,
+    "IGDBId": 194507,
+    "IGDBUrl": "https://www.igdb.com/games/moonscars",
+    "ExophaseUrl": null,
+    "Summary": "Push the limits of your combat skills, and master new abilities to progress through an unforgiving nonlinear 2D world. Face off against the relentless darkness that seeks to destroy you. In Moonscars, every death is a lesson learnt—and as you overcome each challenge, new truths will be revealed.",
+    "Storyline": "Under grim moonlight, the fierce clayborne warrior Grey Irma battles, driven by a lonesome purpose: Find the Sculptor, and unravel the mystery of her existence.\n\nPush the limits of your combat skills, and master new abilities to progress through an unforgiving nonlinear 2D world. Face off against the relentless darkness that seeks to destroy you. In Moonscars, every death is a lesson learnt—and as you overcome each challenge, new truths will be revealed.\n\nBefore you rise, you first must fall. Mold yourself into a master warrior through a cycle of trial and triumph.\n\nExplore the shadows and secrets concealed in the moonlight of a painterly nonlinear 2D realm marred by desperation and despair.\n\nSharpen your skills and reflexes in challenging, action-packed combat. Slash and parry with your sword, wield unique special weapons, and command powerful Witchery.\n\nUnearth a strange, dark fantasy tale filled with twists and intricate worldbuilding. Seek the truth of your creation and be rewarded.\n\nBear witness to tales and memories of betrayal, suffering, and revenge as Grey Irma and her fellow beings of flesh and clay seek truth and purpose.",
+    "FirstReleaseDate": "2022-09-27T00:00:00",
+    "Genres": [
+      "Platform",
+      "Hack and slash/Beat 'em up",
+      "Adventure",
+      "Indie"
+    ],
+    "Developers": [
+      "Black Mermaid"
+    ],
+    "Publishers": [
+      "Humble Games"
+    ],
+    "TotalRating": 67.75668541725358,
+    "IDDBData": "{\"id\":194507,\"first_release_date\":1664236800,\"genres\":[{\"id\":8,\"name\":\"Platform\"},{\"id\":25,\"name\":\"Hack and slash/Beat 'em up\"},{\"id\":31,\"name\":\"Adventure\"},{\"id\":32,\"name\":\"Indie\"}],\"involved_companies\":[{\"id\":165776,\"company\":{\"id\":40508,\"name\":\"Black Mermaid\"},\"developer\":true,\"publisher\":false},{\"id\":165777,\"company\":{\"id\":26341,\"name\":\"Humble Games\"},\"developer\":false,\"publisher\":true}],\"name\":\"Moonscars\",\"storyline\":\"Under grim moonlight, the fierce clayborne warrior Grey Irma battles, driven by a lonesome purpose: Find the Sculptor, and unravel the mystery of her existence.\\n\\nPush the limits of your combat skills, and master new abilities to progress through an unforgiving nonlinear 2D world. Face off against the relentless darkness that seeks to destroy you. In Moonscars, every death is a lesson learnt—and as you overcome each challenge, new truths will be revealed.\\n\\nBefore you rise, you first must fall. Mold yourself into a master warrior through a cycle of trial and triumph.\\n\\nExplore the shadows and secrets concealed in the moonlight of a painterly nonlinear 2D realm marred by desperation and despair.\\n\\nSharpen your skills and reflexes in challenging, action-packed combat. Slash and parry with your sword, wield unique special weapons, and command powerful Witchery.\\n\\nUnearth a strange, dark fantasy tale filled with twists and intricate worldbuilding. Seek the truth of your creation and be rewarded.\\n\\nBear witness to tales and memories of betrayal, suffering, and revenge as Grey Irma and her fellow beings of flesh and clay seek truth and purpose.\",\"summary\":\"Push the limits of your combat skills, and master new abilities to progress through an unforgiving nonlinear 2D world. Face off against the relentless darkness that seeks to destroy you. In Moonscars, every death is a lesson learnt—and as you overcome each challenge, new truths will be revealed.\",\"total_rating\":67.75668541725358,\"url\":\"https://www.igdb.com/games/moonscars\"}",
+    "DateUpdated": "2026-09-07T16:43:55.5111702-03:00"
   },
   {
     "GameDetailsID": 886,
@@ -19273,6 +19824,34 @@
     "TotalRating": 61.4994324631101,
     "IDDBData": "{\"id\":134817,\"first_release_date\":1606953600,\"genres\":[{\"id\":12,\"name\":\"Role-playing (RPG)\"},{\"id\":31,\"name\":\"Adventure\"},{\"id\":32,\"name\":\"Indie\"}],\"involved_companies\":[{\"id\":133723,\"company\":{\"id\":9391,\"name\":\"Still Running\"},\"developer\":true,\"publisher\":false},{\"id\":133724,\"company\":{\"id\":4726,\"name\":\"Merge Games\"},\"developer\":false,\"publisher\":true}],\"name\":\"Morbid: The Seven Acolytes\",\"storyline\":\"You are the last surviving Striver of Dibrom. Your duty, for which you have trained your whole life for, is to defeat the Seven Acolytes, accursed and powerful beings, possessed by malevolent deities called Gahars.\",\"summary\":\"Morbid: The Seven Acolytes is a Horrorpunk Action RPG filled with Lovecraftian horrors and Cronenbergian gore, making it the most gruesome take on the isometric Souls-like genre yet!\",\"total_rating\":61.4994324631101,\"url\":\"https://www.igdb.com/games/morbid-the-seven-acolytes\"}",
     "DateUpdated": "2026-09-07T14:16:04.2323015-03:00"
+  },
+  {
+    "GameDetailsID": 1412,
+    "FriendlyName": "MORDHEIM: CITY OF THE DAMNED",
+    "Name": "Mordheim: City of the Damned",
+    "SteamApID": 276810,
+    "IGDBId": 8209,
+    "IGDBUrl": "https://www.igdb.com/games/mordheim-city-of-the-damned",
+    "ExophaseUrl": null,
+    "Summary": "Mordheim: City of the Damned is the first video game adaptation of Games Workshop's cult classic tabletop game Mordheim. Set in the Warhammer World's decimated Empire city, Mordheim: City of the Damned is a turn-based tactical game where you lead warbands into bloody and lethal skirmishes. The game blends RPG elements, fast-paced tactical combat and intricate unit customization in a time wrought by chaos and rivalry where only the strongest survive.",
+    "Storyline": "After a twin tailed comet crashed on Mordheim, the City of Damned turned into a terrifying battlefield where rival warbands fight fiercely for the control of key neighborhoods, looking for glory and fortune by acquiring the very valuable Wyrdstone fragments.",
+    "FirstReleaseDate": "2015-11-19T00:00:00",
+    "Genres": [
+      "Role-playing (RPG)",
+      "Simulator",
+      "Strategy",
+      "Turn-based strategy (TBS)",
+      "Tactical"
+    ],
+    "Developers": [
+      "Rogue Factor"
+    ],
+    "Publishers": [
+      "Focus Entertainment"
+    ],
+    "TotalRating": 77.35762656233048,
+    "IDDBData": "{\"id\":8209,\"first_release_date\":1447891200,\"genres\":[{\"id\":12,\"name\":\"Role-playing (RPG)\"},{\"id\":13,\"name\":\"Simulator\"},{\"id\":15,\"name\":\"Strategy\"},{\"id\":16,\"name\":\"Turn-based strategy (TBS)\"},{\"id\":24,\"name\":\"Tactical\"}],\"involved_companies\":[{\"id\":324606,\"company\":{\"id\":110,\"name\":\"Focus Entertainment\"},\"developer\":false,\"publisher\":true},{\"id\":324607,\"company\":{\"id\":4718,\"name\":\"Rogue Factor\"},\"developer\":true,\"publisher\":false}],\"name\":\"Mordheim: City of the Damned\",\"storyline\":\"After a twin tailed comet crashed on Mordheim, the City of Damned turned into a terrifying battlefield where rival warbands fight fiercely for the control of key neighborhoods, looking for glory and fortune by acquiring the very valuable Wyrdstone fragments.\",\"summary\":\"Mordheim: City of the Damned is the first video game adaptation of Games Workshop's cult classic tabletop game Mordheim. Set in the Warhammer World's decimated Empire city, Mordheim: City of the Damned is a turn-based tactical game where you lead warbands into bloody and lethal skirmishes. The game blends RPG elements, fast-paced tactical combat and intricate unit customization in a time wrought by chaos and rivalry where only the strongest survive.\",\"total_rating\":77.35762656233048,\"url\":\"https://www.igdb.com/games/mordheim-city-of-the-damned\"}",
+    "DateUpdated": "2026-09-07T16:43:56.7849123-03:00"
   },
   {
     "GameDetailsID": 1056,
@@ -26107,6 +26686,32 @@
     "TotalRating": 90.0800724831673,
     "IDDBData": "{\"id\":293,\"first_release_date\":1130198400,\"genres\":[{\"id\":13,\"name\":\"Simulator\"},{\"id\":15,\"name\":\"Strategy\"},{\"id\":16,\"name\":\"Turn-based strategy (TBS)\"}],\"involved_companies\":[{\"id\":3526,\"company\":{\"id\":8,\"name\":\"2K Games\"},\"developer\":false,\"publisher\":true},{\"id\":3527,\"company\":{\"id\":73,\"name\":\"Aspyr Media\"},\"developer\":false,\"publisher\":true},{\"id\":21720,\"company\":{\"id\":139,\"name\":\"Take-Two Interactive\"},\"developer\":false,\"publisher\":true},{\"id\":8184,\"company\":{\"id\":377,\"name\":\"Firaxis Games\"},\"developer\":true,\"publisher\":false}],\"name\":\"Sid Meier's Civilization IV\",\"summary\":\"Sid Meier and Firaxis Games will take this incredibly fun and addictive game to new heights by adding new ways to play and win, new tools to manage and expand your civilization, all-new easy to use mod capabilities and intense multiplayer modes and options\",\"total_rating\":90.0800724831673,\"url\":\"https://www.igdb.com/games/sid-meier-s-civilization-iv\"}",
     "DateUpdated": "2026-09-07T14:04:19.3680517-03:00"
+  },
+  {
+    "GameDetailsID": 1414,
+    "FriendlyName": "CIVILIZATION REVOLUTION 2",
+    "Name": "Sid Meier's Civilization Revolution 2",
+    "SteamApID": null,
+    "IGDBId": 15819,
+    "IGDBUrl": "https://www.igdb.com/games/sid-meiers-civilization-revolution-2",
+    "ExophaseUrl": null,
+    "Summary": "The sequel to one of the most successful strategy games on mobile is here! Sid Meier's Civilization Revolution 2 challenges players to build a glorious empire that will stand the test of time. This is the first game in the Civilization catalog to be developed and available exclusively for mobile devices. Civilization Revolution 2 offers mobile strategy fans a brand new 3D presentation and more tactical depth than ever before! Find out if you have what it takes to rule the world!",
+    "Storyline": null,
+    "FirstReleaseDate": "2014-07-01T00:00:00",
+    "Genres": [
+      "Simulator",
+      "Strategy",
+      "Turn-based strategy (TBS)"
+    ],
+    "Developers": [
+      "Firaxis Games"
+    ],
+    "Publishers": [
+      "2K Games"
+    ],
+    "TotalRating": 69.86511975308284,
+    "IDDBData": "{\"id\":15819,\"first_release_date\":1404172800,\"genres\":[{\"id\":13,\"name\":\"Simulator\"},{\"id\":15,\"name\":\"Strategy\"},{\"id\":16,\"name\":\"Turn-based strategy (TBS)\"}],\"involved_companies\":[{\"id\":299890,\"company\":{\"id\":18,\"name\":\"2K China\"},\"developer\":false,\"publisher\":false},{\"id\":299891,\"company\":{\"id\":8,\"name\":\"2K Games\"},\"developer\":false,\"publisher\":true},{\"id\":299892,\"company\":{\"id\":377,\"name\":\"Firaxis Games\"},\"developer\":true,\"publisher\":false}],\"name\":\"Sid Meier's Civilization Revolution 2\",\"summary\":\"The sequel to one of the most successful strategy games on mobile is here! Sid Meier's Civilization Revolution 2 challenges players to build a glorious empire that will stand the test of time. This is the first game in the Civilization catalog to be developed and available exclusively for mobile devices. Civilization Revolution 2 offers mobile strategy fans a brand new 3D presentation and more tactical depth than ever before! Find out if you have what it takes to rule the world!\",\"total_rating\":69.86511975308284,\"url\":\"https://www.igdb.com/games/sid-meiers-civilization-revolution-2\"}",
+    "DateUpdated": "2026-09-07T16:44:27.82364-03:00"
   },
   {
     "GameDetailsID": 325,
