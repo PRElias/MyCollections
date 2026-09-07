@@ -23703,7 +23703,7 @@
         "LogoURL": null,
         "Store": "GOG",
         "System": "PC",
-        "Disabled": false,
+        "Disabled": true,
         "BuyDate": null,
         "Price": null,
         "PlayedTime": 0,
@@ -23716,7 +23716,7 @@
     },
     {
         "GameID": 1396,
-        "Name": "System Shock® 2 (Classic)",
+        "Name": "System Shock 2",
         "LogoURL": "games/covers/1396.png",
         "Store": "GOG",
         "System": "PC",
@@ -23729,7 +23729,7 @@
         "SteamOriginalImageURL": null,
         "IGDBId": null,
         "Selected": false,
-        "FriendlyName": "SYSTEM SHOCK® 2 (CLASSIC)"
+        "FriendlyName": "SYSTEM SHOCK 2"
     },
     {
         "GameID": 1397,
@@ -27249,5 +27249,39 @@
         "IGDBId": null,
         "Selected": false,
         "FriendlyName": "SUPER MARIO ODISSEY"
+    },
+    {
+        "GameID": 1604,
+        "Name": "Assetto Corsa Competizione",
+        "LogoURL": "./games/covers/AssettoCorsaCompetizione.jpg",
+        "Store": "",
+        "System": "PS5",
+        "Disabled": false,
+        "BuyDate": "2022-07-26T00:00:00",
+        "Price": null,
+        "PlayedTime": 0,
+        "Purchased": true,
+        "SteamApID": 0,
+        "SteamOriginalImageURL": "df4663c038048aa1507d8e026f22144fcfd64648.jpg",
+        "IGDBId": null,
+        "Selected": false,
+        "FriendlyName": "ASSETTO CORSA COMPETIZIONE"
+    },
+    {
+        "GameID": 1605,
+        "Name": "Assetto Corsa Competizione",
+        "LogoURL": "./games/covers/AssettoCorsaCompetizione.jpg",
+        "Store": "",
+        "System": "XBOXOne",
+        "Disabled": false,
+        "BuyDate": "2023-04-18T00:00:00",
+        "Price": null,
+        "PlayedTime": 0,
+        "Purchased": true,
+        "SteamApID": 0,
+        "SteamOriginalImageURL": "df4663c038048aa1507d8e026f22144fcfd64648.jpg",
+        "IGDBId": null,
+        "Selected": false,
+        "FriendlyName": "ASSETTO CORSA COMPETIZIONE"
     }
 ]
