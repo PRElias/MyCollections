@@ -1,6 +1,6 @@
 'use strict';
 
-const CACHE_NAME = 'my-collections-v5';
+const CACHE_NAME = 'my-collections-v6';
 const APP_SHELL = [
   './',
   './index.html',

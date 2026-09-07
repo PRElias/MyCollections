@@ -92,6 +92,10 @@ app.renderizeDetails = function (gameId) {
         return;
     }
 
+    let copies = app.games.filter(function (item) {
+        return item.Disabled === false && item.FriendlyName === game.FriendlyName;
+    });
+
     $('.modal-title').text(game.Name);
 
     let cover = document.createElement('img');
@@ -101,18 +105,49 @@ app.renderizeDetails = function (gameId) {
     main.appendChild(cover);
 
     let details = document.createElement('p');
-    details.textContent = [game.System, game.Store].filter(Boolean).join(' / ');
+    details.textContent = copies.length > 1 ? 'Cópias: ' + getCopyDescriptions(copies).join('; ') : getCopyDescription(game);
     main.appendChild(details);
 
-    if (game.SteamApID) {
+    let steamCopy = copies.find(function (item) {
+        return item.SteamApID;
+    });
+
+    if (steamCopy) {
         let link = document.createElement('a');
-        link.href = 'https://store.steampowered.com/app/' + game.SteamApID;
+        link.href = 'https://store.steampowered.com/app/' + steamCopy.SteamApID;
         link.textContent = 'Abrir na Steam';
         link.target = '_blank';
         link.rel = 'noopener noreferrer';
         main.appendChild(link);
     }
 };
+
+function getCopyDescriptions(copies) {
+    return copies.map(getCopyDescription).filter(function (description, index, descriptions) {
+        return description && descriptions.indexOf(description) === index;
+    });
+}
+
+function getCopyDescription(game) {
+    return [getSystemLabel(game.System), game.Store].filter(Boolean).join(' / ');
+}
+
+function getSystemLabel(system) {
+    var systemLabels = {
+        Android: 'Android',
+        PC: 'PC',
+        XBOX360: 'Xbox 360',
+        XBOXOne: 'Xbox One',
+        XBOXSeries: 'Xbox Series',
+        PS3: 'PS3',
+        PS4: 'PS4',
+        PS5: 'PS5',
+        Wii: 'Wii',
+        Switch: 'Switch'
+    };
+
+    return systemLabels[system] || system;
+}
 
 window.onload = function () {
     app.getGames();
@@ -124,18 +159,6 @@ function calculaTotais() {
         return;
     }
 
-    var systemLabels = {
-        Android: "Android",
-        PC: "PC",
-        XBOX360: "Xbox 360",
-        XBOXOne: "Xbox One",
-        XBOXSeries: "Xbox Series",
-        PS3: "PS3",
-        PS4: "PS4",
-        PS5: "PS5",
-        Wii: "Wii",
-        Switch: "Switch"
-    };
 
     var totalsBySystem = {};
     app.games.forEach(function (game) {
@@ -157,11 +180,11 @@ function calculaTotais() {
     sPlataforma.appendChild(createPlatformOption("", "Todos (" + total_geral + ")(" + (total_geral - total_repetidos) + " únicos)", selectedValues.indexOf("") !== -1));
 
     Object.keys(totalsBySystem).sort(function (a, b) {
-        var labelA = systemLabels[a] || a;
-        var labelB = systemLabels[b] || b;
+        var labelA = getSystemLabel(a);
+        var labelB = getSystemLabel(b);
         return labelA.localeCompare(labelB);
     }).forEach(function (system) {
-        sPlataforma.appendChild(createPlatformOption(system, (systemLabels[system] || system) + " (" + totalsBySystem[system] + ")", selectedValues.indexOf(system) !== -1));
+        sPlataforma.appendChild(createPlatformOption(system, getSystemLabel(system) + " (" + totalsBySystem[system] + ")", selectedValues.indexOf(system) !== -1));
     });
 }
 
