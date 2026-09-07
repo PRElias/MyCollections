@@ -355,11 +355,19 @@ function createPlatformOption(value, text, selected) {
 
 function navigateToGame() {
     var pesquisa = $('#procurar').val();
-    var jogo = document.getElementsByName(pesquisa);
+    var jogo = $('.game').filter(function () {
+        return this.getAttribute('name') === pesquisa && !$(this).hasClass('hidden') && $(this).is(':visible');
+    }).first();
 
-    if (jogo !== null) {
+    if (jogo.length === 0) {
+        jogo = $('.game').filter(function () {
+            return this.getAttribute('name') === pesquisa;
+        }).first();
+    }
+
+    if (jogo.length > 0) {
         $('html, body').animate({
-            scrollTop: $(jogo).offset().top - 35
+            scrollTop: jogo.offset().top - 35
         }, 1000);
     }
 }
@@ -403,6 +411,9 @@ $(function () {
             event.preventDefault();
             $('#procurar').val(ui.item.value);
             all = true;
+            if (sPlataforma) {
+                sPlataforma.value = "";
+            }
             changePlataforma();
             navigateToGame();
         }
@@ -445,6 +456,7 @@ function changePlataforma() {
     all = false;
     $("#navbarSupportedContent").removeClass("show");
 }
+
 
 
 
