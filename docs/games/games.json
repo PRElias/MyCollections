@@ -138,7 +138,7 @@
     {
         "GameID": 9,
         "Name": "Medal of Honor",
-        "LogoURL": "./games/covers/MedalofHonor.jpg",
+        "LogoURL": "games/covers/9.png",
         "Store": "Origin",
         "System": "PC",
         "Disabled": false,
@@ -19705,7 +19705,7 @@
     {
         "GameID": 1160,
         "Name": "BioShock™ 2 Remastered",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1160.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -19841,7 +19841,7 @@
     {
         "GameID": 1168,
         "Name": "Broken Sword: Director's Cut",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1168.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -20150,7 +20150,7 @@
         "LogoURL": null,
         "Store": "GOG",
         "System": "PC",
-        "Disabled": false,
+        "Disabled": true,
         "BuyDate": null,
         "Price": null,
         "PlayedTime": 0,
@@ -20167,7 +20167,7 @@
         "LogoURL": null,
         "Store": "GOG",
         "System": "PC",
-        "Disabled": false,
+        "Disabled": true,
         "BuyDate": null,
         "Price": null,
         "PlayedTime": 0,
@@ -20181,7 +20181,7 @@
     {
         "GameID": 1188,
         "Name": "Daggerfall Unity - GOG Cut",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1188.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -20419,7 +20419,7 @@
     {
         "GameID": 1202,
         "Name": "Dishonored - Definitive Edition",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1202.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -21541,7 +21541,7 @@
     {
         "GameID": 1268,
         "Name": "KING OF THE MONSTERS",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1268.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -21728,7 +21728,7 @@
     {
         "GameID": 1279,
         "Name": "Lure of the Temptress (1992)",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1279.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -22119,7 +22119,7 @@
     {
         "GameID": 1302,
         "Name": "Mortal Kombat 2",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1302.png",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -27134,7 +27134,7 @@
     {
         "GameID": 1597,
         "Name": "EA SPORTS FC™ 26",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1597.jpg",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
