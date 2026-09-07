@@ -32,7 +32,7 @@ namespace MyCollections.Controllers
             DownloadCovers();
             _db.SaveJson(games, @"docs/games/games.json");
             ViewBag.SemLogo = semLogo;
-            return View(semLogo ? games.Where(GameHasNoLogo).ToList() : games);
+            return View(semLogo ? games.Where(g => !g.Disabled && GameHasNoLogo(g)).ToList() : games);
         }
         public void LoadJson()
         {
@@ -205,7 +205,7 @@ namespace MyCollections.Controllers
             var updated = 0;
             var ignored = 0;
 
-            foreach (var game in games.Where(g => GameHasNoLogo(g) && g.SteamApID.HasValue && g.SteamApID.Value > 0))
+            foreach (var game in games.Where(g => !g.Disabled && GameHasNoLogo(g) && g.SteamApID.HasValue && g.SteamApID.Value > 0))
             {
                 var fileName = game.GameID.ToString() + ".png";
                 var steamImageUrl = GetSteamHeaderUrl(game);

@@ -24533,7 +24533,7 @@
     {
         "GameID": 1444,
         "Name": "Tyrian 2000",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1444.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -24635,7 +24635,7 @@
     {
         "GameID": 1450,
         "Name": "Unreal Gold",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1450.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -24873,7 +24873,7 @@
     {
         "GameID": 1464,
         "Name": "Worms Revolution Gold Edition",
-        "LogoURL": null,
+        "LogoURL": "games/covers/1464.jpg",
         "Store": "GOG",
         "System": "PC",
         "Disabled": false,
@@ -26233,7 +26233,7 @@
     {
         "GameID": 1544,
         "Name": "Little Nightmares Enhanced Edition",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1544.jpg",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -26454,7 +26454,7 @@
     {
         "GameID": 1557,
         "Name": "Jurassic World Evolution 3",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1557.jpg",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -26522,7 +26522,7 @@
     {
         "GameID": 1561,
         "Name": "PRAGMATA",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1561.jpg",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -26590,7 +26590,7 @@
     {
         "GameID": 1565,
         "Name": "PEAK",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1565.png",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -26624,7 +26624,7 @@
     {
         "GameID": 1567,
         "Name": "Resident Evil Requiem",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1567.jpg",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -26641,7 +26641,7 @@
     {
         "GameID": 1568,
         "Name": "FINAL FANTASY VII",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1568.jpg",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -26658,7 +26658,7 @@
     {
         "GameID": 1569,
         "Name": "Assetto Corsa Rally",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1569.webp",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -26675,7 +26675,7 @@
     {
         "GameID": 1570,
         "Name": "Dino Crisis",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1570.jpg",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -27083,7 +27083,7 @@
     {
         "GameID": 1594,
         "Name": "Mortal Shell II",
-        "LogoURL": "",
+        "LogoURL": "games/covers/1594.jpg",
         "Store": "Steam",
         "System": "PC",
         "Disabled": false,
@@ -27164,5 +27164,39 @@
         "IGDBId": null,
         "Selected": false,
         "FriendlyName": "GEARS OF WAR: E-DAY MULTIPLAYER BETA"
+    },
+    {
+        "GameID": 1599,
+        "Name": "Wii Play",
+        "LogoURL": "games/covers/1599.png",
+        "Store": "Mídia Física",
+        "System": "Wii",
+        "Disabled": false,
+        "BuyDate": "2018-01-01T00:00:00",
+        "Price": null,
+        "PlayedTime": null,
+        "Purchased": false,
+        "SteamApID": null,
+        "SteamOriginalImageURL": null,
+        "IGDBId": null,
+        "Selected": false,
+        "FriendlyName": "WII PLAY"
+    },
+    {
+        "GameID": 1600,
+        "Name": "Just Dance 4",
+        "LogoURL": "games/covers/1600.jpg",
+        "Store": "Mídia Física",
+        "System": "Wii",
+        "Disabled": false,
+        "BuyDate": "2018-01-01T00:00:00",
+        "Price": null,
+        "PlayedTime": null,
+        "Purchased": false,
+        "SteamApID": null,
+        "SteamOriginalImageURL": null,
+        "IGDBId": null,
+        "Selected": false,
+        "FriendlyName": "JUST DANCE 4"
     }
 ]
