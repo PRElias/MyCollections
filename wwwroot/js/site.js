@@ -178,12 +178,13 @@ function pesquisarImagensJogo(gameId) {
                 var imageUrl = image.imageUrl || image.ImageUrl;
                 var thumbnailUrl = image.thumbnailUrl || image.ThumbnailUrl || imageUrl;
                 var title = image.title || image.Title || '';
+                var sourceUrl = image.sourceUrl || image.SourceUrl || '';
 
                 var $button = $('<button type="button" class="btn btn-light border m-1 internet-image-option"></button>');
                 $button.attr('title', title);
                 $button.append($('<img />').attr('src', thumbnailUrl).attr('alt', title).css({ width: '160px', height: '90px', objectFit: 'cover' }));
                 $button.on('click', function () {
-                    salvarLogoInternet(gameId, imageUrl);
+                    salvarLogoInternet(gameId, imageUrl, sourceUrl);
                 });
                 $results.append($button);
             });
@@ -193,10 +194,11 @@ function pesquisarImagensJogo(gameId) {
         });
 }
 
-function salvarLogoInternet(gameId, imageUrl) {
+function salvarLogoInternet(gameId, imageUrl, sourceUrl) {
     var $form = $('<form method="post" action="/Games/SalvarLogoInternet"></form>');
     $form.append($('<input type="hidden" name="gameId" />').val(gameId));
     $form.append($('<input type="hidden" name="imageUrl" />').val(imageUrl));
+    $form.append($('<input type="hidden" name="sourceUrl" />').val(sourceUrl));
     $('body').append($form);
     $form.submit();
 }

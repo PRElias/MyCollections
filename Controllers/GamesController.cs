@@ -18,7 +18,7 @@ namespace MyCollections.Controllers
     {
         private MyCollectionsRepository _db;
         private System.Collections.Generic.List<Game> games = new System.Collections.Generic.List<Game>();
-        private static readonly HttpClient _imageSearchClient = new HttpClient();
+        private static readonly HttpClient _imageSearchClient = new HttpClient { Timeout = TimeSpan.FromSeconds(15) };
 
         public GamesController([FromServices] MyCollectionsRepository db)
         {
@@ -244,7 +244,7 @@ namespace MyCollections.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> SalvarLogoInternet(int gameId, string imageUrl)
+        public async Task<IActionResult> SalvarLogoInternet(int gameId, string imageUrl, string sourceUrl)
         {
             var foundGame = games.FirstOrDefault(g => g.GameID == gameId);
             if (foundGame == null || String.IsNullOrWhiteSpace(imageUrl))
@@ -254,7 +254,7 @@ namespace MyCollections.Controllers
 
             try
             {
-                var fileName = await MyCollections.Util.File.DownloadImageFromUrlAsync(imageUrl, gameId.ToString());
+                var fileName = await MyCollections.Util.File.DownloadImageFromUrlAsync(imageUrl, gameId.ToString(), sourceUrl);
                 games[games.IndexOf(foundGame)].LogoURL = "games/covers/" + fileName;
                 _db.SaveJson(games, @"docs/games/games.json");
                 TempData["Mensagem"] = "Logo atualizado com a imagem escolhida.";
@@ -315,8 +315,8 @@ namespace MyCollections.Controllers
                 var json = await response.Content.ReadAsStringAsync();
                 var parsed = JObject.Parse(json);
 
-                return parsed["results"]?
-                    .Take(12)
+                var candidates = parsed["results"]?
+                    .Take(30)
                     .Select(item => new ImageSearchResult
                     {
                         Title = item.Value<string>("title"),
@@ -326,6 +326,22 @@ namespace MyCollections.Controllers
                     })
                     .Where(item => !String.IsNullOrWhiteSpace(item.ImageUrl) && !String.IsNullOrWhiteSpace(item.ThumbnailUrl))
                     .ToList() ?? new List<ImageSearchResult>();
+
+                var validResults = new List<ImageSearchResult>();
+                foreach (var candidate in candidates)
+                {
+                    if (await IsImageDownloadableAsync(candidate))
+                    {
+                        validResults.Add(candidate);
+                    }
+
+                    if (validResults.Count == 12)
+                    {
+                        break;
+                    }
+                }
+
+                return validResults;
             }
             catch (Exception)
             {
@@ -333,6 +349,39 @@ namespace MyCollections.Controllers
             }
         }
 
+        private static async Task<bool> IsImageDownloadableAsync(ImageSearchResult image)
+        {
+            try
+            {
+                using var request = CreateDownloadableImageRequest(image.ImageUrl, image.SourceUrl);
+                using var response = await _imageSearchClient.SendAsync(request, HttpCompletionOption.ResponseHeadersRead);
+                if (!response.IsSuccessStatusCode)
+                {
+                    return false;
+                }
+
+                var mediaType = response.Content.Headers.ContentType?.MediaType;
+                return !String.IsNullOrWhiteSpace(mediaType) && mediaType.StartsWith("image/", StringComparison.OrdinalIgnoreCase);
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+
+        private static HttpRequestMessage CreateDownloadableImageRequest(string imageUrl, string sourceUrl)
+        {
+            var request = new HttpRequestMessage(HttpMethod.Get, imageUrl);
+            request.Headers.UserAgent.ParseAdd("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36");
+            request.Headers.Accept.ParseAdd("image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8");
+
+            if (!String.IsNullOrWhiteSpace(sourceUrl) && Uri.TryCreate(sourceUrl, UriKind.Absolute, out var sourceUri))
+            {
+                request.Headers.Referrer = sourceUri;
+            }
+
+            return request;
+        }
         private static HttpRequestMessage CreateImageSearchRequest(string url)
         {
             var request = new HttpRequestMessage(HttpMethod.Get, url);
