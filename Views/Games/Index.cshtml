@@ -4,10 +4,24 @@
         <img src="images/bannerBackgroundImage.gif" class="overlayGif" />
     </div>
 
+    @if (TempData["Mensagem"] != null)
+    {
+        <div class="alert alert-info margins">@TempData["Mensagem"]</div>
+    }
+
     <div id="mButtons" class="margins">
         <button class="btn btn-primary" id="btn_NewGame"><a href="Games/Create" style="color: white !important;">Novo Jogo</a></button>
         <button class="btn btn-primary" id="btn_AutoNewGames"><a href="Games/AutoNewGames" style="color: white !important;">Buscar novos jogos</a></button>
         <button class="btn btn-primary" id="btn_Commit"><a href="Games/Commit" style="color: white !important;">Salvar no Servidor</a></button>
+        @if (ViewBag.SemLogo == true)
+        {
+            <button class="btn btn-secondary" id="btn_Todos"><a href="/Games" style="color: white !important;">Ver todos</a></button>
+        }
+        else
+        {
+            <button class="btn btn-secondary" id="btn_SemLogo"><a href="/Games?semLogo=true" style="color: white !important;">Sem logo</a></button>
+        }
+        <button class="btn btn-primary" id="btn_AtualizarLogosSteam"><a href="Games/AtualizarLogosSteam" style="color: white !important;">Atualizar logos Steam</a></button>
         <button class="btn btn-primary" id="btn_FindOnSteam"><a href="Games/FindGameOnSteam" style="color: white !important;">Procurar jogos atuais <noframes> Steam</noframes></a></button>
     </div>
 

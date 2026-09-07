@@ -9,6 +9,7 @@ using MyCollections.Repositories;
 using MyCollections.Services;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Net.Http;
 
 namespace MyCollections.Controllers
 {
@@ -22,12 +23,13 @@ namespace MyCollections.Controllers
             _db = db;
             LoadJson();
         }
-        public IActionResult Index()
+        public IActionResult Index(bool semLogo = false)
         {
             UpdateGamesProperties();
             DownloadCovers();
             _db.SaveJson(games, @"docs/games/games.json");
-            return View(games);
+            ViewBag.SemLogo = semLogo;
+            return View(semLogo ? games.Where(GameHasNoLogo).ToList() : games);
         }
         public void LoadJson()
         {
@@ -195,6 +197,33 @@ namespace MyCollections.Controllers
             return RedirectToAction("Index", "Games");
         }
 
+        public async Task<IActionResult> AtualizarLogosSteam()
+        {
+            var updated = 0;
+            var ignored = 0;
+
+            foreach (var game in games.Where(g => GameHasNoLogo(g) && g.SteamApID.HasValue && g.SteamApID.Value > 0))
+            {
+                var fileName = game.GameID.ToString() + ".png";
+                var steamImageUrl = GetSteamHeaderUrl(game);
+
+                try
+                {
+                    await MyCollections.Util.File.DownloadImageAsync(steamImageUrl, fileName);
+                    game.LogoURL = "games/covers/" + fileName;
+                    updated++;
+                }
+                catch (HttpRequestException)
+                {
+                    ignored++;
+                }
+            }
+
+            _db.SaveJson(games, @"docs/games/games.json");
+            TempData["Mensagem"] = $"Logos atualizados: {updated}. Steam sem imagem/resposta: {ignored}.";
+            return RedirectToAction("Index", "Games", new { semLogo = true });
+        }
+
         [HttpPost]
         public IActionResult Delete(int id)
         {
@@ -220,6 +249,37 @@ namespace MyCollections.Controllers
             }
             _db.SaveJson(games, @"docs/games/games.json");
 
+        }
+
+        private static string GetSteamHeaderUrl(Game game)
+        {
+            return $"https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/{game.SteamApID}/header.jpg";
+        }
+
+        private static bool GameHasNoLogo(Game game)
+        {
+            if (String.IsNullOrWhiteSpace(game.LogoURL))
+            {
+                return true;
+            }
+
+            if (game.LogoURL.StartsWith("http", StringComparison.OrdinalIgnoreCase))
+            {
+                return false;
+            }
+
+            var logoPath = game.LogoURL.Replace('\\', '/');
+            if (logoPath.StartsWith("./", StringComparison.Ordinal))
+            {
+                logoPath = logoPath.Substring(2);
+            }
+            if (logoPath.StartsWith("docs/", StringComparison.OrdinalIgnoreCase))
+            {
+                logoPath = logoPath.Substring(5);
+            }
+
+            var fullPath = Path.Combine(Directory.GetCurrentDirectory(), "docs", logoPath.Replace('/', Path.DirectorySeparatorChar));
+            return !System.IO.File.Exists(fullPath);
         }
     }
 }
