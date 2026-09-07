@@ -109,14 +109,16 @@ $(window).on('load', function(){
  });
 
 $(document).ready(function () {
+    var gamesTableStateKey = 'gamesTableState:' + window.location.pathname + window.location.search;
+
     $('#gamesTable').DataTable({
         columns: colunas,
         bStateSave: true,
         fnStateSave: function (oSettings, oData) {
-            localStorage.setItem('gamesTableState', JSON.stringify(oData));
+            localStorage.setItem(gamesTableStateKey, JSON.stringify(oData));
         },
         fnStateLoad: function (oSettings) {
-            return JSON.parse(localStorage.getItem('gamesTableState'));
+            return JSON.parse(localStorage.getItem(gamesTableStateKey));
         }
     });
 

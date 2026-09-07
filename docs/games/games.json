@@ -20265,23 +20265,6 @@
     },
     {
         "GameID": 1193,
-        "Name": "Deadlight: Director's Cut",
-        "LogoURL": "games/covers/1193.png",
-        "Store": "GOG",
-        "System": "PC",
-        "Disabled": false,
-        "BuyDate": null,
-        "Price": null,
-        "PlayedTime": 0,
-        "Purchased": true,
-        "SteamApID": 423950,
-        "SteamOriginalImageURL": null,
-        "IGDBId": null,
-        "Selected": false,
-        "FriendlyName": "DEADLIGHT: DIRECTORS CUT"
-    },
-    {
-        "GameID": 1194,
         "Name": "Deep Sky Derelicts",
         "LogoURL": "games/covers/1194.png",
         "Store": "GOG",
@@ -20298,7 +20281,7 @@
         "FriendlyName": "DEEP SKY DERELICTS"
     },
     {
-        "GameID": 1195,
+        "GameID": 1194,
         "Name": "Delores: A Thimbleweed Park Mini-Adventure",
         "LogoURL": "games/covers/1195.png",
         "Store": "GOG",
@@ -20315,7 +20298,7 @@
         "FriendlyName": "DELORES: A THIMBLEWEED PARK MINI-ADVENTURE"
     },
     {
-        "GameID": 1196,
+        "GameID": 1195,
         "Name": "Deus Ex 2: Invisible War",
         "LogoURL": "games/covers/1196.jpg",
         "Store": "GOG",
@@ -20332,7 +20315,7 @@
         "FriendlyName": "DEUS EX 2: INVISIBLE WAR"
     },
     {
-        "GameID": 1197,
+        "GameID": 1196,
         "Name": "Deus Ex: Human Revolution - Director’s Cut",
         "LogoURL": "games/covers/1197.png",
         "Store": "GOG",
@@ -20349,7 +20332,7 @@
         "FriendlyName": "DEUS EX: HUMAN REVOLUTION - DIRECTOR’S CUT"
     },
     {
-        "GameID": 1198,
+        "GameID": 1197,
         "Name": "Deus Ex: Mankind Divided",
         "LogoURL": "games/covers/1198.png",
         "Store": "GOG",
@@ -20366,7 +20349,7 @@
         "FriendlyName": "DEUS EX: MANKIND DIVIDED"
     },
     {
-        "GameID": 1199,
+        "GameID": 1198,
         "Name": "Deus Ex™ GOTY Edition",
         "LogoURL": "games/covers/1199.jpg",
         "Store": "GOG",
@@ -20383,7 +20366,7 @@
         "FriendlyName": "DEUS EX™ GOTY EDITION"
     },
     {
-        "GameID": 1200,
+        "GameID": 1199,
         "Name": "Diggles: The Myth of Fenris",
         "LogoURL": "games/covers/1200.png",
         "Store": "GOG",
@@ -20400,7 +20383,7 @@
         "FriendlyName": "DIGGLES: THE MYTH OF FENRIS"
     },
     {
-        "GameID": 1201,
+        "GameID": 1200,
         "Name": "Dink Smallwood HD",
         "LogoURL": null,
         "Store": "GOG",
@@ -20417,7 +20400,7 @@
         "FriendlyName": "DINK SMALLWOOD HD"
     },
     {
-        "GameID": 1202,
+        "GameID": 1201,
         "Name": "Dishonored - Definitive Edition",
         "LogoURL": "games/covers/1202.jpg",
         "Store": "GOG",
@@ -20434,7 +20417,7 @@
         "FriendlyName": "DISHONORED - DEFINITIVE EDITION"
     },
     {
-        "GameID": 1203,
+        "GameID": 1202,
         "Name": "Dishonored 2",
         "LogoURL": "games/covers/1203.png",
         "Store": "GOG",
@@ -20451,7 +20434,7 @@
         "FriendlyName": "DISHONORED 2"
     },
     {
-        "GameID": 1204,
+        "GameID": 1203,
         "Name": "DISTRAINT: Deluxe Edition",
         "LogoURL": "games/covers/1204.png",
         "Store": "GOG",
@@ -20468,7 +20451,7 @@
         "FriendlyName": "DISTRAINT: DELUXE EDITION"
     },
     {
-        "GameID": 1205,
+        "GameID": 1204,
         "Name": "DOOM 3",
         "LogoURL": "games/covers/1205.png",
         "Store": "GOG",
@@ -20485,7 +20468,7 @@
         "FriendlyName": "DOOM 3"
     },
     {
-        "GameID": 1206,
+        "GameID": 1205,
         "Name": "DOOM 3: BFG Edition",
         "LogoURL": null,
         "Store": "GOG",
@@ -20502,7 +20485,7 @@
         "FriendlyName": "DOOM 3: BFG EDITION"
     },
     {
-        "GameID": 1207,
+        "GameID": 1206,
         "Name": "Doomdark's Revenge",
         "LogoURL": "games/covers/1207.jpg",
         "Store": "GOG",
@@ -20519,7 +20502,7 @@
         "FriendlyName": "DOOMDARKS REVENGE"
     },
     {
-        "GameID": 1208,
+        "GameID": 1207,
         "Name": "Dragonsphere",
         "LogoURL": "games/covers/1208.png",
         "Store": "GOG",
@@ -20536,7 +20519,7 @@
         "FriendlyName": "DRAGONSPHERE"
     },
     {
-        "GameID": 1209,
+        "GameID": 1208,
         "Name": "DREDGE",
         "LogoURL": "games/covers/1209.png",
         "Store": "GOG",
@@ -20553,7 +20536,7 @@
         "FriendlyName": "DREDGE"
     },
     {
-        "GameID": 1210,
+        "GameID": 1209,
         "Name": "Duck Paradox",
         "LogoURL": "games/covers/1210.png",
         "Store": "GOG",
@@ -20570,7 +20553,7 @@
         "FriendlyName": "DUCK PARADOX"
     },
     {
-        "GameID": 1211,
+        "GameID": 1210,
         "Name": "Dungeons 2",
         "LogoURL": "games/covers/1211.png",
         "Store": "GOG",
@@ -20587,7 +20570,7 @@
         "FriendlyName": "DUNGEONS 2"
     },
     {
-        "GameID": 1212,
+        "GameID": 1211,
         "Name": "En Garde!",
         "LogoURL": "games/covers/1212.png",
         "Store": "GOG",
@@ -20604,7 +20587,7 @@
         "FriendlyName": "EN GARDE!"
     },
     {
-        "GameID": 1213,
+        "GameID": 1212,
         "Name": "Eschalon: Book I",
         "LogoURL": "games/covers/1213.png",
         "Store": "GOG",
@@ -20621,7 +20604,7 @@
         "FriendlyName": "ESCHALON: BOOK I"
     },
     {
-        "GameID": 1214,
+        "GameID": 1213,
         "Name": "Eschalon: Book II",
         "LogoURL": "games/covers/1214.png",
         "Store": "GOG",
@@ -20638,7 +20621,7 @@
         "FriendlyName": "ESCHALON: BOOK II"
     },
     {
-        "GameID": 1215,
+        "GameID": 1214,
         "Name": "Eye of the Beholder",
         "LogoURL": "games/covers/1215.png",
         "Store": "GOG",
@@ -20655,7 +20638,7 @@
         "FriendlyName": "EYE OF THE BEHOLDER"
     },
     {
-        "GameID": 1216,
+        "GameID": 1215,
         "Name": "Eye of the Beholder II: The Legend of Darkmoon",
         "LogoURL": "games/covers/1216.png",
         "Store": "GOG",
@@ -20672,7 +20655,7 @@
         "FriendlyName": "EYE OF THE BEHOLDER II: THE LEGEND OF DARKMOON"
     },
     {
-        "GameID": 1217,
+        "GameID": 1216,
         "Name": "Eye of the Beholder III: Assault on Myth Drannor",
         "LogoURL": "games/covers/1217.png",
         "Store": "GOG",
@@ -20689,7 +20672,7 @@
         "FriendlyName": "EYE OF THE BEHOLDER III: ASSAULT ON MYTH DRANNOR"
     },
     {
-        "GameID": 1218,
+        "GameID": 1217,
         "Name": "Fall of Porcupine: Prologue",
         "LogoURL": "games/covers/1218.png",
         "Store": "GOG",
@@ -20706,7 +20689,7 @@
         "FriendlyName": "FALL OF PORCUPINE: PROLOGUE"
     },
     {
-        "GameID": 1219,
+        "GameID": 1218,
         "Name": "Fallout",
         "LogoURL": "games/covers/1219.png",
         "Store": "GOG",
@@ -20723,7 +20706,7 @@
         "FriendlyName": "FALLOUT"
     },
     {
-        "GameID": 1220,
+        "GameID": 1219,
         "Name": "Fallout 2",
         "LogoURL": "games/covers/1220.png",
         "Store": "GOG",
@@ -20740,7 +20723,7 @@
         "FriendlyName": "FALLOUT 2"
     },
     {
-        "GameID": 1221,
+        "GameID": 1220,
         "Name": "Fallout 3: Game of the Year Edition",
         "LogoURL": "games/covers/1221.png",
         "Store": "GOG",
@@ -20757,7 +20740,7 @@
         "FriendlyName": "FALLOUT 3: GAME OF THE YEAR EDITION"
     },
     {
-        "GameID": 1222,
+        "GameID": 1221,
         "Name": "Fallout Tactics",
         "LogoURL": "games/covers/1222.png",
         "Store": "GOG",
@@ -20774,7 +20757,7 @@
         "FriendlyName": "FALLOUT TACTICS"
     },
     {
-        "GameID": 1223,
+        "GameID": 1222,
         "Name": "Fallout: London",
         "LogoURL": "games/covers/1223.jpg",
         "Store": "GOG",
@@ -20791,7 +20774,7 @@
         "FriendlyName": "FALLOUT: LONDON"
     },
     {
-        "GameID": 1224,
+        "GameID": 1223,
         "Name": "Fallout: New Vegas Ultimate Edition",
         "LogoURL": "games/covers/1224.jpg",
         "Store": "GOG",
@@ -20808,24 +20791,7 @@
         "FriendlyName": "FALLOUT: NEW VEGAS ULTIMATE EDITION"
     },
     {
-        "GameID": 1225,
-        "Name": "FATAL FURY SPECIAL",
-        "LogoURL": "./games/covers/FatalFurySpecial.jpg",
-        "Store": "GOG",
-        "System": "PC",
-        "Disabled": false,
-        "BuyDate": null,
-        "Price": null,
-        "PlayedTime": 0,
-        "Purchased": true,
-        "SteamApID": 0,
-        "SteamOriginalImageURL": null,
-        "IGDBId": null,
-        "Selected": false,
-        "FriendlyName": "FATAL FURY SPECIAL"
-    },
-    {
-        "GameID": 1226,
+        "GameID": 1224,
         "Name": "Fiendish Freddy's Big Top o' Fun",
         "LogoURL": "games/covers/1226.png",
         "Store": "GOG",
@@ -20842,7 +20808,7 @@
         "FriendlyName": "FIENDISH FREDDYS BIG TOP O FUN"
     },
     {
-        "GameID": 1227,
+        "GameID": 1225,
         "Name": "Figment",
         "LogoURL": "games/covers/1227.png",
         "Store": "GOG",
@@ -20859,7 +20825,7 @@
         "FriendlyName": "FIGMENT"
     },
     {
-        "GameID": 1228,
+        "GameID": 1226,
         "Name": "Flashback™",
         "LogoURL": "games/covers/1228.png",
         "Store": "GOG",
@@ -20876,7 +20842,7 @@
         "FriendlyName": "FLASHBACK™"
     },
     {
-        "GameID": 1229,
+        "GameID": 1227,
         "Name": "Flashout 3D: Enhanced Edition",
         "LogoURL": "games/covers/1229.png",
         "Store": "GOG",
@@ -20893,7 +20859,7 @@
         "FriendlyName": "FLASHOUT 3D: ENHANCED EDITION"
     },
     {
-        "GameID": 1230,
+        "GameID": 1228,
         "Name": "Flight of the Amazon Queen",
         "LogoURL": "games/covers/1230.png",
         "Store": "GOG",
@@ -20910,7 +20876,7 @@
         "FriendlyName": "FLIGHT OF THE AMAZON QUEEN"
     },
     {
-        "GameID": 1231,
+        "GameID": 1229,
         "Name": "Forager",
         "LogoURL": "games/covers/1231.png",
         "Store": "GOG",
@@ -20927,7 +20893,7 @@
         "FriendlyName": "FORAGER"
     },
     {
-        "GameID": 1232,
+        "GameID": 1230,
         "Name": "Freespace 2",
         "LogoURL": "games/covers/1232.png",
         "Store": "GOG",
@@ -20944,7 +20910,7 @@
         "FriendlyName": "FREESPACE 2"
     },
     {
-        "GameID": 1233,
+        "GameID": 1231,
         "Name": "Frostpunk",
         "LogoURL": "games/covers/1233.png",
         "Store": "GOG",
@@ -20961,7 +20927,7 @@
         "FriendlyName": "FROSTPUNK"
     },
     {
-        "GameID": 1234,
+        "GameID": 1232,
         "Name": "Full Throttle Remastered",
         "LogoURL": "games/covers/1234.png",
         "Store": "GOG",
@@ -20978,7 +20944,7 @@
         "FriendlyName": "FULL THROTTLE REMASTERED"
     },
     {
-        "GameID": 1235,
+        "GameID": 1233,
         "Name": "Gamedec - Definitive Edition",
         "LogoURL": "games/covers/1235.png",
         "Store": "GOG",
@@ -20995,7 +20961,7 @@
         "FriendlyName": "GAMEDEC - DEFINITIVE EDITION"
     },
     {
-        "GameID": 1236,
+        "GameID": 1234,
         "Name": "Genesis Alpha One Deluxe Edition",
         "LogoURL": "games/covers/1236.png",
         "Store": "GOG",
@@ -21012,7 +20978,7 @@
         "FriendlyName": "GENESIS ALPHA ONE DELUXE EDITION"
     },
     {
-        "GameID": 1237,
+        "GameID": 1235,
         "Name": "Ghost of a Tale",
         "LogoURL": "games/covers/1237.png",
         "Store": "GOG",
@@ -21029,7 +20995,7 @@
         "FriendlyName": "GHOST OF A TALE"
     },
     {
-        "GameID": 1238,
+        "GameID": 1236,
         "Name": "Ghost Song",
         "LogoURL": "games/covers/1238.png",
         "Store": "GOG",
@@ -21046,7 +21012,7 @@
         "FriendlyName": "GHOST SONG"
     },
     {
-        "GameID": 1239,
+        "GameID": 1237,
         "Name": "Ghostrunner",
         "LogoURL": "games/covers/1239.png",
         "Store": "GOG",
@@ -21063,7 +21029,7 @@
         "FriendlyName": "GHOSTRUNNER"
     },
     {
-        "GameID": 1240,
+        "GameID": 1238,
         "Name": "Gravewood High",
         "LogoURL": "games/covers/1240.png",
         "Store": "GOG",
@@ -21080,7 +21046,7 @@
         "FriendlyName": "GRAVEWOOD HIGH"
     },
     {
-        "GameID": 1241,
+        "GameID": 1239,
         "Name": "Greak: Memories of Azur",
         "LogoURL": "games/covers/1241.png",
         "Store": "GOG",
@@ -21097,7 +21063,7 @@
         "FriendlyName": "GREAK: MEMORIES OF AZUR"
     },
     {
-        "GameID": 1242,
+        "GameID": 1240,
         "Name": "GreedFall",
         "LogoURL": "games/covers/1242.png",
         "Store": "GOG",
@@ -21114,7 +21080,7 @@
         "FriendlyName": "GREEDFALL"
     },
     {
-        "GameID": 1243,
+        "GameID": 1241,
         "Name": "Grim Fandango Remastered",
         "LogoURL": "games/covers/1243.png",
         "Store": "GOG",
@@ -21131,7 +21097,7 @@
         "FriendlyName": "GRIM FANDANGO REMASTERED"
     },
     {
-        "GameID": 1244,
+        "GameID": 1242,
         "Name": "GRIP",
         "LogoURL": "games/covers/1244.png",
         "Store": "GOG",
@@ -21148,7 +21114,7 @@
         "FriendlyName": "GRIP"
     },
     {
-        "GameID": 1245,
+        "GameID": 1243,
         "Name": "Hammerting",
         "LogoURL": "games/covers/1245.png",
         "Store": "GOG",
@@ -21165,7 +21131,7 @@
         "FriendlyName": "HAMMERTING"
     },
     {
-        "GameID": 1246,
+        "GameID": 1244,
         "Name": "Hard West 2",
         "LogoURL": "games/covers/1246.png",
         "Store": "GOG",
@@ -21182,7 +21148,7 @@
         "FriendlyName": "HARD WEST 2"
     },
     {
-        "GameID": 1247,
+        "GameID": 1245,
         "Name": "Haven Park",
         "LogoURL": "games/covers/1247.png",
         "Store": "GOG",
@@ -21199,7 +21165,7 @@
         "FriendlyName": "HAVEN PARK"
     },
     {
-        "GameID": 1248,
+        "GameID": 1246,
         "Name": "Hell Division",
         "LogoURL": "games/covers/1248.png",
         "Store": "GOG",
@@ -21216,7 +21182,7 @@
         "FriendlyName": "HELL DIVISION"
     },
     {
-        "GameID": 1249,
+        "GameID": 1247,
         "Name": "Hell Pie",
         "LogoURL": "games/covers/1249.png",
         "Store": "GOG",
@@ -21233,7 +21199,7 @@
         "FriendlyName": "HELL PIE"
     },
     {
-        "GameID": 1250,
+        "GameID": 1248,
         "Name": "Hello Neighbor Alpha Version",
         "LogoURL": null,
         "Store": "GOG",
@@ -21250,7 +21216,7 @@
         "FriendlyName": "HELLO NEIGHBOR ALPHA VERSION"
     },
     {
-        "GameID": 1251,
+        "GameID": 1249,
         "Name": "Hellpoint",
         "LogoURL": "games/covers/1251.png",
         "Store": "GOG",
@@ -21267,7 +21233,7 @@
         "FriendlyName": "HELLPOINT"
     },
     {
-        "GameID": 1252,
+        "GameID": 1250,
         "Name": "Hellpoint: The Thespian Feast",
         "LogoURL": "games/covers/1252.png",
         "Store": "GOG",
@@ -21284,7 +21250,7 @@
         "FriendlyName": "HELLPOINT: THE THESPIAN FEAST"
     },
     {
-        "GameID": 1253,
+        "GameID": 1251,
         "Name": "Hero of the Kingdom II",
         "LogoURL": "games/covers/1253.png",
         "Store": "GOG",
@@ -21301,7 +21267,7 @@
         "FriendlyName": "HERO OF THE KINGDOM II"
     },
     {
-        "GameID": 1254,
+        "GameID": 1252,
         "Name": "Hero's Hour",
         "LogoURL": "games/covers/1254.png",
         "Store": "GOG",
@@ -21318,7 +21284,7 @@
         "FriendlyName": "HEROS HOUR"
     },
     {
-        "GameID": 1255,
+        "GameID": 1253,
         "Name": "Higurashi When They Cry Hou - Ch.1 Onikakushi",
         "LogoURL": "games/covers/1255.png",
         "Store": "GOG",
@@ -21335,7 +21301,7 @@
         "FriendlyName": "HIGURASHI WHEN THEY CRY HOU - CH.1 ONIKAKUSHI"
     },
     {
-        "GameID": 1256,
+        "GameID": 1254,
         "Name": "Hitman: Absolution",
         "LogoURL": "games/covers/1256.png",
         "Store": "GOG",
@@ -21352,7 +21318,7 @@
         "FriendlyName": "HITMAN: ABSOLUTION"
     },
     {
-        "GameID": 1257,
+        "GameID": 1255,
         "Name": "Hive Jump 2: Survivors",
         "LogoURL": "games/covers/1257.png",
         "Store": "GOG",
@@ -21369,7 +21335,7 @@
         "FriendlyName": "HIVE JUMP 2: SURVIVORS"
     },
     {
-        "GameID": 1258,
+        "GameID": 1256,
         "Name": "Immortal Redneck",
         "LogoURL": "games/covers/1258.png",
         "Store": "GOG",
@@ -21386,7 +21352,7 @@
         "FriendlyName": "IMMORTAL REDNECK"
     },
     {
-        "GameID": 1259,
+        "GameID": 1257,
         "Name": "INDUSTRIA",
         "LogoURL": "games/covers/1259.png",
         "Store": "GOG",
@@ -21403,7 +21369,7 @@
         "FriendlyName": "INDUSTRIA"
     },
     {
-        "GameID": 1260,
+        "GameID": 1258,
         "Name": "Iratus: Lord of the Dead",
         "LogoURL": "games/covers/1260.png",
         "Store": "GOG",
@@ -21420,7 +21386,7 @@
         "FriendlyName": "IRATUS: LORD OF THE DEAD"
     },
     {
-        "GameID": 1261,
+        "GameID": 1259,
         "Name": "Iris and the Giant",
         "LogoURL": "games/covers/1261.png",
         "Store": "GOG",
@@ -21437,7 +21403,7 @@
         "FriendlyName": "IRIS AND THE GIANT"
     },
     {
-        "GameID": 1262,
+        "GameID": 1260,
         "Name": "Janosik",
         "LogoURL": "games/covers/1262.png",
         "Store": "GOG",
@@ -21454,7 +21420,7 @@
         "FriendlyName": "JANOSIK"
     },
     {
-        "GameID": 1263,
+        "GameID": 1261,
         "Name": "Jazz Jackrabbit 2: The Christmas Chronicles",
         "LogoURL": "games/covers/1263.png",
         "Store": "GOG",
@@ -21471,7 +21437,7 @@
         "FriendlyName": "JAZZ JACKRABBIT 2: THE CHRISTMAS CHRONICLES"
     },
     {
-        "GameID": 1264,
+        "GameID": 1262,
         "Name": "Jazz Jackrabbit 2: The Secret Files",
         "LogoURL": "games/covers/1264.png",
         "Store": "GOG",
@@ -21488,7 +21454,7 @@
         "FriendlyName": "JAZZ JACKRABBIT 2: THE SECRET FILES"
     },
     {
-        "GameID": 1265,
+        "GameID": 1263,
         "Name": "Jill of the Jungle: The Complete Trilogy",
         "LogoURL": "games/covers/1265.jpg",
         "Store": "GOG",
@@ -21505,7 +21471,7 @@
         "FriendlyName": "JILL OF THE JUNGLE: THE COMPLETE TRILOGY"
     },
     {
-        "GameID": 1266,
+        "GameID": 1264,
         "Name": "Journey to the Savage Planet",
         "LogoURL": "games/covers/1266.png",
         "Store": "GOG",
@@ -21522,7 +21488,7 @@
         "FriendlyName": "JOURNEY TO THE SAVAGE PLANET"
     },
     {
-        "GameID": 1267,
+        "GameID": 1265,
         "Name": "Kerbal Space Program",
         "LogoURL": "games/covers/1267.png",
         "Store": "GOG",
@@ -21539,7 +21505,7 @@
         "FriendlyName": "KERBAL SPACE PROGRAM"
     },
     {
-        "GameID": 1268,
+        "GameID": 1266,
         "Name": "KING OF THE MONSTERS",
         "LogoURL": "games/covers/1268.jpg",
         "Store": "GOG",
@@ -21556,7 +21522,7 @@
         "FriendlyName": "KING OF THE MONSTERS"
     },
     {
-        "GameID": 1269,
+        "GameID": 1267,
         "Name": "King's Bounty: The Legend",
         "LogoURL": "games/covers/1269.png",
         "Store": "GOG",
@@ -21573,7 +21539,7 @@
         "FriendlyName": "KINGS BOUNTY: THE LEGEND"
     },
     {
-        "GameID": 1270,
+        "GameID": 1268,
         "Name": "Legacy of Kain: Defiance",
         "LogoURL": "games/covers/1270.png",
         "Store": "GOG",
@@ -21590,7 +21556,7 @@
         "FriendlyName": "LEGACY OF KAIN: DEFIANCE"
     },
     {
-        "GameID": 1271,
+        "GameID": 1269,
         "Name": "Legend of Keepers: Career of a Dungeon Manager",
         "LogoURL": "games/covers/1271.png",
         "Store": "GOG",
@@ -21607,7 +21573,7 @@
         "FriendlyName": "LEGEND OF KEEPERS: CAREER OF A DUNGEON MANAGER"
     },
     {
-        "GameID": 1272,
+        "GameID": 1270,
         "Name": "Legendary Hoplite: Ajax’s Trial",
         "LogoURL": "games/covers/1272.jpg",
         "Store": "GOG",
@@ -21624,7 +21590,7 @@
         "FriendlyName": "LEGENDARY HOPLITE: AJAX’S TRIAL"
     },
     {
-        "GameID": 1273,
+        "GameID": 1271,
         "Name": "LEGO® Star Wars™ III - The Clone Wars™",
         "LogoURL": "games/covers/1273.png",
         "Store": "GOG",
@@ -21641,7 +21607,7 @@
         "FriendlyName": "LEGO® STAR WARS™ III - THE CLONE WARS™"
     },
     {
-        "GameID": 1274,
+        "GameID": 1272,
         "Name": "LEGO® The Hobbit™",
         "LogoURL": "games/covers/1274.png",
         "Store": "GOG",
@@ -21658,7 +21624,7 @@
         "FriendlyName": "LEGO® THE HOBBIT™"
     },
     {
-        "GameID": 1275,
+        "GameID": 1273,
         "Name": "LEGO® The Lord of the Rings™",
         "LogoURL": "games/covers/1275.png",
         "Store": "GOG",
@@ -21675,7 +21641,7 @@
         "FriendlyName": "LEGO® THE LORD OF THE RINGS™"
     },
     {
-        "GameID": 1276,
+        "GameID": 1274,
         "Name": "Loria",
         "LogoURL": "games/covers/1276.png",
         "Store": "GOG",
@@ -21692,7 +21658,7 @@
         "FriendlyName": "LORIA"
     },
     {
-        "GameID": 1277,
+        "GameID": 1275,
         "Name": "Lost Ruins",
         "LogoURL": "games/covers/1277.png",
         "Store": "GOG",
@@ -21709,7 +21675,7 @@
         "FriendlyName": "LOST RUINS"
     },
     {
-        "GameID": 1278,
+        "GameID": 1276,
         "Name": "Lovecraft's Untold Stories",
         "LogoURL": "games/covers/1278.png",
         "Store": "GOG",
@@ -21726,7 +21692,7 @@
         "FriendlyName": "LOVECRAFTS UNTOLD STORIES"
     },
     {
-        "GameID": 1279,
+        "GameID": 1277,
         "Name": "Lure of the Temptress (1992)",
         "LogoURL": "games/covers/1279.jpg",
         "Store": "GOG",
@@ -21743,7 +21709,7 @@
         "FriendlyName": "LURE OF THE TEMPTRESS (1992)"
     },
     {
-        "GameID": 1280,
+        "GameID": 1278,
         "Name": "Mable &amp; The Wood",
         "LogoURL": "games/covers/1280.png",
         "Store": "GOG",
@@ -21760,7 +21726,7 @@
         "FriendlyName": "MABLE &AMP; THE WOOD"
     },
     {
-        "GameID": 1281,
+        "GameID": 1279,
         "Name": "Mafia II (Classic)",
         "LogoURL": "games/covers/1281.png",
         "Store": "GOG",
@@ -21777,7 +21743,7 @@
         "FriendlyName": "MAFIA II (CLASSIC)"
     },
     {
-        "GameID": 1282,
+        "GameID": 1280,
         "Name": "Mafia II: Definitive Edition",
         "LogoURL": "games/covers/1282.png",
         "Store": "GOG",
@@ -21794,7 +21760,7 @@
         "FriendlyName": "MAFIA II: DEFINITIVE EDITION"
     },
     {
-        "GameID": 1283,
+        "GameID": 1281,
         "Name": "Mafia III: Definitive Edition",
         "LogoURL": "games/covers/1283.png",
         "Store": "GOG",
@@ -21811,7 +21777,7 @@
         "FriendlyName": "MAFIA III: DEFINITIVE EDITION"
     },
     {
-        "GameID": 1284,
+        "GameID": 1282,
         "Name": "Mafia: Definitive Edition",
         "LogoURL": "games/covers/1284.png",
         "Store": "GOG",
@@ -21828,7 +21794,7 @@
         "FriendlyName": "MAFIA: DEFINITIVE EDITION"
     },
     {
-        "GameID": 1285,
+        "GameID": 1283,
         "Name": "Martial Law",
         "LogoURL": "games/covers/1285.png",
         "Store": "GOG",
@@ -21845,7 +21811,7 @@
         "FriendlyName": "MARTIAL LAW"
     },
     {
-        "GameID": 1286,
+        "GameID": 1284,
         "Name": "Master of Magic Classic",
         "LogoURL": "games/covers/1286.png",
         "Store": "GOG",
@@ -21862,7 +21828,7 @@
         "FriendlyName": "MASTER OF MAGIC CLASSIC"
     },
     {
-        "GameID": 1287,
+        "GameID": 1285,
         "Name": "MDK",
         "LogoURL": "games/covers/1287.png",
         "Store": "GOG",
@@ -21879,7 +21845,7 @@
         "FriendlyName": "MDK"
     },
     {
-        "GameID": 1288,
+        "GameID": 1286,
         "Name": "METAL SLUG",
         "LogoURL": "games/covers/1288.png",
         "Store": "GOG",
@@ -21896,7 +21862,7 @@
         "FriendlyName": "METAL SLUG"
     },
     {
-        "GameID": 1289,
+        "GameID": 1287,
         "Name": "METAL SLUG 2",
         "LogoURL": "games/covers/1289.png",
         "Store": "GOG",
@@ -21913,7 +21879,7 @@
         "FriendlyName": "METAL SLUG 2"
     },
     {
-        "GameID": 1290,
+        "GameID": 1288,
         "Name": "METAL SLUG 3",
         "LogoURL": "games/covers/1290.png",
         "Store": "GOG",
@@ -21930,7 +21896,7 @@
         "FriendlyName": "METAL SLUG 3"
     },
     {
-        "GameID": 1291,
+        "GameID": 1289,
         "Name": "METAL SLUG X",
         "LogoURL": "games/covers/1291.png",
         "Store": "GOG",
@@ -21947,7 +21913,7 @@
         "FriendlyName": "METAL SLUG X"
     },
     {
-        "GameID": 1292,
+        "GameID": 1290,
         "Name": "Metro: Last Light Redux",
         "LogoURL": "games/covers/1292.png",
         "Store": "GOG",
@@ -21964,7 +21930,7 @@
         "FriendlyName": "METRO: LAST LIGHT REDUX"
     },
     {
-        "GameID": 1293,
+        "GameID": 1291,
         "Name": "Middle-earth™: Shadow of Mordor™ Game of the Year Edition",
         "LogoURL": "games/covers/1293.jpg",
         "Store": "GOG",
@@ -21981,7 +21947,7 @@
         "FriendlyName": "MIDDLE-EARTH™: SHADOW OF MORDOR™ GAME OF THE YEAR EDITION"
     },
     {
-        "GameID": 1294,
+        "GameID": 1292,
         "Name": "Middle-earth™: Shadow of War™",
         "LogoURL": "games/covers/1294.png",
         "Store": "GOG",
@@ -21998,7 +21964,7 @@
         "FriendlyName": "MIDDLE-EARTH™: SHADOW OF WAR™"
     },
     {
-        "GameID": 1295,
+        "GameID": 1293,
         "Name": "Midnight Fight Express",
         "LogoURL": "games/covers/1295.png",
         "Store": "GOG",
@@ -22015,7 +21981,7 @@
         "FriendlyName": "MIDNIGHT FIGHT EXPRESS"
     },
     {
-        "GameID": 1296,
+        "GameID": 1294,
         "Name": "Monster Prom 2: Monster Camp",
         "LogoURL": "games/covers/1296.png",
         "Store": "GOG",
@@ -22032,7 +21998,7 @@
         "FriendlyName": "MONSTER PROM 2: MONSTER CAMP"
     },
     {
-        "GameID": 1297,
+        "GameID": 1295,
         "Name": "Monster Train",
         "LogoURL": "games/covers/1297.png",
         "Store": "GOG",
@@ -22049,7 +22015,7 @@
         "FriendlyName": "MONSTER TRAIN"
     },
     {
-        "GameID": 1298,
+        "GameID": 1296,
         "Name": "Moonlighter",
         "LogoURL": "games/covers/1298.png",
         "Store": "GOG",
@@ -22066,7 +22032,7 @@
         "FriendlyName": "MOONLIGHTER"
     },
     {
-        "GameID": 1299,
+        "GameID": 1297,
         "Name": "Moonscars",
         "LogoURL": "games/covers/1299.png",
         "Store": "GOG",
@@ -22083,7 +22049,7 @@
         "FriendlyName": "MOONSCARS"
     },
     {
-        "GameID": 1300,
+        "GameID": 1298,
         "Name": "Mordheim: City of the Damned",
         "LogoURL": "games/covers/1300.png",
         "Store": "GOG",
@@ -22100,7 +22066,7 @@
         "FriendlyName": "MORDHEIM: CITY OF THE DAMNED"
     },
     {
-        "GameID": 1301,
+        "GameID": 1299,
         "Name": "Mortal Kombat 1",
         "LogoURL": "games/covers/1301.png",
         "Store": "GOG",
@@ -22117,7 +22083,7 @@
         "FriendlyName": "MORTAL KOMBAT 1"
     },
     {
-        "GameID": 1302,
+        "GameID": 1300,
         "Name": "Mortal Kombat 2",
         "LogoURL": "games/covers/1302.png",
         "Store": "GOG",
@@ -22134,7 +22100,7 @@
         "FriendlyName": "MORTAL KOMBAT 2"
     },
     {
-        "GameID": 1303,
+        "GameID": 1301,
         "Name": "Mortal Kombat 3",
         "LogoURL": "games/covers/1303.jpg",
         "Store": "GOG",
@@ -22151,7 +22117,7 @@
         "FriendlyName": "MORTAL KOMBAT 3"
     },
     {
-        "GameID": 1304,
+        "GameID": 1302,
         "Name": "Mortal Kombat 4",
         "LogoURL": "games/covers/1304.jpg",
         "Store": "GOG",
@@ -22168,7 +22134,7 @@
         "FriendlyName": "MORTAL KOMBAT 4"
     },
     {
-        "GameID": 1305,
+        "GameID": 1303,
         "Name": "Mortal Kombat Trilogy",
         "LogoURL": "games/covers/1305.jpg",
         "Store": "GOG",
@@ -22185,7 +22151,7 @@
         "FriendlyName": "MORTAL KOMBAT TRILOGY"
     },
     {
-        "GameID": 1306,
+        "GameID": 1304,
         "Name": "Mount &amp; Blade",
         "LogoURL": "games/covers/1306.png",
         "Store": "GOG",
@@ -22202,7 +22168,7 @@
         "FriendlyName": "MOUNT &AMP; BLADE"
     },
     {
-        "GameID": 1307,
+        "GameID": 1305,
         "Name": "Mutazione",
         "LogoURL": "games/covers/1307.png",
         "Store": "GOG",
@@ -22219,7 +22185,7 @@
         "FriendlyName": "MUTAZIONE"
     },
     {
-        "GameID": 1308,
+        "GameID": 1306,
         "Name": "Neurodeck: Psychological Deckbuilder",
         "LogoURL": "games/covers/1308.png",
         "Store": "GOG",
@@ -22236,7 +22202,7 @@
         "FriendlyName": "NEURODECK: PSYCHOLOGICAL DECKBUILDER"
     },
     {
-        "GameID": 1309,
+        "GameID": 1307,
         "Name": "Neverwinter Nights Diamond",
         "LogoURL": null,
         "Store": "GOG",
@@ -22253,7 +22219,7 @@
         "FriendlyName": "NEVERWINTER NIGHTS DIAMOND"
     },
     {
-        "GameID": 1310,
+        "GameID": 1308,
         "Name": "Neverwinter Nights: Enhanced Edition",
         "LogoURL": "games/covers/1310.png",
         "Store": "GOG",
@@ -22270,7 +22236,7 @@
         "FriendlyName": "NEVERWINTER NIGHTS: ENHANCED EDITION"
     },
     {
-        "GameID": 1311,
+        "GameID": 1309,
         "Name": "Nomads of Driftland",
         "LogoURL": "games/covers/1311.png",
         "Store": "GOG",
@@ -22287,7 +22253,7 @@
         "FriendlyName": "NOMADS OF DRIFTLAND"
     },
     {
-        "GameID": 1312,
+        "GameID": 1310,
         "Name": "Oaken",
         "LogoURL": "games/covers/1312.png",
         "Store": "GOG",
@@ -22304,7 +22270,7 @@
         "FriendlyName": "OAKEN"
     },
     {
-        "GameID": 1313,
+        "GameID": 1311,
         "Name": "Obduction ®",
         "LogoURL": "games/covers/1313.png",
         "Store": "GOG",
@@ -22321,7 +22287,7 @@
         "FriendlyName": "OBDUCTION ®"
     },
     {
-        "GameID": 1314,
+        "GameID": 1312,
         "Name": "Oddworld: Abe's Oddysee",
         "LogoURL": "games/covers/1314.png",
         "Store": "GOG",
@@ -22338,7 +22304,7 @@
         "FriendlyName": "ODDWORLD: ABES ODDYSEE"
     },
     {
-        "GameID": 1315,
+        "GameID": 1313,
         "Name": "Once Upon a Jester",
         "LogoURL": "games/covers/1315.png",
         "Store": "GOG",
@@ -22355,7 +22321,7 @@
         "FriendlyName": "ONCE UPON A JESTER"
     },
     {
-        "GameID": 1316,
+        "GameID": 1314,
         "Name": "OpenTTD",
         "LogoURL": "games/covers/1316.png",
         "Store": "GOG",
@@ -22372,7 +22338,7 @@
         "FriendlyName": "OPENTTD"
     },
     {
-        "GameID": 1317,
+        "GameID": 1315,
         "Name": "Our Life: Beginnings &amp; Always",
         "LogoURL": "games/covers/1317.png",
         "Store": "GOG",
@@ -22389,7 +22355,7 @@
         "FriendlyName": "OUR LIFE: BEGINNINGS &AMP; ALWAYS"
     },
     {
-        "GameID": 1318,
+        "GameID": 1316,
         "Name": "Overcooked! 2",
         "LogoURL": "games/covers/1318.png",
         "Store": "GOG",
@@ -22406,7 +22372,7 @@
         "FriendlyName": "OVERCOOKED! 2"
     },
     {
-        "GameID": 1319,
+        "GameID": 1317,
         "Name": "Overcooked: Gourmet Edition",
         "LogoURL": null,
         "Store": "GOG",
@@ -22423,7 +22389,7 @@
         "FriendlyName": "OVERCOOKED: GOURMET EDITION"
     },
     {
-        "GameID": 1320,
+        "GameID": 1318,
         "Name": "Overload - Playable Teaser",
         "LogoURL": "games/covers/1320.png",
         "Store": "GOG",
@@ -22440,7 +22406,7 @@
         "FriendlyName": "OVERLOAD - PLAYABLE TEASER"
     },
     {
-        "GameID": 1321,
+        "GameID": 1319,
         "Name": "Oxenfree",
         "LogoURL": "games/covers/1321.png",
         "Store": "GOG",
@@ -22457,7 +22423,7 @@
         "FriendlyName": "OXENFREE"
     },
     {
-        "GameID": 1322,
+        "GameID": 1320,
         "Name": "Ozymandias: Bronze Age Empire Sim",
         "LogoURL": "games/covers/1322.png",
         "Store": "GOG",
@@ -22474,7 +22440,7 @@
         "FriendlyName": "OZYMANDIAS: BRONZE AGE EMPIRE SIM"
     },
     {
-        "GameID": 1323,
+        "GameID": 1321,
         "Name": "Phoning Home",
         "LogoURL": "games/covers/1323.png",
         "Store": "GOG",
@@ -22491,7 +22457,7 @@
         "FriendlyName": "PHONING HOME"
     },
     {
-        "GameID": 1324,
+        "GameID": 1322,
         "Name": "Planet of Lana",
         "LogoURL": "games/covers/1324.png",
         "Store": "GOG",
@@ -22508,7 +22474,7 @@
         "FriendlyName": "PLANET OF LANA"
     },
     {
-        "GameID": 1325,
+        "GameID": 1323,
         "Name": "POSTAL 2",
         "LogoURL": "games/covers/1325.png",
         "Store": "GOG",
@@ -22525,7 +22491,7 @@
         "FriendlyName": "POSTAL 2"
     },
     {
-        "GameID": 1326,
+        "GameID": 1324,
         "Name": "POSTAL: Classic and Uncut",
         "LogoURL": null,
         "Store": "GOG",
@@ -22542,7 +22508,7 @@
         "FriendlyName": "POSTAL: CLASSIC AND UNCUT"
     },
     {
-        "GameID": 1327,
+        "GameID": 1325,
         "Name": "Prey",
         "LogoURL": "games/covers/1327.png",
         "Store": "GOG",
@@ -22559,7 +22525,7 @@
         "FriendlyName": "PREY"
     },
     {
-        "GameID": 1328,
+        "GameID": 1326,
         "Name": "Prison Architect",
         "LogoURL": "games/covers/1328.png",
         "Store": "GOG",
@@ -22576,7 +22542,7 @@
         "FriendlyName": "PRISON ARCHITECT"
     },
     {
-        "GameID": 1329,
+        "GameID": 1327,
         "Name": "Pumpkin Jack",
         "LogoURL": "games/covers/1329.png",
         "Store": "GOG",
@@ -22593,7 +22559,7 @@
         "FriendlyName": "PUMPKIN JACK"
     },
     {
-        "GameID": 1330,
+        "GameID": 1328,
         "Name": "Quake 4",
         "LogoURL": "games/covers/1330.png",
         "Store": "GOG",
@@ -22610,7 +22576,7 @@
         "FriendlyName": "QUAKE 4"
     },
     {
-        "GameID": 1331,
+        "GameID": 1329,
         "Name": "Quake II",
         "LogoURL": "games/covers/1331.png",
         "Store": "GOG",
@@ -22627,7 +22593,7 @@
         "FriendlyName": "QUAKE II"
     },
     {
-        "GameID": 1332,
+        "GameID": 1330,
         "Name": "Quake II (Original)",
         "LogoURL": null,
         "Store": "GOG",
@@ -22644,7 +22610,7 @@
         "FriendlyName": "QUAKE II (ORIGINAL)"
     },
     {
-        "GameID": 1333,
+        "GameID": 1331,
         "Name": "Quake II RTX",
         "LogoURL": "games/covers/1333.png",
         "Store": "GOG",
@@ -22661,7 +22627,7 @@
         "FriendlyName": "QUAKE II RTX"
     },
     {
-        "GameID": 1334,
+        "GameID": 1332,
         "Name": "Railroad Tycoon 2 Platinum",
         "LogoURL": null,
         "Store": "GOG",
@@ -22678,7 +22644,7 @@
         "FriendlyName": "RAILROAD TYCOON 2 PLATINUM"
     },
     {
-        "GameID": 1335,
+        "GameID": 1333,
         "Name": "Requiem: Avenging Angel",
         "LogoURL": "games/covers/1335.png",
         "Store": "GOG",
@@ -22695,7 +22661,7 @@
         "FriendlyName": "REQUIEM: AVENGING ANGEL"
     },
     {
-        "GameID": 1336,
+        "GameID": 1334,
         "Name": "Resident Evil",
         "LogoURL": "games/covers/1336.png",
         "Store": "GOG",
@@ -22712,7 +22678,7 @@
         "FriendlyName": "RESIDENT EVIL"
     },
     {
-        "GameID": 1337,
+        "GameID": 1335,
         "Name": "Resident Evil 2",
         "LogoURL": "games/covers/1337.png",
         "Store": "GOG",
@@ -22729,7 +22695,7 @@
         "FriendlyName": "RESIDENT EVIL 2"
     },
     {
-        "GameID": 1338,
+        "GameID": 1336,
         "Name": "Resident Evil 3",
         "LogoURL": "games/covers/1338.png",
         "Store": "GOG",
@@ -22746,7 +22712,7 @@
         "FriendlyName": "RESIDENT EVIL 3"
     },
     {
-        "GameID": 1339,
+        "GameID": 1337,
         "Name": "Return of the Phantom",
         "LogoURL": "games/covers/1339.png",
         "Store": "GOG",
@@ -22763,7 +22729,7 @@
         "FriendlyName": "RETURN OF THE PHANTOM"
     },
     {
-        "GameID": 1340,
+        "GameID": 1338,
         "Name": "RIOT - Civil Unrest",
         "LogoURL": "games/covers/1340.png",
         "Store": "GOG",
@@ -22780,7 +22746,7 @@
         "FriendlyName": "RIOT - CIVIL UNREST"
     },
     {
-        "GameID": 1341,
+        "GameID": 1339,
         "Name": "RollerCoaster Tycoon® Deluxe",
         "LogoURL": null,
         "Store": "GOG",
@@ -22797,7 +22763,7 @@
         "FriendlyName": "ROLLERCOASTER TYCOON® DELUXE"
     },
     {
-        "GameID": 1342,
+        "GameID": 1340,
         "Name": "S.T.A.L.K.E.R.: Shadow of Chernobyl",
         "LogoURL": "games/covers/1342.png",
         "Store": "GOG",
@@ -22814,7 +22780,7 @@
         "FriendlyName": "S.T.A.L.K.E.R.: SHADOW OF CHERNOBYL"
     },
     {
-        "GameID": 1343,
+        "GameID": 1341,
         "Name": "Saints Row 2",
         "LogoURL": "games/covers/1343.png",
         "Store": "GOG",
@@ -22831,7 +22797,7 @@
         "FriendlyName": "SAINTS ROW 2"
     },
     {
-        "GameID": 1344,
+        "GameID": 1342,
         "Name": "Saints Row®: The Third™ Remastered",
         "LogoURL": "games/covers/1344.png",
         "Store": "GOG",
@@ -22848,7 +22814,7 @@
         "FriendlyName": "SAINTS ROW®: THE THIRD™ REMASTERED"
     },
     {
-        "GameID": 1345,
+        "GameID": 1343,
         "Name": "Samorost 1",
         "LogoURL": "games/covers/1345.png",
         "Store": "GOG",
@@ -22865,7 +22831,7 @@
         "FriendlyName": "SAMOROST 1"
     },
     {
-        "GameID": 1346,
+        "GameID": 1344,
         "Name": "Samsara Room",
         "LogoURL": "games/covers/1346.png",
         "Store": "GOG",
@@ -22882,7 +22848,7 @@
         "FriendlyName": "SAMSARA ROOM"
     },
     {
-        "GameID": 1347,
+        "GameID": 1345,
         "Name": "SAMURAI SHODOWN II",
         "LogoURL": "games/covers/1347.jpg",
         "Store": "GOG",
@@ -22899,7 +22865,7 @@
         "FriendlyName": "SAMURAI SHODOWN II"
     },
     {
-        "GameID": 1348,
+        "GameID": 1346,
         "Name": "SAMURAI SHODOWN V SPECIAL",
         "LogoURL": "games/covers/1348.png",
         "Store": "GOG",
@@ -22916,7 +22882,7 @@
         "FriendlyName": "SAMURAI SHODOWN V SPECIAL"
     },
     {
-        "GameID": 1349,
+        "GameID": 1347,
         "Name": "Sang-Froid: Tales of Werewolves",
         "LogoURL": "games/covers/1349.png",
         "Store": "GOG",
@@ -22933,7 +22899,7 @@
         "FriendlyName": "SANG-FROID: TALES OF WEREWOLVES"
     },
     {
-        "GameID": 1350,
+        "GameID": 1348,
         "Name": "Sanitarium",
         "LogoURL": "games/covers/1350.png",
         "Store": "GOG",
@@ -22950,7 +22916,7 @@
         "FriendlyName": "SANITARIUM"
     },
     {
-        "GameID": 1351,
+        "GameID": 1349,
         "Name": "Scorn",
         "LogoURL": "games/covers/1351.png",
         "Store": "GOG",
@@ -22967,7 +22933,7 @@
         "FriendlyName": "SCORN"
     },
     {
-        "GameID": 1352,
+        "GameID": 1350,
         "Name": "Sensible World of Soccer 96/97",
         "LogoURL": null,
         "Store": "GOG",
@@ -22984,7 +22950,7 @@
         "FriendlyName": "SENSIBLE WORLD OF SOCCER 96/97"
     },
     {
-        "GameID": 1353,
+        "GameID": 1351,
         "Name": "Serious Sam: The First Encounter",
         "LogoURL": null,
         "Store": "GOG",
@@ -23001,7 +22967,7 @@
         "FriendlyName": "SERIOUS SAM: THE FIRST ENCOUNTER"
     },
     {
-        "GameID": 1354,
+        "GameID": 1352,
         "Name": "Shadow Tactics: Blades of the Shogun",
         "LogoURL": "games/covers/1354.png",
         "Store": "GOG",
@@ -23018,7 +22984,7 @@
         "FriendlyName": "SHADOW TACTICS: BLADES OF THE SHOGUN"
     },
     {
-        "GameID": 1355,
+        "GameID": 1353,
         "Name": "Shadow Warrior 2",
         "LogoURL": "games/covers/1355.png",
         "Store": "GOG",
@@ -23035,7 +23001,7 @@
         "FriendlyName": "SHADOW WARRIOR 2"
     },
     {
-        "GameID": 1356,
+        "GameID": 1354,
         "Name": "Shadow Warrior Classic Complete",
         "LogoURL": null,
         "Store": "GOG",
@@ -23052,7 +23018,7 @@
         "FriendlyName": "SHADOW WARRIOR CLASSIC COMPLETE"
     },
     {
-        "GameID": 1357,
+        "GameID": 1355,
         "Name": "Shadowrun Hong Kong - Extended Edition",
         "LogoURL": "games/covers/1357.png",
         "Store": "GOG",
@@ -23069,7 +23035,7 @@
         "FriendlyName": "SHADOWRUN HONG KONG - EXTENDED EDITION"
     },
     {
-        "GameID": 1358,
+        "GameID": 1356,
         "Name": "Shadowrun Returns",
         "LogoURL": "games/covers/1358.png",
         "Store": "GOG",
@@ -23086,7 +23052,7 @@
         "FriendlyName": "SHADOWRUN RETURNS"
     },
     {
-        "GameID": 1359,
+        "GameID": 1357,
         "Name": "Shadowrun: Dragonfall - Director's Cut",
         "LogoURL": "games/covers/1359.png",
         "Store": "GOG",
@@ -23103,7 +23069,7 @@
         "FriendlyName": "SHADOWRUN: DRAGONFALL - DIRECTORS CUT"
     },
     {
-        "GameID": 1360,
+        "GameID": 1358,
         "Name": "Shadows: Awakening",
         "LogoURL": "games/covers/1360.png",
         "Store": "GOG",
@@ -23120,7 +23086,7 @@
         "FriendlyName": "SHADOWS: AWAKENING"
     },
     {
-        "GameID": 1361,
+        "GameID": 1359,
         "Name": "Shantae and the Pirate's Curse",
         "LogoURL": "games/covers/1361.png",
         "Store": "GOG",
@@ -23137,7 +23103,7 @@
         "FriendlyName": "SHANTAE AND THE PIRATES CURSE"
     },
     {
-        "GameID": 1362,
+        "GameID": 1360,
         "Name": "SHOCK TROOPERS",
         "LogoURL": "games/covers/1362.png",
         "Store": "GOG",
@@ -23154,7 +23120,7 @@
         "FriendlyName": "SHOCK TROOPERS"
     },
     {
-        "GameID": 1363,
+        "GameID": 1361,
         "Name": "Shogun Showdown",
         "LogoURL": "games/covers/1363.png",
         "Store": "GOG",
@@ -23171,7 +23137,7 @@
         "FriendlyName": "SHOGUN SHOWDOWN"
     },
     {
-        "GameID": 1364,
+        "GameID": 1362,
         "Name": "Shogun Showdown: Prologue",
         "LogoURL": "games/covers/1364.png",
         "Store": "GOG",
@@ -23188,7 +23154,7 @@
         "FriendlyName": "SHOGUN SHOWDOWN: PROLOGUE"
     },
     {
-        "GameID": 1365,
+        "GameID": 1363,
         "Name": "Shores Unknown: Arrival",
         "LogoURL": null,
         "Store": "GOG",
@@ -23205,7 +23171,7 @@
         "FriendlyName": "SHORES UNKNOWN: ARRIVAL"
     },
     {
-        "GameID": 1366,
+        "GameID": 1364,
         "Name": "Showgunners",
         "LogoURL": "games/covers/1366.png",
         "Store": "GOG",
@@ -23222,7 +23188,7 @@
         "FriendlyName": "SHOWGUNNERS"
     },
     {
-        "GameID": 1367,
+        "GameID": 1365,
         "Name": "Sigma Theory: Global Cold War",
         "LogoURL": "games/covers/1367.png",
         "Store": "GOG",
@@ -23239,7 +23205,7 @@
         "FriendlyName": "SIGMA THEORY: GLOBAL COLD WAR"
     },
     {
-        "GameID": 1368,
+        "GameID": 1366,
         "Name": "Sin Slayers: The First Sin",
         "LogoURL": null,
         "Store": "GOG",
@@ -23256,7 +23222,7 @@
         "FriendlyName": "SIN SLAYERS: THE FIRST SIN"
     },
     {
-        "GameID": 1369,
+        "GameID": 1367,
         "Name": "Sir Whoopass™: Immortal Death",
         "LogoURL": "games/covers/1369.png",
         "Store": "GOG",
@@ -23273,7 +23239,7 @@
         "FriendlyName": "SIR WHOOPASS™: IMMORTAL DEATH"
     },
     {
-        "GameID": 1370,
+        "GameID": 1368,
         "Name": "SOMA",
         "LogoURL": "games/covers/1370.png",
         "Store": "GOG",
@@ -23290,7 +23256,7 @@
         "FriendlyName": "SOMA"
     },
     {
-        "GameID": 1371,
+        "GameID": 1369,
         "Name": "South of the Circle",
         "LogoURL": "games/covers/1371.png",
         "Store": "GOG",
@@ -23307,7 +23273,7 @@
         "FriendlyName": "SOUTH OF THE CIRCLE"
     },
     {
-        "GameID": 1372,
+        "GameID": 1370,
         "Name": "South Scrimshaw, Part One",
         "LogoURL": "games/covers/1372.png",
         "Store": "GOG",
@@ -23324,7 +23290,7 @@
         "FriendlyName": "SOUTH SCRIMSHAW, PART ONE"
     },
     {
-        "GameID": 1373,
+        "GameID": 1371,
         "Name": "Space Hulk: Deathwing - Enhanced Edition",
         "LogoURL": "games/covers/1373.png",
         "Store": "GOG",
@@ -23341,7 +23307,7 @@
         "FriendlyName": "SPACE HULK: DEATHWING - ENHANCED EDITION"
     },
     {
-        "GameID": 1374,
+        "GameID": 1372,
         "Name": "Spells &amp; Secrets",
         "LogoURL": "games/covers/1374.png",
         "Store": "GOG",
@@ -23358,7 +23324,7 @@
         "FriendlyName": "SPELLS &AMP; SECRETS"
     },
     {
-        "GameID": 1375,
+        "GameID": 1373,
         "Name": "Spelunky",
         "LogoURL": "games/covers/1375.png",
         "Store": "GOG",
@@ -23375,7 +23341,7 @@
         "FriendlyName": "SPELUNKY"
     },
     {
-        "GameID": 1376,
+        "GameID": 1374,
         "Name": "Spring Sale Goodies Collection #1",
         "LogoURL": null,
         "Store": "GOG",
@@ -23392,7 +23358,7 @@
         "FriendlyName": "SPRING SALE GOODIES COLLECTION #1"
     },
     {
-        "GameID": 1377,
+        "GameID": 1375,
         "Name": "Spring Sale Goodies Collection #2",
         "LogoURL": null,
         "Store": "GOG",
@@ -23409,7 +23375,7 @@
         "FriendlyName": "SPRING SALE GOODIES COLLECTION #2"
     },
     {
-        "GameID": 1378,
+        "GameID": 1376,
         "Name": "STAR WARS™ Battlefront™ II (Classic, 2005)",
         "LogoURL": "games/covers/1378.png",
         "Store": "GOG",
@@ -23426,7 +23392,7 @@
         "FriendlyName": "STAR WARS™ BATTLEFRONT™ II (CLASSIC, 2005)"
     },
     {
-        "GameID": 1379,
+        "GameID": 1377,
         "Name": "STAR WARS™: Bounty Hunter™",
         "LogoURL": "games/covers/1379.png",
         "Store": "GOG",
@@ -23443,7 +23409,7 @@
         "FriendlyName": "STAR WARS™: BOUNTY HUNTER™"
     },
     {
-        "GameID": 1380,
+        "GameID": 1378,
         "Name": "Stargunner",
         "LogoURL": "games/covers/1380.png",
         "Store": "GOG",
@@ -23460,7 +23426,7 @@
         "FriendlyName": "STARGUNNER"
     },
     {
-        "GameID": 1381,
+        "GameID": 1379,
         "Name": "SteamWorld Heist",
         "LogoURL": "games/covers/1381.png",
         "Store": "GOG",
@@ -23477,7 +23443,7 @@
         "FriendlyName": "STEAMWORLD HEIST"
     },
     {
-        "GameID": 1382,
+        "GameID": 1380,
         "Name": "SteamWorld Quest: Hand of Gilgamech",
         "LogoURL": null,
         "Store": "GOG",
@@ -23494,7 +23460,7 @@
         "FriendlyName": "STEAMWORLD QUEST: HAND OF GILGAMECH"
     },
     {
-        "GameID": 1383,
+        "GameID": 1381,
         "Name": "Stellaris",
         "LogoURL": "games/covers/1383.png",
         "Store": "GOG",
@@ -23511,7 +23477,7 @@
         "FriendlyName": "STELLARIS"
     },
     {
-        "GameID": 1384,
+        "GameID": 1382,
         "Name": "Stray Gods: The Roleplaying Musical",
         "LogoURL": "games/covers/1384.png",
         "Store": "GOG",
@@ -23528,7 +23494,7 @@
         "FriendlyName": "STRAY GODS: THE ROLEPLAYING MUSICAL"
     },
     {
-        "GameID": 1385,
+        "GameID": 1383,
         "Name": "Street Fighter Alpha 2",
         "LogoURL": "games/covers/1385.png",
         "Store": "GOG",
@@ -23545,7 +23511,7 @@
         "FriendlyName": "STREET FIGHTER ALPHA 2"
     },
     {
-        "GameID": 1386,
+        "GameID": 1384,
         "Name": "Styx: Shards of Darkness",
         "LogoURL": "games/covers/1386.png",
         "Store": "GOG",
@@ -23562,7 +23528,7 @@
         "FriendlyName": "STYX: SHARDS OF DARKNESS"
     },
     {
-        "GameID": 1387,
+        "GameID": 1385,
         "Name": "Sunrider: Mask of Arcadius",
         "LogoURL": "games/covers/1387.png",
         "Store": "GOG",
@@ -23579,7 +23545,7 @@
         "FriendlyName": "SUNRIDER: MASK OF ARCADIUS"
     },
     {
-        "GameID": 1388,
+        "GameID": 1386,
         "Name": "Syberia",
         "LogoURL": "games/covers/1388.png",
         "Store": "GOG",
@@ -23596,7 +23562,7 @@
         "FriendlyName": "SYBERIA"
     },
     {
-        "GameID": 1389,
+        "GameID": 1387,
         "Name": "Syberia II",
         "LogoURL": "games/covers/1389.png",
         "Store": "GOG",
@@ -23613,7 +23579,7 @@
         "FriendlyName": "SYBERIA II"
     },
     {
-        "GameID": 1390,
+        "GameID": 1388,
         "Name": "Syberia: The World Before",
         "LogoURL": "games/covers/1390.png",
         "Store": "GOG",
@@ -23630,7 +23596,7 @@
         "FriendlyName": "SYBERIA: THE WORLD BEFORE"
     },
     {
-        "GameID": 1391,
+        "GameID": 1389,
         "Name": "SYMMETRY",
         "LogoURL": "games/covers/1391.png",
         "Store": "GOG",
@@ -23647,7 +23613,7 @@
         "FriendlyName": "SYMMETRY"
     },
     {
-        "GameID": 1392,
+        "GameID": 1390,
         "Name": "Symphonia (Student Project, 2020)",
         "LogoURL": null,
         "Store": "GOG",
@@ -23664,7 +23630,7 @@
         "FriendlyName": "SYMPHONIA (STUDENT PROJECT, 2020)"
     },
     {
-        "GameID": 1393,
+        "GameID": 1391,
         "Name": "Syndicate Plus™",
         "LogoURL": null,
         "Store": "GOG",
@@ -23681,7 +23647,7 @@
         "FriendlyName": "SYNDICATE PLUS™"
     },
     {
-        "GameID": 1394,
+        "GameID": 1392,
         "Name": "Syndicate Wars™",
         "LogoURL": null,
         "Store": "GOG",
@@ -23698,7 +23664,7 @@
         "FriendlyName": "SYNDICATE WARS™"
     },
     {
-        "GameID": 1395,
+        "GameID": 1393,
         "Name": "System Shock Goodie Pack",
         "LogoURL": null,
         "Store": "GOG",
@@ -23715,7 +23681,7 @@
         "FriendlyName": "SYSTEM SHOCK GOODIE PACK"
     },
     {
-        "GameID": 1396,
+        "GameID": 1394,
         "Name": "System Shock 2",
         "LogoURL": "games/covers/1396.png",
         "Store": "GOG",
@@ -23732,7 +23698,7 @@
         "FriendlyName": "SYSTEM SHOCK 2"
     },
     {
-        "GameID": 1397,
+        "GameID": 1395,
         "Name": "Teenagent",
         "LogoURL": null,
         "Store": "GOG",
@@ -23749,7 +23715,7 @@
         "FriendlyName": "TEENAGENT"
     },
     {
-        "GameID": 1398,
+        "GameID": 1396,
         "Name": "Teleglitch: Die More Edition",
         "LogoURL": "games/covers/1398.png",
         "Store": "GOG",
@@ -23766,7 +23732,7 @@
         "FriendlyName": "TELEGLITCH: DIE MORE EDITION"
     },
     {
-        "GameID": 1399,
+        "GameID": 1397,
         "Name": "Terroir",
         "LogoURL": "games/covers/1399.png",
         "Store": "GOG",
@@ -23783,7 +23749,7 @@
         "FriendlyName": "TERROIR"
     },
     {
-        "GameID": 1400,
+        "GameID": 1398,
         "Name": "The Beast Inside",
         "LogoURL": "games/covers/1400.png",
         "Store": "GOG",
@@ -23800,7 +23766,7 @@
         "FriendlyName": "THE BEAST INSIDE"
     },
     {
-        "GameID": 1401,
+        "GameID": 1399,
         "Name": "The Coma 2: Vicious Sisters",
         "LogoURL": "games/covers/1401.png",
         "Store": "GOG",
@@ -23817,7 +23783,7 @@
         "FriendlyName": "THE COMA 2: VICIOUS SISTERS"
     },
     {
-        "GameID": 1402,
+        "GameID": 1400,
         "Name": "The Coma: Recut",
         "LogoURL": "games/covers/1402.png",
         "Store": "GOG",
@@ -23834,7 +23800,7 @@
         "FriendlyName": "THE COMA: RECUT"
     },
     {
-        "GameID": 1403,
+        "GameID": 1401,
         "Name": "The Dark Eye: Chains of Satinav",
         "LogoURL": "games/covers/1403.png",
         "Store": "GOG",
@@ -23851,7 +23817,7 @@
         "FriendlyName": "THE DARK EYE: CHAINS OF SATINAV"
     },
     {
-        "GameID": 1404,
+        "GameID": 1402,
         "Name": "The Darkest Tales - Into the Nightmare",
         "LogoURL": "games/covers/1404.png",
         "Store": "GOG",
@@ -23868,7 +23834,7 @@
         "FriendlyName": "THE DARKEST TALES - INTO THE NIGHTMARE"
     },
     {
-        "GameID": 1405,
+        "GameID": 1403,
         "Name": "The Elder Scrolls II: Daggerfall",
         "LogoURL": "games/covers/1405.png",
         "Store": "GOG",
@@ -23885,7 +23851,7 @@
         "FriendlyName": "THE ELDER SCROLLS II: DAGGERFALL"
     },
     {
-        "GameID": 1406,
+        "GameID": 1404,
         "Name": "The Elder Scrolls III: Morrowind GOTY Edition",
         "LogoURL": null,
         "Store": "GOG",
@@ -23902,7 +23868,7 @@
         "FriendlyName": "THE ELDER SCROLLS III: MORROWIND GOTY EDITION"
     },
     {
-        "GameID": 1407,
+        "GameID": 1405,
         "Name": "The Elder Scrolls: Arena",
         "LogoURL": "games/covers/1407.png",
         "Store": "GOG",
@@ -23919,7 +23885,7 @@
         "FriendlyName": "THE ELDER SCROLLS: ARENA"
     },
     {
-        "GameID": 1408,
+        "GameID": 1406,
         "Name": "The Evil Within 2",
         "LogoURL": "games/covers/1408.png",
         "Store": "GOG",
@@ -23936,7 +23902,7 @@
         "FriendlyName": "THE EVIL WITHIN 2"
     },
     {
-        "GameID": 1409,
+        "GameID": 1407,
         "Name": "The Falconeer",
         "LogoURL": "games/covers/1409.png",
         "Store": "GOG",
@@ -23953,7 +23919,7 @@
         "FriendlyName": "THE FALCONEER"
     },
     {
-        "GameID": 1410,
+        "GameID": 1408,
         "Name": "The Feast",
         "LogoURL": "games/covers/1410.png",
         "Store": "GOG",
@@ -23970,7 +23936,7 @@
         "FriendlyName": "THE FEAST"
     },
     {
-        "GameID": 1411,
+        "GameID": 1409,
         "Name": "The First Templar - Special Edition",
         "LogoURL": null,
         "Store": "GOG",
@@ -23987,7 +23953,7 @@
         "FriendlyName": "THE FIRST TEMPLAR - SPECIAL EDITION"
     },
     {
-        "GameID": 1412,
+        "GameID": 1410,
         "Name": "The Gunk",
         "LogoURL": "games/covers/1412.png",
         "Store": "GOG",
@@ -24004,7 +23970,7 @@
         "FriendlyName": "THE GUNK"
     },
     {
-        "GameID": 1413,
+        "GameID": 1411,
         "Name": "THE KING OF FIGHTERS 2000",
         "LogoURL": null,
         "Store": "GOG",
@@ -24021,7 +23987,7 @@
         "FriendlyName": "THE KING OF FIGHTERS 2000"
     },
     {
-        "GameID": 1414,
+        "GameID": 1412,
         "Name": "THE KING OF FIGHTERS 2002",
         "LogoURL": "games/covers/1414.png",
         "Store": "GOG",
@@ -24038,7 +24004,7 @@
         "FriendlyName": "THE KING OF FIGHTERS 2002"
     },
     {
-        "GameID": 1415,
+        "GameID": 1413,
         "Name": "THE LAST BLADE",
         "LogoURL": "games/covers/1415.png",
         "Store": "GOG",
@@ -24055,7 +24021,7 @@
         "FriendlyName": "THE LAST BLADE"
     },
     {
-        "GameID": 1416,
+        "GameID": 1414,
         "Name": "The Life and Suffering of Sir Brante - Chapter 1 &amp; 2",
         "LogoURL": "games/covers/1416.png",
         "Store": "GOG",
@@ -24072,7 +24038,7 @@
         "FriendlyName": "THE LIFE AND SUFFERING OF SIR BRANTE - CHAPTER 1 &AMP; 2"
     },
     {
-        "GameID": 1417,
+        "GameID": 1415,
         "Name": "The Lords of Midnight",
         "LogoURL": null,
         "Store": "GOG",
@@ -24089,7 +24055,7 @@
         "FriendlyName": "THE LORDS OF MIDNIGHT"
     },
     {
-        "GameID": 1418,
+        "GameID": 1416,
         "Name": "The Lullaby of Life",
         "LogoURL": "games/covers/1418.png",
         "Store": "GOG",
@@ -24106,7 +24072,7 @@
         "FriendlyName": "THE LULLABY OF LIFE"
     },
     {
-        "GameID": 1419,
+        "GameID": 1417,
         "Name": "The Outer Worlds",
         "LogoURL": "games/covers/1419.png",
         "Store": "GOG",
@@ -24123,7 +24089,7 @@
         "FriendlyName": "THE OUTER WORLDS"
     },
     {
-        "GameID": 1420,
+        "GameID": 1418,
         "Name": "The Smurfs 2 - The Prisoner of the Green Stone",
         "LogoURL": "games/covers/1420.png",
         "Store": "GOG",
@@ -24140,7 +24106,7 @@
         "FriendlyName": "THE SMURFS 2 - THE PRISONER OF THE GREEN STONE"
     },
     {
-        "GameID": 1421,
+        "GameID": 1419,
         "Name": "The Supper",
         "LogoURL": "games/covers/1421.png",
         "Store": "GOG",
@@ -24157,7 +24123,7 @@
         "FriendlyName": "THE SUPPER"
     },
     {
-        "GameID": 1422,
+        "GameID": 1420,
         "Name": "The Talos Principle: Gold Edition",
         "LogoURL": null,
         "Store": "GOG",
@@ -24174,7 +24140,7 @@
         "FriendlyName": "THE TALOS PRINCIPLE: GOLD EDITION"
     },
     {
-        "GameID": 1423,
+        "GameID": 1421,
         "Name": "The Textorcist: The Story of Ray Bibbia",
         "LogoURL": "games/covers/1423.png",
         "Store": "GOG",
@@ -24191,7 +24157,7 @@
         "FriendlyName": "THE TEXTORCIST: THE STORY OF RAY BIBBIA"
     },
     {
-        "GameID": 1424,
+        "GameID": 1422,
         "Name": "The Town of Light",
         "LogoURL": "games/covers/1424.png",
         "Store": "GOG",
@@ -24208,7 +24174,7 @@
         "FriendlyName": "THE TOWN OF LIGHT"
     },
     {
-        "GameID": 1425,
+        "GameID": 1423,
         "Name": "The Witcher 3 REDkit",
         "LogoURL": "games/covers/1425.png",
         "Store": "GOG",
@@ -24225,7 +24191,7 @@
         "FriendlyName": "THE WITCHER 3 REDKIT"
     },
     {
-        "GameID": 1426,
+        "GameID": 1424,
         "Name": "The Witcher 3: Wild Hunt",
         "LogoURL": "games/covers/1426.png",
         "Store": "GOG",
@@ -24242,7 +24208,7 @@
         "FriendlyName": "THE WITCHER 3: WILD HUNT"
     },
     {
-        "GameID": 1427,
+        "GameID": 1425,
         "Name": "Theme Hospital",
         "LogoURL": null,
         "Store": "GOG",
@@ -24259,7 +24225,7 @@
         "FriendlyName": "THEME HOSPITAL"
     },
     {
-        "GameID": 1428,
+        "GameID": 1426,
         "Name": "Thronebreaker: The Witcher Tales",
         "LogoURL": "games/covers/1428.png",
         "Store": "GOG",
@@ -24276,7 +24242,7 @@
         "FriendlyName": "THRONEBREAKER: THE WITCHER TALES"
     },
     {
-        "GameID": 1429,
+        "GameID": 1427,
         "Name": "Tomb Raider - The Last Revelation",
         "LogoURL": null,
         "Store": "GOG",
@@ -24293,7 +24259,7 @@
         "FriendlyName": "TOMB RAIDER - THE LAST REVELATION"
     },
     {
-        "GameID": 1430,
+        "GameID": 1428,
         "Name": "Tomb Raider Chronicles",
         "LogoURL": null,
         "Store": "GOG",
@@ -24310,7 +24276,7 @@
         "FriendlyName": "TOMB RAIDER CHRONICLES"
     },
     {
-        "GameID": 1431,
+        "GameID": 1429,
         "Name": "Tomb Raider GOTY",
         "LogoURL": null,
         "Store": "GOG",
@@ -24327,7 +24293,7 @@
         "FriendlyName": "TOMB RAIDER GOTY"
     },
     {
-        "GameID": 1432,
+        "GameID": 1430,
         "Name": "Tomb Raider: Anniversary",
         "LogoURL": "games/covers/1432.png",
         "Store": "GOG",
@@ -24344,7 +24310,7 @@
         "FriendlyName": "TOMB RAIDER: ANNIVERSARY"
     },
     {
-        "GameID": 1433,
+        "GameID": 1431,
         "Name": "Tomb Raider: Legend",
         "LogoURL": "games/covers/1433.png",
         "Store": "GOG",
@@ -24361,7 +24327,7 @@
         "FriendlyName": "TOMB RAIDER: LEGEND"
     },
     {
-        "GameID": 1434,
+        "GameID": 1432,
         "Name": "Tomb Raider: The Angel of Darkness",
         "LogoURL": "games/covers/1434.jpg",
         "Store": "GOG",
@@ -24378,7 +24344,7 @@
         "FriendlyName": "TOMB RAIDER: THE ANGEL OF DARKNESS"
     },
     {
-        "GameID": 1435,
+        "GameID": 1433,
         "Name": "Tomb Raider: Underworld",
         "LogoURL": "games/covers/1435.png",
         "Store": "GOG",
@@ -24395,7 +24361,7 @@
         "FriendlyName": "TOMB RAIDER: UNDERWORLD"
     },
     {
-        "GameID": 1436,
+        "GameID": 1434,
         "Name": "Toonstruck",
         "LogoURL": "games/covers/1436.png",
         "Store": "GOG",
@@ -24412,7 +24378,7 @@
         "FriendlyName": "TOONSTRUCK"
     },
     {
-        "GameID": 1437,
+        "GameID": 1435,
         "Name": "Total Annihilation: Commander Pack",
         "LogoURL": "games/covers/totalanihilation.png",
         "Store": "GOG",
@@ -24429,7 +24395,7 @@
         "FriendlyName": "TOTAL ANNIHILATION: COMMANDER PACK"
     },
     {
-        "GameID": 1438,
+        "GameID": 1436,
         "Name": "Tower of Time",
         "LogoURL": "games/covers/1438.png",
         "Store": "GOG",
@@ -24446,7 +24412,7 @@
         "FriendlyName": "TOWER OF TIME"
     },
     {
-        "GameID": 1439,
+        "GameID": 1437,
         "Name": "Treasure Adventure Game",
         "LogoURL": "games/covers/1439.png",
         "Store": "GOG",
@@ -24463,7 +24429,7 @@
         "FriendlyName": "TREASURE ADVENTURE GAME"
     },
     {
-        "GameID": 1440,
+        "GameID": 1438,
         "Name": "Tropico 4 ",
         "LogoURL": "games/covers/1440.png",
         "Store": "GOG",
@@ -24480,7 +24446,7 @@
         "FriendlyName": "TROPICO 4 "
     },
     {
-        "GameID": 1441,
+        "GameID": 1439,
         "Name": "Trüberbrook",
         "LogoURL": "games/covers/1441.png",
         "Store": "GOG",
@@ -24497,7 +24463,7 @@
         "FriendlyName": "TRÜBERBROOK"
     },
     {
-        "GameID": 1442,
+        "GameID": 1440,
         "Name": "TWINKLE STAR SPRITES",
         "LogoURL": "games/covers/1442.png",
         "Store": "GOG",
@@ -24514,7 +24480,7 @@
         "FriendlyName": "TWINKLE STAR SPRITES"
     },
     {
-        "GameID": 1443,
+        "GameID": 1441,
         "Name": "Twinsen's Little Big Adventure Classic",
         "LogoURL": "games/covers/1443.png",
         "Store": "GOG",
@@ -24531,7 +24497,7 @@
         "FriendlyName": "TWINSENS LITTLE BIG ADVENTURE CLASSIC"
     },
     {
-        "GameID": 1444,
+        "GameID": 1442,
         "Name": "Tyrian 2000",
         "LogoURL": "games/covers/1444.jpg",
         "Store": "GOG",
@@ -24548,7 +24514,7 @@
         "FriendlyName": "TYRIAN 2000"
     },
     {
-        "GameID": 1445,
+        "GameID": 1443,
         "Name": "Ultima™  Underworld I",
         "LogoURL": null,
         "Store": "GOG",
@@ -24565,7 +24531,7 @@
         "FriendlyName": "ULTIMA™  UNDERWORLD I"
     },
     {
-        "GameID": 1446,
+        "GameID": 1444,
         "Name": "Ultima™  Underworld II",
         "LogoURL": "games/covers/1446.jpg",
         "Store": "GOG",
@@ -24582,7 +24548,7 @@
         "FriendlyName": "ULTIMA™  UNDERWORLD II"
     },
     {
-        "GameID": 1447,
+        "GameID": 1445,
         "Name": "Ultima™  Worlds of Adventure 2: Martian Dreams",
         "LogoURL": null,
         "Store": "GOG",
@@ -24599,7 +24565,7 @@
         "FriendlyName": "ULTIMA™  WORLDS OF ADVENTURE 2: MARTIAN DREAMS"
     },
     {
-        "GameID": 1448,
+        "GameID": 1446,
         "Name": "Ultima™ IV: Quest of the Avatar",
         "LogoURL": "games/covers/1448.jpg",
         "Store": "GOG",
@@ -24616,7 +24582,7 @@
         "FriendlyName": "ULTIMA™ IV: QUEST OF THE AVATAR"
     },
     {
-        "GameID": 1449,
+        "GameID": 1447,
         "Name": "Under The Moon",
         "LogoURL": "games/covers/1449.png",
         "Store": "GOG",
@@ -24633,7 +24599,7 @@
         "FriendlyName": "UNDER THE MOON"
     },
     {
-        "GameID": 1450,
+        "GameID": 1448,
         "Name": "Unreal Gold",
         "LogoURL": "games/covers/1450.jpg",
         "Store": "GOG",
@@ -24650,7 +24616,7 @@
         "FriendlyName": "UNREAL GOLD"
     },
     {
-        "GameID": 1451,
+        "GameID": 1449,
         "Name": "Urbek City Builder Prologue",
         "LogoURL": "games/covers/1451.png",
         "Store": "GOG",
@@ -24667,7 +24633,7 @@
         "FriendlyName": "URBEK CITY BUILDER PROLOGUE"
     },
     {
-        "GameID": 1452,
+        "GameID": 1450,
         "Name": "Vambrace: Cold Soul",
         "LogoURL": "games/covers/1452.png",
         "Store": "GOG",
@@ -24684,7 +24650,7 @@
         "FriendlyName": "VAMBRACE: COLD SOUL"
     },
     {
-        "GameID": 1453,
+        "GameID": 1451,
         "Name": "Venetica - Gold Edition",
         "LogoURL": "games/covers/1453.png",
         "Store": "GOG",
@@ -24701,7 +24667,7 @@
         "FriendlyName": "VENETICA - GOLD EDITION"
     },
     {
-        "GameID": 1454,
+        "GameID": 1452,
         "Name": "VirtuaVerse",
         "LogoURL": "games/covers/1454.png",
         "Store": "GOG",
@@ -24718,7 +24684,7 @@
         "FriendlyName": "VIRTUAVERSE"
     },
     {
-        "GameID": 1455,
+        "GameID": 1453,
         "Name": "Wanderlust: Transsiberian",
         "LogoURL": "games/covers/1455.png",
         "Store": "GOG",
@@ -24735,7 +24701,7 @@
         "FriendlyName": "WANDERLUST: TRANSSIBERIAN"
     },
     {
-        "GameID": 1456,
+        "GameID": 1454,
         "Name": "War Wind ",
         "LogoURL": "games/covers/1456.png",
         "Store": "GOG",
@@ -24752,7 +24718,7 @@
         "FriendlyName": "WAR WIND "
     },
     {
-        "GameID": 1457,
+        "GameID": 1455,
         "Name": "Warhammer 40,000: Rites of War",
         "LogoURL": null,
         "Store": "GOG",
@@ -24769,7 +24735,7 @@
         "FriendlyName": "WARHAMMER 40,000: RITES OF WAR"
     },
     {
-        "GameID": 1458,
+        "GameID": 1456,
         "Name": "Warsow",
         "LogoURL": null,
         "Store": "GOG",
@@ -24786,7 +24752,7 @@
         "FriendlyName": "WARSOW"
     },
     {
-        "GameID": 1459,
+        "GameID": 1457,
         "Name": "Wasteland 2",
         "LogoURL": "games/covers/1459.png",
         "Store": "GOG",
@@ -24803,7 +24769,7 @@
         "FriendlyName": "WASTELAND 2"
     },
     {
-        "GameID": 1460,
+        "GameID": 1458,
         "Name": "Wasteland 2 Director's Cut",
         "LogoURL": "games/covers/1460.png",
         "Store": "GOG",
@@ -24820,7 +24786,7 @@
         "FriendlyName": "WASTELAND 2 DIRECTORS CUT"
     },
     {
-        "GameID": 1461,
+        "GameID": 1459,
         "Name": "Whispering Willows",
         "LogoURL": "games/covers/1461.png",
         "Store": "GOG",
@@ -24837,7 +24803,7 @@
         "FriendlyName": "WHISPERING WILLOWS"
     },
     {
-        "GameID": 1462,
+        "GameID": 1460,
         "Name": "Wolfenstein: The New Order",
         "LogoURL": "games/covers/1462.png",
         "Store": "GOG",
@@ -24854,7 +24820,7 @@
         "FriendlyName": "WOLFENSTEIN: THE NEW ORDER"
     },
     {
-        "GameID": 1463,
+        "GameID": 1461,
         "Name": "Worlds of Ultima™ : The Savage Empire",
         "LogoURL": null,
         "Store": "GOG",
@@ -24871,7 +24837,7 @@
         "FriendlyName": "WORLDS OF ULTIMA™ : THE SAVAGE EMPIRE"
     },
     {
-        "GameID": 1464,
+        "GameID": 1462,
         "Name": "Worms Revolution Gold Edition",
         "LogoURL": "games/covers/1464.jpg",
         "Store": "GOG",
@@ -24888,7 +24854,7 @@
         "FriendlyName": "WORMS REVOLUTION GOLD EDITION"
     },
     {
-        "GameID": 1465,
+        "GameID": 1463,
         "Name": "Xenonauts",
         "LogoURL": "games/covers/1465.png",
         "Store": "GOG",
@@ -24905,7 +24871,7 @@
         "FriendlyName": "XENONAUTS"
     },
     {
-        "GameID": 1466,
+        "GameID": 1464,
         "Name": "X-Morph: Defense Complete Edition",
         "LogoURL": null,
         "Store": "GOG",
@@ -24922,7 +24888,7 @@
         "FriendlyName": "X-MORPH: DEFENSE COMPLETE EDITION"
     },
     {
-        "GameID": 1467,
+        "GameID": 1465,
         "Name": "Yes, Your Grace",
         "LogoURL": "games/covers/1467.png",
         "Store": "GOG",
@@ -24939,7 +24905,7 @@
         "FriendlyName": "YES, YOUR GRACE"
     },
     {
-        "GameID": 1468,
+        "GameID": 1466,
         "Name": "Yooka-Laylee",
         "LogoURL": "games/covers/1468.png",
         "Store": "GOG",
@@ -24956,7 +24922,7 @@
         "FriendlyName": "YOOKA-LAYLEE"
     },
     {
-        "GameID": 1469,
+        "GameID": 1467,
         "Name": "Yu Crossing Animals",
         "LogoURL": "games/covers/1469.png",
         "Store": "GOG",
@@ -24973,7 +24939,7 @@
         "FriendlyName": "YU CROSSING ANIMALS"
     },
     {
-        "GameID": 1470,
+        "GameID": 1468,
         "Name": "Ziggurat",
         "LogoURL": "games/covers/1470.png",
         "Store": "GOG",
@@ -24990,7 +24956,7 @@
         "FriendlyName": "ZIGGURAT"
     },
     {
-        "GameID": 1471,
+        "GameID": 1469,
         "Name": "Dota 2",
         "LogoURL": "games/covers/1471.png",
         "Store": "Steam",
@@ -25007,7 +24973,7 @@
         "FriendlyName": "DOTA 2"
     },
     {
-        "GameID": 1472,
+        "GameID": 1470,
         "Name": "Max Payne 2: The Fall of Max Payne",
         "LogoURL": "games/covers/1472.png",
         "Store": "Steam",
@@ -25024,7 +24990,7 @@
         "FriendlyName": "MAX PAYNE 2: THE FALL OF MAX PAYNE"
     },
     {
-        "GameID": 1473,
+        "GameID": 1471,
         "Name": "Red Faction: Guerrilla Steam Edition",
         "LogoURL": "games/covers/1473.png",
         "Store": "Steam",
@@ -25041,7 +25007,7 @@
         "FriendlyName": "RED FACTION: GUERRILLA STEAM EDITION"
     },
     {
-        "GameID": 1474,
+        "GameID": 1472,
         "Name": "The Saboteur™",
         "LogoURL": "games/covers/1474.png",
         "Store": "Steam",
@@ -25058,7 +25024,7 @@
         "FriendlyName": "THE SABOTEUR™"
     },
     {
-        "GameID": 1475,
+        "GameID": 1473,
         "Name": "Kane & Lynch 2: Dog Days",
         "LogoURL": "games/covers/1475.png",
         "Store": "Steam",
@@ -25075,7 +25041,7 @@
         "FriendlyName": "KANE & LYNCH 2: DOG DAYS"
     },
     {
-        "GameID": 1476,
+        "GameID": 1474,
         "Name": "Deponia",
         "LogoURL": "games/covers/1476.png",
         "Store": "Steam",
@@ -25092,7 +25058,7 @@
         "FriendlyName": "DEPONIA"
     },
     {
-        "GameID": 1477,
+        "GameID": 1475,
         "Name": "Universe Sandbox",
         "LogoURL": "games/covers/1477.png",
         "Store": "Steam",
@@ -25109,7 +25075,7 @@
         "FriendlyName": "UNIVERSE SANDBOX"
     },
     {
-        "GameID": 1478,
+        "GameID": 1476,
         "Name": "SteamWorld Dig",
         "LogoURL": "games/covers/1478.png",
         "Store": "Steam",
@@ -25126,7 +25092,7 @@
         "FriendlyName": "STEAMWORLD DIG"
     },
     {
-        "GameID": 1479,
+        "GameID": 1477,
         "Name": "Hatred",
         "LogoURL": "games/covers/1479.png",
         "Store": "Steam",
@@ -25143,7 +25109,7 @@
         "FriendlyName": "HATRED"
     },
     {
-        "GameID": 1480,
+        "GameID": 1478,
         "Name": "Besiege",
         "LogoURL": "games/covers/1480.png",
         "Store": "Steam",
@@ -25160,7 +25126,7 @@
         "FriendlyName": "BESIEGE"
     },
     {
-        "GameID": 1481,
+        "GameID": 1479,
         "Name": "Sherlock Holmes: The Devil's Daughter",
         "LogoURL": "games/covers/1481.png",
         "Store": "Steam",
@@ -25177,7 +25143,7 @@
         "FriendlyName": "SHERLOCK HOLMES: THE DEVILS DAUGHTER"
     },
     {
-        "GameID": 1482,
+        "GameID": 1480,
         "Name": "Portal Knights",
         "LogoURL": "games/covers/1482.png",
         "Store": "Steam",
@@ -25194,7 +25160,7 @@
         "FriendlyName": "PORTAL KNIGHTS"
     },
     {
-        "GameID": 1483,
+        "GameID": 1481,
         "Name": "FINAL FANTASY IX",
         "LogoURL": "games/covers/1483.png",
         "Store": "Steam",
@@ -25211,7 +25177,7 @@
         "FriendlyName": "FINAL FANTASY IX"
     },
     {
-        "GameID": 1484,
+        "GameID": 1482,
         "Name": "Virtual Desktop Classic",
         "LogoURL": "games/covers/1484.png",
         "Store": "Steam",
@@ -25228,7 +25194,7 @@
         "FriendlyName": "VIRTUAL DESKTOP CLASSIC"
     },
     {
-        "GameID": 1485,
+        "GameID": 1483,
         "Name": "Dead In Bermuda",
         "LogoURL": "games/covers/1485.png",
         "Store": "Steam",
@@ -25245,7 +25211,7 @@
         "FriendlyName": "DEAD IN BERMUDA"
     },
     {
-        "GameID": 1486,
+        "GameID": 1484,
         "Name": "12 is Better Than 6",
         "LogoURL": "games/covers/1486.png",
         "Store": "Steam",
@@ -25262,7 +25228,7 @@
         "FriendlyName": "12 IS BETTER THAN 6"
     },
     {
-        "GameID": 1487,
+        "GameID": 1485,
         "Name": "Outlast 2",
         "LogoURL": "games/covers/1487.png",
         "Store": "Steam",
@@ -25279,7 +25245,7 @@
         "FriendlyName": "OUTLAST 2"
     },
     {
-        "GameID": 1488,
+        "GameID": 1486,
         "Name": "The Deed",
         "LogoURL": "games/covers/1488.png",
         "Store": "Steam",
@@ -25296,7 +25262,7 @@
         "FriendlyName": "THE DEED"
     },
     {
-        "GameID": 1489,
+        "GameID": 1487,
         "Name": "Vampyr",
         "LogoURL": "games/covers/1489.png",
         "Store": "Steam",
@@ -25313,7 +25279,7 @@
         "FriendlyName": "VAMPYR"
     },
     {
-        "GameID": 1490,
+        "GameID": 1488,
         "Name": "Overcooked",
         "LogoURL": "games/covers/1490.png",
         "Store": "Steam",
@@ -25330,7 +25296,7 @@
         "FriendlyName": "OVERCOOKED"
     },
     {
-        "GameID": 1491,
+        "GameID": 1489,
         "Name": "3030 Deathwar Redux - A Space Odyssey",
         "LogoURL": "games/covers/1491.png",
         "Store": "Steam",
@@ -25347,7 +25313,7 @@
         "FriendlyName": "3030 DEATHWAR REDUX - A SPACE ODYSSEY"
     },
     {
-        "GameID": 1492,
+        "GameID": 1490,
         "Name": "Lust for Darkness",
         "LogoURL": "games/covers/1492.png",
         "Store": "Steam",
@@ -25364,7 +25330,7 @@
         "FriendlyName": "LUST FOR DARKNESS"
     },
     {
-        "GameID": 1493,
+        "GameID": 1491,
         "Name": "NieR:Automata™",
         "LogoURL": "games/covers/1493.png",
         "Store": "Steam",
@@ -25381,7 +25347,7 @@
         "FriendlyName": "NIER:AUTOMATA™"
     },
     {
-        "GameID": 1494,
+        "GameID": 1492,
         "Name": "Battlestar Galactica Deadlock",
         "LogoURL": "games/covers/1494.png",
         "Store": "Steam",
@@ -25398,7 +25364,7 @@
         "FriendlyName": "BATTLESTAR GALACTICA DEADLOCK"
     },
     {
-        "GameID": 1495,
+        "GameID": 1493,
         "Name": "LEGO® City Undercover",
         "LogoURL": "games/covers/1495.png",
         "Store": "Steam",
@@ -25415,7 +25381,7 @@
         "FriendlyName": "LEGO® CITY UNDERCOVER"
     },
     {
-        "GameID": 1496,
+        "GameID": 1494,
         "Name": "Graveyard Keeper",
         "LogoURL": "games/covers/1496.png",
         "Store": "Steam",
@@ -25432,7 +25398,7 @@
         "FriendlyName": "GRAVEYARD KEEPER"
     },
     {
-        "GameID": 1497,
+        "GameID": 1495,
         "Name": "Devil May Cry 5",
         "LogoURL": "games/covers/1497.png",
         "Store": "Steam",
@@ -25449,7 +25415,7 @@
         "FriendlyName": "DEVIL MAY CRY 5"
     },
     {
-        "GameID": 1498,
+        "GameID": 1496,
         "Name": "ROUTINE",
         "LogoURL": "games/covers/1498.png",
         "Store": "Steam",
@@ -25466,7 +25432,7 @@
         "FriendlyName": "ROUTINE"
     },
     {
-        "GameID": 1499,
+        "GameID": 1497,
         "Name": "House Flipper",
         "LogoURL": "games/covers/1499.png",
         "Store": "Steam",
@@ -25483,7 +25449,7 @@
         "FriendlyName": "HOUSE FLIPPER"
     },
     {
-        "GameID": 1500,
+        "GameID": 1498,
         "Name": "Remnant: From the Ashes",
         "LogoURL": "games/covers/1500.png",
         "Store": "Steam",
@@ -25500,7 +25466,7 @@
         "FriendlyName": "REMNANT: FROM THE ASHES"
     },
     {
-        "GameID": 1501,
+        "GameID": 1499,
         "Name": "NEXT JUMP: Shmup Tactics",
         "LogoURL": "games/covers/1501.png",
         "Store": "Steam",
@@ -25517,7 +25483,7 @@
         "FriendlyName": "NEXT JUMP: SHMUP TACTICS"
     },
     {
-        "GameID": 1502,
+        "GameID": 1500,
         "Name": "Red Faction Guerrilla Re-Mars-tered",
         "LogoURL": "games/covers/1502.png",
         "Store": "Steam",
@@ -25534,7 +25500,7 @@
         "FriendlyName": "RED FACTION GUERRILLA RE-MARS-TERED"
     },
     {
-        "GameID": 1503,
+        "GameID": 1501,
         "Name": "Blasphemous",
         "LogoURL": "games/covers/1503.png",
         "Store": "Steam",
@@ -25551,7 +25517,7 @@
         "FriendlyName": "BLASPHEMOUS"
     },
     {
-        "GameID": 1504,
+        "GameID": 1502,
         "Name": "Outward",
         "LogoURL": "games/covers/1504.png",
         "Store": "Steam",
@@ -25568,7 +25534,7 @@
         "FriendlyName": "OUTWARD"
     },
     {
-        "GameID": 1505,
+        "GameID": 1503,
         "Name": "Gravity Circuit",
         "LogoURL": "games/covers/1505.png",
         "Store": "Steam",
@@ -25585,7 +25551,7 @@
         "FriendlyName": "GRAVITY CIRCUIT"
     },
     {
-        "GameID": 1506,
+        "GameID": 1504,
         "Name": "VR Paradise",
         "LogoURL": "games/covers/1506.png",
         "Store": "Steam",
@@ -25602,7 +25568,7 @@
         "FriendlyName": "VR PARADISE"
     },
     {
-        "GameID": 1507,
+        "GameID": 1505,
         "Name": "Cybarian: The Time Travelling Warrior",
         "LogoURL": "games/covers/1507.png",
         "Store": "Steam",
@@ -25619,7 +25585,7 @@
         "FriendlyName": "CYBARIAN: THE TIME TRAVELLING WARRIOR"
     },
     {
-        "GameID": 1508,
+        "GameID": 1506,
         "Name": "RESIDENT EVIL RESISTANCE",
         "LogoURL": "games/covers/1508.png",
         "Store": "Steam",
@@ -25636,7 +25602,7 @@
         "FriendlyName": "RESIDENT EVIL RESISTANCE"
     },
     {
-        "GameID": 1509,
+        "GameID": 1507,
         "Name": "Heavy Rain",
         "LogoURL": "games/covers/1509.png",
         "Store": "Steam",
@@ -25653,7 +25619,7 @@
         "FriendlyName": "HEAVY RAIN"
     },
     {
-        "GameID": 1510,
+        "GameID": 1508,
         "Name": "Prodeus",
         "LogoURL": "games/covers/1510.png",
         "Store": "Steam",
@@ -25670,7 +25636,7 @@
         "FriendlyName": "PRODEUS"
     },
     {
-        "GameID": 1511,
+        "GameID": 1509,
         "Name": "Chernobylite Complete Edition",
         "LogoURL": "games/covers/1511.png",
         "Store": "Steam",
@@ -25687,7 +25653,7 @@
         "FriendlyName": "CHERNOBYLITE COMPLETE EDITION"
     },
     {
-        "GameID": 1512,
+        "GameID": 1510,
         "Name": "Fantasy General II",
         "LogoURL": "games/covers/1512.png",
         "Store": "Steam",
@@ -25704,7 +25670,7 @@
         "FriendlyName": "FANTASY GENERAL II"
     },
     {
-        "GameID": 1513,
+        "GameID": 1511,
         "Name": "Lust from Beyond",
         "LogoURL": "games/covers/1513.png",
         "Store": "Steam",
@@ -25721,7 +25687,7 @@
         "FriendlyName": "LUST FROM BEYOND"
     },
     {
-        "GameID": 1514,
+        "GameID": 1512,
         "Name": "Ultimate Zombie Defense",
         "LogoURL": "games/covers/1514.png",
         "Store": "Steam",
@@ -25738,7 +25704,7 @@
         "FriendlyName": "ULTIMATE ZOMBIE DEFENSE"
     },
     {
-        "GameID": 1515,
+        "GameID": 1513,
         "Name": "Cyberpunk 2077",
         "LogoURL": "games/covers/1515.png",
         "Store": "Steam",
@@ -25755,7 +25721,7 @@
         "FriendlyName": "CYBERPUNK 2077"
     },
     {
-        "GameID": 1516,
+        "GameID": 1514,
         "Name": "Mortal Shell",
         "LogoURL": "games/covers/1516.png",
         "Store": "Steam",
@@ -25772,7 +25738,7 @@
         "FriendlyName": "MORTAL SHELL"
     },
     {
-        "GameID": 1517,
+        "GameID": 1515,
         "Name": "Wild Terra 2: New Lands",
         "LogoURL": "games/covers/1517.png",
         "Store": "Steam",
@@ -25789,7 +25755,7 @@
         "FriendlyName": "WILD TERRA 2: NEW LANDS"
     },
     {
-        "GameID": 1518,
+        "GameID": 1516,
         "Name": "White Shadows",
         "LogoURL": "games/covers/1518.png",
         "Store": "Steam",
@@ -25806,7 +25772,7 @@
         "FriendlyName": "WHITE SHADOWS"
     },
     {
-        "GameID": 1519,
+        "GameID": 1517,
         "Name": "Rubber Bandits",
         "LogoURL": "games/covers/1519.png",
         "Store": "Steam",
@@ -25823,7 +25789,7 @@
         "FriendlyName": "RUBBER BANDITS"
     },
     {
-        "GameID": 1520,
+        "GameID": 1518,
         "Name": "Detroit: Become Human",
         "LogoURL": "games/covers/1520.png",
         "Store": "Steam",
@@ -25840,7 +25806,7 @@
         "FriendlyName": "DETROIT: BECOME HUMAN"
     },
     {
-        "GameID": 1521,
+        "GameID": 1519,
         "Name": "Baby Steps",
         "LogoURL": "games/covers/1521.png",
         "Store": "Steam",
@@ -25857,7 +25823,7 @@
         "FriendlyName": "BABY STEPS"
     },
     {
-        "GameID": 1522,
+        "GameID": 1520,
         "Name": "The Medium",
         "LogoURL": "games/covers/1522.png",
         "Store": "Steam",
@@ -25874,7 +25840,7 @@
         "FriendlyName": "THE MEDIUM"
     },
     {
-        "GameID": 1523,
+        "GameID": 1521,
         "Name": "FreshWomen - Season 1",
         "LogoURL": "games/covers/1523.png",
         "Store": "Steam",
@@ -25891,7 +25857,7 @@
         "FriendlyName": "FRESHWOMEN - SEASON 1"
     },
     {
-        "GameID": 1524,
+        "GameID": 1522,
         "Name": "Ampersat",
         "LogoURL": "games/covers/1524.png",
         "Store": "Steam",
@@ -25908,7 +25874,7 @@
         "FriendlyName": "AMPERSAT"
     },
     {
-        "GameID": 1525,
+        "GameID": 1523,
         "Name": "Field of Glory II: Medieval",
         "LogoURL": "games/covers/1525.png",
         "Store": "Steam",
@@ -25925,7 +25891,7 @@
         "FriendlyName": "FIELD OF GLORY II: MEDIEVAL"
     },
     {
-        "GameID": 1526,
+        "GameID": 1524,
         "Name": "Deadlock",
         "LogoURL": "games/covers/1526.png",
         "Store": "Steam",
@@ -25942,7 +25908,7 @@
         "FriendlyName": "DEADLOCK"
     },
     {
-        "GameID": 1527,
+        "GameID": 1525,
         "Name": "Dorfromantik",
         "LogoURL": "games/covers/1527.png",
         "Store": "Steam",
@@ -25959,7 +25925,7 @@
         "FriendlyName": "DORFROMANTIK"
     },
     {
-        "GameID": 1528,
+        "GameID": 1526,
         "Name": "Initial Drift Online",
         "LogoURL": "games/covers/1528.png",
         "Store": "Steam",
@@ -25976,7 +25942,7 @@
         "FriendlyName": "INITIAL DRIFT ONLINE"
     },
     {
-        "GameID": 1529,
+        "GameID": 1527,
         "Name": "Lords of the Fallen",
         "LogoURL": "games/covers/1529.png",
         "Store": "Steam",
@@ -25993,7 +25959,7 @@
         "FriendlyName": "LORDS OF THE FALLEN"
     },
     {
-        "GameID": 1530,
+        "GameID": 1528,
         "Name": "Super Woden GP",
         "LogoURL": "games/covers/1530.png",
         "Store": "Steam",
@@ -26010,7 +25976,7 @@
         "FriendlyName": "SUPER WODEN GP"
     },
     {
-        "GameID": 1531,
+        "GameID": 1529,
         "Name": "Galactic Glitch",
         "LogoURL": "games/covers/1531.png",
         "Store": "Steam",
@@ -26027,7 +25993,7 @@
         "FriendlyName": "GALACTIC GLITCH"
     },
     {
-        "GameID": 1532,
+        "GameID": 1530,
         "Name": "Marsupilami: Hoobadventure",
         "LogoURL": "games/covers/1532.png",
         "Store": "Steam",
@@ -26044,7 +26010,7 @@
         "FriendlyName": "MARSUPILAMI: HOOBADVENTURE"
     },
     {
-        "GameID": 1533,
+        "GameID": 1531,
         "Name": "The Alters",
         "LogoURL": "games/covers/1533.png",
         "Store": "Steam",
@@ -26061,7 +26027,7 @@
         "FriendlyName": "THE ALTERS"
     },
     {
-        "GameID": 1534,
+        "GameID": 1532,
         "Name": "Hell is Us",
         "LogoURL": "games/covers/1534.png",
         "Store": "Steam",
@@ -26078,7 +26044,7 @@
         "FriendlyName": "HELL IS US"
     },
     {
-        "GameID": 1535,
+        "GameID": 1533,
         "Name": "Nocturnal",
         "LogoURL": "games/covers/1535.png",
         "Store": "Steam",
@@ -26095,7 +26061,7 @@
         "FriendlyName": "NOCTURNAL"
     },
     {
-        "GameID": 1536,
+        "GameID": 1534,
         "Name": "Cleared Hot",
         "LogoURL": "games/covers/1536.png",
         "Store": "Steam",
@@ -26112,7 +26078,7 @@
         "FriendlyName": "CLEARED HOT"
     },
     {
-        "GameID": 1537,
+        "GameID": 1535,
         "Name": "Smart Factory Tycoon",
         "LogoURL": "games/covers/1537.png",
         "Store": "Steam",
@@ -26129,7 +26095,7 @@
         "FriendlyName": "SMART FACTORY TYCOON"
     },
     {
-        "GameID": 1538,
+        "GameID": 1536,
         "Name": "ARC Raiders",
         "LogoURL": "games/covers/1538.png",
         "Store": "Steam",
@@ -26146,7 +26112,7 @@
         "FriendlyName": "ARC RAIDERS"
     },
     {
-        "GameID": 1539,
+        "GameID": 1537,
         "Name": "20 Minutes Till Dawn",
         "LogoURL": "games/covers/1539.png",
         "Store": "Steam",
@@ -26163,7 +26129,7 @@
         "FriendlyName": "20 MINUTES TILL DAWN"
     },
     {
-        "GameID": 1540,
+        "GameID": 1538,
         "Name": "Call of Duty®: Modern Warfare®",
         "LogoURL": "games/covers/1540.png",
         "Store": "Steam",
@@ -26180,7 +26146,7 @@
         "FriendlyName": "CALL OF DUTY®: MODERN WARFARE®"
     },
     {
-        "GameID": 1541,
+        "GameID": 1539,
         "Name": "Super Woden GP 2",
         "LogoURL": "games/covers/1541.png",
         "Store": "Steam",
@@ -26197,7 +26163,7 @@
         "FriendlyName": "SUPER WODEN GP 2"
     },
     {
-        "GameID": 1542,
+        "GameID": 1540,
         "Name": "Crysis 2 Remastered",
         "LogoURL": "games/covers/1542.png",
         "Store": "Steam",
@@ -26214,7 +26180,7 @@
         "FriendlyName": "CRYSIS 2 REMASTERED"
     },
     {
-        "GameID": 1543,
+        "GameID": 1541,
         "Name": "Cronos: The New Dawn",
         "LogoURL": "games/covers/1543.png",
         "Store": "Steam",
@@ -26231,7 +26197,7 @@
         "FriendlyName": "CRONOS: THE NEW DAWN"
     },
     {
-        "GameID": 1544,
+        "GameID": 1542,
         "Name": "Little Nightmares Enhanced Edition",
         "LogoURL": "games/covers/1544.jpg",
         "Store": "Steam",
@@ -26248,7 +26214,7 @@
         "FriendlyName": "LITTLE NIGHTMARES ENHANCED EDITION"
     },
     {
-        "GameID": 1545,
+        "GameID": 1543,
         "Name": "Assassin's Creed Valhalla",
         "LogoURL": "games/covers/1545.png",
         "Store": "Steam",
@@ -26265,7 +26231,7 @@
         "FriendlyName": "ASSASSINS CREED VALHALLA"
     },
     {
-        "GameID": 1546,
+        "GameID": 1544,
         "Name": "New Star GP",
         "LogoURL": "games/covers/1546.png",
         "Store": "Steam",
@@ -26282,7 +26248,7 @@
         "FriendlyName": "NEW STAR GP"
     },
     {
-        "GameID": 1547,
+        "GameID": 1545,
         "Name": "Halls of Torment",
         "LogoURL": "games/covers/1547.png",
         "Store": "Steam",
@@ -26299,7 +26265,7 @@
         "FriendlyName": "HALLS OF TORMENT"
     },
     {
-        "GameID": 1548,
+        "GameID": 1546,
         "Name": "Noobs Are Coming",
         "LogoURL": "games/covers/1548.png",
         "Store": "Steam",
@@ -26316,7 +26282,7 @@
         "FriendlyName": "NOOBS ARE COMING"
     },
     {
-        "GameID": 1549,
+        "GameID": 1547,
         "Name": "Empire of the Ants",
         "LogoURL": "games/covers/1549.png",
         "Store": "Steam",
@@ -26333,7 +26299,7 @@
         "FriendlyName": "EMPIRE OF THE ANTS"
     },
     {
-        "GameID": 1550,
+        "GameID": 1548,
         "Name": "Deep Rock Galactic: Survivor",
         "LogoURL": "games/covers/1550.png",
         "Store": "Steam",
@@ -26350,7 +26316,7 @@
         "FriendlyName": "DEEP ROCK GALACTIC: SURVIVOR"
     },
     {
-        "GameID": 1551,
+        "GameID": 1549,
         "Name": "KIBORG",
         "LogoURL": "games/covers/1551.png",
         "Store": "Steam",
@@ -26367,7 +26333,7 @@
         "FriendlyName": "KIBORG"
     },
     {
-        "GameID": 1552,
+        "GameID": 1550,
         "Name": "S.T.A.L.K.E.R.: Clear Sky - Enhanced Edition",
         "LogoURL": "games/covers/STALKERClearSky.jpg",
         "Store": "Steam",
@@ -26384,7 +26350,7 @@
         "FriendlyName": "S.T.A.L.K.E.R.: CLEAR SKY - ENHANCED EDITION"
     },
     {
-        "GameID": 1553,
+        "GameID": 1551,
         "Name": "Dead Rising Deluxe Remaster",
         "LogoURL": "games/covers/1553.png",
         "Store": "Steam",
@@ -26401,7 +26367,7 @@
         "FriendlyName": "DEAD RISING DELUXE REMASTER"
     },
     {
-        "GameID": 1554,
+        "GameID": 1552,
         "Name": "GUNTOUCHABLES",
         "LogoURL": "games/covers/1554.png",
         "Store": "Steam",
@@ -26418,7 +26384,7 @@
         "FriendlyName": "GUNTOUCHABLES"
     },
     {
-        "GameID": 1555,
+        "GameID": 1553,
         "Name": "Battlefield™ 6",
         "LogoURL": "games/covers/1555.jpg",
         "Store": "Steam",
@@ -26435,7 +26401,7 @@
         "FriendlyName": "BATTLEFIELD™ 6"
     },
     {
-        "GameID": 1556,
+        "GameID": 1554,
         "Name": "Kitchen Wars",
         "LogoURL": "games/covers/1556.png",
         "Store": "Steam",
@@ -26452,7 +26418,7 @@
         "FriendlyName": "KITCHEN WARS"
     },
     {
-        "GameID": 1557,
+        "GameID": 1555,
         "Name": "Jurassic World Evolution 3",
         "LogoURL": "games/covers/1557.jpg",
         "Store": "Steam",
@@ -26469,7 +26435,7 @@
         "FriendlyName": "JURASSIC WORLD EVOLUTION 3"
     },
     {
-        "GameID": 1558,
+        "GameID": 1556,
         "Name": "Battlefield™ 6 Open Beta",
         "LogoURL": "",
         "Store": "Steam",
@@ -26486,7 +26452,7 @@
         "FriendlyName": "BATTLEFIELD™ 6 OPEN BETA"
     },
     {
-        "GameID": 1559,
+        "GameID": 1557,
         "Name": "Schedule I",
         "LogoURL": "games/covers/1559.png",
         "Store": "Steam",
@@ -26503,7 +26469,7 @@
         "FriendlyName": "SCHEDULE I"
     },
     {
-        "GameID": 1560,
+        "GameID": 1558,
         "Name": "Crimson Desert",
         "LogoURL": "games/covers/1560.png",
         "Store": "Steam",
@@ -26520,7 +26486,7 @@
         "FriendlyName": "CRIMSON DESERT"
     },
     {
-        "GameID": 1561,
+        "GameID": 1559,
         "Name": "PRAGMATA",
         "LogoURL": "games/covers/1561.jpg",
         "Store": "Steam",
@@ -26537,7 +26503,7 @@
         "FriendlyName": "PRAGMATA"
     },
     {
-        "GameID": 1562,
+        "GameID": 1560,
         "Name": "Megabonk",
         "LogoURL": "games/covers/1562.png",
         "Store": "Steam",
@@ -26554,7 +26520,7 @@
         "FriendlyName": "MEGABONK"
     },
     {
-        "GameID": 1563,
+        "GameID": 1561,
         "Name": "Dreams of Aether",
         "LogoURL": "games/covers/1563.png",
         "Store": "Steam",
@@ -26571,7 +26537,7 @@
         "FriendlyName": "DREAMS OF AETHER"
     },
     {
-        "GameID": 1564,
+        "GameID": 1562,
         "Name": "Fear Effect",
         "LogoURL": "games/covers/1564.png",
         "Store": "Steam",
@@ -26588,7 +26554,7 @@
         "FriendlyName": "FEAR EFFECT"
     },
     {
-        "GameID": 1565,
+        "GameID": 1563,
         "Name": "PEAK",
         "LogoURL": "games/covers/1565.png",
         "Store": "Steam",
@@ -26605,7 +26571,7 @@
         "FriendlyName": "PEAK"
     },
     {
-        "GameID": 1566,
+        "GameID": 1564,
         "Name": "Train Sim World® 6",
         "LogoURL": "",
         "Store": "Steam",
@@ -26622,7 +26588,7 @@
         "FriendlyName": "TRAIN SIM WORLD® 6"
     },
     {
-        "GameID": 1567,
+        "GameID": 1565,
         "Name": "Resident Evil Requiem",
         "LogoURL": "games/covers/1567.jpg",
         "Store": "Steam",
@@ -26639,7 +26605,7 @@
         "FriendlyName": "RESIDENT EVIL REQUIEM"
     },
     {
-        "GameID": 1568,
+        "GameID": 1566,
         "Name": "FINAL FANTASY VII",
         "LogoURL": "games/covers/1568.jpg",
         "Store": "Steam",
@@ -26656,7 +26622,7 @@
         "FriendlyName": "FINAL FANTASY VII"
     },
     {
-        "GameID": 1569,
+        "GameID": 1567,
         "Name": "Assetto Corsa Rally",
         "LogoURL": "games/covers/1569.webp",
         "Store": "Steam",
@@ -26673,7 +26639,7 @@
         "FriendlyName": "ASSETTO CORSA RALLY"
     },
     {
-        "GameID": 1570,
+        "GameID": 1568,
         "Name": "Dino Crisis",
         "LogoURL": "games/covers/1570.jpg",
         "Store": "Steam",
@@ -26690,7 +26656,7 @@
         "FriendlyName": "DINO CRISIS"
     },
     {
-        "GameID": 1571,
+        "GameID": 1569,
         "Name": "Castle of Illusion",
         "LogoURL": "games/covers/1571.png",
         "Store": "Steam",
@@ -26707,7 +26673,7 @@
         "FriendlyName": "CASTLE OF ILLUSION"
     },
     {
-        "GameID": 1572,
+        "GameID": 1570,
         "Name": "Plague Inc: Evolved",
         "LogoURL": "games/covers/1572.png",
         "Store": "Steam",
@@ -26724,7 +26690,7 @@
         "FriendlyName": "PLAGUE INC: EVOLVED"
     },
     {
-        "GameID": 1573,
+        "GameID": 1571,
         "Name": "The Binding of Isaac: Rebirth",
         "LogoURL": "games/covers/1573.png",
         "Store": "Steam",
@@ -26741,7 +26707,7 @@
         "FriendlyName": "THE BINDING OF ISAAC: REBIRTH"
     },
     {
-        "GameID": 1574,
+        "GameID": 1572,
         "Name": "Snake Pass",
         "LogoURL": "games/covers/1574.png",
         "Store": "Steam",
@@ -26758,7 +26724,7 @@
         "FriendlyName": "SNAKE PASS"
     },
     {
-        "GameID": 1575,
+        "GameID": 1573,
         "Name": "Moonlighter",
         "LogoURL": "games/covers/1575.png",
         "Store": "Steam",
@@ -26775,7 +26741,7 @@
         "FriendlyName": "MOONLIGHTER"
     },
     {
-        "GameID": 1576,
+        "GameID": 1574,
         "Name": "Sky Force Reloaded",
         "LogoURL": "games/covers/1576.png",
         "Store": "Steam",
@@ -26792,7 +26758,7 @@
         "FriendlyName": "SKY FORCE RELOADED"
     },
     {
-        "GameID": 1577,
+        "GameID": 1575,
         "Name": "Yet Another Zombie Defense HD",
         "LogoURL": "games/covers/1577.png",
         "Store": "Steam",
@@ -26809,7 +26775,7 @@
         "FriendlyName": "YET ANOTHER ZOMBIE DEFENSE HD"
     },
     {
-        "GameID": 1578,
+        "GameID": 1576,
         "Name": "The Invincible",
         "LogoURL": "games/covers/1578.png",
         "Store": "Steam",
@@ -26826,7 +26792,7 @@
         "FriendlyName": "THE INVINCIBLE"
     },
     {
-        "GameID": 1579,
+        "GameID": 1577,
         "Name": "Breathedge",
         "LogoURL": "games/covers/1579.png",
         "Store": "Steam",
@@ -26843,7 +26809,7 @@
         "FriendlyName": "BREATHEDGE"
     },
     {
-        "GameID": 1580,
+        "GameID": 1578,
         "Name": "The Sinking City Remastered",
         "LogoURL": "games/covers/1580.png",
         "Store": "Steam",
@@ -26860,7 +26826,7 @@
         "FriendlyName": "THE SINKING CITY REMASTERED"
     },
     {
-        "GameID": 1581,
+        "GameID": 1579,
         "Name": "Yooka-Laylee and the Impossible Lair",
         "LogoURL": "games/covers/1581.png",
         "Store": "Steam",
@@ -26877,7 +26843,7 @@
         "FriendlyName": "YOOKA-LAYLEE AND THE IMPOSSIBLE LAIR"
     },
     {
-        "GameID": 1582,
+        "GameID": 1580,
         "Name": "The Red Lantern",
         "LogoURL": "games/covers/1582.png",
         "Store": "Steam",
@@ -26894,7 +26860,7 @@
         "FriendlyName": "THE RED LANTERN"
     },
     {
-        "GameID": 1583,
+        "GameID": 1581,
         "Name": "Wreckfest 2",
         "LogoURL": "games/covers/1583.png",
         "Store": "Steam",
@@ -26911,7 +26877,7 @@
         "FriendlyName": "WRECKFEST 2"
     },
     {
-        "GameID": 1584,
+        "GameID": 1582,
         "Name": "Need for Speed™ Heat ",
         "LogoURL": "games/covers/1584.png",
         "Store": "Steam",
@@ -26928,7 +26894,7 @@
         "FriendlyName": "NEED FOR SPEED™ HEAT "
     },
     {
-        "GameID": 1585,
+        "GameID": 1583,
         "Name": "Need for Speed™",
         "LogoURL": "games/covers/1585.png",
         "Store": "Steam",
@@ -26945,7 +26911,7 @@
         "FriendlyName": "NEED FOR SPEED™"
     },
     {
-        "GameID": 1586,
+        "GameID": 1584,
         "Name": "Need for Speed™ Payback",
         "LogoURL": "games/covers/1586.png",
         "Store": "Steam",
@@ -26962,7 +26928,7 @@
         "FriendlyName": "NEED FOR SPEED™ PAYBACK"
     },
     {
-        "GameID": 1587,
+        "GameID": 1585,
         "Name": "Need for Speed™ Rivals",
         "LogoURL": "games/covers/1587.png",
         "Store": "Steam",
@@ -26979,7 +26945,7 @@
         "FriendlyName": "NEED FOR SPEED™ RIVALS"
     },
     {
-        "GameID": 1588,
+        "GameID": 1586,
         "Name": "The Life and Suffering of Sir Brante",
         "LogoURL": "games/covers/1588.png",
         "Store": "Steam",
@@ -26996,7 +26962,7 @@
         "FriendlyName": "THE LIFE AND SUFFERING OF SIR BRANTE"
     },
     {
-        "GameID": 1589,
+        "GameID": 1587,
         "Name": "Need for Speed™ Hot Pursuit Remastered",
         "LogoURL": "games/covers/1589.png",
         "Store": "Steam",
@@ -27013,7 +26979,7 @@
         "FriendlyName": "NEED FOR SPEED™ HOT PURSUIT REMASTERED"
     },
     {
-        "GameID": 1590,
+        "GameID": 1588,
         "Name": "TRAIL OUT",
         "LogoURL": "games/covers/1590.png",
         "Store": "Steam",
@@ -27030,7 +26996,7 @@
         "FriendlyName": "TRAIL OUT"
     },
     {
-        "GameID": 1591,
+        "GameID": 1589,
         "Name": "Catch Me!",
         "LogoURL": "games/covers/1591.png",
         "Store": "Steam",
@@ -27047,7 +27013,7 @@
         "FriendlyName": "CATCH ME!"
     },
     {
-        "GameID": 1592,
+        "GameID": 1590,
         "Name": "Another Crab's Treasure",
         "LogoURL": "games/covers/1592.png",
         "Store": "Steam",
@@ -27064,7 +27030,7 @@
         "FriendlyName": "ANOTHER CRABS TREASURE"
     },
     {
-        "GameID": 1593,
+        "GameID": 1591,
         "Name": "Fatekeeper",
         "LogoURL": "games/covers/1593.jpg",
         "Store": "Steam",
@@ -27081,7 +27047,7 @@
         "FriendlyName": "FATEKEEPER"
     },
     {
-        "GameID": 1594,
+        "GameID": 1592,
         "Name": "Mortal Shell II",
         "LogoURL": "games/covers/1594.jpg",
         "Store": "Steam",
@@ -27098,7 +27064,7 @@
         "FriendlyName": "MORTAL SHELL II"
     },
     {
-        "GameID": 1595,
+        "GameID": 1593,
         "Name": "Fear The Timeloop",
         "LogoURL": "games/covers/1595.png",
         "Store": "Steam",
@@ -27115,7 +27081,7 @@
         "FriendlyName": "FEAR THE TIMELOOP"
     },
     {
-        "GameID": 1596,
+        "GameID": 1594,
         "Name": "Darwin's Paradox",
         "LogoURL": "games/covers/1596.png",
         "Store": "Steam",
@@ -27132,7 +27098,7 @@
         "FriendlyName": "DARWINS PARADOX"
     },
     {
-        "GameID": 1597,
+        "GameID": 1595,
         "Name": "EA SPORTS FC™ 26",
         "LogoURL": "games/covers/1597.jpg",
         "Store": "Steam",
@@ -27149,7 +27115,7 @@
         "FriendlyName": "EA SPORTS FC™ 26"
     },
     {
-        "GameID": 1598,
+        "GameID": 1596,
         "Name": "Gears of War: E-Day Multiplayer Beta",
         "LogoURL": "",
         "Store": "Steam",
@@ -27166,7 +27132,7 @@
         "FriendlyName": "GEARS OF WAR: E-DAY MULTIPLAYER BETA"
     },
     {
-        "GameID": 1599,
+        "GameID": 1597,
         "Name": "Wii Play",
         "LogoURL": "games/covers/1599.png",
         "Store": "Mídia Física",
@@ -27183,7 +27149,7 @@
         "FriendlyName": "WII PLAY"
     },
     {
-        "GameID": 1600,
+        "GameID": 1598,
         "Name": "Just Dance 4",
         "LogoURL": "games/covers/1600.jpg",
         "Store": "Mídia Física",
@@ -27200,7 +27166,7 @@
         "FriendlyName": "JUST DANCE 4"
     },
     {
-        "GameID": 1601,
+        "GameID": 1599,
         "Name": "Legend of Zelda Breath of the Wild",
         "LogoURL": "games/covers/1601.jpg",
         "Store": "Mídia Física",
@@ -27217,7 +27183,7 @@
         "FriendlyName": "LEGEND OF ZELDA BREATH OF THE WILD"
     },
     {
-        "GameID": 1602,
+        "GameID": 1600,
         "Name": "Super Mario Wonder",
         "LogoURL": "games/covers/1602.jpg",
         "Store": "Mídia Física",
@@ -27234,7 +27200,7 @@
         "FriendlyName": "SUPER MARIO WONDER"
     },
     {
-        "GameID": 1603,
+        "GameID": 1601,
         "Name": "Super Mario Odissey",
         "LogoURL": "games/covers/1603.jpg",
         "Store": "Mídia Física",
@@ -27251,7 +27217,7 @@
         "FriendlyName": "SUPER MARIO ODISSEY"
     },
     {
-        "GameID": 1604,
+        "GameID": 1602,
         "Name": "Assetto Corsa Competizione",
         "LogoURL": "./games/covers/AssettoCorsaCompetizione.jpg",
         "Store": "",
@@ -27268,7 +27234,7 @@
         "FriendlyName": "ASSETTO CORSA COMPETIZIONE"
     },
     {
-        "GameID": 1605,
+        "GameID": 1603,
         "Name": "Assetto Corsa Competizione",
         "LogoURL": "./games/covers/AssettoCorsaCompetizione.jpg",
         "Store": "",
@@ -27285,7 +27251,7 @@
         "FriendlyName": "ASSETTO CORSA COMPETIZIONE"
     },
     {
-        "GameID": 1606,
+        "GameID": 1604,
         "Name": "Grand Theft Auto VI",
         "LogoURL": "games/covers/gta6.png",
         "Store": "",
@@ -27302,7 +27268,7 @@
         "FriendlyName": "GRAND THEFT AUTO VI"
     },
     {
-        "GameID": 1607,
+        "GameID": 1605,
         "Name": "Dead Rising 3",
         "LogoURL": "games/covers/1607.png",
         "Store": "Steam",
@@ -27319,7 +27285,7 @@
         "FriendlyName": "DEAD RISING 3"
     },
     {
-        "GameID": 1608,
+        "GameID": 1606,
         "Name": "The Evil Within",
         "LogoURL": "games/covers/1608.png",
         "Store": "Steam",
@@ -27336,7 +27302,7 @@
         "FriendlyName": "THE EVIL WITHIN"
     },
     {
-        "GameID": 1609,
+        "GameID": 1607,
         "Name": "Metro 2033 Redux",
         "LogoURL": "games/covers/1609.png",
         "Store": "Steam",
@@ -27353,7 +27319,7 @@
         "FriendlyName": "METRO 2033 REDUX"
     },
     {
-        "GameID": 1610,
+        "GameID": 1608,
         "Name": "Middle-earth™: Shadow of War™",
         "LogoURL": "games/covers/1610.png",
         "Store": "Steam",
@@ -27370,7 +27336,7 @@
         "FriendlyName": "MIDDLE-EARTH™: SHADOW OF WAR™"
     },
     {
-        "GameID": 1611,
+        "GameID": 1609,
         "Name": "Quantum Break",
         "LogoURL": "games/covers/1611.png",
         "Store": "Steam",
@@ -27387,7 +27353,7 @@
         "FriendlyName": "QUANTUM BREAK"
     },
     {
-        "GameID": 1612,
+        "GameID": 1610,
         "Name": "What Remains of Edith Finch",
         "LogoURL": "games/covers/1612.png",
         "Store": "Steam",
@@ -27404,7 +27370,7 @@
         "FriendlyName": "WHAT REMAINS OF EDITH FINCH"
     },
     {
-        "GameID": 1613,
+        "GameID": 1611,
         "Name": "Totally Accurate Battle Simulator",
         "LogoURL": "games/covers/1613.png",
         "Store": "Steam",
@@ -27421,7 +27387,7 @@
         "FriendlyName": "TOTALLY ACCURATE BATTLE SIMULATOR"
     },
     {
-        "GameID": 1614,
+        "GameID": 1612,
         "Name": "The Evil Within 2",
         "LogoURL": "games/covers/1614.png",
         "Store": "Steam",
@@ -27438,7 +27404,7 @@
         "FriendlyName": "THE EVIL WITHIN 2"
     },
     {
-        "GameID": 1615,
+        "GameID": 1613,
         "Name": "Overcooked! 2",
         "LogoURL": "games/covers/1615.png",
         "Store": "Steam",
@@ -27455,7 +27421,7 @@
         "FriendlyName": "OVERCOOKED! 2"
     },
     {
-        "GameID": 1616,
+        "GameID": 1614,
         "Name": "A Plague Tale: Innocence",
         "LogoURL": "games/covers/1616.png",
         "Store": "Steam",
@@ -27472,7 +27438,7 @@
         "FriendlyName": "A PLAGUE TALE: INNOCENCE"
     },
     {
-        "GameID": 1617,
+        "GameID": 1615,
         "Name": "Sunset Overdrive",
         "LogoURL": "games/covers/1617.png",
         "Store": "Steam",
@@ -27489,7 +27455,7 @@
         "FriendlyName": "SUNSET OVERDRIVE"
     },
     {
-        "GameID": 1618,
+        "GameID": 1616,
         "Name": "Control Ultimate Edition",
         "LogoURL": "games/covers/1618.png",
         "Store": "Steam",
@@ -27506,7 +27472,7 @@
         "FriendlyName": "CONTROL ULTIMATE EDITION"
     },
     {
-        "GameID": 1619,
+        "GameID": 1617,
         "Name": "Resident Evil 3",
         "LogoURL": "games/covers/1619.png",
         "Store": "Steam",
@@ -27523,7 +27489,7 @@
         "FriendlyName": "RESIDENT EVIL 3"
     },
     {
-        "GameID": 1620,
+        "GameID": 1618,
         "Name": "Beyond: Two Souls",
         "LogoURL": "games/covers/1620.png",
         "Store": "Steam",
@@ -27540,7 +27506,7 @@
         "FriendlyName": "BEYOND: TWO SOULS"
     },
     {
-        "GameID": 1621,
+        "GameID": 1619,
         "Name": "Legend of Keepers",
         "LogoURL": "games/covers/1621.png",
         "Store": "Steam",
@@ -27557,7 +27523,7 @@
         "FriendlyName": "LEGEND OF KEEPERS"
     },
     {
-        "GameID": 1622,
+        "GameID": 1620,
         "Name": "Red Dead Redemption 2",
         "LogoURL": "games/covers/1622.png",
         "Store": "Steam",
@@ -27574,7 +27540,7 @@
         "FriendlyName": "RED DEAD REDEMPTION 2"
     },
     {
-        "GameID": 1623,
+        "GameID": 1621,
         "Name": "Need for Speed™ Most Wanted",
         "LogoURL": "games/covers/1623.png",
         "Store": "Steam",
@@ -27591,7 +27557,7 @@
         "FriendlyName": "NEED FOR SPEED™ MOST WANTED"
     },
     {
-        "GameID": 1624,
+        "GameID": 1622,
         "Name": "Planet of Lana",
         "LogoURL": "games/covers/1624.png",
         "Store": "Steam",
@@ -27608,7 +27574,7 @@
         "FriendlyName": "PLANET OF LANA"
     },
     {
-        "GameID": 1625,
+        "GameID": 1623,
         "Name": "Dead Space",
         "LogoURL": "games/covers/1625.png",
         "Store": "Steam",
@@ -27625,7 +27591,7 @@
         "FriendlyName": "DEAD SPACE"
     },
     {
-        "GameID": 1626,
+        "GameID": 1624,
         "Name": "Resident Evil 4",
         "LogoURL": "games/covers/1626.png",
         "Store": "Steam",
@@ -27642,7 +27608,7 @@
         "FriendlyName": "RESIDENT EVIL 4"
     },
     {
-        "GameID": 1627,
+        "GameID": 1625,
         "Name": "Crysis 3 Remastered",
         "LogoURL": "games/covers/1627.png",
         "Store": "Steam",
@@ -27659,7 +27625,7 @@
         "FriendlyName": "CRYSIS 3 REMASTERED"
     },
     {
-        "GameID": 1628,
+        "GameID": 1626,
         "Name": "ASTRO BOT",
         "LogoURL": "games/covers/astrobot.png",
         "Store": "Mídia Física",
@@ -27676,7 +27642,7 @@
         "FriendlyName": "ASTRO BOT"
     },
     {
-        "GameID": 1629,
+        "GameID": 1627,
         "Name": "God of War Ragnarok",
         "LogoURL": "games/covers/1629.jpg",
         "Store": "Mídia Física",
@@ -27693,7 +27659,7 @@
         "FriendlyName": "GOD OF WAR RAGNAROK"
     },
     {
-        "GameID": 1630,
+        "GameID": 1628,
         "Name": "Death Stranding 2",
         "LogoURL": "games/covers/1630.jpg",
         "Store": "Mídia Física",
@@ -27710,7 +27676,7 @@
         "FriendlyName": "DEATH STRANDING 2"
     },
     {
-        "GameID": 1631,
+        "GameID": 1629,
         "Name": "Returnal",
         "LogoURL": "games/covers/1631.jpg",
         "Store": "Mídia Física",
@@ -27727,7 +27693,7 @@
         "FriendlyName": "RETURNAL"
     },
     {
-        "GameID": 1632,
+        "GameID": 1630,
         "Name": "Ratchet and Clanck Em outra dimensão",
         "LogoURL": "games/covers/ratchetrift.png",
         "Store": "Mídia Física",
@@ -27744,7 +27710,7 @@
         "FriendlyName": "RATCHET AND CLANCK EM OUTRA DIMENSÃO"
     },
     {
-        "GameID": 1633,
+        "GameID": 1631,
         "Name": "Elden Ring",
         "LogoURL": "games/covers/1633.jpg",
         "Store": "Mídia Física",
@@ -27761,7 +27727,7 @@
         "FriendlyName": "ELDEN RING"
     },
     {
-        "GameID": 1634,
+        "GameID": 1632,
         "Name": "Resident Evil Village",
         "LogoURL": "games/covers/1634.jpg",
         "Store": "Mídia Física",
@@ -27778,7 +27744,7 @@
         "FriendlyName": "RESIDENT EVIL VILLAGE"
     },
     {
-        "GameID": 1635,
+        "GameID": 1633,
         "Name": "Horizon Forbidden West",
         "LogoURL": "games/covers/1635.jpg",
         "Store": "Mídia Física",
@@ -27795,7 +27761,7 @@
         "FriendlyName": "HORIZON FORBIDDEN WEST"
     },
     {
-        "GameID": 1636,
+        "GameID": 1634,
         "Name": "FIFA 23",
         "LogoURL": "games/covers/fifa23.png",
         "Store": "Mídia Física",
@@ -27812,7 +27778,7 @@
         "FriendlyName": "FIFA 23"
     },
     {
-        "GameID": 1637,
+        "GameID": 1635,
         "Name": "Deathloop",
         "LogoURL": "games/covers/1637.jpg",
         "Store": "Mídia Física",
@@ -27829,7 +27795,7 @@
         "FriendlyName": "DEATHLOOP"
     },
     {
-        "GameID": 1638,
+        "GameID": 1636,
         "Name": "Gran Turismo 7",
         "LogoURL": "games/covers/1638.jpg",
         "Store": "Mídia Física",
@@ -27846,7 +27812,7 @@
         "FriendlyName": "GRAN TURISMO 7"
     },
     {
-        "GameID": 1639,
+        "GameID": 1637,
         "Name": "Battlefield 2042",
         "LogoURL": "games/covers/1085.png",
         "Store": "Mídia Física",
@@ -27863,7 +27829,7 @@
         "FriendlyName": "BATTLEFIELD 2042"
     },
     {
-        "GameID": 1640,
+        "GameID": 1638,
         "Name": "Cyberpunk 2077",
         "LogoURL": "games/covers/1515.png",
         "Store": "Mídia Física",
@@ -27880,7 +27846,7 @@
         "FriendlyName": "CYBERPUNK 2077"
     },
     {
-        "GameID": 1641,
+        "GameID": 1639,
         "Name": "Grand Theft Auto V",
         "LogoURL": "./games/covers/GrandTheftAutoV.jpg",
         "Store": "Windows Store",
@@ -27897,7 +27863,7 @@
         "FriendlyName": "GRAND THEFT AUTO V"
     },
     {
-        "GameID": 1642,
+        "GameID": 1640,
         "Name": "Death Stranding",
         "LogoURL": "games/covers/DeathStranding.jpg",
         "Store": "Epic",
