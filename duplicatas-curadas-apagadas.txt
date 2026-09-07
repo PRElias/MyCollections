@@ -1,0 +1,42 @@
+DUPLICATAS CURADAS APAGADAS DO games.json
+Gerado em: 2026-09-07 17:33:39
+Backup: C:\source\MyCollections\docs\games\games.before-curated-duplicates-delete-20260907-173339.json
+
+MANTER #998: F1 2018: manteve registro com SteamApID de jogo principal e SteamOriginalImageURL; preservou PlayedTime maior/BuyDate.
+   Antes: #998 | F1 2018 | PC | Steam | Steam=737800 | Played=22 | BuyDate=- | IGDB=101439 | Logo=games/covers/F12018.jpg | SteamImg=c6512a6c8e346f84165799f7d38b611b7f24c2b3.jpg
+   Depois: #998 | F1 2018 | PC | Steam | Steam=737800 | Played=1154 | BuyDate=01/01/2018 00:00:00 | IGDB=101439 | Logo=games/covers/F12018.jpg | SteamImg=c6512a6c8e346f84165799f7d38b611b7f24c2b3.jpg
+   Apagado: #642 | F1 2018 | PC | Steam | Steam=927330 | Played=1154 | BuyDate=01/01/2018 00:00:00 | IGDB=101439 | Logo=./games/covers/F12018.jpg | SteamImg=
+
+MANTER #816: Grand Theft Auto III: manteve SteamApID 12100 e tempo jogado; preservou BuyDate/SteamOriginalImageURL.
+   Antes: #816 | Grand Theft Auto III | PC | Steam | Steam=12100 | Played=3 | BuyDate=- | IGDB=730 | Logo=games/covers/GrandTheftAutoIII.jpg | SteamImg=
+   Depois: #816 | Grand Theft Auto III | PC | Steam | Steam=12100 | Played=3 | BuyDate=01/01/2018 00:00:00 | IGDB=730 | Logo=games/covers/GrandTheftAutoIII.jpg | SteamImg=0e73825e3abd7bfe43b55a49bbcb862aee7c2e71.jpg
+   Apagado: #297 | Grand Theft Auto III | PC | Steam | Steam=12230 | Played=0 | BuyDate=01/01/2018 00:00:00 | IGDB=730 | Logo=./games/covers/GrandTheftAutoIII.jpg | SteamImg=0e73825e3abd7bfe43b55a49bbcb862aee7c2e71.jpg
+
+MANTER #817: Grand Theft Auto San Andreas: manteve SteamApID 12120 e tempo jogado; preservou BuyDate.
+   Antes: #817 | Grand Theft Auto: San Andreas | PC | Steam | Steam=12120 | Played=11 | BuyDate=- | IGDB=732 | Logo=games/covers/GrandTheftAutoSanAndreas.jpg | SteamImg=
+   Depois: #817 | Grand Theft Auto: San Andreas | PC | Steam | Steam=12120 | Played=11 | BuyDate=01/01/2018 00:00:00 | IGDB=732 | Logo=games/covers/GrandTheftAutoSanAndreas.jpg | SteamImg=
+   Apagado: #639 | Grand Theft Auto: San Andreas | PC | Steam | Steam=1547000 | Played= | BuyDate=01/01/2018 00:00:00 | IGDB=732 | Logo=./games/covers/GrandTheftAutoSanAndreas.jpg | SteamImg=
+
+MANTER #830: Grand Theft Auto Vice City: manteve SteamApID 12110; preservou BuyDate/SteamOriginalImageURL.
+   Antes: #830 | Grand Theft Auto: Vice City | PC | Steam | Steam=12110 | Played=0 | BuyDate=- | IGDB=215550 | Logo=games/covers/GrandTheftAutoViceCity.jpg | SteamImg=
+   Depois: #830 | Grand Theft Auto: Vice City | PC | Steam | Steam=12110 | Played=0 | BuyDate=01/01/2018 00:00:00 | IGDB=215550 | Logo=games/covers/GrandTheftAutoViceCity.jpg | SteamImg=6ba37ecba052f89c72272dd28b2daa89087a7eb3.jpg
+   Apagado: #640 | Grand Theft Auto: Vice City | PC | Steam | Steam=12240 | Played=0 | BuyDate=01/01/2018 00:00:00 | IGDB=215550 | Logo=./games/covers/GrandTheftAutoViceCity.jpg | SteamImg=6ba37ecba052f89c72272dd28b2daa89087a7eb3.jpg
+   Apagado: #657 | Grand Theft Auto: Vice City | PC | Steam | Steam=1546990 | Played= | BuyDate=01/01/2018 00:00:00 | IGDB=215550 | Logo=./games/covers/GrandTheftAutoViceCity.jpg | SteamImg=
+
+MANTER #860: SHOGUN Total War: manteve Collection com SteamApID e SteamOriginalImageURL; preservou BuyDate se faltante.
+   Antes: #860 | SHOGUN: Total War™ - Collection | PC | Steam | Steam=345240 | Played=0 | BuyDate=- | IGDB=53812 | Logo=games/covers/SHOGUNTotalWar™-Collection.jpg | SteamImg=d40d3f6da5c9c46e8b71f6c3843559e735d786ca.jpg
+   Depois: #860 | SHOGUN: Total War™ - Collection | PC | Steam | Steam=345240 | Played=0 | BuyDate=01/01/2018 00:00:00 | IGDB=53812 | Logo=games/covers/SHOGUNTotalWar™-Collection.jpg | SteamImg=d40d3f6da5c9c46e8b71f6c3843559e735d786ca.jpg
+   Apagado: #431 | SHOGUN: Total War™ - Gold Edition | PC | Steam | Steam=0 | Played= | BuyDate=01/01/2018 00:00:00 | IGDB=436 | Logo=./games/covers/SHOGUNTotalWarGoldEdition.jpg | SteamImg=
+
+MANTER #888: Civilization IV: manteve SteamApID 3900, tempo jogado e SteamOriginalImageURL; preservou BuyDate.
+   Antes: #888 | Sid Meier's Civilization IV | PC | Steam | Steam=3900 | Played=37 | BuyDate=- | IGDB=293 | Logo=games/covers/SidMeiersCivilizationIV.jpg | SteamImg=e70f5d6e71dd9e3541163d6324ceb7c283345f03.jpg
+   Depois: #888 | Sid Meier's Civilization IV | PC | Steam | Steam=3900 | Played=37 | BuyDate=01/01/2018 00:00:00 | IGDB=293 | Logo=games/covers/SidMeiersCivilizationIV.jpg | SteamImg=e70f5d6e71dd9e3541163d6324ceb7c283345f03.jpg
+   Apagado: #369 | Sid Meier's Civilization IV | PC | Steam | Steam=34440 | Played=0 | BuyDate=01/01/2018 00:00:00 | IGDB=293 | Logo=./games/covers/SidMeiersCivilizationIV.jpg | SteamImg=e70f5d6e71dd9e3541163d6324ceb7c283345f03.jpg
+
+MANTER #1394: System Shock 2: manteve SteamApID 238210; preservou BuyDate.
+   Antes: #1394 | System Shock 2 | PC | GOG | Steam=238210 | Played=0 | BuyDate=- | IGDB=22 | Logo=games/covers/1396.png | SteamImg=
+   Depois: #1394 | System Shock 2 | PC | GOG | Steam=238210 | Played=0 | BuyDate=01/01/2018 00:00:00 | IGDB=22 | Logo=games/covers/1396.png | SteamImg=
+   Apagado: #82 | System Shock 2 | PC | GOG | Steam=866570 | Played= | BuyDate=01/01/2018 00:00:00 | IGDB=22 | Logo=./games/covers/SystemShock2.jpg | SteamImg=
+
+TOTAL_GRUPOS=7
+TOTAL_APAGADOS=8

@@ -1,0 +1,41 @@
+DUPLICATAS APAGADAS DO games.json
+Gerado em: 2026-09-07 17:28:34
+Backup: C:\source\MyCollections\docs\games\games.before-duplicates-delete-20260907-172834.json
+Fonte dos IDs: C:\source\MyCollections\duplicatas-marcadas.txt
+
+#19 | LEGO Harry Potter: Years 5-7 | PC | Steam | Steam=204120
+#391 | Far Cry 3 | PC | Steam | Steam=220240
+#820 | Command and Conquer: Red Alert 3 - Uprising | PC | Steam | Steam=24800
+#863 | THE LAST BLADE | PC | Steam | Steam=465840
+#928 | Subnautica | PC | Epic | Steam=264710
+#1149 | BASEBALL STARS 2 | PC | GOG | Steam=366230
+#1174 | Carmageddon TDR 2000 | PC | GOG | Steam=331650
+#1207 | Dragonsphere | PC | GOG | Steam=327940
+#1241 | Grim Fandango Remastered | PC | GOG | Steam=316790
+#1266 | KING OF THE MONSTERS | PC | GOG | Steam=0
+#1285 | MDK | PC | GOG | Steam=38460
+#1286 | METAL SLUG | PC | GOG | Steam=2963870
+#1287 | METAL SLUG 2 | PC | GOG | Steam=366260
+#1288 | METAL SLUG 3 | PC | GOG | Steam=250180
+#1289 | METAL SLUG X | PC | GOG | Steam=312610
+#1312 | Oddworld: Abe's Oddysee | PC | GOG | Steam=15700
+#1319 | Oxenfree | PC | GOG | Steam=1574310
+#1341 | Saints Row 2 | PC | GOG | Steam=9480
+#1345 | SAMURAI SHODOWN II | PC | GOG | Steam=0
+#1346 | SAMURAI SHODOWN V SPECIAL | PC | GOG | Steam=1076550
+#1354 | Shadow Warrior Classic Complete | PC | GOG | Steam=0
+#1360 | SHOCK TROOPERS | PC | GOG | Steam=366270
+#1386 | Syberia | PC | GOG | Steam=1410640
+#1411 | THE KING OF FIGHTERS 2000 | PC | GOG | Steam=0
+#1413 | THE LAST BLADE | PC | GOG | Steam=465840
+#1437 | Treasure Adventure Game | PC | GOG | Steam=863940
+#1440 | TWINKLE STAR SPRITES | PC | GOG | Steam=366280
+#1442 | Tyrian 2000 | PC | GOG | Steam=0
+#1446 | Ultima™ IV: Quest of the Avatar | PC | GOG | Steam=0
+#1456 | Warsow | PC | GOG | Steam=0
+#1461 | Worlds of Ultima™ : The Savage Empire | PC | GOG | Steam=0
+#1466 | Yooka-Laylee | PC | GOG | Steam=360830
+#1743 | Grand Theft Auto: San Andreas | Android | Google Play | Steam=-
+
+TOTAL_IDS_NO_RELATORIO=33
+TOTAL_APAGADOS=33
