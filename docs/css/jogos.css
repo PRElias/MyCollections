@@ -379,3 +379,13 @@ img.lazy {
     height: 22px;
     fill: currentColor;
 }
+/* Hover polish: move only the game image, not the shelf block. */
+.cover {
+    transition: transform 160ms ease, filter 160ms ease;
+    will-change: transform;
+}
+
+.game:hover .cover {
+    transform: translateY(-4px);
+    filter: brightness(1.08);
+}
