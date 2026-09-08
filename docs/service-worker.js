@@ -1,6 +1,6 @@
 'use strict';
 
-const CACHE_NAME = 'my-collections-v22';
+const CACHE_NAME = 'my-collections-v24';
 const APP_SHELL = [
   './',
   './index.html',
@@ -81,6 +81,8 @@ async function networkFirst(request) {
     return Response.error();
   }
 }
+
+
 
 
 

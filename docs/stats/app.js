@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
   renderSummary();
   renderLegend();
   renderChart();
+  wireChartTabs();
   renderPlatformFilter();
   renderTableHeader();
   renderTable();
@@ -85,7 +86,7 @@ function renderChartInto(elementId, withoutChildlikeGames) {
   const top = [...groupByGame().values()]
     .filter(item => !withoutChildlikeGames || !IGNORED_CHILDLIKE_TITLES.has(normalizeTitle(item.title)))
     .sort((a, b) => b.totalMinutes - a.totalMinutes)
-    .slice(0, 10);
+    .slice(0, 20);
   const max = Math.max(...top.map(item => item.totalMinutes), 1);
 
   document.getElementById(elementId).innerHTML = top.map(item => {
@@ -249,6 +250,8 @@ function escapeHtml(value) {
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#39;');
 }
+
+
 
 
 
