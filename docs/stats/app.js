@@ -12,6 +12,7 @@ const IGNORED_CHILDLIKE_TITLES = new Set([
   'jurassic world evolution',
   'jurassic world evolution 2',
   'jurassic world evolution 3',
+  'teardown',
   'microsoft solitaire collection',
   'microsoft wordament'
 ]);
@@ -251,6 +252,9 @@ function escapeHtml(value) {
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#39;');
 }
+
+
+
 
 
 

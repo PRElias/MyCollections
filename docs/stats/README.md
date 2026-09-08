@@ -24,7 +24,7 @@ Quando `GametimeSummary.csv` for atualizado, regenere `docs/stats/app.js` a part
    - Remover símbolos como `™`, `®` e `©` antes da comparação.
 8. O painel de gráfico deve ter duas abas no mesmo container:
    - `Mais tempo jogado`: Top 20 geral, agrupado por jogo.
-   - `Mais tempo jogado (sem infantis e solitaire)`: Top 20 com a mesma regra de agrupamento, mas ignorando estes jogos: `Minecraft`, `Minecraft Dungeons`, `Roblox`, `Jurassic World Evolution`, `Jurassic World Evolution 2`, `Jurassic World Evolution 3`, `Microsoft Solitaire Collection` e `Microsoft Wordament`.
+   - `Mais tempo jogado (sem infantis e solitaire)`: Top 20 com a mesma regra de agrupamento, mas ignorando estes jogos: `Minecraft`, `Minecraft Dungeons`, `Roblox`, `Jurassic World Evolution`, `Jurassic World Evolution 2`, `Jurassic World Evolution 3`, `Teardown`, `Microsoft Solitaire Collection` e `Microsoft Wordament`.
 9. O gráfico deve continuar mostrando a divisão por plataforma na própria barra empilhada e na legenda.
 10. A tabela deve permitir ordenação por todas as colunas, busca textual e filtro por plataforma.
 11. Se os arquivos forem usados pelo PWA, atualizar também o `CACHE_NAME` em `docs/service-worker.js`.
