@@ -20,11 +20,11 @@ Quando `GametimeSummary.csv` for atualizado, regenere `docs/stats/app.js` a part
 5. Converter `%age` para número decimal na propriedade `percent`; valores inválidos ou vazios devem virar `null`.
 6. Quando `Achievements` estiver no formato `x / y`, preencher `unlocked` e `totalAchievements`; outros formatos ficam como `null` nesses campos.
 7. No gráfico Top 20, agrupar jogos por título normalizado e somar o tempo entre plataformas.
-   - Remover sufixos de plataforma no fim do título, como `(PS4)`, `(PS3)`, `(PS3/Vita)`, `(Xbox)`, `(PC)` e `(Steam)`.
+   - Remover sufixos de plataforma no fim do título, como `(PS4)`, `(PS3)`, `(PS3/Vita)`, `(Xbox)`, `(PC)`, `(Steam)`, `(UWP)` e `(Mobile)`.
    - Remover símbolos como `™`, `®` e `©` antes da comparação.
 8. O painel de gráfico deve ter duas abas no mesmo container:
    - `Mais tempo jogado`: Top 20 geral, agrupado por jogo.
-   - `Mais tempo jogado (sem infantis)`: Top 20 com a mesma regra de agrupamento, mas ignorando estes jogos: `Minecraft`, `Minecraft Dungeons`, `Roblox`, `Jurassic World Evolution`, `Jurassic World Evolution 2` e `Jurassic World Evolution 3`.
+   - `Mais tempo jogado (sem infantis e solitaire)`: Top 20 com a mesma regra de agrupamento, mas ignorando estes jogos: `Minecraft`, `Minecraft Dungeons`, `Roblox`, `Jurassic World Evolution`, `Jurassic World Evolution 2`, `Jurassic World Evolution 3`, `Microsoft Solitaire Collection` e `Microsoft Wordament`.
 9. O gráfico deve continuar mostrando a divisão por plataforma na própria barra empilhada e na legenda.
 10. A tabela deve permitir ordenação por todas as colunas, busca textual e filtro por plataforma.
 11. Se os arquivos forem usados pelo PWA, atualizar também o `CACHE_NAME` em `docs/service-worker.js`.
@@ -32,5 +32,6 @@ Quando `GametimeSummary.csv` for atualizado, regenere `docs/stats/app.js` a part
 ## Data exibida
 
 A página exibe manualmente a mensagem `Atualizada em 07 de setembro de 2026`. Ao regenerar com um CSV novo, atualizar esse texto em `index.html` para a data correspondente.
+
 
 
