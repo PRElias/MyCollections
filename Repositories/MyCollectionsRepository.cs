@@ -43,7 +43,10 @@ namespace MyCollections.Repositories
         {
             using (StreamWriter file = File.CreateText(fileName))
             {
-                JsonSerializer serializer = new JsonSerializer();
+                JsonSerializer serializer = new JsonSerializer
+                {
+                    Formatting = Formatting.Indented
+                };
                 serializer.Serialize(file, data.ToArray());
             }
         }
