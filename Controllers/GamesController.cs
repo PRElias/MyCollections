@@ -30,7 +30,7 @@ namespace MyCollections.Controllers
         }
         public async Task<IActionResult> Index(bool semLogo = false)
         {
-            UpdateGamesProperties();
+            NormalizeGameIds();
             await DownloadCovers();
             _db.SaveJson(games, @"docs/games/games.json");
             ViewBag.SemLogo = semLogo;
@@ -90,10 +90,6 @@ namespace MyCollections.Controllers
                         Store = "Steam",
                         System = "PC",
                         Disabled = false,
-                        BuyDate = null,
-                        Price = null,
-                        PlayedTime = newGame.playtime_forever,
-                        Purchased = true,
                         SteamApID = newGame.appid
                     });
                 }
@@ -108,37 +104,14 @@ namespace MyCollections.Controllers
                 ((game.SteamApID.HasValue && game.SteamApID.Value == steamGame.appid) ||
                  ((!game.SteamApID.HasValue || game.SteamApID.Value == 0) && String.Equals(game.Name, steamGame.name, StringComparison.OrdinalIgnoreCase))));
         }
-        public void UpdateGamesProperties()
+        private void NormalizeGameIds()
         {
-            var steam = new Steam(_db.GetAll().steamKey, _db.GetAll().steamId);
-            try
+            int id = 1;
+            foreach (var savedGame in games)
             {
-                var allSteamGames = Steam.GetFromSteam().Result.response.games;
-
-                foreach (var steamGame in allSteamGames)
-                {
-                    var gameFound = games.Find(g => g.Name == steamGame.name && g.Store == "Steam");
-                    if (gameFound != null)
-                    {
-                        games[games.IndexOf(gameFound)].PlayedTime = steamGame.playtime_forever;
-                        //games[games.IndexOf(gameFound)].SteamOriginalImageURL = steamGame.img_logo_url + ".jpg";
-                    }
-                }
-                int id = 1;
-                foreach (var savedGame in games)
-                {
-                    savedGame.GameID = id++;
-                }
-
-                // _db.SaveJson(games, @"docs/games/games.json");
-                // return Ok();
-            }
-            catch (Exception)
-            {
-                // return StatusCode(500, error);
+                savedGame.GameID = id++;
             }
         }
-
         public IActionResult AutoNewGames()
         {
             var model = NewGamesFromSteam();
@@ -842,10 +815,4 @@ namespace MyCollections.Controllers
         }
     }
 }
-
-
-
-
-
-
 
