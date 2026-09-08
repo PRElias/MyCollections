@@ -156,6 +156,7 @@ $(document).ready(function () {
     $('#btn_SemLogo').prependTo($('.dataTables_wrapper  .dt-buttons'));
     $("#btn_AtualizarLogosSteam").prependTo($(".dataTables_wrapper  .dt-buttons"));
     $("#btn_AtualizarDetalhesIgdb").prependTo($(".dataTables_wrapper  .dt-buttons"));
+    $("#btn_FindOnSteam").prependTo($(".dataTables_wrapper  .dt-buttons"));
 
     $('#gamesTable').on('click', 'tbody tr', function (evt) {
         var $cell = $(evt.target).closest('td');
@@ -275,3 +276,5 @@ function salvarExophaseUrl(gameId) {
     $('body').append($form);
     $form.submit();
 }
+
+
