@@ -22592,5 +22592,18 @@
     "IGDBId": null,
     "Selected": false,
     "FriendlyName": "DROP DUCHY"
+  },
+  {
+    "GameID": 1739,
+    "Name": "F1® 25",
+    "LogoURL": "games/covers/F1_25_26.png",
+    "Store": "Steam",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": 3059520,
+    "SteamOriginalImageURL": ".jpg",
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "F1® 25"
   }
 ]
