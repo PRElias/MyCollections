@@ -23151,5 +23151,83 @@
     "IGDBId": null,
     "Selected": false,
     "FriendlyName": "HELL LET LOOSE"
+  },
+  {
+    "GameID": 1782,
+    "Name": "Legacy of Kain: Blood Omen 2",
+    "LogoURL": null,
+    "Store": "GOG",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "LEGACY OF KAIN: BLOOD OMEN 2"
+  },
+  {
+    "GameID": 1783,
+    "Name": "Mail Time",
+    "LogoURL": null,
+    "Store": "GOG",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "MAIL TIME"
+  },
+  {
+    "GameID": 1784,
+    "Name": "Saints Row: Gat out of Hell",
+    "LogoURL": null,
+    "Store": "GOG",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "SAINTS ROW: GAT OUT OF HELL"
+  },
+  {
+    "GameID": 1785,
+    "Name": "Thief™ 3: Deadly Shadows",
+    "LogoURL": null,
+    "Store": "GOG",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "THIEF™ 3: DEADLY SHADOWS"
+  },
+  {
+    "GameID": 1786,
+    "Name": "Jupiter Hell",
+    "LogoURL": null,
+    "Store": "GOG",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "JUPITER HELL"
+  },
+  {
+    "GameID": 1787,
+    "Name": "Stray Gods: Orpheus Edition",
+    "LogoURL": null,
+    "Store": "GOG",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "STRAY GODS: ORPHEUS EDITION"
   }
 ]
