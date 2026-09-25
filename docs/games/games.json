@@ -23229,5 +23229,18 @@
     "IGDBId": null,
     "Selected": false,
     "FriendlyName": "STRAY GODS: ORPHEUS EDITION"
+  },
+  {
+    "GameID": 1788,
+    "Name": "Styx: Shards of Darkness",
+    "LogoURL": "games/covers/1788.png",
+    "Store": "Steam",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": 355790,
+    "SteamOriginalImageURL": ".jpg",
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "STYX: SHARDS OF DARKNESS"
   }
 ]
