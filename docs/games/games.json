@@ -23268,5 +23268,44 @@
     "IGDBId": null,
     "Selected": false,
     "FriendlyName": "BURIED STARS"
+  },
+  {
+    "GameID": 1791,
+    "Name": "Sid Meier's Civilization IV",
+    "LogoURL": "games/covers/1791.png",
+    "Store": "Steam",
+    "System": "PC",
+    "Disabled": true,
+    "SteamApID": 34440,
+    "SteamOriginalImageURL": ".jpg",
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "SID MEIERS CIVILIZATION IV"
+  },
+  {
+    "GameID": 1792,
+    "Name": "The Ascent",
+    "LogoURL": "games/covers/1792.png",
+    "Store": "Steam",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": 979690,
+    "SteamOriginalImageURL": ".jpg",
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "THE ASCENT"
+  },
+  {
+    "GameID": 1793,
+    "Name": "framepacer",
+    "LogoURL": "",
+    "Store": "Steam",
+    "System": "PC",
+    "Disabled": true,
+    "SteamApID": 4874400,
+    "SteamOriginalImageURL": ".jpg",
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "FRAMEPACER"
   }
 ]
