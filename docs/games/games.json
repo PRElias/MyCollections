@@ -23242,5 +23242,31 @@
     "IGDBId": null,
     "Selected": false,
     "FriendlyName": "STYX: SHARDS OF DARKNESS"
+  },
+  {
+    "GameID": 1789,
+    "Name": "System Shock 2: 25th Anniversary Remaster",
+    "LogoURL": "games/covers/1789.jpg",
+    "Store": "Epic",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "SYSTEM SHOCK 2: 25TH ANNIVERSARY REMASTER"
+  },
+  {
+    "GameID": 1790,
+    "Name": "BURIED STARS",
+    "LogoURL": "games/covers/1790.jpg",
+    "Store": "Epic",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "BURIED STARS"
   }
 ]
