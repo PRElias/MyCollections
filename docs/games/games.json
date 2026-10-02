@@ -23346,5 +23346,18 @@
     "IGDBId": null,
     "Selected": false,
     "FriendlyName": "DOOM"
+  },
+  {
+    "GameID": 1797,
+    "Name": "Bounty Train",
+    "LogoURL": "games/covers/1797.jpg",
+    "Store": "GOG",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "BOUNTY TRAIN"
   }
 ]
