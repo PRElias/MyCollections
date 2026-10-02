@@ -23307,5 +23307,44 @@
     "IGDBId": null,
     "Selected": false,
     "FriendlyName": "FRAMEPACER"
+  },
+  {
+    "GameID": 1794,
+    "Name": "The Elder Scrolls V: Skyrim Special Edition",
+    "LogoURL": "games/covers/1794.png",
+    "Store": "Steam",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": 489830,
+    "SteamOriginalImageURL": ".jpg",
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "THE ELDER SCROLLS V: SKYRIM SPECIAL EDITION"
+  },
+  {
+    "GameID": 1795,
+    "Name": "Five Nights at Freddy's: Into the Pit",
+    "LogoURL": "games/covers/1795.jpg",
+    "Store": "Epic",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "FIVE NIGHTS AT FREDDYS: INTO THE PIT"
+  },
+  {
+    "GameID": 1796,
+    "Name": "DOOM",
+    "LogoURL": "games/covers/1796.jpg",
+    "Store": "GOG",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "DOOM"
   }
 ]
