@@ -23359,5 +23359,31 @@
     "IGDBId": null,
     "Selected": false,
     "FriendlyName": "BOUNTY TRAIN"
+  },
+  {
+    "GameID": 1798,
+    "Name": "Out of Sight",
+    "LogoURL": "games/covers/1798.jpg",
+    "Store": "Epic",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "OUT OF SIGHT"
+  },
+  {
+    "GameID": 1799,
+    "Name": "TerraScape",
+    "LogoURL": "games/covers/1799.jpg",
+    "Store": "Epic",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "TERRASCAPE"
   }
 ]
