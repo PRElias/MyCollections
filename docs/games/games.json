@@ -23385,5 +23385,31 @@
     "IGDBId": null,
     "Selected": false,
     "FriendlyName": "TERRASCAPE"
+  },
+  {
+    "GameID": 1800,
+    "Name": "WarBreeds",
+    "LogoURL": "games/covers/1800.jpg",
+    "Store": "GOG",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "WARBREEDS"
+  },
+  {
+    "GameID": 1801,
+    "Name": "Coronarium",
+    "LogoURL": "games/covers/1801.webp",
+    "Store": "GOG",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "CORONARIUM"
   }
 ]
