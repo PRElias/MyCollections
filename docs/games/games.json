@@ -23411,5 +23411,18 @@
     "IGDBId": null,
     "Selected": false,
     "FriendlyName": "CORONARIUM"
+  },
+  {
+    "GameID": 1802,
+    "Name": "Vampire: The Masquerade - Swansong",
+    "LogoURL": "games/covers/1802.jpg",
+    "Store": "Epic",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "VAMPIRE: THE MASQUERADE - SWANSONG"
   }
 ]
