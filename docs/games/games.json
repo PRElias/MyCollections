@@ -23424,5 +23424,44 @@
     "IGDBId": null,
     "Selected": false,
     "FriendlyName": "VAMPIRE: THE MASQUERADE - SWANSONG"
+  },
+  {
+    "GameID": 1803,
+    "Name": "WRC Generations - The FIA WRC Official Game",
+    "LogoURL": "games/covers/1803.png",
+    "Store": "Steam",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": 1953520,
+    "SteamOriginalImageURL": ".jpg",
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "WRC GENERATIONS - THE FIA WRC OFFICIAL GAME"
+  },
+  {
+    "GameID": 1804,
+    "Name": "Agent A: O enigma disfarçado",
+    "LogoURL": "games/covers/1804.jpg",
+    "Store": "Epic",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "AGENT A: O ENIGMA DISFARÇADO"
+  },
+  {
+    "GameID": 1805,
+    "Name": "Bad Cheese",
+    "LogoURL": "games/covers/1805.jpg",
+    "Store": "Epic",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "BAD CHEESE"
   }
 ]
