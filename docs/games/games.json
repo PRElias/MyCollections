@@ -23463,5 +23463,57 @@
     "IGDBId": null,
     "Selected": false,
     "FriendlyName": "BAD CHEESE"
+  },
+  {
+    "GameID": 1806,
+    "Name": "Resident Evil Village",
+    "LogoURL": "games/covers/1806.png",
+    "Store": "Steam",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": 1196590,
+    "SteamOriginalImageURL": ".jpg",
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "RESIDENT EVIL VILLAGE"
+  },
+  {
+    "GameID": 1807,
+    "Name": "Home - A Unique Horror Adventure",
+    "LogoURL": "games/covers/1807.jpg",
+    "Store": "Epic",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "HOME - A UNIQUE HORROR ADVENTURE"
+  },
+  {
+    "GameID": 1808,
+    "Name": "Sker Ritual",
+    "LogoURL": "games/covers/1808.jpg",
+    "Store": "Epic",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "SKER RITUAL"
+  },
+  {
+    "GameID": 1809,
+    "Name": "Ad Infinitum",
+    "LogoURL": "games/covers/1809.jpg",
+    "Store": "Epic",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "AD INFINITUM"
   }
 ]
