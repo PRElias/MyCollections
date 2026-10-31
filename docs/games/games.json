@@ -27792,5 +27792,18 @@
     "IGDBId": null,
     "Selected": false,
     "FriendlyName": "TRASH GOBLIN"
+  },
+  {
+    "GameID": 2139,
+    "Name": "Tomb Raider: Definitive Survivor Trilogy",
+    "LogoURL": "games/covers/2139.jpg",
+    "Store": "Windows Store",
+    "System": "XBOXSeries",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "TOMB RAIDER: DEFINITIVE SURVIVOR TRILOGY"
   }
 ]
