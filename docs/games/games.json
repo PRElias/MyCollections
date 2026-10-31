@@ -27757,7 +27757,7 @@
   {
     "GameID": 2136,
     "Name": "A New Beggining: Final Cut",
-    "LogoURL": null,
+    "LogoURL": "games/covers/2136.jpg",
     "Store": "GOG",
     "System": "PC",
     "Disabled": false,
@@ -27770,7 +27770,7 @@
   {
     "GameID": 2137,
     "Name": "Sorry We're Closed",
-    "LogoURL": null,
+    "LogoURL": "games/covers/2137.jpg",
     "Store": "Epic",
     "System": "PC",
     "Disabled": false,
@@ -27779,5 +27779,18 @@
     "IGDBId": null,
     "Selected": false,
     "FriendlyName": "SORRY WERE CLOSED"
+  },
+  {
+    "GameID": 2138,
+    "Name": "Trash Goblin",
+    "LogoURL": "games/covers/2138.jpg",
+    "Store": "Epic",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "TRASH GOBLIN"
   }
 ]
