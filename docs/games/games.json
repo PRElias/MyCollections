@@ -27805,5 +27805,70 @@
     "IGDBId": null,
     "Selected": false,
     "FriendlyName": "TOMB RAIDER: DEFINITIVE SURVIVOR TRILOGY"
+  },
+  {
+    "GameID": 2140,
+    "Name": "Owlboy",
+    "LogoURL": "games/covers/2140.png",
+    "Store": "Steam",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": 115800,
+    "SteamOriginalImageURL": ".jpg",
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "OWLBOY"
+  },
+  {
+    "GameID": 2141,
+    "Name": "Road Rash™: 30th Anniversary Edition",
+    "LogoURL": "games/covers/2141.webp",
+    "Store": "Steam",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": 2448570,
+    "SteamOriginalImageURL": ".jpg",
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "ROAD RASH™: 30TH ANNIVERSARY EDITION"
+  },
+  {
+    "GameID": 2142,
+    "Name": "Phantom Blade Zero",
+    "LogoURL": "games/covers/2142.jpg",
+    "Store": "Steam",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": 4115450,
+    "SteamOriginalImageURL": ".jpg",
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "PHANTOM BLADE ZERO"
+  },
+  {
+    "GameID": 2143,
+    "Name": "WRC Generations",
+    "LogoURL": "games/covers/2143.jpg",
+    "Store": "Epic",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "WRC GENERATIONS"
+  },
+  {
+    "GameID": 2144,
+    "Name": "Flotsam",
+    "LogoURL": "games/covers/2144.jpg",
+    "Store": "Epic",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "FLOTSAM"
   }
 ]
