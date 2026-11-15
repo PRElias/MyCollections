@@ -27870,5 +27870,44 @@
     "IGDBId": null,
     "Selected": false,
     "FriendlyName": "FLOTSAM"
+  },
+  {
+    "GameID": 2145,
+    "Name": "Jurassic World Evolution 2",
+    "LogoURL": "games/covers/2145.jpg",
+    "Store": "Epic",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "JURASSIC WORLD EVOLUTION 2"
+  },
+  {
+    "GameID": 2146,
+    "Name": "Knightica",
+    "LogoURL": "games/covers/2146.jpg",
+    "Store": "Epic",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "KNIGHTICA"
+  },
+  {
+    "GameID": 2147,
+    "Name": "Theme Hospital™",
+    "LogoURL": "games/covers/2147.jpg",
+    "Store": "Steam",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": 2229820,
+    "SteamOriginalImageURL": ".jpg",
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "THEME HOSPITAL™"
   }
 ]
