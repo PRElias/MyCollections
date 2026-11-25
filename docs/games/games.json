@@ -27909,5 +27909,57 @@
     "IGDBId": null,
     "Selected": false,
     "FriendlyName": "THEME HOSPITAL™"
+  },
+  {
+    "GameID": 2148,
+    "Name": "Dead Island 2",
+    "LogoURL": "games/covers/2148.png",
+    "Store": "Steam",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": 934700,
+    "SteamOriginalImageURL": ".jpg",
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "DEAD ISLAND 2"
+  },
+  {
+    "GameID": 2149,
+    "Name": "Hogwarts Legacy",
+    "LogoURL": "games/covers/2149.png",
+    "Store": "Steam",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": 990080,
+    "SteamOriginalImageURL": ".jpg",
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "HOGWARTS LEGACY"
+  },
+  {
+    "GameID": 2150,
+    "Name": "FINAL FANTASY VII REMAKE INTERGRADE",
+    "LogoURL": "games/covers/2150.png",
+    "Store": "Steam",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": 1462040,
+    "SteamOriginalImageURL": ".jpg",
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "FINAL FANTASY VII REMAKE INTERGRADE"
+  },
+  {
+    "GameID": 2151,
+    "Name": "Poppy Playtime: Chapter 1",
+    "LogoURL": "games/covers/2151.webp",
+    "Store": "Windows Store",
+    "System": "XBOXSeries",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "POPPY PLAYTIME: CHAPTER 1"
   }
 ]
