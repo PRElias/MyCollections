@@ -27961,5 +27961,83 @@
     "IGDBId": null,
     "Selected": false,
     "FriendlyName": "POPPY PLAYTIME: CHAPTER 1"
+  },
+  {
+    "GameID": 2152,
+    "Name": "Zuma Deluxe",
+    "LogoURL": "games/covers/2152.png",
+    "Store": "Steam",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": 3330,
+    "SteamOriginalImageURL": ".jpg",
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "ZUMA DELUXE"
+  },
+  {
+    "GameID": 2153,
+    "Name": "All-Star Fruit Racing",
+    "LogoURL": "games/covers/2153.png",
+    "Store": "Steam",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": 673190,
+    "SteamOriginalImageURL": ".jpg",
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "ALL-STAR FRUIT RACING"
+  },
+  {
+    "GameID": 2154,
+    "Name": "Urban Trial Playground",
+    "LogoURL": "games/covers/2154.png",
+    "Store": "Steam",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": 988240,
+    "SteamOriginalImageURL": ".jpg",
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "URBAN TRIAL PLAYGROUND"
+  },
+  {
+    "GameID": 2155,
+    "Name": "Dead Island Definitive Collection",
+    "LogoURL": "games/covers/2155.webp",
+    "Store": "Windows Store",
+    "System": "XBOXSeries",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "DEAD ISLAND DEFINITIVE COLLECTION"
+  },
+  {
+    "GameID": 2156,
+    "Name": "Mark of the Deep",
+    "LogoURL": "games/covers/2156.jpg",
+    "Store": "Epic",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "MARK OF THE DEEP"
+  },
+  {
+    "GameID": 2157,
+    "Name": "Werewolf: The Apocalypse",
+    "LogoURL": "games/covers/2157.jpg",
+    "Store": "Epic",
+    "System": "PC",
+    "Disabled": false,
+    "SteamApID": null,
+    "SteamOriginalImageURL": null,
+    "IGDBId": null,
+    "Selected": false,
+    "FriendlyName": "WEREWOLF: THE APOCALYPSE"
   }
 ]
